@@ -51,6 +51,7 @@
       text-align: center; flex: 1; min-width: 140px;
     }
     .mode-btn.active { border-color: var(--primary); color: var(--primary-dark); background: #fff0f5; }
+    .mode-btn.small { min-width: 0; flex: 0 0 auto; padding: 12px 16px; font-size: 1rem; }
     
     .diff-cards {
       display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; max-width: 480px;
@@ -78,7 +79,23 @@
     .diff-sub { font-size: 0.75rem; color: currentColor; opacity: 0.7; margin-top: 4px; }
 
     /* ─── Game Screen ─── */
-    #game-screen { display: none; flex-direction: column; align-items: center; padding: 15px 10px; height: 100%; width:100%; overflow: hidden; box-sizing: border-box; }
+    #game-screen { display: none; flex-direction: column; align-items: center; padding: 68px 10px 15px; height: 100%; width:100%; overflow: hidden; box-sizing: border-box; position: relative; }
+    .screen-home-btn {
+      position: fixed;
+      top: 14px;
+      right: 14px;
+      z-index: 210;
+      border: none;
+      border-radius: 999px;
+      padding: 12px 16px;
+      background: rgba(255,255,255,0.96);
+      color: var(--primary-dark);
+      font-size: 0.95rem;
+      font-weight: 900;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      cursor: pointer;
+    }
+    .screen-home-btn:active { transform: scale(0.96); }
     
     .hud {
       display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 600px;
@@ -170,7 +187,7 @@
   
     /* ─── Quiz Screen ─── */
     #quiz-screen {
-      display: none; flex-direction: column; align-items: center; padding: 20px 10px; min-height: 100vh;
+      display: none; flex-direction: column; align-items: center; padding: 68px 10px 20px; min-height: 100vh; position: relative;
     }
     
     .quiz-container {
@@ -231,6 +248,22 @@
        border: none; cursor:pointer; box-shadow: 0 8px 25px rgba(255,105,180,0.3);
     }
     .btn-large:active { transform:scale(0.96); }
+    .quiz-actions { width: 100%; max-width: 420px; display: flex; gap: 12px; margin-top: 14px; }
+    .quiz-actions .btn { min-width: 0; flex: 1; margin: 0; padding: 14px 18px; font-size: 1rem; }
+    .modal-overlay {
+      display: none; position: fixed; inset: 0; z-index: 350; padding: 20px;
+      background: rgba(255,255,255,0.97); align-items: center; justify-content: center;
+    }
+    .modal-card {
+      width: 100%; max-width: 420px; background: #fff; border-radius: 28px; padding: 24px 20px;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.12); text-align: center;
+    }
+    .modal-title { font-size: 1.8rem; font-weight: 900; color: var(--primary-dark); margin-bottom: 10px; }
+    .modal-sub { color: #666; line-height: 1.6; font-weight: 700; }
+    .record-list { margin-top: 18px; display: flex; flex-direction: column; gap: 10px; max-height: 50vh; overflow: auto; text-align: left; }
+    .record-item { padding: 14px 16px; border-radius: 18px; background: #f7f9fc; border: 2px solid #ffe0ef; }
+    .record-item strong { color: var(--primary-dark); }
+    .record-empty { padding: 24px 16px; border-radius: 18px; background: #f7f9fc; color: #888; font-weight: 700; }
 
 </style>
 </head>
@@ -282,13 +315,24 @@
         <div class="mode-btn active" id="quiz-obj" onclick="setQuizMode('obj')">객관식</div>
         <div class="mode-btn" id="quiz-subj" onclick="setQuizMode('subj')">주관식</div>
       </div>
+      <div style="font-weight:900; color:#666; margin-bottom:10px;">문제 개수 선택</div>
+      <div class="mode-select" style="gap:10px; margin-bottom:20px; flex-wrap:wrap; justify-content:center;">
+        <div class="mode-btn small active" id="quiz-count-10" onclick="setQuizQuestionCount(10)">10문제</div>
+        <div class="mode-btn small" id="quiz-count-20" onclick="setQuizQuestionCount(20)">20문제</div>
+        <div class="mode-btn small" id="quiz-count-30" onclick="setQuizQuestionCount(30)">30문제</div>
+        <div class="mode-btn small" id="quiz-count-45" onclick="setQuizQuestionCount(45)">45문제</div>
+      </div>
       <button class="btn-large" onclick="startQuiz()">▶ 퀴즈 시작하기</button>
+      <div class="quiz-actions">
+        <button class="btn outline" onclick="openQuizRecords()">기록 확인</button>
+      </div>
       <div id="quiz-best-records" style="margin-top:20px; font-weight:800; color:var(--primary); font-size:1.1rem; line-height:1.5;"></div>
   </div>
 </div>
 
 <!-- GAME SCREEN -->
 <div id="game-screen">
+  <button class="screen-home-btn" onclick="goHome()">🏠 홈</button>
   <!-- HUD 1P -->
   <div id="hud-1p" class="hud" style="display:none;">
     <div class="hud-block"><div class="hud-header">최고 점수</div><div class="hud-val" id="hud-best" style="color:var(--primary)">-</div></div>
@@ -319,6 +363,7 @@
 
 <!-- QUIZ SCREEN -->
 <div id="quiz-screen">
+  <button class="screen-home-btn" onclick="goHome()">🏠 홈</button>
   <div class="quiz-container">
     <div class="quiz-hud">
        <span id="quiz-progress">문제 1 / 10</span>
@@ -369,6 +414,24 @@
       <input id="p2-name-input" type="text" maxlength="8" placeholder="이름을 입력하세요" style="width:100%; padding:14px 18px; border-radius:16px; border:3px solid #d81b60; font-size:1.2rem; font-weight:800; outline:none;">
     </div>
     <button onclick="confirmNames()" style="margin-top:10px; padding:18px; background:linear-gradient(135deg,#FF69B4,#FF1493); color:#fff; border:none; border-radius:20px; font-size:1.3rem; font-weight:900; cursor:pointer; box-shadow:0 6px 20px rgba(255,105,180,0.4);">▶ 게임 시작</button>
+  </div>
+</div>
+
+<div id="quiz-records-modal" class="modal-overlay">
+  <div class="modal-card">
+    <div class="modal-title">🏆 이름맞추기 기록</div>
+    <div class="modal-sub">모드와 문제 수별 최고 기록입니다.</div>
+    <div id="quiz-records-list" class="record-list"></div>
+    <button class="btn outline" onclick="closeQuizRecords()" style="margin-top:16px;">닫기</button>
+  </div>
+</div>
+
+<div id="quiz-record-name-modal" class="modal-overlay">
+  <div class="modal-card">
+    <div class="modal-title">✨ 신기록 갱신</div>
+    <div class="modal-sub" id="quiz-record-name-desc"></div>
+    <input id="quiz-record-name-input" type="text" maxlength="10" placeholder="이름을 입력하세요" style="width:100%; margin-top:18px; padding:16px; border-radius:16px; border:3px solid var(--primary); font-size:1.2rem; font-weight:800; text-align:center; outline:none;">
+    <button class="btn" onclick="saveQuizRecordName()" style="margin-top:14px;">기록 저장</button>
   </div>
 </div>
 
@@ -457,16 +520,16 @@ function updateBestRecords() {
     const el = document.getElementById('best-' + diff);
     if (el) el.innerHTML = best ? '🏆 <b style="color:var(--primary)">' + best + '</b>점' : '';
   });
-  
-  let qObj = localStorage.getItem('teenieping_quiz_obj') || 0;
-  let qSubj = localStorage.getItem('teenieping_quiz_subj') || 0;
+
   const qEl = document.getElementById('quiz-best-records');
   if (qEl) {
-    qEl.innerHTML = `🏆 최고 기록<br>객관식: <span style="color:#00acc1">${qObj}</span>점 / 주관식: <span style="color:#d81b60">${qSubj}</span>점`;
+    const record = getCurrentQuizBestRecord();
+    qEl.innerHTML = record
+      ? `🏆 현재 설정 최고 기록<br><span style="color:#444;">${record.name}</span> · <span style="color:#00acc1">${record.correctCount}개 정답</span> · <span style="color:#d81b60">${record.score.toLocaleString()}점</span><br><span style="font-size:0.95rem; color:#777;">${formatSeconds(record.elapsedSeconds)}</span>`
+      : `🏆 현재 설정 최고 기록<br><span style="color:#888;">아직 기록이 없습니다</span>`;
   }
 }
 window.addEventListener('DOMContentLoaded', updateBestRecords);
-updateBestRecords();
 
 function setMode(mode) {
   selectedMode = mode;
@@ -489,11 +552,55 @@ function switchMainTab(tab) {
 // ─── QUIZ LOGIC ───
 let quizMode = 'obj';
 let quizPool = [];
-let maxQuestions = 20;
+let selectedQuizCount = 10;
+let maxQuestions = 10;
 let currentQNumber = 0;
 let quizScore = 0;
 let currentTarget = null;
 let takingAnswer = false;
+let quizStartTime = 0;
+let pendingQuizRecord = null;
+
+function formatSeconds(seconds) {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+}
+
+function getQuizRecordStorage() {
+  try {
+    return JSON.parse(localStorage.getItem('teenieping_quiz_records_v2') || '{}');
+  } catch (e) {
+    return {};
+  }
+}
+
+function saveQuizRecordStorage(records) {
+  localStorage.setItem('teenieping_quiz_records_v2', JSON.stringify(records));
+}
+
+function getQuizRecordKey(mode, questionCount) {
+  return `${mode}_${questionCount}`;
+}
+
+function getQuizModeLabel(mode) {
+  return mode === 'obj' ? '객관식' : '주관식';
+}
+
+function getCurrentQuizBestRecord() {
+  const records = getQuizRecordStorage();
+  return records[getQuizRecordKey(quizMode, selectedQuizCount)] || null;
+}
+
+function calculateQuizScore(correctCount, questionCount, elapsedSeconds) {
+  const accuracyRate = questionCount > 0 ? correctCount / questionCount : 0;
+  const correctScore = correctCount * 1000;
+  const completionBonus = Math.round(questionCount * 120 * accuracyRate);
+  const speedBonus = Math.max(0, Math.round(questionCount * 180 - elapsedSeconds * 12));
+  return correctCount === 0 ? 0 : correctScore + completionBonus + speedBonus;
+}
+
+updateBestRecords();
 
 
 function setQuizMode(m) {
@@ -503,6 +610,16 @@ function setQuizMode(m) {
   document.getElementById('quiz-desc').innerHTML = m === 'obj' 
     ? '랜덤으로 등장하는 티니핑의 사진을 보고<br>누구인지 맞추는 5지선다 퀴즈입니다!'
     : '사진을 보고 직접 키보드로<br>정확한 이름을 입력하는 <b>타자 퀴즈</b>입니다!';
+  updateBestRecords();
+}
+
+function setQuizQuestionCount(count) {
+  selectedQuizCount = count;
+  maxQuestions = Math.min(count, CHARS.length);
+  [10, 20, 30, 45].forEach(value => {
+    document.getElementById('quiz-count-' + value).classList.toggle('active', value === count);
+  });
+  updateBestRecords();
 }
 
 function submitSubjAnswer() {
@@ -547,13 +664,14 @@ function startQuiz() {
   document.getElementById('game-screen').style.display = 'none';
   document.getElementById('quiz-screen').style.display = 'flex';
   
-  // Quiz runs on completely random 20 items.
   document.getElementById('quiz-input').onkeypress = (e) => {
     if (e.key === 'Enter') submitSubjAnswer();
   };
+  maxQuestions = Math.min(selectedQuizCount, CHARS.length);
   quizPool = shuffle([...CHARS]).slice(0, maxQuestions);
   currentQNumber = 0;
   quizScore = 0;
+  quizStartTime = Date.now();
   
   loadNextQuestion();
 }
@@ -645,19 +763,78 @@ function submitAnswer(btn, isCorrect) {
 function showQuizWin() {
   document.getElementById('quiz-screen').style.display = 'none';
   document.getElementById('win-modal').style.display = 'flex';
-  
-  const key = 'teenieping_quiz_' + quizMode;
-  let oldBest = parseInt(localStorage.getItem(key) || '0');
-  let newRecordStr = '';
-  if (quizScore > oldBest) {
-    localStorage.setItem(key, quizScore);
-    newRecordStr = `<br><br><span style="color:var(--primary); font-size:1.1rem; font-weight:900;">🏆 신기록 갱신!</span>`;
-    updateBestRecords();
-  }
-  
+
+  const elapsedSeconds = Math.floor((Date.now() - quizStartTime) / 1000);
+  const finalScore = calculateQuizScore(quizScore, maxQuestions, elapsedSeconds);
+  const bestRecord = getCurrentQuizBestRecord();
+  const isNewRecord = !bestRecord || finalScore > bestRecord.score || (finalScore === bestRecord.score && elapsedSeconds < bestRecord.elapsedSeconds);
+
   document.getElementById('win-title').innerText = '퀴즈 종료! 🏆';
   document.getElementById('win-title').style.color = 'var(--primary-dark)';
-  document.getElementById('win-score').innerHTML = `${maxQuestions}문제 중<br><b style="font-size:1.8rem;color:#d81b60;">${quizScore}점</b>을 맞히셨어요!` + newRecordStr;
+  document.getElementById('win-score').innerHTML = `${maxQuestions}문제 중 <b style="color:#d81b60;">${quizScore}개</b> 정답<br><span style="font-size:1rem;color:#777">소요 시간 ${formatSeconds(elapsedSeconds)}</span><br><b style="font-size:2.1rem;color:var(--primary);">${finalScore.toLocaleString()}점</b>${isNewRecord ? '<br><span style="color:var(--primary-dark); font-size:1.1rem; font-weight:900;">🏆 신기록 후보입니다. 이름을 저장해 주세요!</span>' : ''}`;
+
+  if (isNewRecord) {
+    pendingQuizRecord = {
+      mode: quizMode,
+      questionCount: maxQuestions,
+      correctCount: quizScore,
+      elapsedSeconds,
+      score: finalScore
+    };
+    setTimeout(showQuizRecordNameModal, 150);
+  }
+}
+
+function showQuizRecordNameModal() {
+  if (!pendingQuizRecord) return;
+  document.getElementById('quiz-record-name-desc').innerHTML = `${getQuizModeLabel(pendingQuizRecord.mode)} · ${pendingQuizRecord.questionCount}문제<br><b>${pendingQuizRecord.correctCount}개 정답 / ${formatSeconds(pendingQuizRecord.elapsedSeconds)} / ${pendingQuizRecord.score.toLocaleString()}점</b>`;
+  const input = document.getElementById('quiz-record-name-input');
+  input.value = '';
+  input.onkeypress = (e) => {
+    if (e.key === 'Enter') saveQuizRecordName();
+  };
+  document.getElementById('quiz-record-name-modal').style.display = 'flex';
+  setTimeout(() => input.focus(), 50);
+}
+
+function saveQuizRecordName() {
+  if (!pendingQuizRecord) return;
+  const name = document.getElementById('quiz-record-name-input').value.trim().slice(0, 10) || '익명';
+  const records = getQuizRecordStorage();
+  records[getQuizRecordKey(pendingQuizRecord.mode, pendingQuizRecord.questionCount)] = {
+    ...pendingQuizRecord,
+    name,
+    savedAt: Date.now()
+  };
+  saveQuizRecordStorage(records);
+  pendingQuizRecord = null;
+  document.getElementById('quiz-record-name-modal').style.display = 'none';
+  updateBestRecords();
+}
+
+function openQuizRecords() {
+  const records = getQuizRecordStorage();
+  const entries = Object.values(records).sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return a.elapsedSeconds - b.elapsedSeconds;
+  });
+  const list = document.getElementById('quiz-records-list');
+  if (!entries.length) {
+    list.innerHTML = '<div class="record-empty">아직 저장된 기록이 없습니다.</div>';
+  } else {
+    list.innerHTML = entries.map(record => `
+      <div class="record-item">
+        <div><strong>${record.name}</strong> · ${getQuizModeLabel(record.mode)} · ${record.questionCount}문제</div>
+        <div style="margin-top:6px; color:#666; font-weight:700;">${record.correctCount}개 정답 / ${formatSeconds(record.elapsedSeconds)}</div>
+        <div style="margin-top:4px; color:var(--primary-dark); font-weight:900;">${record.score.toLocaleString()}점</div>
+      </div>
+    `).join('');
+  }
+  document.getElementById('quiz-records-modal').style.display = 'flex';
+}
+
+function closeQuizRecords() {
+  document.getElementById('quiz-records-modal').style.display = 'none';
 }
 
 function goHome() {
@@ -665,6 +842,8 @@ function goHome() {
   document.getElementById('game-screen').style.display = 'none';
   document.getElementById('quiz-screen').style.display = 'none';
   document.getElementById('win-modal').style.display = 'none';
+  document.getElementById('quiz-records-modal').style.display = 'none';
+  document.getElementById('quiz-record-name-modal').style.display = 'none';
 }
 
 function restart() {
