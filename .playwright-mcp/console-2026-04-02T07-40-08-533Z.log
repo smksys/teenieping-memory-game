@@ -1,0 +1,38 @@
+[     797ms] [WARNING] This page is using the deprecated ResourceLoader module "skin.fandomdesktop.styles".
+[1.43] The use of the `interface-message-box` feature with SkinModule is deprecated in favor of CodexModule. Please remove this feature.More information can be found at [[mw:Manual:ResourceLoaderSkinModule]].  @ https://catchteenieping.fandom.com/wiki/List_of_Teeniepings:4979
+[     830ms] [INFO] exp_bucket cookie is not set or has an invalid value. DTNR observability will not be initialized. @ https://catchteenieping.fandom.com/__cb4203520006293961/resources-ucp/mw143/dist/scripts/dtnr-observability.js:0
+[    1111ms] [LOG] PLSUB init called 17751156096382835 @ https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js:5
+[    1112ms] [LOG] CrossDomainSender::_initialize @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1155ms] [WARNING] This page is using the deprecated ResourceLoader module "mediawiki.Uri".
+[1.43] Please use browser native URL. @ https://catchteenieping.fandom.com/load.php?cb=20260306224038&lang=en&modules=startup&only=scripts&raw=1&skin=fandomdesktop:0
+[    1174ms] [WARNING] No in-content player anchor found @ https://catchteenieping.fandom.com/load.php?lang=en&modules=getAnyClipWidgetName-CZjVt5Kp.js&skin=fandomdesktop&version=w7han:0
+[    1243ms] [WARNING] This page is using the deprecated ResourceLoader module "jquery.ui".
+Please use Codex instead. @ https://catchteenieping.fandom.com/load.php?cb=20260306224038&lang=en&modules=startup&only=scripts&raw=1&skin=fandomdesktop:0
+[    1325ms] [LOG] CrossDomainSender::_onIframeLoad @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1325ms] [LOG] CrossDomainSender::_sendMessage {type: CrossDomain::Register::Request, timestamp: 1775115609858, payload: undefined, xv: 539c4a5956d} @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1330ms] [LOG] CrossDomainSender::_onMessage MessageEvent @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1330ms] [LOG] CrossDomainSender::_sendMessage {type: SilverSurfer::Pageview::Request, timestamp: 1775115609863, payload: Object, xv: 539c4a5956d} @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1424ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://services.fandom.com/galactus-user-profile/profiles/ZHASN9rb-V:0
+[    1425ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://catchteenieping.fandom.com/wiki/JWPlayer.js:0
+[    1429ms] [LOG] CrossDomainSender::_onMessage MessageEvent @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1431ms] [LOG] CrossDomainSender::_onMessage MessageEvent @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1452ms] [LOG] CrossDomainSender::_onMessage MessageEvent @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1453ms] [LOG] CrossDomainSender::_onMessage MessageEvent @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1453ms] [LOG] CrossDomainSender::_onMessage MessageEvent @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1453ms] [LOG] CrossDomainSender::_onMessage MessageEvent @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1639ms] [LOG] %cPathfinder | 1.5868s | Rendered modules color: #fff;padding: 2px 4px;border-radius: 2px;background-color: #334 [] @ https://static.wikia.nocookie.net/silversurfer/prod/latest/pathfinder.js:0
+[    1641ms] [LOG] PHQ=false @ https://static.wikia.nocookie.net/silversurfer/prod/latest/pathfinder.js:0
+[    1684ms] [WARNING] react-i18next:: You will need to pass in an i18next instance by using initReactI18next @ https://auth.fandom.com/_next/static/chunks/pages/_app-a2f48a20c0950b68.js:0
+[    1692ms] [LOG] %cSilverSurfer | 0.3828s | Manual pageview is enabled background-color: silver;;padding: 2px 4px;border-radius: 2px;color: #000 @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    1847ms] [INFO] Validated parent origin @ https://auth.fandom.com/_next/static/chunks/pages/auth/onetap/init-9a46c7e58433bbf4.js:0
+[    2121ms] [WARNING] [GSI_LOGGER]: Your client application may not display Google One Tap when FedCM becomes mandatory. Opt-in to FedCM to test that you have the proper cross-origin permission policy set up. Ignore this message if One Tap is displayed after opt-in to FedCM. Learn more: (https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#cross_origin) @ https://accounts.google.com/gsi/client:80
+[    2122ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[    2123ms] [ERROR] Not signed in with the identity provider. @ https://auth.fandom.com/auth/onetap/init?uselang=en&wikiId=2186492&metadata=one-tap&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FList_of_Teeniepings:0
+[    2918ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:81
+[    3611ms] [INFO] Powered by AMP ⚡ HTML – Version 2603032146000 https://catchteenieping.fandom.com/wiki/List_of_Teeniepings @ https://cdn.ampproject.org/rtv/012603032146000/amp4ads-v0.mjs:1
+[    3619ms] [INFO] Powered by AMP ⚡ HTML – Version 2603032146000 https://catchteenieping.fandom.com/wiki/List_of_Teeniepings @ https://cdn.ampproject.org/rtv/012603032146000/amp4ads-v0.mjs:1
+[    3875ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://hb.yahoo.net/cksync.php?cs=1&type=58280&ovsid=1f884511-5837-4b6e-877f-66a0c18c7978:0
+[    3889ms] [INFO] Powered by AMP ⚡ HTML – Version 2603032146000 https://catchteenieping.fandom.com/wiki/List_of_Teeniepings @ https://cdn.ampproject.org/rtv/012603032146000/amp4ads-v0.mjs:1
+[    4038ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4041ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   15121ms] [ERROR] %cSilverSurfer | 15.0678s | Cross domain timeout background-color: silver;;padding: 2px 4px;border-radius: 2px;color: #300 @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0

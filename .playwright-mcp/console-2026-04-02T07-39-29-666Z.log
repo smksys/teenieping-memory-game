@@ -1,0 +1,38 @@
+[     842ms] [INFO] exp_bucket cookie is not set or has an invalid value. DTNR observability will not be initialized. @ https://catchteenieping.fandom.com/__cb2783999640513225/resources-ucp/mw143/dist/scripts/dtnr-observability.js:0
+[     859ms] [WARNING] This page is using the deprecated ResourceLoader module "skin.fandomdesktop.styles".
+[1.43] The use of the `interface-message-box` feature with SkinModule is deprecated in favor of CodexModule. Please remove this feature.More information can be found at [[mw:Manual:ResourceLoaderSkinModule]].  @ https://catchteenieping.fandom.com/wiki/Heartsping:4018
+[    1132ms] [WARNING] This page is using the deprecated ResourceLoader module "mediawiki.Uri".
+[1.43] Please use browser native URL. @ https://catchteenieping.fandom.com/load.php?cb=20260306224038&lang=en&modules=startup&only=scripts&raw=1&skin=fandomdesktop:0
+[    1205ms] [WARNING] This page is using the deprecated ResourceLoader module "jquery.ui".
+Please use Codex instead. @ https://catchteenieping.fandom.com/load.php?cb=20260306224038&lang=en&modules=startup&only=scripts&raw=1&skin=fandomdesktop:0
+[    1321ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://catchteenieping.fandom.com/wiki/JWPlayer.js:0
+[    1664ms] [WARNING] Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either the publisherProvidedId or the __gads value when that is missing. @ https://cdn.jsdelivr.net/gh/prebid/shared-id/pubcid.js/docs/pubcid.min.js:0
+[    1763ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603240101/pubads_impl.js:18
+[    1806ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603240101/pubads_impl.js:18
+[    1972ms] [LOG] %cPathfinder | 1.9027s | Rendered modules color: #fff;padding: 2px 4px;border-radius: 2px;background-color: #334 [] @ https://static.wikia.nocookie.net/silversurfer/prod/latest/pathfinder.js:0
+[    1973ms] [LOG] PHQ=false @ https://static.wikia.nocookie.net/silversurfer/prod/latest/pathfinder.js:0
+[   15184ms] [LOG] PLSUB init called 17751155848472512 @ https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js:5
+[   15220ms] [ERROR] %cSilverSurfer | 15.1507s | Cross domain timeout background-color: silver;;padding: 2px 4px;border-radius: 2px;color: #300 @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[   15547ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://dps.jp.cinarra.com/pxd?PLATFORM_ID=1&USER_ID=a06cc9cb-e8c0-8af9-cace-d8f49da7975c:0
+[   15551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://cs.nex8.net/cs/openx:0
+[   17456ms] [INFO] Powered by AMP ⚡ HTML – Version 2603032146000 https://catchteenieping.fandom.com/wiki/Heartsping @ https://cdn.ampproject.org/rtv/012603032146000/amp4ads-v0.mjs:1
+[   17682ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   17684ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   17685ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   21853ms] [ERROR] Refused to execute script from 'https://eb2.3lift.com/getuid?gpp=undefined&gpp_sid=undefined&gdpr=0&gdpr_consent=null&us_privacy=null&redir=https%3a%2f%2fcks.connatix.com%2fcks%3fpid%3d25%26ev%3d2-547e7d43a2d747b1a5ef76ca7f8c5a75%26pname%3dTripleLift%26api-tier%3d1%26uid%3d%24UID' because its MIME type ('image/gif') is not executable. @ https://catchteenieping.fandom.com/wiki/Heartsping:0
+[   21856ms] [ERROR] Syncing cannot be made with  https://eb2.3lift.com/getuid?gpp=undefined&gpp_sid=undefined&gdpr=0&gdpr_consent=null&us_privacy=null&redir=https%3a%2f%2fcks.connatix.com%2fcks%3fpid%3d25%26ev%3d2-547e7d43a2d747b1a5ef76ca7f8c5a75%26pname%3dTripleLift%26api-tier%3d1%26uid%3d%24UID @ https://cds.connatix.com/p/276446261/cSyncRemote.js:0
+[   15547ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://dps.jp.cinarra.com/pxd?PLATFORM_ID=1&USER_ID=a06cc9cb-e8c0-8af9-cace-d8f49da7975c:0
+[   15551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://cs.nex8.net/cs/openx:0
+[   22390ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.rundsp.com/redirect?ex=openx&gdpr=0&gdpr_consent=null:0
+[   22501ms] [ERROR] Refused to execute script from 'https://capi.connatix.com/us/pixel?puid=7526410770916813679&pId=40&gdpr=0&gdpr_consent=' because its MIME type ('image/gif') is not executable. @ https://catchteenieping.fandom.com/wiki/Heartsping:0
+[   22501ms] [ERROR] Syncing cannot be made with  https://ssbsync.smartadserver.com/api/sync?callerId=6&nwid=3630&gdpr=0&gdpr_consent=null&url=https%3a%2f%2fcks.connatix.com%2fcks%3fpid%3d40%26ev%3d2-547e7d43a2d747b1a5ef76ca7f8c5a75%26pname%3dSmartAdServer%26api-tier%3d1%26uid%3D%5Bsas_uid%5D @ https://cds.connatix.com/p/276446261/cSyncRemote.js:0
+[   23092ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/connatix?redir=https%3A%2F%2Fcapi.connatix.com%2Fcore%2Fus%3FDemandPartner%3D15%26UserId%3D2-547e7d43a2d747b1a5ef76ca7f8c5a75%26DemandPartnerName%3DBeeswax%26tier%3D1%26uid%3D%7Buserid%7D&gdpr=0:0
+[   15547ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://dps.jp.cinarra.com/pxd?PLATFORM_ID=1&USER_ID=a06cc9cb-e8c0-8af9-cace-d8f49da7975c:0
+[   15551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://cs.nex8.net/cs/openx:0
+[   22390ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.rundsp.com/redirect?ex=openx&gdpr=0&gdpr_consent=null:0
+[   23369ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://j.mrpdata.net/c.html?ex=OpenX:0
+[   26764ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ chrome-error://chromewebdata/:0
+[   26765ms] [ERROR] Refused to display 'https://cs.ingage.tech/' in a frame because it set 'X-Frame-Options' to 'sameorigin'. @ chrome-error://chromewebdata/:0
+[   27250ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://cs.ingage.tech/v1/sync/equative/0fca60c4-a3a6-406b-97ca-0e13278e8121?uid=:0

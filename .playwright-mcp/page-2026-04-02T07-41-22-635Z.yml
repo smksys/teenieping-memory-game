@@ -1,0 +1,1413 @@
+- generic [active] [ref=e1]:
+  - navigation "Fandom top navigation" [ref=e2]:
+    - link "Fandom homepage" [ref=e3] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e4]
+    - generic [ref=e7]:
+      - textbox "Search" [ref=e8]
+      - img [ref=e9]
+    - generic [ref=e11]:
+      - link "Sign In" [ref=e13] [cursor=pointer]:
+        - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying&metadata=header-signin-button
+      - link "Create a Free Account" [ref=e15] [cursor=pointer]:
+        - /url: https://auth.fandom.com/register?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying&metadata=header-registration-button
+  - generic "Community navigation" [ref=e16]:
+    - link "Fandom homepage" [ref=e18] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e19]
+    - link "Catch! Teenieping Wiki" [ref=e21] [cursor=pointer]:
+      - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+      - img "Catch! Teenieping Wiki" [ref=e22]
+    - navigation [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - img [ref=e28]
+              - generic [ref=e30]: Explore
+            - img "Expand" [ref=e31]
+        - listitem [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e36] [cursor=pointer]: Media
+            - img "Expand" [ref=e37]
+        - listitem [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e42] [cursor=pointer]: Characters
+            - img "Expand" [ref=e43]
+        - listitem [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e48] [cursor=pointer]: Misc
+            - img "Expand" [ref=e49]
+        - listitem [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e54] [cursor=pointer]: Community
+            - img "Expand" [ref=e55]
+    - button "Open searchbar" [ref=e58] [cursor=pointer]:
+      - img [ref=e59]
+    - generic [ref=e61]:
+      - link "Discuss" [ref=e62] [cursor=pointer]:
+        - /url: /f
+        - img
+      - link "Switch to Dark Theme" [ref=e63] [cursor=pointer]:
+        - /url: "#"
+        - img
+    - link "Sign In" [ref=e66] [cursor=pointer]:
+      - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying&metadata=header-signin-button
+      - generic [ref=e67]:
+        - img
+        - text: Sign In
+  - generic [ref=e68]:
+    - navigation "Fandom navigation" [ref=e70]:
+      - generic [ref=e71]:
+        - link "Home" [ref=e74] [cursor=pointer]:
+          - /url: https://www.fandom.com/
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e79]: Home
+        - button "Explore" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - generic [ref=e87]: Explore
+        - link "Saved" [ref=e90] [cursor=pointer]:
+          - /url: https://www.fandom.com/saved
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - generic [ref=e95]: Saved
+        - link "Progress" [ref=e98] [cursor=pointer]:
+          - /url: https://www.fandom.com/progress
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e103]: Progress
+        - button "History" [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]:
+            - img [ref=e108]
+            - generic [ref=e110]: History
+    - navigation "Fandom navigation" [ref=e112]:
+      - button "More" [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - generic [ref=e119]: More
+  - generic [ref=e120]:
+    - generic [ref=e122]:
+      - iframe [ref=e125]:
+        - generic [ref=f354e3]:
+          - link [ref=f354e4] [cursor=pointer]:
+            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDlKpnx3OabbhCdaR29gP1LDzgAeDjfXKhQG-gJGGyxWwkB8QASDD7u4NYJuj6YS4KaABnK_7qALIAQPgAgCoAwHIAwiqBIkDT9DpChrw5blyRGpcGAB4gqDuHU3mAttdS2hVEjIpk_Y8euwlFOlxeluJOExFsH-B3ZSkBPUMD8LConDyndc7YsTy7mG8O0dKD171h8SlkSZD6HF5VrzmsQdc9ViHekVXWarNqii7dquLj9j4sqWv8il4si1amsEIQrK94FrNBSNCDxwHr_NL7fDctS3v4Fz9DgR2WevwwRIJgXd6tB1O2MDYsUbJvWTTOSXt0ITIADWzqPIInGmOpnxfkVfiTadk_Pm_TlAnci8RiY96LYIuL4C3x41GHF8Dkz8iTV2GPXItW82r9R0lh2IqGpppKBOEu9KkFDQg4ughPMCgBN9CI50Cw58nXeAPMCmMG-wH1wZMw9fi2HI3DYH4LvkEkWoT9nl-cQ0COlxv7UFGlJN2-1UthEYQGWKv-aMKZIg5ssL1So80Et_euJEbpW7-z4mLjBTudaDvhIFxUqaCbUEtWI3xOjX8_zNYXyj-vXrtWIb3SF9Wgp_P7QE5xO2-kx2eoqLQM_n9iQyNwATbqa2g0AXgBAGIBdDW-vlXoAYDgAfM0ITXAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICIgAKoA0i9_cE6WNma9ZvVzpMDsQnODedTRgDwyoAKA5gLAcgLAaIMA5ABAaoNAktSyA0B4g0TCMzi9ZvVzpMDFdbIFgUdVNgccOoNEwjsxPab1c6TAxXWyBYFHVTYHHDwDQKIDv___________wHYEw3QFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo2MTYxNDU3MDIzUAa6FwI4AaoYFwkAAAAAgIr9QBIKNjE2MTQ1NzAyMxgBshgJEgKwUxgDIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI9qz3m9XOkwMV1sgWBR1U2BxwEAEYASAAEgLc9fD_BwE&num=1&cid=CAQS5AEABaugfS4eDh3m58WlPPiKMAeE-Yk3mCijmnD64LbJOaRiT5C6EH0DZq9REoC9cuytvKuOnFGkXefWVLp6O0vnkIWH5if6ltcscrNF3-5rXIAI3lKUaeDXbrZrbkDSlrwrHbfl6q0adkltJcrbeq9RX8Tyt9cH9JKvW6hbHF8MaOBMeEFeSpC3uAy1rOv1erM52nFPElzmLg20swI7_2kwaAlpaQIM2WqwmigEo-HBpuz5Bu-4BTZMnDP6TsIP9sqPG1j9_76Gr71hCnCWo-OHdCrXzSAPbJY4iDG7aCWsJX2BZ4wYAQ&sig=AOD64_0Ph3e3naXK42qAk3kmO4E9ySWitA&client=ca-pub-7983542246824243&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://www.hero-wars.com/%3Fdelayedsignup%3Dtrue%26nx_source%3Dadx_adwordsdisplay.hw_wb_uu_-.cc-ww_en.g-mix.a-mix.au-risk_audience.opt-purchase2.cr-hw_st_fbadalt4c_gif.cn-970_250.lp-delayed.dt-display.cid-23609650000.agid-193341379803.csd-050326.-%26cp%3D.aid-802457725627%26gad_source%3D5%26gad_campaignid%3D23609650000%26gclid%3DEAIaIQobChMI9qz3m9XOkwMV1sgWBR1U2BxwEAEYASAAEgLc9fD_BwE
+          - generic [ref=f354e6]:
+            - link [ref=f354e8] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeV1MZgD0PW7mYX5RtBU6XE8uES4UivmbP7b0H3QRu8pR1U4lAtV-IzOuu1CazdB0-BO5-OIKE9BsInRxjIb5DObxxz1Q4aqwRHF__oh6uSh0zSOmc65MmLuhxalbu99sB2y6csgTpP886Kj82K_a6M48JBy77mLbZqcFLBwWRhmIVkAMBKdEmxxSVbmHGLWFRhEX9v2bzEiEtYG4-ncunY_YaZollivCdmi5K-sVAp_DcqZDUnUdBIuwwFV3Zd8NjEzscJY4UitCirfJxMH4bhsh8ldflm2oLIPoWnia52PxINxIrzfEFsvaXR5kPDH6VB-QaXz-AQ9dKRHxiBFUm912m_rILCMXyg9uCjDYYa3Tbj4Mc5WpnOmUpiyl3lsQigB3zTVV4mwmxBwsmOM85is8rqubsjU6UKD8dn7QtdrKhzsQU-plUQV8axTvmxZBTlPn_1RZP6m9wD0v6ktZ9t46EzrGwyw5UnpKb9s4qwgnZNeJyHAcqQK9f3i9aPlBZiIDaZHvKq-rS92keRfYhfWhSFo3vKVvTjniLbsLwWxStP5Cg3iOsjn4IP4HiryYVnsXnqGx_-dspwyuVtvRO_rkBno0nbQJ3Se4I79szGtRTkCDYkx6gFIwUFnYJfuOgMU6BsBn6cdx2JVVWUpntArzT_Xog9fAkZzbwpEdsjq2KaWMgc92J5giVXKdHpLpaRKpEy3y9zFu7vrkr_spk8SB8u5p98iwYypzIAyYKgbcr7D4jVg86iZJnfX5nzVvTM99mqL-_OixlA5XWxQDliUvpruVv6vtPXvD9unKO3_uzYXx8YTJjm768vJYKgqtuNV6nosY46rVuvEhE3-QarqgH6SCsvyweu7aKBcU0QvddvNjCN0QIHlNy4_vZFRrZJYEBXp1z5P3JMq31uRMoS9cfumLS2S_SBvziQcxbJQvqrEi-_zmHVY9LC-HX8drUMd89mjw0qtc1VciKpdFvpKs4IyexysrCesRwkwcnPndwf-P2_mWGsvPEO1aUSoxiNbm62uYbrQ_k65rmdYFs8wTyG0UreV5UVKAPit8roi0dW6UWOo5AHcGRjX64mrwPmPnVnFn5sNm_as7LQJIPFCpR_9LStoCrCKGqcCNv4OqZvQz9vMhDwbdX9QHt-ABUwkORChsOWFjjPv-JCyVwNlLQfEjDDGfbo4MY7YujDx4wMaGhE9PFb8YCdOe_aklRsupgKOmquuiyIBoO1ntR0px30dcz79WlHScdr_P4YWQspcBMtWC4Mtw9fs0pQXvncNNv4FT3EvdGtRTBVmq17-hnZdOaiDDQ5kLwRzIfTl_j5c-fmK2jIHv2c5r5cfW0ZmamusF0goHNc1gxGG-Dk0mVbLutPVNaNp01_7UfIsDikQgLh_V6uZC3YLjUPcf9mySvuT0ZHKYGmnY85KQb3AYgdLrq3tB4jmL8MECJS0_Ac8hbTlL9mRnQ23vCJP50ND4U6BSB96LDIBVwhZciH055Vnur6CXPs3xM_STYuiA0EjNu43Bs_augY1kO_w17-3aILUvYOLF284jSEDXO5dCRz8ojVExSnyLRYOzPuwu1XfgYhGTQgiTGjxqkdNiDu-68FFGQx4uz4l_22Sj0fXBFfSS0WgGmVC71f4ItiCsl1NiyZRrwB7CuacmtiqRZRy08ngEPHmTn9C173oQZDjKgvFdkL7eRWzR16UVzaX5LkmJ8kac6_xowt5VD4hY8U7qrgOZvm73RsKMvOFJUHNjuiMNWN0ZtcW3djGRNwDnyblBintMSXEL0nkKT2fEJTE5--jMgGel7SO8iKBaLf-_ULXAfZAf6Xqa5EWbdtfkNh6m200WJ5AdmoIelBzYgeqweRl-vcdRZ2zaCyvRYuglEgJUZZSdy8fcHoLg-0AZmrkgC8LphbCTVFUMFJXVXCYbNAZ5KEIpIklFcWGbsimG0xfBm5jaeVXazY6sHKe3XO0RQH-yNdRaMnhf5LNEy0nUeew7aYfYY8GoLPIw5WHIrqTjyzbV9yF7cV-lMbxjVllE_MkEOVyqzMejno88XW7ViIIzznHgJXwJZSuHDUPOWX-JTqgBrJLiPG0CoEHT5ktPnd7RzYL_2oNjcDez5YRGKzKuGE-cIztUXa01M8zL8HXVZghMLeFBqnAqh6Kxdy78lLjK3XuCbRxHWjgzsEimupkJ0S80uS4KXj5WaE2WbnNugbvSoSi5HRNClh7ao-RJoMjeSRefdBKl_APH9fmjpz7V43kFjibv06T44lZ6rnOm1hJelsDVa_Fqadom0Zn1zHH3jcPbyaPpFBHUDD4Udvz1aSUDpQQPmeGmOq-Y7ceqdtucVirSWPPc4FI_s0aB1DtvZBJ_JIm1dl3l9W6f3BW7zOyGfZbu4koOf-htHGQHNOsc0FN9s9jLnul3ufDtV0FoEOnmC2WypMXRMmNG3Nt10cpKZmBlQQYPW22ziPqy1EsUa4krmjmZUNTwqUHDJSBljrFFK4vyB0l_rz-TejJsgKAHBSOfUn1bXPLy_rtQYrB39Z8A8ZSzdYSuoAEgMm7RGsqvIW60_cCBB4j40czg4fngkjLoGwEPnLTT1c4m6Cujb3-D3kEXyZFBE4dP8qSh8dLjWo58cGcugKmgvmHQkxulnfeCrep1iVvcBH8cdV-a86T_AX63x0zH4tW0yEPHK9bQ20n5FVJRxJzmv8PPsmICFmUZeMJDyP6FJIrTAn6ILlZs9_gD0U-lzm37aRtg9HRT3uZgbqRqlISutd0DRovzw&opi=122715837
+              - img [ref=f354e10]
+            - link [ref=f354e12] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeV1MZgD0PW7mYX5RtBU6XE8uES4UivmbP7b0H3QRu8pR1U4lAtV-IzOuu1CazdB0-BO5-OIKE9BsInRxjIb5DObxxz1Q4aqwRHF__oh6uSh0zSOmc65MmLuhxalbu99sB2y6csgTpP886Kj82K_a6M48JBy77mLbZqcFLBwWRhmIVkAMBKdEmxxSVbmHGLWFRhEX9v2bzEiEtYG4-ncunY_YaZollivCdmi5K-sVAp_DcqZDUnUdBIuwwFV3Zd8NjEzscJY4UitCirfJxMH4bhsh8ldflm2oLIPoWnia52PxINxIrzfEFsvaXR5kPDH6VB-QaXz-AQ9dKRHxiBFUm912m_rILCMXyg9uCjDYYa3Tbj4Mc5WpnOmUpiyl3lsQigB3zTVV4mwmxBwsmOM85is8rqubsjU6UKD8dn7QtdrKhzsQU-plUQV8axTvmxZBTlPn_1RZP6m9wD0v6ktZ9t46EzrGwyw5UnpKb9s4qwgnZNeJyHAcqQK9f3i9aPlBZiIDaZHvKq-rS92keRfYhfWhSFo3vKVvTjniLbsLwWxStP5Cg3iOsjn4IP4HiryYVnsXnqGx_-dspwyuVtvRO_rkBno0nbQJ3Se4I79szGtRTkCDYkx6gFIwUFnYJfuOgMU6BsBn6cdx2JVVWUpntArzT_Xog9fAkZzbwpEdsjq2KaWMgc92J5giVXKdHpLpaRKpEy3y9zFu7vrkr_spk8SB8u5p98iwYypzIAyYKgbcr7D4jVg86iZJnfX5nzVvTM99mqL-_OixlA5XWxQDliUvpruVv6vtPXvD9unKO3_uzYXx8YTJjm768vJYKgqtuNV6nosY46rVuvEhE3-QarqgH6SCsvyweu7aKBcU0QvddvNjCN0QIHlNy4_vZFRrZJYEBXp1z5P3JMq31uRMoS9cfumLS2S_SBvziQcxbJQvqrEi-_zmHVY9LC-HX8drUMd89mjw0qtc1VciKpdFvpKs4IyexysrCesRwkwcnPndwf-P2_mWGsvPEO1aUSoxiNbm62uYbrQ_k65rmdYFs8wTyG0UreV5UVKAPit8roi0dW6UWOo5AHcGRjX64mrwPmPnVnFn5sNm_as7LQJIPFCpR_9LStoCrCKGqcCNv4OqZvQz9vMhDwbdX9QHt-ABUwkORChsOWFjjPv-JCyVwNlLQfEjDDGfbo4MY7YujDx4wMaGhE9PFb8YCdOe_aklRsupgKOmquuiyIBoO1ntR0px30dcz79WlHScdr_P4YWQspcBMtWC4Mtw9fs0pQXvncNNv4FT3EvdGtRTBVmq17-hnZdOaiDDQ5kLwRzIfTl_j5c-fmK2jIHv2c5r5cfW0ZmamusF0goHNc1gxGG-Dk0mVbLutPVNaNp01_7UfIsDikQgLh_V6uZC3YLjUPcf9mySvuT0ZHKYGmnY85KQb3AYgdLrq3tB4jmL8MECJS0_Ac8hbTlL9mRnQ23vCJP50ND4U6BSB96LDIBVwhZciH055Vnur6CXPs3xM_STYuiA0EjNu43Bs_augY1kO_w17-3aILUvYOLF284jSEDXO5dCRz8ojVExSnyLRYOzPuwu1XfgYhGTQgiTGjxqkdNiDu-68FFGQx4uz4l_22Sj0fXBFfSS0WgGmVC71f4ItiCsl1NiyZRrwB7CuacmtiqRZRy08ngEPHmTn9C173oQZDjKgvFdkL7eRWzR16UVzaX5LkmJ8kac6_xowt5VD4hY8U7qrgOZvm73RsKMvOFJUHNjuiMNWN0ZtcW3djGRNwDnyblBintMSXEL0nkKT2fEJTE5--jMgGel7SO8iKBaLf-_ULXAfZAf6Xqa5EWbdtfkNh6m200WJ5AdmoIelBzYgeqweRl-vcdRZ2zaCyvRYuglEgJUZZSdy8fcHoLg-0AZmrkgC8LphbCTVFUMFJXVXCYbNAZ5KEIpIklFcWGbsimG0xfBm5jaeVXazY6sHKe3XO0RQH-yNdRaMnhf5LNEy0nUeew7aYfYY8GoLPIw5WHIrqTjyzbV9yF7cV-lMbxjVllE_MkEOVyqzMejno88XW7ViIIzznHgJXwJZSuHDUPOWX-JTqgBrJLiPG0CoEHT5ktPnd7RzYL_2oNjcDez5YRGKzKuGE-cIztUXa01M8zL8HXVZghMLeFBqnAqh6Kxdy78lLjK3XuCbRxHWjgzsEimupkJ0S80uS4KXj5WaE2WbnNugbvSoSi5HRNClh7ao-RJoMjeSRefdBKl_APH9fmjpz7V43kFjibv06T44lZ6rnOm1hJelsDVa_Fqadom0Zn1zHH3jcPbyaPpFBHUDD4Udvz1aSUDpQQPmeGmOq-Y7ceqdtucVirSWPPc4FI_s0aB1DtvZBJ_JIm1dl3l9W6f3BW7zOyGfZbu4koOf-htHGQHNOsc0FN9s9jLnul3ufDtV0FoEOnmC2WypMXRMmNG3Nt10cpKZmBlQQYPW22ziPqy1EsUa4krmjmZUNTwqUHDJSBljrFFK4vyB0l_rz-TejJsgKAHBSOfUn1bXPLy_rtQYrB39Z8A8ZSzdYSuoAEgMm7RGsqvIW60_cCBB4j40czg4fngkjLoGwEPnLTT1c4m6Cujb3-D3kEXyZFBE4dP8qSh8dLjWo58cGcugKmgvmHQkxulnfeCrep1iVvcBH8cdV-a86T_AX63x0zH4tW0yEPHK9bQ20n5FVJRxJzmv8PPsmICFmUZeMJDyP6FJIrTAn6ILlZs9_gD0U-lzm37aRtg9HRT3uZgbqRqlISutd0DRovzw&opi=122715837
+              - img [ref=f354e14]
+          - img [ref=f354e17] [cursor=pointer]
+          - generic [ref=f354e28]:
+            - img [ref=f354e31]
+            - generic [ref=f354e34]:
+              - text: Ads by
+              - img [ref=f354e35]
+            - generic [ref=f354e38]:
+              - generic [ref=f354e41] [cursor=pointer]: Send feedback
+              - link [ref=f354e43] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeV1MZgD0PW7mYX5RtBU6XE8uES4UivmbP7b0H3QRu8pR1U4lAtV-IzOuu1CazdB0-BO5-OIKE9BsInRxjIb5DObxxz1Q4aqwRHF__oh6uSh0zSOmc65MmLuhxalbu99sB2y6csgTpP886Kj82K_a6M48JBy77mLbZqcFLBwWRhmIVkAMBKdEmxxSVbmHGLWFRhEX9v2bzEiEtYG4-ncunY_YaZollivCdmi5K-sVAp_DcqZDUnUdBIuwwFV3Zd8NjEzscJY4UitCirfJxMH4bhsh8ldflm2oLIPoWnia52PxINxIrzfEFsvaXR5kPDH6VB-QaXz-AQ9dKRHxiBFUm912m_rILCMXyg9uCjDYYa3Tbj4Mc5WpnOmUpiyl3lsQigB3zTVV4mwmxBwsmOM85is8rqubsjU6UKD8dn7QtdrKhzsQU-plUQV8axTvmxZBTlPn_1RZP6m9wD0v6ktZ9t46EzrGwyw5UnpKb9s4qwgnZNeJyHAcqQK9f3i9aPlBZiIDaZHvKq-rS92keRfYhfWhSFo3vKVvTjniLbsLwWxStP5Cg3iOsjn4IP4HiryYVnsXnqGx_-dspwyuVtvRO_rkBno0nbQJ3Se4I79szGtRTkCDYkx6gFIwUFnYJfuOgMU6BsBn6cdx2JVVWUpntArzT_Xog9fAkZzbwpEdsjq2KaWMgc92J5giVXKdHpLpaRKpEy3y9zFu7vrkr_spk8SB8u5p98iwYypzIAyYKgbcr7D4jVg86iZJnfX5nzVvTM99mqL-_OixlA5XWxQDliUvpruVv6vtPXvD9unKO3_uzYXx8YTJjm768vJYKgqtuNV6nosY46rVuvEhE3-QarqgH6SCsvyweu7aKBcU0QvddvNjCN0QIHlNy4_vZFRrZJYEBXp1z5P3JMq31uRMoS9cfumLS2S_SBvziQcxbJQvqrEi-_zmHVY9LC-HX8drUMd89mjw0qtc1VciKpdFvpKs4IyexysrCesRwkwcnPndwf-P2_mWGsvPEO1aUSoxiNbm62uYbrQ_k65rmdYFs8wTyG0UreV5UVKAPit8roi0dW6UWOo5AHcGRjX64mrwPmPnVnFn5sNm_as7LQJIPFCpR_9LStoCrCKGqcCNv4OqZvQz9vMhDwbdX9QHt-ABUwkORChsOWFjjPv-JCyVwNlLQfEjDDGfbo4MY7YujDx4wMaGhE9PFb8YCdOe_aklRsupgKOmquuiyIBoO1ntR0px30dcz79WlHScdr_P4YWQspcBMtWC4Mtw9fs0pQXvncNNv4FT3EvdGtRTBVmq17-hnZdOaiDDQ5kLwRzIfTl_j5c-fmK2jIHv2c5r5cfW0ZmamusF0goHNc1gxGG-Dk0mVbLutPVNaNp01_7UfIsDikQgLh_V6uZC3YLjUPcf9mySvuT0ZHKYGmnY85KQb3AYgdLrq3tB4jmL8MECJS0_Ac8hbTlL9mRnQ23vCJP50ND4U6BSB96LDIBVwhZciH055Vnur6CXPs3xM_STYuiA0EjNu43Bs_augY1kO_w17-3aILUvYOLF284jSEDXO5dCRz8ojVExSnyLRYOzPuwu1XfgYhGTQgiTGjxqkdNiDu-68FFGQx4uz4l_22Sj0fXBFfSS0WgGmVC71f4ItiCsl1NiyZRrwB7CuacmtiqRZRy08ngEPHmTn9C173oQZDjKgvFdkL7eRWzR16UVzaX5LkmJ8kac6_xowt5VD4hY8U7qrgOZvm73RsKMvOFJUHNjuiMNWN0ZtcW3djGRNwDnyblBintMSXEL0nkKT2fEJTE5--jMgGel7SO8iKBaLf-_ULXAfZAf6Xqa5EWbdtfkNh6m200WJ5AdmoIelBzYgeqweRl-vcdRZ2zaCyvRYuglEgJUZZSdy8fcHoLg-0AZmrkgC8LphbCTVFUMFJXVXCYbNAZ5KEIpIklFcWGbsimG0xfBm5jaeVXazY6sHKe3XO0RQH-yNdRaMnhf5LNEy0nUeew7aYfYY8GoLPIw5WHIrqTjyzbV9yF7cV-lMbxjVllE_MkEOVyqzMejno88XW7ViIIzznHgJXwJZSuHDUPOWX-JTqgBrJLiPG0CoEHT5ktPnd7RzYL_2oNjcDez5YRGKzKuGE-cIztUXa01M8zL8HXVZghMLeFBqnAqh6Kxdy78lLjK3XuCbRxHWjgzsEimupkJ0S80uS4KXj5WaE2WbnNugbvSoSi5HRNClh7ao-RJoMjeSRefdBKl_APH9fmjpz7V43kFjibv06T44lZ6rnOm1hJelsDVa_Fqadom0Zn1zHH3jcPbyaPpFBHUDD4Udvz1aSUDpQQPmeGmOq-Y7ceqdtucVirSWPPc4FI_s0aB1DtvZBJ_JIm1dl3l9W6f3BW7zOyGfZbu4koOf-htHGQHNOsc0FN9s9jLnul3ufDtV0FoEOnmC2WypMXRMmNG3Nt10cpKZmBlQQYPW22ziPqy1EsUa4krmjmZUNTwqUHDJSBljrFFK4vyB0l_rz-TejJsgKAHBSOfUn1bXPLy_rtQYrB39Z8A8ZSzdYSuoAEgMm7RGsqvIW60_cCBB4j40czg4fngkjLoGwEPnLTT1c4m6Cujb3-D3kEXyZFBE4dP8qSh8dLjWo58cGcugKmgvmHQkxulnfeCrep1iVvcBH8cdV-a86T_AX63x0zH4tW0yEPHK9bQ20n5FVJRxJzmv8PPsmICFmUZeMJDyP6FJIrTAn6ILlZs9_gD0U-lzm37aRtg9HRT3uZgbqRqlISutd0DRovzw&opi=122715837
+                - generic [ref=f354e44]:
+                  - text: Why this ad?
+                  - img [ref=f354e45]
+          - generic [ref=f354e47]:
+            - generic [ref=f354e50] [cursor=pointer]: Not interested in this ad
+            - generic [ref=f354e53] [cursor=pointer]: Ad covered content
+            - generic [ref=f354e56] [cursor=pointer]: Seen this ad multiple times
+            - generic [ref=f354e59] [cursor=pointer]: Ad was inappropriate
+          - generic [ref=f354e65]: Thanks. Feedback improves Google ads
+          - generic [ref=f354e71]:
+            - text: Ad closed by
+            - img [ref=f354e72]
+      - generic [ref=e126]: Advertisement
+    - generic [ref=e128]:
+      - link "Skip to content" [ref=e129] [cursor=pointer]:
+        - /url: "#page-header"
+      - banner [ref=e131]:
+        - link "Catch! Teenieping Wiki" [ref=e132] [cursor=pointer]:
+          - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - img "Catch! Teenieping Wiki" [ref=e133]
+        - generic [ref=e134]:
+          - link "Catch! Teenieping Wiki" [ref=e136] [cursor=pointer]:
+            - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - generic [ref=e137]:
+            - generic [ref=e138]: 2,004
+            - generic [ref=e139]: pages
+          - generic [ref=e140]:
+            - link "Discuss" [ref=e141] [cursor=pointer]:
+              - /url: /f
+              - img
+            - link "Switch to Dark Theme" [ref=e142] [cursor=pointer]:
+              - /url: "#"
+              - img
+        - navigation [ref=e143]:
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - generic [ref=e146]:
+                - generic [ref=e147] [cursor=pointer]:
+                  - img [ref=e148]
+                  - generic [ref=e150]: Explore
+                - img "Expand" [ref=e151]
+            - listitem [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e156] [cursor=pointer]: Media
+                - img "Expand" [ref=e157]
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e162] [cursor=pointer]: Characters
+                - img "Expand" [ref=e163]
+            - listitem [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e168] [cursor=pointer]: Misc
+                - img "Expand" [ref=e169]
+            - listitem [ref=e171]:
+              - generic [ref=e172]:
+                - generic [ref=e174] [cursor=pointer]: Community
+                - img "Expand" [ref=e175]
+      - generic [ref=e177]:
+        - main [ref=e178]:
+          - generic [ref=e180]:
+            - generic "Contents" [ref=e181]:
+              - button "Contents" [ref=e182] [cursor=pointer]:
+                - img [ref=e183]
+              - text: . . . . . . . . . . . . . . . . . . .
+            - link "View source" [ref=e185] [cursor=pointer]:
+              - /url: /wiki/Happying?action=edit
+              - img [ref=e186]
+            - link "Sign In to Save" [ref=e188] [cursor=pointer]:
+              - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying&uselang=en&metadata=collections-save-button
+              - img [ref=e189]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - text: "in:"
+              - link "Spoiler articles" [ref=e195] [cursor=pointer]:
+                - /url: /wiki/Category:Spoiler_articles
+              - text: ","
+              - link "Star articles" [ref=e196] [cursor=pointer]:
+                - /url: /wiki/Category:Star_articles
+              - text: ","
+              - link "Characters" [ref=e197] [cursor=pointer]:
+                - /url: /wiki/Category:Characters
+              - text: ","
+              - generic [ref=e198]: and 16 more
+            - generic [ref=e199]:
+              - heading "Happying" [level=1] [ref=e201]
+              - generic [ref=e202]:
+                - link "Comments" [ref=e203] [cursor=pointer]:
+                  - /url: "#articleComments"
+                  - generic [ref=e204]: "16"
+                  - img
+                - link "Sign In to Save" [ref=e205] [cursor=pointer]:
+                  - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying&uselang=en&metadata=collections-save-button
+                  - img
+                  - generic [ref=e206]: Save
+                - link "View source" [ref=e207] [cursor=pointer]:
+                  - /url: /wiki/Happying?action=edit
+                  - img
+                  - text: View source
+                - button "Page Tools" [ref=e209]:
+                  - img
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - strong [ref=e214]: Overview
+              - text: •
+              - link "Gallery" [ref=e215] [cursor=pointer]:
+                - /url: /wiki/Happying/Gallery
+            - generic [ref=e216]:
+              - figure [ref=e217]:
+                - img "Tweetping render 2" [ref=e219]
+              - generic [ref=e220]:
+                - generic [ref=e221]: Be careful, Tweet!
+                - text: This
+                - link "page" [ref=e222] [cursor=pointer]:
+                  - /url: /wiki/Category:Spoiler_articles
+                - text: "contains spoilers from Season 5 content/episodes, or Season 6, that are not available on YouTube yet, or spoilers from Heartsping: Teenieping of Love and Teenieping: Legend of the Whale Heartstone. Read at your own risk!"
+            - generic [ref=e223]:
+              - figure [ref=e224]:
+                - img "Cheerupping Render 1" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: You are reading a star article, Cheerup!
+                - text: This article is a
+                - link "star article" [ref=e229] [cursor=pointer]:
+                  - /url: /wiki/Category:Star_articles
+                - text: ", meaning that most sections have been filled adequately, following the wiki's guidelines: the page can therefore serve as an example of the wiki's standards. But of course, any edit, no matter its importance, is still welcome!"
+            - region [ref=e230]:
+              - heading "Happying" [level=2] [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]:
+                  - tablist [ref=e234]:
+                    - listitem [ref=e235] [cursor=pointer]:
+                      - generic [ref=e236]: Season 1
+                    - listitem [ref=e237] [cursor=pointer]:
+                      - generic [ref=e238]: Season 6
+                    - listitem [ref=e239] [cursor=pointer]:
+                      - generic [ref=e240]: Powerless
+                    - listitem [ref=e241] [cursor=pointer]:
+                      - generic [ref=e242]: Investigator
+                    - listitem [ref=e243] [cursor=pointer]:
+                      - generic [ref=e244]: Spy
+                    - listitem [ref=e245] [cursor=pointer]:
+                      - generic [ref=e246]: Monster
+                  - img [ref=e248] [cursor=pointer]
+                - figure [ref=e251]:
+                  - link "Season 1 view image" [ref=e252] [cursor=pointer]:
+                    - /url: https://static.wikia.nocookie.net/catchteeniepin/images/5/58/Happying_S1_Render_1.png/revision/latest?cb=20260218204457
+                    - img "Season 1" [ref=e253]
+                    - generic "view image" [ref=e256]:
+                      - img [ref=e257]
+              - table [ref=e260]:
+                - rowgroup [ref=e261]:
+                  - row "International names" [ref=e262]:
+                    - columnheader "International names" [ref=e263]
+                - rowgroup [ref=e264]:
+                  - row "Korean 해핑 Haeping Chinese 幸福萌可 Xìngfú méng kě Japan ハッピン Happin Russian Хэппин Kheppin" [ref=e265]:
+                    - cell "Korean 해핑 Haeping Chinese 幸福萌可 Xìngfú méng kě Japan ハッピン Happin Russian Хэппин Kheppin" [ref=e266]:
+                      - generic [ref=e267]:
+                        - figure "Korean" [ref=e268]:
+                          - generic "Korean" [ref=e269]:
+                            - img "Korean" [ref=e270]
+                        - paragraph [ref=e271]:
+                          - text: 해핑
+                          - generic [ref=e272]: Haeping
+                      - generic [ref=e273]:
+                        - figure "Chinese" [ref=e274]:
+                          - generic "Chinese" [ref=e275]:
+                            - img "Chinese" [ref=e276]
+                        - paragraph [ref=e277]:
+                          - text: 幸福萌可
+                          - generic [ref=e278]: Xìngfú méng kě
+                      - generic [ref=e279]:
+                        - figure "Japan" [ref=e280]:
+                          - generic "Japan" [ref=e281]:
+                            - img "Japan" [ref=e282]
+                        - paragraph [ref=e283]:
+                          - text: ハッピン
+                          - generic [ref=e284]: Happin
+                      - generic [ref=e285]:
+                        - figure "Russian" [ref=e286]:
+                          - generic "Russian" [ref=e287]:
+                            - img "Russian" [ref=e288]
+                        - paragraph [ref=e289]:
+                          - text: Хэппин
+                          - generic [ref=e290]: Kheppin
+              - generic [ref=e291]:
+                - heading "Info" [level=2] [ref=e292]
+                - generic [ref=e293]:
+                  - heading "Gender" [level=3] [ref=e294]
+                  - generic [ref=e295]: Female
+                - generic [ref=e296]:
+                  - heading "Species" [level=3] [ref=e297]
+                  - link "Royal Emotion Teenieping" [ref=e299] [cursor=pointer]:
+                    - /url: /wiki/Royal_Emotion_Teeniepings
+                - generic [ref=e300]:
+                  - heading "Aliases" [level=3] [ref=e301]
+                  - generic [ref=e302]:
+                    - link "Giggleping" [ref=e303] [cursor=pointer]:
+                      - /url: /wiki/Giggleping
+                    - text: (formerly)
+                    - text: Princess Happying (Season 6)
+                - generic [ref=e304]:
+                  - heading "Alignment" [level=3] [ref=e305]
+                  - generic [ref=e306]: Good
+              - generic [ref=e307]:
+                - heading "Magic" [level=2] [ref=e308]
+                - generic [ref=e309]:
+                  - heading "Concept" [level=3] [ref=e310]
+                  - generic [ref=e311]: Happiness
+                - generic [ref=e312]:
+                  - heading "Prop" [level=3] [ref=e313]
+                  - generic [ref=e314]: Bubble gun
+                - generic [ref=e315]:
+                  - heading "Abilities" [level=3] [ref=e316]
+                  - generic [ref=e317]:
+                    - text: Transform
+                    - link "Romi" [ref=e318] [cursor=pointer]:
+                      - /url: /wiki/Romi
+                    - text: into
+                    - link "Princess Sunshine" [ref=e319] [cursor=pointer]:
+                      - /url: /wiki/Princesses
+                    - text: Create little bubbles to trap people or objects
+                    - text: Make someone happy
+                    - text: Use her energy to defeat someone
+                    - text: Receive energy from Romi
+              - generic [ref=e320]:
+                - heading "Life" [level=2] [ref=e321]
+                - generic [ref=e322]:
+                  - heading "Residency" [level=3] [ref=e323]
+                  - generic [ref=e324]:
+                    - link "Emotions Kingdom" [ref=e325] [cursor=pointer]:
+                      - /url: /wiki/Emotions_Kingdom
+                    - text: (currently)
+                    - link "Teenieping House" [ref=e326] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_House
+                    - text: (formerly)
+                - generic [ref=e327]:
+                  - heading "Occupation" [level=3] [ref=e328]
+                  - generic [ref=e329]:
+                    - text: Teacher of the
+                    - link "Royal Teenieping School" [ref=e330] [cursor=pointer]:
+                      - /url: /wiki/Royal_Teenieping_School
+                    - text: (Season 2 onwards)
+                - generic [ref=e331]:
+                  - heading "Friends" [level=3] [ref=e332]
+                  - generic [ref=e333]:
+                    - link "Royal Teeniepings" [ref=e334] [cursor=pointer]:
+                      - /url: /wiki/Royal_Emotion_Teeniepings
+                    - link "Romi" [ref=e335] [cursor=pointer]:
+                      - /url: /wiki/Romi
+                    - link "Sighping" [ref=e336] [cursor=pointer]:
+                      - /url: /wiki/Sighping
+                - generic [ref=e337]:
+                  - heading "Enemies" [level=3] [ref=e338]
+                  - generic [ref=e339]:
+                    - link "Giggleping" [ref=e340] [cursor=pointer]:
+                      - /url: /wiki/Giggleping
+                    - link "Egoping" [ref=e341] [cursor=pointer]:
+                      - /url: /wiki/Egoping
+                    - link "Maskping" [ref=e342] [cursor=pointer]:
+                      - /url: /wiki/Maskping
+                    - link "Eclipseping" [ref=e343] [cursor=pointer]:
+                      - /url: /wiki/Eclipseping
+                - generic [ref=e344]:
+                  - heading "Likes" [level=3] [ref=e345]
+                  - generic [ref=e346]:
+                    - text: Playing with bubbles
+                    - text: Bubble baths
+                    - text: Scribbling
+                    - text: Copying other Teeniepings' actions
+                - generic [ref=e347]:
+                  - heading "Dislikes" [level=3] [ref=e348]
+                  - generic [ref=e349]:
+                    - text: Feeling tired
+                    - text: Needing to sleep whenever she gets tired
+                - generic [ref=e350]:
+                  - heading "Phrase" [level=3] [ref=e351]
+                  - generic [ref=e352]:
+                    - generic [ref=e353]:
+                      - figure "English" [ref=e354]:
+                        - generic "English" [ref=e355]:
+                          - img "English" [ref=e356]
+                      - paragraph [ref=e357]: Happy!
+                    - generic [ref=e358]:
+                      - figure "Korean" [ref=e359]:
+                        - generic "Korean" [ref=e360]:
+                          - img "Korean" [ref=e361]
+                      - paragraph [ref=e362]:
+                        - text: 해피!
+                        - generic [ref=e363]: Haepi!
+                    - generic [ref=e364]:
+                      - figure "Chinese" [ref=e365]:
+                        - generic "Chinese" [ref=e366]:
+                          - img "Chinese" [ref=e367]
+                      - paragraph [ref=e368]:
+                        - text: 幸福!
+                        - generic [ref=e369]: Xìngfú!
+                    - generic [ref=e370]:
+                      - figure "Japan" [ref=e371]:
+                        - generic "Japan" [ref=e372]:
+                          - img "Japan" [ref=e373]
+                      - paragraph [ref=e374]:
+                        - text: ハピ!
+                        - generic [ref=e375]: Hapi!
+                    - generic [ref=e376]:
+                      - figure "Russian" [ref=e377]:
+                        - generic "Russian" [ref=e378]:
+                          - img "Russian" [ref=e379]
+                      - paragraph [ref=e380]:
+                        - text: Счастье!
+                        - generic [ref=e381]: Schasty'e!
+              - generic [ref=e382]:
+                - heading "Broadcast" [level=2] [ref=e383]
+                - generic [ref=e384]:
+                  - heading "First episode" [level=3] [ref=e385]
+                  - generic [ref=e386]:
+                    - link "Don't Look at the Mirror!" [ref=e387] [cursor=pointer]:
+                      - /url: /wiki/Don%27t_Look_at_the_Mirror!
+                    - text: (cameo)
+                    - link "Happying's Back" [ref=e388] [cursor=pointer]:
+                      - /url: /wiki/Happying%27s_Back
+                    - text: (full debut)
+                - generic [ref=e389]:
+                  - heading "Voice actor" [level=3] [ref=e390]
+                  - generic [ref=e391]:
+                    - generic [ref=e392]:
+                      - figure "Korean" [ref=e393]:
+                        - generic "Korean" [ref=e394]:
+                          - img "Korean" [ref=e395]
+                      - paragraph [ref=e396]:
+                        - link "Eunah Kim" [ref=e397] [cursor=pointer]:
+                          - /url: /wiki/Eunah_Kim
+                    - generic [ref=e398]:
+                      - figure "English" [ref=e399]:
+                        - generic "English" [ref=e400]:
+                          - img "English" [ref=e401]
+                      - paragraph [ref=e402]:
+                        - link "Leslie Gil" [ref=e403] [cursor=pointer]:
+                          - /url: /wiki/Leslie_Gil
+                        - text: (Season 1)
+                        - link "Bommie Catherine Han" [ref=e404] [cursor=pointer]:
+                          - /url: /wiki/Bommie_Catherine_Han
+                        - text: (Season 2)
+                    - generic [ref=e405]:
+                      - figure "Chinese" [ref=e406]:
+                        - generic "Chinese" [ref=e407]:
+                          - img "Chinese" [ref=e408]
+                      - paragraph [ref=e409]:
+                        - link "Jiang Li" [ref=e410] [cursor=pointer]:
+                          - /url: /wiki/Jiang_Li
+                        - link "Liu Wen" [ref=e411] [cursor=pointer]:
+                          - /url: /wiki/Liu_Wen
+                        - text: (S1/S2 Audiobook)
+                        - link "Mo Zihan" [ref=e412] [cursor=pointer]:
+                          - /url: /wiki/Mo_Zihan
+                        - text: (S5 Audiobook)
+                    - generic [ref=e413]:
+                      - figure "Japan" [ref=e414]:
+                        - generic "Japan" [ref=e415]:
+                          - img "Japan" [ref=e416]
+                      - paragraph [ref=e417]:
+                        - link "Rikako Yamaguchi" [ref=e418] [cursor=pointer]:
+                          - /url: /wiki/Rikako_Yamaguchi
+                    - generic [ref=e419]:
+                      - figure "Vietnamese" [ref=e420]:
+                        - generic "Vietnamese" [ref=e421]:
+                          - img "Vietnamese" [ref=e422]
+                      - paragraph [ref=e423]:
+                        - link "Trương Ngọc Châu" [ref=e424] [cursor=pointer]:
+                          - /url: /wiki/Tr%C6%B0%C6%A1ng_Ng%E1%BB%8Dc_Ch%C3%A2u
+            - table [ref=e425]:
+              - rowgroup [ref=e426]:
+                - row "“ I'm the happiest when I play with tons of soap bubbles in the bath. ”" [ref=e427]:
+                  - cell "“" [ref=e428]
+                  - cell "I'm the happiest when I play with tons of soap bubbles in the bath." [ref=e429]
+                  - cell "”" [ref=e430]
+                - row "— Happying playing around in the bath tub in \" Princess Sunshine\"." [ref=e431]:
+                  - cell "— Happying playing around in the bath tub in \" Princess Sunshine\"." [ref=e432]:
+                    - paragraph [ref=e433]:
+                      - generic [ref=e434]:
+                        - text: — Happying playing around in the bath tub in "
+                        - link "Princess Sunshine" [ref=e435] [cursor=pointer]:
+                          - /url: /wiki/Princess_Sunshine
+                        - text: "\"."
+            - paragraph [ref=e436]:
+              - text: Happying is the
+              - link "Royal Emotion Teenieping" [ref=e437] [cursor=pointer]:
+                - /url: /wiki/Royal_Emotion_Teeniepings
+              - text: of happiness. Formerly transformed into
+              - link "Giggleping" [ref=e438] [cursor=pointer]:
+                - /url: /wiki/Giggleping
+              - text: ", she appears as the last and missing Royal Teenieping of"
+              - link "Catch! Teenieping" [ref=e440] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(season)
+              - text: .
+            - paragraph [ref=e441]:
+              - text: While in the
+              - link "Emotions Kingdom" [ref=e442] [cursor=pointer]:
+                - /url: /wiki/Emotions_Kingdom
+              - text: ", guided by"
+              - link "Egoping" [ref=e443] [cursor=pointer]:
+                - /url: /wiki/Egoping
+              - text: "'s voice, she ate the"
+              - link "Yummy Fruit" [ref=e444] [cursor=pointer]:
+                - /url: /wiki/Yummy_Fruit
+              - text: ", a dangerous fruit that transforms every Teenieping that eats it into their complete opposite, making her, the cheerful and innocent Teenieping, become her evil alter-ego, Giggleping."
+            - navigation "Contents" [ref=e445]:
+              - button "show" [ref=e446]
+              - generic [ref=e447]:
+                - heading "Contents" [level=2] [ref=e448]:
+                  - img [ref=e449]
+                  - text: Contents
+                - generic [ref=e451]:
+                  - text: "["
+                  - generic "show" [ref=e452] [cursor=pointer]: hide
+                  - text: "]"
+              - list [ref=e453]:
+                - listitem [ref=e454]:
+                  - link "1. Appearance" [ref=e455] [cursor=pointer]:
+                    - /url: "#Appearance"
+                    - generic [ref=e456]: "1."
+                    - generic [ref=e457]: Appearance
+                  - list [ref=e458]:
+                    - listitem [ref=e459]:
+                      - link "1.1. Season 1" [ref=e460] [cursor=pointer]:
+                        - /url: "#Season_1"
+                        - generic [ref=e461]: 1.1.
+                        - generic [ref=e462]: Season 1
+                    - listitem [ref=e463]:
+                      - link "1.2. Season 6" [ref=e464] [cursor=pointer]:
+                        - /url: "#Season_6"
+                        - generic [ref=e465]: 1.2.
+                        - generic [ref=e466]: Season 6
+                    - listitem [ref=e467]:
+                      - link "1.3. Monster Form" [ref=e468] [cursor=pointer]:
+                        - /url: "#Monster_Form"
+                        - generic [ref=e469]: 1.3.
+                        - generic [ref=e470]: Monster Form
+                - listitem [ref=e471]:
+                  - link "2. Personality" [ref=e472] [cursor=pointer]:
+                    - /url: "#Personality"
+                    - generic [ref=e473]: "2."
+                    - generic [ref=e474]: Personality
+                - listitem [ref=e475]:
+                  - link "3. Etymology" [ref=e476] [cursor=pointer]:
+                    - /url: "#Etymology"
+                    - generic [ref=e477]: "3."
+                    - generic [ref=e478]: Etymology
+                - listitem [ref=e479]:
+                  - link "4. Magic" [ref=e480] [cursor=pointer]:
+                    - /url: "#Magic"
+                    - generic [ref=e481]: "4."
+                    - generic [ref=e482]: Magic
+                  - list [ref=e483]:
+                    - listitem [ref=e484]:
+                      - link "4.1. Transformation" [ref=e485] [cursor=pointer]:
+                        - /url: "#Transformation"
+                        - generic [ref=e486]: 4.1.
+                        - generic [ref=e487]: Transformation
+                    - listitem [ref=e488]:
+                      - link "4.2. Main Powers" [ref=e489] [cursor=pointer]:
+                        - /url: "#Main_Powers"
+                        - generic [ref=e490]: 4.2.
+                        - generic [ref=e491]: Main Powers
+                    - listitem [ref=e492]:
+                      - link "4.3. Special Powers" [ref=e493] [cursor=pointer]:
+                        - /url: "#Special_Powers"
+                        - generic [ref=e494]: 4.3.
+                        - generic [ref=e495]: Special Powers
+                - listitem [ref=e496]:
+                  - link "5. History" [ref=e497] [cursor=pointer]:
+                    - /url: "#History"
+                    - generic [ref=e498]: "5."
+                    - generic [ref=e499]: History
+                  - list [ref=e500]:
+                    - listitem [ref=e501]:
+                      - link "5.1. Mistake in the Emotions Kingdom" [ref=e502] [cursor=pointer]:
+                        - /url: "#Mistake_in_the_Emotions_Kingdom"
+                        - generic [ref=e503]: 5.1.
+                        - generic [ref=e504]: Mistake in the Emotions Kingdom
+                    - listitem [ref=e505]:
+                      - 'link "5.2. Season 1: Cameos and Final Relief" [ref=e506] [cursor=pointer]':
+                        - /url: "#Season_1:_Cameos_and_Final_Relief"
+                        - generic [ref=e507]: 5.2.
+                        - generic [ref=e508]: "Season 1: Cameos and Final Relief"
+                    - listitem [ref=e509]:
+                      - 'link "5.3. Season 2: Leading the Investigation" [ref=e510] [cursor=pointer]':
+                        - /url: "#Season_2:_Leading_the_Investigation"
+                        - generic [ref=e511]: 5.3.
+                        - generic [ref=e512]: "Season 2: Leading the Investigation"
+                    - listitem [ref=e513]:
+                      - 'link "5.4. Season 6: TBA" [ref=e514] [cursor=pointer]':
+                        - /url: "#Season_6:_TBA"
+                        - generic [ref=e515]: 5.4.
+                        - generic [ref=e516]: "Season 6: TBA"
+                      - list [ref=e517]:
+                        - listitem [ref=e518]:
+                          - link "5.4.1. Spy Operation" [ref=e519] [cursor=pointer]:
+                            - /url: "#Spy_Operation"
+                            - generic [ref=e520]: 5.4.1.
+                            - generic [ref=e521]: Spy Operation
+                        - listitem [ref=e522]:
+                          - link "5.4.2. The Spinning Mirror" [ref=e523] [cursor=pointer]:
+                            - /url: "#The_Spinning_Mirror"
+                            - generic [ref=e524]: 5.4.2.
+                            - generic [ref=e525]: The Spinning Mirror
+                - listitem [ref=e526]:
+                  - link "6. Trivia" [ref=e527] [cursor=pointer]:
+                    - /url: "#Trivia"
+                    - generic [ref=e528]: "6."
+                    - generic [ref=e529]: Trivia
+                - listitem [ref=e530]:
+                  - link "7. Gallery" [ref=e531] [cursor=pointer]:
+                    - /url: "#Gallery"
+                    - generic [ref=e532]: "7."
+                    - generic [ref=e533]: Gallery
+            - heading "Appearance Sign in to edit" [level=2] [ref=e534]:
+              - text: Appearance
+              - link "Sign in to edit" [ref=e536] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D1&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e537]
+            - heading "Season 1 Sign in to edit" [level=3] [ref=e539]:
+              - text: Season 1
+              - link "Sign in to edit" [ref=e541] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D2&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e542]
+            - figure "Happying's S1 Appearance" [ref=e544]:
+              - link "Happying's S1 Appearance view image" [ref=e545] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/c/c3/Happying_S1_Render_2.png/revision/latest?cb=20260218204643
+                - img "Happying's S1 Appearance" [ref=e546]
+                - generic "view image" [ref=e549]:
+                  - img [ref=e550]
+              - paragraph [ref=e553]: Happying's S1 Appearance
+            - paragraph [ref=e554]:
+              - text: In
+              - link "Catch! Teenieping" [ref=e556] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(season)
+              - text: ", Happying is a red sunshine-themed Teenieping that has a light-red body with a red collar with a golden button attached, and a white underbelly with a golden royal symbol. She has long eyelashes with teal irises on her eyes. She has a heart-shaped nose and a curvy mouth that resembles a cat's mouth."
+            - paragraph [ref=e557]: She has a red tuft of hair resembling a heart attaching a bow on her head with a crown in the middle. She has red ear-like structures with a lighter red in the center resembling cat ears or resembling a chihuahua.
+            - paragraph [ref=e558]: Her prop is a red-pinkish and yellow bubble gun.
+            - heading "Season 6 Sign in to edit" [level=3] [ref=e559]:
+              - text: Season 6
+              - link "Sign in to edit" [ref=e561] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D3&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e562]
+            - figure "Happying's S6 Appearance" [ref=e564]:
+              - link "Happying's S6 Appearance view image" [ref=e565] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/90/Happying_S6_Render_2.png/revision/latest?cb=20260218211349
+                - img "Happying's S6 Appearance" [ref=e566]
+                - generic "view image" [ref=e569]:
+                  - img [ref=e570]
+              - paragraph [ref=e573]: Happying's S6 Appearance
+            - paragraph [ref=e574]:
+              - text: In
+              - link "Princess Catch! Teenieping" [ref=e576] [cursor=pointer]:
+                - /url: /wiki/Princess_Catch!_Teenieping
+              - text: ", she now wears a silver-colored tiara with a yellow diamond. Her bow remains the same, but is now glittery."
+            - paragraph [ref=e577]: She wears a red dress with thin white ruffled lines around her Royal Mark, and the bottom has a white ruffled hem. She also has a transparent pink collar that transitions into a cape, along with white leggings and red shoes.
+            - heading "Monster Form Sign in to edit" [level=3] [ref=e578]:
+              - text: Monster Form
+              - link "Sign in to edit" [ref=e580] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D4&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e581]
+            - figure "Happying's Monster Appearance" [ref=e583]:
+              - link "Happying's Monster Appearance view image" [ref=e584] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/9c/Happying_Monster_Render_2.png/revision/latest?cb=20260218214013
+                - img "Happying's Monster Appearance" [ref=e585]
+                - generic "view image" [ref=e588]:
+                  - img [ref=e589]
+              - paragraph [ref=e592]: Happying's Monster Appearance
+            - paragraph [ref=e593]: In her monster form, Happying has the same ears and hair, but without a crown. Her body is bigger and furrier with pinkish eyes and a red heart shaped nose.
+            - paragraph [ref=e594]: She has beaver like teeth, yellow claws, white spots on her hands and feet, and a tail similar to a rabbit's tail. Her white patch is in a heart shape.
+            - heading "Personality Sign in to edit" [level=2] [ref=e595]:
+              - text: Personality
+              - link "Sign in to edit" [ref=e597] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D5&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e598]
+            - paragraph [ref=e600]:
+              - text: Happying is kind, playful, and of course, happy. She is fond of bubbles, often seen playing with them or taking bubble baths. Happying is excitable and optimistic, and her bright nature brings hope to those who are down, shown in "
+              - link "Princess Sunshine" [ref=e601] [cursor=pointer]:
+                - /url: /wiki/Princess_Sunshine
+              - text: "\", when she comforts"
+              - link "Sighping" [ref=e602] [cursor=pointer]:
+                - /url: /wiki/Sighping
+              - text: .
+            - paragraph [ref=e603]:
+              - text: While she is cheerful and playful most of the time, Happying also has a serious side; she is determined, careful, and diligent when it comes to missions, as seen throughout
+              - link "Twinkle Catch! Teenieping" [ref=e605] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Catch!_Teenieping
+              - text: and in "
+              - link "Spy Operation" [ref=e606] [cursor=pointer]:
+                - /url: /wiki/Spy_Operation
+              - text: "\"."
+            - heading "Etymology Sign in to edit" [level=2] [ref=e607]:
+              - text: Etymology
+              - link "Sign in to edit" [ref=e609] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D6&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e610]
+            - list [ref=e612]:
+              - listitem [ref=e613]:
+                - text: The Korean name 해핑 ("Haeping") comes from the Korean word "해", which means "sun". This ties in with her main concept.
+                - list [ref=e614]:
+                  - listitem [ref=e615]: Notably and coincidentally, "해핑" phonetically sounds like its English name, Happying. Had it been translated literally, it would've been "Sunping", but since the two words are phonetically similar, the localizers stuck with "Happying".
+              - listitem [ref=e616]: The Chinese name 幸福萌可 ("Xìngfú méng kě") comes from 幸福 ("Xìngfú"), which means "happy". This word can also be used as 幸福感 ("Xìngfúgǎn"), which means "feeling of happiness".
+              - listitem [ref=e617]: The Russian catchphrase Счастье ("Schast'ye") comes from Счастье ("Schast'ye"), which means "happiness".
+            - heading "Magic Sign in to edit" [level=2] [ref=e618]:
+              - text: Magic
+              - link "Sign in to edit" [ref=e620] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D7&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e621]
+            - heading "Transformation Sign in to edit" [level=3] [ref=e623]:
+              - text: Transformation
+              - link "Sign in to edit" [ref=e625] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D8&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e626]
+            - figure "Romi transformed as Princess Sunshine" [ref=e628]:
+              - link "Romi transformed as Princess Sunshine view image" [ref=e629] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/5/56/S1_-_Princess_Sunshine_pose.png/revision/latest?cb=20210817095919
+                - img "Romi transformed as Princess Sunshine" [ref=e630]
+                - generic "view image" [ref=e633]:
+                  - img [ref=e634]
+              - paragraph [ref=e637]: Romi transformed as Princess Sunshine
+            - paragraph [ref=e638]:
+              - text: By giving Romi a kiss, Happying can help her transform into a magical princess,
+              - link "Princess Sunshine" [ref=e640] [cursor=pointer]:
+                - /url: /wiki/Princesses
+              - text: . When transformed, Romi gains physical strength, and can use the power of her various tools, create a protective shield, or to catch a Teenieping for example.
+            - heading "Main Powers Sign in to edit" [level=3] [ref=e641]:
+              - text: Main Powers
+              - link "Sign in to edit" [ref=e643] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D9&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e644]
+            - figure "The Royal Teeniepings in Happying's bubbles" [ref=e646]:
+              - link "The Royal Teeniepings in Happying's bubbles view image" [ref=e647] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/df/S1E46_-_Royal_Teeniepings_in_Happying%27s_bubbles.png/revision/latest?cb=20230829181743
+                - img "The Royal Teeniepings in Happying's bubbles" [ref=e648]
+                - generic "view image" [ref=e651]:
+                  - img [ref=e652]
+              - paragraph [ref=e655]: The Royal Teeniepings in Happying's bubbles
+            - paragraph [ref=e656]: Happying's prop is a bubble gun. She can use it to create small bubbles called the Bubbles of Happiness, that can trap objects or people it touches. The bubble, much stronger than any regular bubble (it will only break if it touches something), will then float for some time, before popping after a few minutes at most. As Happying can even control the bubbles' movements, she can use them as a means of transportation, as she is somewhat able to fly.
+            - paragraph [ref=e657]:
+              - text: Additionally, Happying can sprinkle
+              - link "Tinkle Puff" [ref=e658] [cursor=pointer]:
+                - /url: /wiki/Tinkle_Puff
+              - text: able to make anyone it touches happy like her.
+            - heading "Special Powers Sign in to edit" [level=3] [ref=e659]:
+              - text: Special Powers
+              - link "Sign in to edit" [ref=e661] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D10&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e662]
+            - figure "Happying using her full royal power on Egoping" [ref=e664]:
+              - link "Happying using her full royal power on Egoping view image" [ref=e665] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/1/1e/S1E51_-_Happying_using_her_full_royal_power_on_Egoping.png/revision/latest?cb=20230829181753
+                - img "Happying using her full royal power on Egoping" [ref=e666]
+                - generic "view image" [ref=e669]:
+                  - img [ref=e670]
+              - paragraph [ref=e673]: Happying using her full royal power on Egoping
+            - paragraph [ref=e674]: Happying's golden chest, the sign of her being a Royal Teenieping, holds a powerful magic, that she can use when everything seems lost. However, if she uses all the energy she has, she can die in the process, making her whole body become gray. This ability is so powerful that it can create an explosion in the most extreme cases.
+            - figure "Romi transferring her energy to Happying" [ref=e675]:
+              - link "Romi transferring her energy to Happying view image" [ref=e676] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/eb/S1E52_-_Romi_transfering_her_energy_to_Happying.png/revision/latest?cb=20230829181755
+                - img "Romi transferring her energy to Happying" [ref=e677]
+                - generic "view image" [ref=e680]:
+                  - img [ref=e681]
+              - paragraph [ref=e684]: Romi transferring her energy to Happying
+            - paragraph [ref=e685]: Additionally, the small crown she has on her head has a special telepathic connection with Romi, allowing Romi to transfer energy to Happying through the crown. It is an object made by Romi, which she made in order to help cure Happying's sickness.
+            - heading "History Sign in to edit" [level=2] [ref=e686]:
+              - text: History
+              - link "Sign in to edit" [ref=e688] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D11&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e689]
+            - heading "Mistake in the Emotions Kingdom Sign in to edit" [level=3] [ref=e691]:
+              - text: Mistake in the Emotions Kingdom
+              - link "Sign in to edit" [ref=e693] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D12&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e694]
+            - paragraph [ref=e696]:
+              - text: At some point in her life, Happying becomes a
+              - link "Royal Teenieping" [ref=e697] [cursor=pointer]:
+                - /url: /wiki/Royal_Teeniepings
+              - text: . When Happying has caught an unknown sickness, Romi makes a magic crown for her to help cure her from it.
+            - figure "Happying eating the Yummy Fruit" [ref=e698]:
+              - link "Happying eating the view image" [ref=e699] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/ea/S1E45_-_Happying_eating_the_Yummy_Fruit.png/revision/latest?cb=20230121134526
+                - img "Happying eating the" [ref=e700]
+                - generic "view image" [ref=e703]:
+                  - img [ref=e704]
+              - paragraph [ref=e707]:
+                - text: Happying eating the
+                - link "Yummy Fruit" [ref=e708] [cursor=pointer]:
+                  - /url: /wiki/Yummy_Fruit
+            - paragraph [ref=e709]:
+              - text: One day, in the Emotions Kingdom, she gets guided by her curiosity and
+              - link "Egoping" [ref=e710] [cursor=pointer]:
+                - /url: /wiki/Egoping
+              - text: "'s voice, making her enter the"
+              - link "greenhouse" [ref=e711] [cursor=pointer]:
+                - /url: /wiki/Greenhouse
+              - text: and eat the
+              - link "Yummy Fruit" [ref=e712] [cursor=pointer]:
+                - /url: /wiki/Yummy_Fruit
+              - text: ", turning her into her evil ego,"
+              - link "Giggleping" [ref=e713] [cursor=pointer]:
+                - /url: /wiki/Giggleping
+              - text: . She has a completely different appearance, with only elements such as her fringe or her little crown on her bow. Still guided by the voice, she goes into the Cube Chamber and starts manipulating some buttons, before
+              - link "Romi" [ref=e714] [cursor=pointer]:
+                - /url: /wiki/Romi
+              - text: enters, led by her evil force, and accidentally presses a button that frees all the
+              - link "Teeniepings" [ref=e715] [cursor=pointer]:
+                - /url: /wiki/Teeniepings
+              - text: of the chamber.
+            - figure "Giggleping getting released on Earth" [ref=e716]:
+              - link "Giggleping getting released on Earth view image" [ref=e717] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/9a/S1E51_-_Giggleping_going_on_Earth.png/revision/latest?cb=20230829181744
+                - img "Giggleping getting released on Earth" [ref=e718]
+                - generic "view image" [ref=e721]:
+                  - img [ref=e722]
+              - paragraph [ref=e725]: Giggleping getting released on Earth
+            - paragraph [ref=e726]: She then gets carried away by the magic, when she suddenly gets immobilized by Egoping's magic, the latter wishing her good luck before releasing her with the other Teeniepings.
+            - 'heading "Season 1: Cameos and Final Relief Sign in to edit" [level=3] [ref=e727]':
+              - generic [ref=e728]:
+                - link "Season 1" [ref=e729] [cursor=pointer]:
+                  - /url: /wiki/Catch!_Teenieping_(season)
+                - text: ": Cameos and Final Relief"
+              - link "Sign in to edit" [ref=e731] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D13&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e732]
+            - paragraph [ref=e734]:
+              - text: Romi's mission then takes place, and she tends to be forgotten by her colleagues (especially
+              - link "Gogoping" [ref=e735] [cursor=pointer]:
+                - /url: /wiki/Gogoping
+              - text: "who doesn't even remember her name), but not by Romi: in \""
+              - link "Don't Look at the Mirror!" [ref=e736] [cursor=pointer]:
+                - /url: /wiki/Don%27t_Look_at_the_Mirror!
+              - text: "\", she is seen for the first time in one of Romi's memories of her time at the Emotions Kingdom."
+            - figure "Romi's strange encounter with Happying" [ref=e737]:
+              - link "Romi's strange encounter with Happying view image" [ref=e738] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/b0/S1E27_-_Romi_dreaming_of_Happying.png/revision/latest?cb=20230829181737
+                - img "Romi's strange encounter with Happying" [ref=e739]
+                - generic "view image" [ref=e742]:
+                  - img [ref=e743]
+              - paragraph [ref=e746]: Romi's strange encounter with Happying
+            - paragraph [ref=e747]:
+              - text: In "
+              - link "Likey the Pranks, Giggleping!" [ref=e748] [cursor=pointer]:
+                - /url: /wiki/Likey_the_Pranks,_Giggleping!
+              - text: "\", Romi makes her a dream of her and explains her concerns of not finding her to the other Royal Teeniepings. Meanwhile, her evil alter-ego Giggleping makes her arrival on Earth and starts to make Romi's mission way more difficult."
+            - paragraph [ref=e749]:
+              - text: Similarly, in "
+              - link "Teenieping Carnival" [ref=e750] [cursor=pointer]:
+                - /url: /wiki/Teenieping_Carnival
+              - text: "\", Romi ends up talking to Giggleping of Happying. Saddened about not seeing her dear friend for so long, she starts to cry, and she perceives Happying walking away near the"
+              - link "bakery" [ref=e751] [cursor=pointer]:
+                - /url: /wiki/Heartrose_Bakery
+              - text: . However, she soon realizes that it is only an illusion.
+            - figure "Giggleping getting freed of the Yummy Fruit's seed" [ref=e752]:
+              - link "Giggleping getting freed of the Yummy Fruit's seed view image" [ref=e753] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/92/S1E45_-_Giggleping_getting_freed_of_the_Matna_seed.png/revision/latest?cb=20230829181738
+                - img "Giggleping getting freed of the Yummy Fruit's seed" [ref=e754]
+                - generic "view image" [ref=e757]:
+                  - img [ref=e758]
+              - paragraph [ref=e761]: Giggleping getting freed of the Yummy Fruit's seed
+            - paragraph [ref=e762]:
+              - text: Then, in "
+              - link "Happying's Back" [ref=e763] [cursor=pointer]:
+                - /url: /wiki/Happying%27s_Back
+              - text: "\", the truth is finally unveiled: Giggleping loses the little badge she carries, and, after an investigation, the Teeniepings notice that this badge contains some pollen from the Yummy Fruit, a magical fruit that only grows in the greenhouse in the castle Romi previously lived in."
+            - paragraph [ref=e764]:
+              - link "Dr. Monziu" [ref=e765] [cursor=pointer]:
+                - /url: /wiki/Dr._Monziu
+              - text: tells Romi that the Yummy Fruit can completely change a Teenieping. A while later, after once again dreaming of Happying, Romi accidentally knocks the badge onto the floor. The badge spins upon falling as it flashes back and forth to a teenieping being told to eat the Yummy Fruit, and Giggleping being in pain. When the badge stops spinning it quickly flashes back and forth from the badge, which is now upside-down, to Happying's crown. Eventually, the image of Happying's crown zooms out, showing Happying eating the Yummy Fruit. Romi realizes the badge was actually Happying's crown all along, and that Giggleping is Happying.
+            - paragraph [ref=e766]:
+              - text: Meanwhile, Giggleping is weakened by the loss of the crown. Determined to save her,
+              - link "Princess Heart" [ref=e767] [cursor=pointer]:
+                - /url: /wiki/Princesses
+              - text: starts to fight Giggleping; after finally reaching her, she kisses the crown, which turns back to her normal form, and puts it on Giggleping, allowing the latter to spit the Yummy Fruit's seed out and to transform back into her normal form. As Happying, she slowly realizes everything that happened, while Romi bursts into tears of joy.
+            - figure "Happying and Sighping" [ref=e768]:
+              - link "Happying and Sighping view image" [ref=e769] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/b0/S1E46_-_Happying_and_Sighping.png/revision/latest?cb=20230829181740
+                - img "Happying and Sighping" [ref=e770]
+                - generic "view image" [ref=e773]:
+                  - img [ref=e774]
+              - paragraph [ref=e777]: Happying and Sighping
+            - paragraph [ref=e778]:
+              - text: Then, she stays with Romi and the other Royal Teeniepings to catch the last few Teeniepings. She often helps Romi transform into Princess Sunshine, possibly because she was unable to transform with Romi for the majority of the season. Everything is back just like before, as she likes to take bubble baths and have fun playing with her friends, as seen in the episode
+              - link "\"Princess Sunshine" [ref=e779] [cursor=pointer]:
+                - /url: /wiki/Princess_Sunshine
+              - text: "\". Her ability to always be happy helps during some catching missions, especially when she comforts"
+              - link "Sighping" [ref=e780] [cursor=pointer]:
+                - /url: /wiki/Sighping
+              - text: .
+            - figure "Happying sacrificing herself to save Romi" [ref=e781]:
+              - link "Happying sacrificing herself to save Romi view image" [ref=e782] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/7/71/S1E51_-_Happying_creating_a_big_explosion.png/revision/latest?cb=20230829181751
+                - img "Happying sacrificing herself to save Romi" [ref=e783]
+                - generic "view image" [ref=e786]:
+                  - img [ref=e787]
+              - paragraph [ref=e790]: Happying sacrificing herself to save Romi
+            - paragraph [ref=e791]:
+              - text: In "
+              - link "In The Name Of The Royalpings" [ref=e792] [cursor=pointer]:
+                - /url: /wiki/In_The_Name_Of_The_Royalpings
+              - text: "\", when Egoping manages to steal the"
+              - link "Magic Catcher" [ref=e793] [cursor=pointer]:
+                - /url: /wiki/Magic_Catcher
+              - text: and everything seems lost, she decides to use the power of the Royal Symbol (the golden crown-shaped symbol every Royal Teenieping has on their belly) to save Romi, as she remembers the happy times they have spent together and how she was impressed by her as Giggleping. She hugs Egoping, which creates a big explosion, and sadly, she dies as she has no energy left.
+            - paragraph [ref=e794]:
+              - text: In "
+              - link "Princess Veronica" [ref=e795] [cursor=pointer]:
+                - /url: /wiki/Princess_Veronica
+              - text: "\" Romi bursts into tears and tries to resuscitate her using the magic of her little crown, but it fails. Then, Egoping reappears, as Happying's magic is not powerful enough to stop her. She traps Romi and the Royal Teeniepings into her evil ball, when suddenly Heartsping's tear magic activates, which transforms Romi into"
+              - link "Princess Veronica" [ref=e796] [cursor=pointer]:
+                - /url: /wiki/Princesses
+              - text: and resuscitates Happying. They then defeat Egoping with the combined power of all the Royal Teeniepings working together.
+            - 'heading "Season 2: Leading the Investigation Sign in to edit" [level=3] [ref=e797]':
+              - generic [ref=e798]:
+                - link "Season 2" [ref=e799] [cursor=pointer]:
+                  - /url: /wiki/Twinkle_Catch!_Teenieping
+                - text: ": Leading the Investigation"
+              - link "Sign in to edit" [ref=e801] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D14&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e802]
+            - paragraph [ref=e804]:
+              - text: In
+              - link "Twinkle Catch! Teenieping" [ref=e806] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Catch!_Teenieping
+              - text: ", Happying returns to the Emotions Kingdom to become a teacher of the"
+              - link "Royal Teenieping School" [ref=e807] [cursor=pointer]:
+                - /url: /wiki/Royal_Teenieping_School
+              - text: ", along with the other Royal Teeniepings (excluding"
+              - link "Heartsping" [ref=e808] [cursor=pointer]:
+                - /url: /wiki/Heartsping
+              - text: ", who stays with Romi). In \""
+              - link "Twinkle Twinkle Jewel Teeniepings" [ref=e809] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Twinkle,_Jewel_Teeniepings
+              - text: "\", when"
+              - link "Maskping" [ref=e810] [cursor=pointer]:
+                - /url: /wiki/Maskping
+              - text: attacks, she quickly arrives in the
+              - link "Jewel Forest" [ref=e811] [cursor=pointer]:
+                - /url: /wiki/Jewel_Forest
+              - text: with the other Royal Teeniepings, and she gets surprised when she sees the new villain Teenieping.
+            - paragraph [ref=e812]: Later, she decides to lead the investigation to find the true identity of Maskping. She leaves her role of teacher to carry out the investigation full-time, which causes her to be missing during many events.
+            - figure "Happying coming face to face with Maskping" [ref=e813]:
+              - link "Happying coming face to face with Maskping view image" [ref=e814] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/d4/S2E15_-_Maskping_stopped_by_Happying.png/revision/latest?cb=20230121111949
+                - img "Happying coming face to face with Maskping" [ref=e815]
+                - generic "view image" [ref=e818]:
+                  - img [ref=e819]
+              - paragraph [ref=e822]: Happying coming face to face with Maskping
+            - paragraph [ref=e823]:
+              - text: Her hard work eventually pays off, as she finds an obsidian bomb left by Maskping in the Jewel Forest in "
+              - link "Another Princess" [ref=e824] [cursor=pointer]:
+                - /url: /wiki/Another_Princess
+              - text: "\", and even comes face to face with her in \""
+              - link "Royal Teeniepings' Face-Off!" [ref=e825] [cursor=pointer]:
+                - /url: /wiki/Royal_Teenieping_Face-Off!
+              - text: "\": as Maskping about to travel somewhere, Happying interrupts her and asks her to surrender. A fight begins, and Maskping even pulls off her mask; however, the clever use of her mask magic allows her to counter Happying's attack, allowing her to escape."
+            - figure "Happying warning the Royal Teeniepings" [ref=e826]:
+              - link "Happying warning the Royal Teeniepings view image" [ref=e827] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/2/26/S2E25_-_Happying_warning_the_Royal_Teeniepings.png/revision/latest?cb=20230829181756
+                - img "Happying warning the Royal Teeniepings" [ref=e828]
+                - generic "view image" [ref=e831]:
+                  - img [ref=e832]
+              - paragraph [ref=e835]: Happying warning the Royal Teeniepings
+            - paragraph [ref=e836]:
+              - text: Finally, while all the Royal Teeniepings go to the Teenieping School Graduation (during the events of "
+              - link "Teenieping School Graduation" [ref=e837] [cursor=pointer]:
+                - /url: /wiki/Teenieping_School_Graduation
+              - text: "\"), she rummages once again into the Jewel Forest, and finds Maskping's hiding place. She sees her costume and some obsidian bombs, when she suddenly gets hit by"
+              - link "Onlyping" [ref=e838] [cursor=pointer]:
+                - /url: /wiki/Onlyping
+              - text: ", who was not wearing her costume. She hurriedly goes on Earth to inform the Royal Teeniepings of what happened, but when she arrives, in \""
+              - link "Heartsping in Danger" [ref=e839] [cursor=pointer]:
+                - /url: /wiki/Heartsping_in_Danger
+              - text: "\", Romi already escaped with"
+              - link "Jenny" [ref=e840] [cursor=pointer]:
+                - /url: /wiki/Jenny
+              - text: . She tells everything to the others, and the students Teeniepings decide to go save Romi.
+            - 'heading "Season 6: TBA Sign in to edit" [level=3] [ref=e841]':
+              - generic [ref=e842]:
+                - link "Season 6" [ref=e843] [cursor=pointer]:
+                  - /url: /wiki/Princess_Catch!_Teenieping
+                - text: ": TBA"
+              - link "Sign in to edit" [ref=e845] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D15&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e846]
+            - heading "Spy Operation Sign in to edit" [level=4] [ref=e848]:
+              - link "Spy Operation" [ref=e850] [cursor=pointer]:
+                - /url: /wiki/Spy_Operation
+              - link "Sign in to edit" [ref=e852] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D16&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e853]
+            - paragraph [ref=e855]:
+              - text: Happying is sent by
+              - link "Dr. Monziu" [ref=e856] [cursor=pointer]:
+                - /url: /wiki/Dr._Monziu
+              - text: to find the castle in the Dark Forest and rescue
+              - link "Dianaping" [ref=e857] [cursor=pointer]:
+                - /url: /wiki/Dianaping
+              - text: . She climbs into a small plane and heads out on her mission. Along the way, she finds out that
+              - link "Fluffyping" [ref=e858] [cursor=pointer]:
+                - /url: /wiki/Fluffyping
+              - text: fell asleep on the plane without telling anyone, but it's too late to go back.
+            - paragraph [ref=e859]:
+              - text: When they reach the
+              - link "Dark Forest" [ref=e860] [cursor=pointer]:
+                - /url: /wiki/Dark_Forest
+              - text: ", the castle shoots magic blasts at them, and the plane crashes. Happying and Fluffyping jump out just in time. Happying wants Fluffyping to stay behind, but Fluffyping is too scared, so Happying takes her along."
+            - paragraph [ref=e861]:
+              - text: They sneak toward the castle. Happying tries to climb the wall quietly, but Fluffyping reaches the top first and sets off a trap. During the chaos, the two get separated. Happying ends up in a room full of mirrors, where she meets the
+              - link "Mirror Spirit" [ref=e862] [cursor=pointer]:
+                - /url: /wiki/Mirror_Spirit
+              - text: . She demands to know where Dianaping is.
+            - paragraph [ref=e863]:
+              - link "Eclipseping" [ref=e864] [cursor=pointer]:
+                - /url: /wiki/Eclipseping
+              - text: appears, and Happying tells her that she is a secret agent. She starts to fight Eclipseping, and uses her speed and bubble gun, but Eclipseping's magic is more powerful. Eclipseping threatens to trap Happying in a mirror; however, Fluffyping intervenes and rescues Happying.
+            - paragraph [ref=e865]: "Both of them flee from the castle and fly away on Fluffyping's hot air balloon. Though they weren't able to save Dianaping, Happying reflects that they gained a lot from their adventure: locating the castle, witnessing how terrifying Eclipseping is, and understanding what awaits them."
+            - heading "The Spinning Mirror Sign in to edit" [level=4] [ref=e866]:
+              - link "The Spinning Mirror" [ref=e868] [cursor=pointer]:
+                - /url: /wiki/The_Spinning_Mirror
+              - link "Sign in to edit" [ref=e870] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D17&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e871]
+            - paragraph [ref=e873]: TBA
+            - heading "Trivia Sign in to edit" [level=2] [ref=e874]:
+              - text: Trivia
+              - link "Sign in to edit" [ref=e876] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D18&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e877]
+            - list [ref=e879]:
+              - listitem [ref=e880]:
+                - text: She is one of the two only Teeniepings that does not have "p" in ping as the word "happy" overlaps the "ping" part.
+                - list [ref=e881]:
+                  - listitem [ref=e882]:
+                    - text: "However, that is not the case in the Korean version, as she is simply named \"Happing\": her particularity therefore is to only have one syllable in her name, along with"
+                    - link "Muffping" [ref=e883] [cursor=pointer]:
+                      - /url: /wiki/Muffping
+                    - text: and
+                    - link "Cupping" [ref=e884] [cursor=pointer]:
+                      - /url: /wiki/Cupping
+                    - text: .
+              - listitem [ref=e885]: Along with her multiple cameos, Happying also appears in the ending credits of the second part of the season, starting from her true introductory episode, "Likey the Pranks, Giggleping!"
+              - listitem [ref=e886]: Happying is the first known Teenieping to eat the Yummy Fruit.
+              - listitem [ref=e887]:
+                - text: Happying is the second known detective in the
+                - link "series" [ref=e888] [cursor=pointer]:
+                  - /url: /wiki/Catch!_Teenieping_(series)
+                - text: . The first was
+                - link "Dadaping" [ref=e889] [cursor=pointer]:
+                  - /url: /wiki/Dadaping
+                - text: .
+              - listitem [ref=e890]:
+                - text: Happying has been transformed twice by an evil Teenieping during the entire Catch! Teenieping franchise.
+                - list [ref=e891]:
+                  - listitem [ref=e892]:
+                    - text: Chronologically, she was first transformed into a large monster by
+                    - link "Truthping" [ref=e893] [cursor=pointer]:
+                      - /url: /wiki/Truthping
+                    - text: in the prequel movie,
+                    - 'link "Heartsping: Teenieping of Love" [ref=e894] [cursor=pointer]':
+                      - /url: /wiki/Heartsping:_Teenieping_of_Love
+                    - text: ", and then for the second time she was transformed into an evil Teenieping named"
+                    - link "Giggleping" [ref=e895] [cursor=pointer]:
+                      - /url: /wiki/Giggleping
+                    - text: by
+                    - link "Egoping" [ref=e896] [cursor=pointer]:
+                      - /url: /wiki/Egoping
+                    - text: in the first season.
+                  - listitem [ref=e897]:
+                    - link "Twinkle Catch! Teenieping" [ref=e899] [cursor=pointer]:
+                      - /url: /wiki/Twinkle_Catch!_Teenieping
+                    - text: is so far the only Catch! Teenieping incarnation that Happying appears in where she did not get transformed by an evil Teenieping.
+              - listitem [ref=e900]:
+                - text: Happying is the first Teenieping to nearly die after a sacrifice; the later two Teeniepings to nearly die are
+                - link "Sweetping" [ref=e901] [cursor=pointer]:
+                  - /url: /wiki/Sweetping
+                - text: and
+                - link "Tangyping" [ref=e902] [cursor=pointer]:
+                  - /url: /wiki/Tangyping
+                - text: in
+                - link "Season 4" [ref=e903] [cursor=pointer]:
+                  - /url: /wiki/Dessert_Catch!_Teenieping
+                - text: .
+              - listitem [ref=e904]: She notably sounds older in the Russian dub.
+              - listitem [ref=e905]:
+                - text: She's the first Teenieping who's Korean name consists of only 2 syllables instead of the usual 3 syllables.
+                - list [ref=e906]:
+                  - listitem [ref=e907]: However, she's the first Royal Teenieping to have this trait.
+              - listitem [ref=e908]:
+                - text: Despite being a Royal Teenieping, Happying's QR variable name is "Fairy 24" in the
+                - link "Magic Catcher toy" [ref=e909] [cursor=pointer]:
+                  - /url: /wiki/Magic_Catcher/Merchandise
+                - text: ", instead of \"Fairy 06\" to follow Royal Teenieping consecutively, as it is taken by"
+                - link "Shyping" [ref=e910] [cursor=pointer]:
+                  - /url: /wiki/Shyping
+                - text: .
+            - heading "Gallery Sign in to edit" [level=2] [ref=e911]:
+              - text: Gallery
+              - link "Sign in to edit" [ref=e913] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fveaction%3Dedit%26section%3D19&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e914]
+            - figure [ref=e916]:
+              - link "Check the gallery page" [ref=e917] [cursor=pointer]:
+                - /url: /wiki/Happying/Gallery
+                - img "Check the gallery page" [ref=e918]
+            - paragraph [ref=e919]
+            - table [ref=e920]:
+              - rowgroup [ref=e921]:
+                - row "Characters ▼" [ref=e922]:
+                  - cell "Characters ▼" [ref=e923]:
+                    - generic [ref=e924] [cursor=pointer]: Characters ▼
+          - generic [ref=e925]:
+            - generic "Toggle Categories" [ref=e926]:
+              - generic [ref=e927] [cursor=pointer]:
+                - text: Categories
+                - img [ref=e928]
+            - generic [ref=e930]:
+              - text: Community content is available under
+              - link "CC-BY-SA" [ref=e931] [cursor=pointer]:
+                - /url: https://www.fandom.com/licensing
+              - text: unless otherwise noted.
+            - generic [ref=e934]:
+              - paragraph [ref=e937]: 16 Comments
+              - generic [ref=e938]:
+                - img [ref=e940]
+                - heading "Join the conversation" [level=3] [ref=e942]
+                - heading "Sign in to read what others are saying and share your thoughts." [level=4] [ref=e943]
+                - link "SIGN IN" [ref=e944] [cursor=pointer]:
+                  - /url: /login?metadata=anonymous-article-comments-login-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fanon-comments-auth-source%3Dlogin%23articleComments
+                - paragraph [ref=e945]:
+                  - text: Don't have account?
+                  - link "Register now" [ref=e946] [cursor=pointer]:
+                    - /url: /register?metadata=anonymous-article-comments-register-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHappying%3Fanon-comments-auth-source%3Dregister%23articleComments
+        - complementary [ref=e947]:
+          - generic [ref=e948]:
+            - generic [ref=e950]:
+              - iframe [ref=e952]:
+                - generic [ref=f355e3]:
+                  - link [ref=f355e4] [cursor=pointer]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Czu4Xnx3OabPkCdaR29gP1LDzgAewoOHYhAHlrZar0RUKEAEgw-7uDWCbo-mEuCmgAZyv-6gCyAED4AIAqAMByAMIqgSHA0_QRySckKeA6wYZD0sZZxVGBR39IhhTNbCWK1ddUv8D-MMzU2wI4h7_ol3YxXyOlMKh-UhNORLUjV6eADcBr8Tqasv_dq9_YCeH6zX5xLeIxizm32nCwZh12yvEpEPsU6y2LglR5-mLtFBXrwegILhvMHrnsxGyM0Ldq5LdZPcAm0lF4CzyxsA0lYu3C2OnvWay15UVSHYhURYex6Zf0z4nWOVbJ9e2rJToejrYSftJxGALEN70bU374AxjL7vHe_hOKmskgvw0hLjOKEJQ11QWdDkwr3KWlc2zuCrr8ORmJDzE5k6hMa8fVexWJYBO_HP61XAwPyh2mTM2rdlmrLqTsB7YXsWwasGHBjFrSTHGLhITMb9Gj1DeJwIwtpfJ9ctrj6jsnFWj3dc271ps1MNPyEJm7PX4uvziuJN1XgitytuZUwdM-Q8kGZZR6lP6mSG2vLUXgfKQsrYGYUqfH8QcZpSbrLBs2IVr8f_F4efyb1MNPoWTeBcjEZ8BJGlvNWev-UeERanABJ7otMTBBeAEAYgFgZWelFegBgOAB8zQhNcBqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgIiAAqgDSL39wTpY2Zr1m9XOkwOxCRFTeswDu0LpgAoDmAsByAsBogwDkAEBqg0CS1LIDQHiDRMIzeL1m9XOkwMV1sgWBR1U2Bxw6g0TCO3E9pvVzpMDFdbIFgUdVNgccPANAogO____________AdgTDdAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjYxNjE0NTcwMjNQBroXAjgBqhgXCQAAAACAqPhAEgo2MTYxNDU3MDIzGAGyGAkSArBTGAMiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI86_3m9XOkwMV1sgWBR1U2BxwEAEYASAAEgLM2PD_BwE&num=1&cid=CAQS5AEABaugfS4eDh3m58WlPPiKMAeE-Yk3mCijmnD64LbJOaRiT5C6EH0DZq9REoC9cuytvKuOnFGkXefWVLp6O0vnkIWH5if6ltcscrNF3-5rXIAI3lKUaeDXbrZrbkDSlrwrHbfl6q0adkltJcrbeq9RX8Tyt9cH9JKvW6hbHF8MaOBMeEFeSpC3uAy1rOv1erM52nFPElzmLg20swI7_2kwaAlpaQIM2WqwmigEo-HBpuz5Bu-4BTZMnDP6TsIP9sqPG1j9_76Gr71hCnCWo-OHdCrXzSAPbJY4iDG7aCWsJX2BZ4wYAQ&sig=AOD64_2BYjxdW38NVPyrwcwm0yDjsjb9aA&client=ca-pub-7983542246824243&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://www.hero-wars.com/%3Fdelayedsignup%3Dtrue%26nx_source%3Dadx_adwordsdisplay.hw_wb_uu_-.cc-ww_other.g-mix.a-mix.au-lal.opt-purchase2.cr-hw_st_lootdoll1a_gif.cn-300_600.lp-delayed.dt-display.cid-23396321921.agid-189390468126.csd-270326.-%26cp%3D.aid-802455633007%26gad_source%3D5%26gad_campaignid%3D23396321921%26gclid%3DEAIaIQobChMI86_3m9XOkwMV1sgWBR1U2BxwEAEYASAAEgLM2PD_BwE
+                  - generic [ref=f355e6]:
+                    - link [ref=f355e8] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeXtEsDoZmhvU2NX6tY2i5J5vh5AUtnMS1Qej7KZ6GMoSAMz_u-5dowR3bgSMniuc-oPO-BkonAqFX4KFz0ik9QaxqLjAQF5SN2K27ASbggQo0jjav2Xug6X0H5bDBIpF6krg9e5tQQ29D6viPtJ7roWfEzZIS1oveKr98YHL4U8SARz5TG6Hg1q_d2G7Dvpy5Wz0EoUFvPbgRNJLtdwnjLUXtavGWSuyv8PDd0mxWx0s_MBasa40dv_7rJ-Jjg45JcF48J0EFbwCH0_TkfOpKEQxZ9DjNcChRRPr8Hwpt_aalLH0SoGUz0H_m3Ge1vqjvDsBPtQJW0p_n8tMa09LEnpVeYvMaMIQHvq1dAubrpbI3BNXaxsAJyZ3t4mYv4gpeHK8BS1MmzarxuJnBD1iad5E74RTi2xZe0Y6OvE62JByP1d223sckeJIWz3TxORXsnKzNWe9AxWLEaypfH9lRac9Gbm1vPeFLH3ZC6TJpxbeuRiymQuNkFf7QzPSslePw_TYETrnhY7sCEN8SqG-ZP5ZWCoiYWH3vCPEzo4Er3GSSeAufe08uXIJLcrcngI1E2IqVOZhsPZR7TOBd7SImEJAI3HyKBf2UJ8N8BNP2skjoGZ73T8Y1UVIKmjAgcwKRaXfkSsnf-CuhA-2FHA6cNT6kf3AbnBU75XqAur6Ppkul7UsuJYPkwVY8igEefCnJQ21vyyHUUSbDEd5GtuqHiLpNbfjUfRf_Rgpvv6cU0ZK3ZDpHEqiBtefRoEVt2dF4M4ZQ8xSR8yLzhHWoh45E-f9ZzKulhfP5DpMGvUu0Ual2B9pUJEiwpJoUujZXMxAQvQpy3H8VzXnHuTm3DYR3xNcSomE8mGvgT8JHKo0nZmZDu-O5xKDC78eYiR76m_ce2WDxg9ryiuA8Gt7r6iE2XZJ9b7kGV8oynDjDkoRtpXQJVmk9SNb17vxmx7GZLZHJrFxGF_20_7leKt_6Xa1xVULmcnWx2uCazfbxBxcBfh4P0HFLnFGGPx6fVQoH01XH0TPtE6cHB8NS1PM9x7UfQgWfBi_GhEsNVkrDnJoFHj4aOarIXxC4nMsCKKDuklX0Oi-qbdi8POwGaofUZdIz5CQ9EcOzqY_5f-vj_RvxVSF_P24zoOjPf28HtgjVIzTCEtoE0AEsfut692vTV6_k6THs_kdoP35GYrV2njEWCLnr7fTTkq9599Ib-IvcgoesceQpuI-UY8fIodlGEtkR1fYLEWHQvsafR6GyDhWReTbC2b2euwjhss4ZdZ5zXonR0sV3i45RfvC9h8olpEbLzxVyOSzAMtErdsQhXXz1RKjvg7gF0YoxItH9Kdghsy0m5G0XR5OyDaYOP1Sc8_veA4eDCf0OZV3J79dpVo7n7s1K0wAkjzApg41HD40VTy2hbl3ycTTGd4bcZBmFKcVS5U7jiAI3mff37tkXMpbFjjQbOXiNF3nBUjIzvtsuce4WeRoRhIfqWGOttmUlpLKCJDx34dBbuMSIg22PyWin7QMktQBdZryFFi-dE_dC4SOhu9XGxypoi1WMqKc-9-c91udAMuJZnYLjQj4e6C2QfMb8Z5H-l9ujko7O33X9nffPpdrmL-2qJz7dymU6lO8nVv0cznxkh1LyT1oAjKlxcwqaJ1UlbQWgjph2f5JT8YuIuKzFopScyIXmP9dGy_yBqbqj10N6p9kYm6I49DHp5E65oQhzvykSsjjKlrlySJvQpl1C5pUtJ8KWCfSZfdU4t6bSBO4-5SwUmEXRqlpYfafLEmpNGoHXr_bqJtN0t6-B11Y8__h3tHFmuHhwTcqE8PpmiaBBTCTMfR3ehq9rlCWyXWTyZZh4HYtYG2rZ2kITE0naDxOdBFtpLummq3QhULfiJvG8Sg4ha8tHGMQAyTaBCmhJi7fXlN1-MdOGFG9KhXYoMq37U8Tx251X9gm8e9pet4-imYljhjbSxeI96t9lHjkJOybrc9pp36aPvQ1sj3CVggL3BrfnWPVD3ewI8ZGJOCnUyjhSMzHa9-8418gRPW_PQLjaCxVntg6TKs1x7sF-MmdjhylVek_eaShu3v85uAdNu8eIfcIYxHYxZSs2wtuqJX2YRXN7JT3TnyzprfFf37fbYrD8RgGvzTBr-gYtRQfHvcseA_n30GxLzxulFCZIe8OC5gPdAYssTN3O6lbjRknyqfU0648FXnfaazg9hPy36sVRDXrVIX0RxCcKyX6S1aAxNa76obvmg7imikLM7Nt9a-HK3Y0dpLXTq0kTBupUGsNztb_4Kee9Lfix2J6Bq-mF8ArW_LUZ3ftExd3pVe4VRwl1UWrjSZ5xdm9eoHP3uTXWsteLdIIHtMyk65M8H7si9gEv4yXJbxl61QO7wWFM_nFLWQtsugWpxUYhGDEIoRKJimaTBe4RSd3h0mENKpO0BpGjotOwnK2drgCzH87tSPGzgmCVGzCz1p2B27ltdwKkiy8BbwoGaP9LN1_Aq7anXEDIYwtZST5dSXe8BXoCHDN_PquTATes1HDRnAw6TTSdmWAGMRbbQpuYPXMjHi_yKXTeZqxCgOPV_mhweVZKgUYQ9J7JdgfbxL3bu7wZ4ypO5EXTy_tygX22JQTQTzfHGE-MqBFOKefnTdorpqVsYjF7MRqy4w64qAVWOPOzPTligEklCF206xZeIgwITEreqtBVPxDny30hdLBMmzr_C0lNQDwn1Oee8gXEYl-ewMzgWgjn54moFk-RaYMIo_x98f1sGbwyfAzwoG8EXyI9Y7&opi=122715837
+                      - img [ref=f355e10]
+                    - link [ref=f355e12] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeXtEsDoZmhvU2NX6tY2i5J5vh5AUtnMS1Qej7KZ6GMoSAMz_u-5dowR3bgSMniuc-oPO-BkonAqFX4KFz0ik9QaxqLjAQF5SN2K27ASbggQo0jjav2Xug6X0H5bDBIpF6krg9e5tQQ29D6viPtJ7roWfEzZIS1oveKr98YHL4U8SARz5TG6Hg1q_d2G7Dvpy5Wz0EoUFvPbgRNJLtdwnjLUXtavGWSuyv8PDd0mxWx0s_MBasa40dv_7rJ-Jjg45JcF48J0EFbwCH0_TkfOpKEQxZ9DjNcChRRPr8Hwpt_aalLH0SoGUz0H_m3Ge1vqjvDsBPtQJW0p_n8tMa09LEnpVeYvMaMIQHvq1dAubrpbI3BNXaxsAJyZ3t4mYv4gpeHK8BS1MmzarxuJnBD1iad5E74RTi2xZe0Y6OvE62JByP1d223sckeJIWz3TxORXsnKzNWe9AxWLEaypfH9lRac9Gbm1vPeFLH3ZC6TJpxbeuRiymQuNkFf7QzPSslePw_TYETrnhY7sCEN8SqG-ZP5ZWCoiYWH3vCPEzo4Er3GSSeAufe08uXIJLcrcngI1E2IqVOZhsPZR7TOBd7SImEJAI3HyKBf2UJ8N8BNP2skjoGZ73T8Y1UVIKmjAgcwKRaXfkSsnf-CuhA-2FHA6cNT6kf3AbnBU75XqAur6Ppkul7UsuJYPkwVY8igEefCnJQ21vyyHUUSbDEd5GtuqHiLpNbfjUfRf_Rgpvv6cU0ZK3ZDpHEqiBtefRoEVt2dF4M4ZQ8xSR8yLzhHWoh45E-f9ZzKulhfP5DpMGvUu0Ual2B9pUJEiwpJoUujZXMxAQvQpy3H8VzXnHuTm3DYR3xNcSomE8mGvgT8JHKo0nZmZDu-O5xKDC78eYiR76m_ce2WDxg9ryiuA8Gt7r6iE2XZJ9b7kGV8oynDjDkoRtpXQJVmk9SNb17vxmx7GZLZHJrFxGF_20_7leKt_6Xa1xVULmcnWx2uCazfbxBxcBfh4P0HFLnFGGPx6fVQoH01XH0TPtE6cHB8NS1PM9x7UfQgWfBi_GhEsNVkrDnJoFHj4aOarIXxC4nMsCKKDuklX0Oi-qbdi8POwGaofUZdIz5CQ9EcOzqY_5f-vj_RvxVSF_P24zoOjPf28HtgjVIzTCEtoE0AEsfut692vTV6_k6THs_kdoP35GYrV2njEWCLnr7fTTkq9599Ib-IvcgoesceQpuI-UY8fIodlGEtkR1fYLEWHQvsafR6GyDhWReTbC2b2euwjhss4ZdZ5zXonR0sV3i45RfvC9h8olpEbLzxVyOSzAMtErdsQhXXz1RKjvg7gF0YoxItH9Kdghsy0m5G0XR5OyDaYOP1Sc8_veA4eDCf0OZV3J79dpVo7n7s1K0wAkjzApg41HD40VTy2hbl3ycTTGd4bcZBmFKcVS5U7jiAI3mff37tkXMpbFjjQbOXiNF3nBUjIzvtsuce4WeRoRhIfqWGOttmUlpLKCJDx34dBbuMSIg22PyWin7QMktQBdZryFFi-dE_dC4SOhu9XGxypoi1WMqKc-9-c91udAMuJZnYLjQj4e6C2QfMb8Z5H-l9ujko7O33X9nffPpdrmL-2qJz7dymU6lO8nVv0cznxkh1LyT1oAjKlxcwqaJ1UlbQWgjph2f5JT8YuIuKzFopScyIXmP9dGy_yBqbqj10N6p9kYm6I49DHp5E65oQhzvykSsjjKlrlySJvQpl1C5pUtJ8KWCfSZfdU4t6bSBO4-5SwUmEXRqlpYfafLEmpNGoHXr_bqJtN0t6-B11Y8__h3tHFmuHhwTcqE8PpmiaBBTCTMfR3ehq9rlCWyXWTyZZh4HYtYG2rZ2kITE0naDxOdBFtpLummq3QhULfiJvG8Sg4ha8tHGMQAyTaBCmhJi7fXlN1-MdOGFG9KhXYoMq37U8Tx251X9gm8e9pet4-imYljhjbSxeI96t9lHjkJOybrc9pp36aPvQ1sj3CVggL3BrfnWPVD3ewI8ZGJOCnUyjhSMzHa9-8418gRPW_PQLjaCxVntg6TKs1x7sF-MmdjhylVek_eaShu3v85uAdNu8eIfcIYxHYxZSs2wtuqJX2YRXN7JT3TnyzprfFf37fbYrD8RgGvzTBr-gYtRQfHvcseA_n30GxLzxulFCZIe8OC5gPdAYssTN3O6lbjRknyqfU0648FXnfaazg9hPy36sVRDXrVIX0RxCcKyX6S1aAxNa76obvmg7imikLM7Nt9a-HK3Y0dpLXTq0kTBupUGsNztb_4Kee9Lfix2J6Bq-mF8ArW_LUZ3ftExd3pVe4VRwl1UWrjSZ5xdm9eoHP3uTXWsteLdIIHtMyk65M8H7si9gEv4yXJbxl61QO7wWFM_nFLWQtsugWpxUYhGDEIoRKJimaTBe4RSd3h0mENKpO0BpGjotOwnK2drgCzH87tSPGzgmCVGzCz1p2B27ltdwKkiy8BbwoGaP9LN1_Aq7anXEDIYwtZST5dSXe8BXoCHDN_PquTATes1HDRnAw6TTSdmWAGMRbbQpuYPXMjHi_yKXTeZqxCgOPV_mhweVZKgUYQ9J7JdgfbxL3bu7wZ4ypO5EXTy_tygX22JQTQTzfHGE-MqBFOKefnTdorpqVsYjF7MRqy4w64qAVWOPOzPTligEklCF206xZeIgwITEreqtBVPxDny30hdLBMmzr_C0lNQDwn1Oee8gXEYl-ewMzgWgjn54moFk-RaYMIo_x98f1sGbwyfAzwoG8EXyI9Y7&opi=122715837
+                      - img [ref=f355e14]
+                  - img [ref=f355e17] [cursor=pointer]
+                  - generic [ref=f355e28]:
+                    - img [ref=f355e31]
+                    - generic [ref=f355e34]:
+                      - text: Ads by
+                      - img [ref=f355e35]
+                    - generic [ref=f355e38]:
+                      - generic [ref=f355e41] [cursor=pointer]: Send feedback
+                      - link [ref=f355e43] [cursor=pointer]:
+                        - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeXtEsDoZmhvU2NX6tY2i5J5vh5AUtnMS1Qej7KZ6GMoSAMz_u-5dowR3bgSMniuc-oPO-BkonAqFX4KFz0ik9QaxqLjAQF5SN2K27ASbggQo0jjav2Xug6X0H5bDBIpF6krg9e5tQQ29D6viPtJ7roWfEzZIS1oveKr98YHL4U8SARz5TG6Hg1q_d2G7Dvpy5Wz0EoUFvPbgRNJLtdwnjLUXtavGWSuyv8PDd0mxWx0s_MBasa40dv_7rJ-Jjg45JcF48J0EFbwCH0_TkfOpKEQxZ9DjNcChRRPr8Hwpt_aalLH0SoGUz0H_m3Ge1vqjvDsBPtQJW0p_n8tMa09LEnpVeYvMaMIQHvq1dAubrpbI3BNXaxsAJyZ3t4mYv4gpeHK8BS1MmzarxuJnBD1iad5E74RTi2xZe0Y6OvE62JByP1d223sckeJIWz3TxORXsnKzNWe9AxWLEaypfH9lRac9Gbm1vPeFLH3ZC6TJpxbeuRiymQuNkFf7QzPSslePw_TYETrnhY7sCEN8SqG-ZP5ZWCoiYWH3vCPEzo4Er3GSSeAufe08uXIJLcrcngI1E2IqVOZhsPZR7TOBd7SImEJAI3HyKBf2UJ8N8BNP2skjoGZ73T8Y1UVIKmjAgcwKRaXfkSsnf-CuhA-2FHA6cNT6kf3AbnBU75XqAur6Ppkul7UsuJYPkwVY8igEefCnJQ21vyyHUUSbDEd5GtuqHiLpNbfjUfRf_Rgpvv6cU0ZK3ZDpHEqiBtefRoEVt2dF4M4ZQ8xSR8yLzhHWoh45E-f9ZzKulhfP5DpMGvUu0Ual2B9pUJEiwpJoUujZXMxAQvQpy3H8VzXnHuTm3DYR3xNcSomE8mGvgT8JHKo0nZmZDu-O5xKDC78eYiR76m_ce2WDxg9ryiuA8Gt7r6iE2XZJ9b7kGV8oynDjDkoRtpXQJVmk9SNb17vxmx7GZLZHJrFxGF_20_7leKt_6Xa1xVULmcnWx2uCazfbxBxcBfh4P0HFLnFGGPx6fVQoH01XH0TPtE6cHB8NS1PM9x7UfQgWfBi_GhEsNVkrDnJoFHj4aOarIXxC4nMsCKKDuklX0Oi-qbdi8POwGaofUZdIz5CQ9EcOzqY_5f-vj_RvxVSF_P24zoOjPf28HtgjVIzTCEtoE0AEsfut692vTV6_k6THs_kdoP35GYrV2njEWCLnr7fTTkq9599Ib-IvcgoesceQpuI-UY8fIodlGEtkR1fYLEWHQvsafR6GyDhWReTbC2b2euwjhss4ZdZ5zXonR0sV3i45RfvC9h8olpEbLzxVyOSzAMtErdsQhXXz1RKjvg7gF0YoxItH9Kdghsy0m5G0XR5OyDaYOP1Sc8_veA4eDCf0OZV3J79dpVo7n7s1K0wAkjzApg41HD40VTy2hbl3ycTTGd4bcZBmFKcVS5U7jiAI3mff37tkXMpbFjjQbOXiNF3nBUjIzvtsuce4WeRoRhIfqWGOttmUlpLKCJDx34dBbuMSIg22PyWin7QMktQBdZryFFi-dE_dC4SOhu9XGxypoi1WMqKc-9-c91udAMuJZnYLjQj4e6C2QfMb8Z5H-l9ujko7O33X9nffPpdrmL-2qJz7dymU6lO8nVv0cznxkh1LyT1oAjKlxcwqaJ1UlbQWgjph2f5JT8YuIuKzFopScyIXmP9dGy_yBqbqj10N6p9kYm6I49DHp5E65oQhzvykSsjjKlrlySJvQpl1C5pUtJ8KWCfSZfdU4t6bSBO4-5SwUmEXRqlpYfafLEmpNGoHXr_bqJtN0t6-B11Y8__h3tHFmuHhwTcqE8PpmiaBBTCTMfR3ehq9rlCWyXWTyZZh4HYtYG2rZ2kITE0naDxOdBFtpLummq3QhULfiJvG8Sg4ha8tHGMQAyTaBCmhJi7fXlN1-MdOGFG9KhXYoMq37U8Tx251X9gm8e9pet4-imYljhjbSxeI96t9lHjkJOybrc9pp36aPvQ1sj3CVggL3BrfnWPVD3ewI8ZGJOCnUyjhSMzHa9-8418gRPW_PQLjaCxVntg6TKs1x7sF-MmdjhylVek_eaShu3v85uAdNu8eIfcIYxHYxZSs2wtuqJX2YRXN7JT3TnyzprfFf37fbYrD8RgGvzTBr-gYtRQfHvcseA_n30GxLzxulFCZIe8OC5gPdAYssTN3O6lbjRknyqfU0648FXnfaazg9hPy36sVRDXrVIX0RxCcKyX6S1aAxNa76obvmg7imikLM7Nt9a-HK3Y0dpLXTq0kTBupUGsNztb_4Kee9Lfix2J6Bq-mF8ArW_LUZ3ftExd3pVe4VRwl1UWrjSZ5xdm9eoHP3uTXWsteLdIIHtMyk65M8H7si9gEv4yXJbxl61QO7wWFM_nFLWQtsugWpxUYhGDEIoRKJimaTBe4RSd3h0mENKpO0BpGjotOwnK2drgCzH87tSPGzgmCVGzCz1p2B27ltdwKkiy8BbwoGaP9LN1_Aq7anXEDIYwtZST5dSXe8BXoCHDN_PquTATes1HDRnAw6TTSdmWAGMRbbQpuYPXMjHi_yKXTeZqxCgOPV_mhweVZKgUYQ9J7JdgfbxL3bu7wZ4ypO5EXTy_tygX22JQTQTzfHGE-MqBFOKefnTdorpqVsYjF7MRqy4w64qAVWOPOzPTligEklCF206xZeIgwITEreqtBVPxDny30hdLBMmzr_C0lNQDwn1Oee8gXEYl-ewMzgWgjn54moFk-RaYMIo_x98f1sGbwyfAzwoG8EXyI9Y7&opi=122715837
+                        - generic [ref=f355e44]:
+                          - text: Why this ad?
+                          - img [ref=f355e45]
+                  - generic [ref=f355e47]:
+                    - generic [ref=f355e50] [cursor=pointer]: Not interested in this ad
+                    - generic [ref=f355e53] [cursor=pointer]: Ad covered content
+                    - generic [ref=f355e56] [cursor=pointer]: Seen this ad multiple times
+                    - generic [ref=f355e59] [cursor=pointer]: Ad was inappropriate
+                  - generic [ref=f355e65]: Thanks. Feedback improves Google ads
+                  - generic [ref=f355e71]:
+                    - text: Ad closed by
+                    - img [ref=f355e72]
+              - generic [ref=e953]: Advertisement
+            - generic [ref=e957]:
+              - generic [ref=e958]:
+                - heading "Recent Images" [level=2] [ref=e959]
+                - link [ref=e960] [cursor=pointer]:
+                  - /url: https://www.fandom.com
+                  - img [ref=e963]
+              - generic [ref=e968]:
+                - list [ref=e971]:
+                  - listitem [ref=e972]:
+                    - generic [ref=e974]:
+                      - link "Anna Paik (left) with Lisa Kelley.png" [ref=e975] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                        - img "Anna Paik (left) with Lisa Kelley.png" [ref=e977]
+                      - generic [ref=e978]:
+                        - link "Anna Paik" [ref=e979] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                          - heading "Anna Paik" [level=3] [ref=e980]
+                        - time [ref=e982]: 4 hours ago
+                  - listitem [ref=e983]:
+                    - generic [ref=e985]:
+                      - link "S4 Japanese Banner 4.jpg" [ref=e986] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 4.jpg" [ref=e988]
+                      - generic [ref=e989]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e990] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e991]
+                        - time [ref=e993]: 12 hours ago
+                  - listitem [ref=e994]:
+                    - generic [ref=e996]:
+                      - link "S4 Japanese Banner 3.png" [ref=e997] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 3.png" [ref=e999]
+                      - generic [ref=e1000]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e1001] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e1002]
+                        - time [ref=e1004]: 12 hours ago
+                - button "Go to next slide" [ref=e1005] [cursor=pointer]:
+                  - img [ref=e1006]
+            - generic [ref=e1008]:
+              - iframe [ref=e1010]:
+                - link [ref=f356e3] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsutfs3qVtYtL2XvQrcSifEmNX-7PQS5uCBslVXhmCjqY3SPBA1LiOM1dvURE6WXHl59ET9vQjuTSCnxMEuHYlMGMyCB3cwTAhnonnoJy-Td0G3ZHojRdxfdzLqxX37fJQeHEqrxiC6pFInSCpEpdFYe7iMaBZGqYYU_HQ-bUaGWk6hVtQXuMUKEzJE5tJNsEucLKU21ML2iRMAgxTMrVebV_mEk6eQU8u3QEKzYYWPzTrYfv-Ucf4YI48a3CWbAgWGGBvY8--vIMuvOMLqjR1DHxeUY3uKqF5n9cJSajPqzjxr5eJhqQlux1OEQGplikjcBi94lnyTlQ92ue8tr1zMaDhDH58XFeLQXTBa5iZvhWfAwdlkUhNyHdJmWyoR3R10sIBqzZbJTdt7gosnBtIZDU1ny2wqZJl5qeGH1sm0fIo5oMAEJSRQN45YpektB75Ruv8H5g7qPilZ__ikETwnkXLXIu_mq4oqB5_aTU5xiRFQnI6OoeBuvVCSzQcRTQQ&sai=AMfl-YSfoNJqBjsNLguxTGuEpTIbN8yjNHBQmD8uGpkqfhjhBN8kWZzOhvRwHr-ngDdIBTjey71aEty4pMZkmvKE8Ss4zH3vN6qFnyjAM93SMH_lOi6PoBJ2Cn-AypQGwjMNupF-sYx79pQ4InDEqYGbdiTyaDNmN_z4_2VLjcAkHJv6z8AwFbPNEFwa7KHbXM1SVu-S4o7h0GWLFrGiGJOLLWUppV7uicjU3y5jqJWV-AadoXfnYAs_BpmNYgs-sRwnrUD5aXcFHVJ0ynvzKgDbLWuC39T83Pr_TloUnI7hCfkfhcoiJE4DM83up2ZcyCo1OzhhisqoUMofw6MFGCMNVj70gVhEJCn3Mw&sig=Cg0ArKJSzPeC6CeuI_a7EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.fanatical.com/en/?utm_source=fandom&utm_medium=display&utm_campaign=testing-skybox-takeovers&utm_content=300x250
+                  - img [ref=f356e4]
+              - generic [ref=e1011]: Advertisement
+            - generic [ref=e1012]:
+              - generic [ref=e1013]:
+                - link "S1 Royal Teeniepings Group Render 3" [ref=e1015] [cursor=pointer]:
+                  - /url: https://catchteenieping.fandom.com/f
+                  - img "S1 Royal Teeniepings Group Render 3" [ref=e1016]
+                - generic [ref=e1017]:
+                  - link "Join the discussion!" [ref=e1019] [cursor=pointer]:
+                    - /url: https://catchteenieping.fandom.com/f
+                  - text: Want to talk about something?
+                  - text: Check out the discussion feed!
+              - paragraph [ref=e1020]
+              - table [ref=e1021]:
+                - rowgroup [ref=e1022]:
+                  - row "Want to help this Wiki grow?" [ref=e1023]:
+                    - cell "Want to help this Wiki grow?" [ref=e1024]:
+                      - generic [ref=e1025]: Want to help this Wiki grow?
+                  - row "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e1026]:
+                    - cell "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e1027]:
+                      - generic [ref=e1028]:
+                        - figure [ref=e1029]:
+                          - link "Heartsping S2 Render 1" [ref=e1030] [cursor=pointer]:
+                            - /url: /wiki/Special:Random
+                            - img "Heartsping S2 Render 1" [ref=e1031]
+                        - paragraph [ref=e1032]:
+                          - text: We currently have 93 users editing 2,006 pages and 18,325 files.
+                          - text: The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the
+                          - link "Editing Guide" [ref=e1033] [cursor=pointer]:
+                            - /url: /wiki/Catch!_Teenieping_Wiki:Editing_Guide
+                          - text: . After reading, click the button below to get a random page to edit.
+                        - link "Contribute now!" [ref=e1035] [cursor=pointer]:
+                          - /url: /wiki/Special:Random
+                          - generic [ref=e1036]: Contribute now!
+            - generic [ref=e1038]:
+              - iframe [ref=e1040]:
+                - generic [active] [ref=f360e1]:
+                  - link "___" [ref=f360e2] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f360e9] [cursor=pointer]:
+                    - img [ref=f360e11]
+                    - generic [ref=f360e14]:
+                      - generic [ref=f360e15]:
+                        - generic "무료로 즐기는 오픈월드 액션 RPG" [ref=f360e17]
+                        - generic "연운는 웅장한 오픈월드 액션 어드벤처 RPG로, 고전 무협 세계를 생생하게 구현했습니다." [ref=f360e19]
+                      - generic [ref=f360e20]:
+                        - generic [ref=f360e21]:
+                          - generic [ref=f360e22]: "광고:"
+                          - generic [ref=f360e23]: NetEase Games
+                        - generic [ref=f360e26]: 자세히 보기
+                    - link [ref=f360e28]:
+                      - /url: https://privacy-center.sharethrough.com/en/consumer-privacy-notice/#4
+              - generic [ref=e1041]: Advertisement
+      - iframe [ref=e1045]:
+        - link [ref=f357e4] [cursor=pointer]:
+          - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuqEjPdogyAPMjZVDtnb9ycbTDehyk09csWO9iAO4z2ek5dKuGMvILEy3LGFnWvH9MXl4pz_vfO9232OC0VbCGhdGxAqqZxEnzFaaTNnbARtfPXBu50uIP245_ct01twS9YNUFJFO078hF-taSIKmHOlWAMV6u33zh6R1Zg5RIrZWR9GDbJL9apndFelP3tpA10sIQ3ZMhKrPOjU1bKIHTh5Y7f6pLYeOe6tuZqw8zLzY-poFqMU7B7OcuJKkMHDmyIiDinkHJD-1eN4k6bQTpUuhQWhWjFfttXHeI1KCq9MPsMYFIFhgv7Luk3oMwLdszl_pCLluqtzK8g00eGcWYwtEV_ifNlg4S2YdXUPsomGSG5jRTBjgOOgO4cbarQ5gtdTkRQgQY7LUjgZ4BrOJcCNDL7SkqhVd3hsDTrSKLpLhtpWAIBausEHYNdhXKtpPmeG3qwnsR9OgexDOcpHYwlDCweftKQNkp_8i4qF7taUulHOkcfyQY76cBjpID3j7P6JeqoBA&sai=AMfl-YRIGVH1Gy_dboHfsfw4kK9Vvr2gji8KU0Bh87eDLHKMRxkmA4paKKtgbG2k81Mf3oQmvm0IeS4yrp98FU4F_OjqBU2KEOBQJufpqNkTRPuSPe2ebgWs59HxxC-Z8kiSvoJ9HRtVs3t6fj9Eaiu2UvA5TEntMkd5e9LzEckS2PR1ogmbppHTGHiNZNgioDMgEBwwQIOXcRZdXxIsT0jrZHcNs64nlDetFgH3FptCDEURSdPxHV9A0veZYYQhvqSfn8glDCbqaFTpfu3ARXf8aClCcteCHj7JSsPZ7qVg5KdeHUQbCNuLtRU4uqwMGJBrVZrbnRPBfCVgJmex2OVIdHshN7OlVXKWWQ&sig=Cg0ArKJSzI8e-9PhngZwEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.fanatical.com/en/?utm_source=fandom&utm_medium=partner&utm_campaign=fanatical_evergreen&utm_content=evergreen_970x250
+          - img [ref=f357e5]
+    - contentinfo [ref=e1046]:
+      - generic [ref=e1047]:
+        - generic [ref=e1048]:
+          - heading "Fandom homepage" [level=2] [ref=e1049]:
+            - link "Fandom homepage" [ref=e1050] [cursor=pointer]:
+              - /url: https://www.fandom.com/
+              - img "Fandom logo" [ref=e1051]
+          - generic [ref=e1052]:
+            - heading "Explore properties" [level=3] [ref=e1053]
+            - list [ref=e1054]:
+              - listitem [ref=e1055]:
+                - link "Fandom" [ref=e1056] [cursor=pointer]:
+                  - /url: https://www.fandom.com/
+              - listitem [ref=e1057]:
+                - link "Fanatical" [ref=e1058] [cursor=pointer]:
+                  - /url: https://www.fanatical.com/
+              - listitem [ref=e1059]:
+                - link "GameSpot" [ref=e1060] [cursor=pointer]:
+                  - /url: https://www.gamespot.com/
+              - listitem [ref=e1061]:
+                - link "Metacritic" [ref=e1062] [cursor=pointer]:
+                  - /url: https://www.metacritic.com/
+              - listitem [ref=e1063]:
+                - link "TV Guide" [ref=e1064] [cursor=pointer]:
+                  - /url: https://www.tvguide.com/
+              - listitem [ref=e1065]:
+                - link "Honest Entertainment" [ref=e1066] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/screenjunkies
+          - generic [ref=e1067]:
+            - heading "Follow Us" [level=3] [ref=e1068]
+            - list [ref=e1069]:
+              - listitem [ref=e1070]:
+                - link "Follow Fandom on Facebook" [ref=e1071] [cursor=pointer]:
+                  - /url: https://www.facebook.com/getfandom
+                  - img [ref=e1072]
+              - listitem [ref=e1074]:
+                - link "Follow Fandom on Twitter" [ref=e1075] [cursor=pointer]:
+                  - /url: https://twitter.com/getfandom
+                  - img [ref=e1076]
+              - listitem [ref=e1078]:
+                - link "Follow Fandom on Youtube" [ref=e1079] [cursor=pointer]:
+                  - /url: https://www.youtube.com/fandomentertainment
+                  - img [ref=e1080]
+              - listitem [ref=e1082]:
+                - link "Follow Fandom on Instagram" [ref=e1083] [cursor=pointer]:
+                  - /url: https://www.instagram.com/getfandom/
+                  - img [ref=e1084]
+              - listitem [ref=e1086]:
+                - link "Follow Fandom on LinkedIn" [ref=e1087] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/157252
+                  - img [ref=e1088]
+        - generic [ref=e1091]:
+          - heading "Overview" [level=3] [ref=e1092]
+          - list [ref=e1093]:
+            - listitem [ref=e1094]:
+              - link "What is Fandom?" [ref=e1095] [cursor=pointer]:
+                - /url: https://www.fandom.com/what-is-fandom
+            - listitem [ref=e1096]:
+              - link "Essentials" [ref=e1097] [cursor=pointer]:
+                - /url: https://www.fandom.com/essentials
+            - listitem [ref=e1098]:
+              - link "About" [ref=e1099] [cursor=pointer]:
+                - /url: https://www.fandom.com/about
+            - listitem [ref=e1100]:
+              - link "Careers" [ref=e1101] [cursor=pointer]:
+                - /url: https://www.fandom.com/careers
+            - listitem [ref=e1102]:
+              - link "Press" [ref=e1103] [cursor=pointer]:
+                - /url: https://www.fandom.com/press
+            - listitem [ref=e1104]:
+              - link "Contact" [ref=e1105] [cursor=pointer]:
+                - /url: https://www.fandom.com/about#contact
+            - listitem [ref=e1106]:
+              - link "Terms of Use" [ref=e1107] [cursor=pointer]:
+                - /url: https://www.fandom.com/terms-of-use
+            - listitem [ref=e1108]:
+              - link "Privacy Policy" [ref=e1109] [cursor=pointer]:
+                - /url: https://www.fandom.com/privacy-policy
+            - listitem [ref=e1110]:
+              - link "Digital Services Act" [ref=e1111] [cursor=pointer]:
+                - /url: https://www.fandom.com/digital-services-act
+            - listitem [ref=e1112]:
+              - link "Global Sitemap" [ref=e1113] [cursor=pointer]:
+                - /url: //community.fandom.com/Sitemap
+            - listitem [ref=e1114]:
+              - link "Local Sitemap" [ref=e1115] [cursor=pointer]:
+                - /url: /wiki/Local_Sitemap
+            - listitem [ref=e1116]:
+              - button "Cookies Settings" [ref=e1117]
+        - generic [ref=e1118]:
+          - generic [ref=e1119]:
+            - heading "Community" [level=3] [ref=e1120]
+            - list [ref=e1121]:
+              - listitem [ref=e1122]:
+                - link "Community Central" [ref=e1123] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Community_Central
+              - listitem [ref=e1124]:
+                - link "Support" [ref=e1125] [cursor=pointer]:
+                  - /url: https://fandom.zendesk.com/
+              - listitem [ref=e1126]:
+                - link "Help" [ref=e1127] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Help:Contents
+          - generic [ref=e1128]:
+            - heading "Advertise" [level=3] [ref=e1129]
+            - list [ref=e1130]:
+              - listitem [ref=e1131]:
+                - link "Media Kit" [ref=e1132] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit
+              - listitem [ref=e1133]:
+                - link "Contact" [ref=e1134] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit#contact
+        - generic [ref=e1135]:
+          - generic [ref=e1136]:
+            - heading "Fandom Apps" [level=3] [ref=e1137]
+            - text: Take your favorite fandoms with you and never miss a beat.
+          - generic [ref=e1138]:
+            - img "Fandom App logo" [ref=e1139]
+            - list [ref=e1140]:
+              - listitem [ref=e1141]:
+                - link "Fandom's Apple Store" [ref=e1142] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/fandom-videos-news-reviews/id1230063803
+                  - img "Store icon" [ref=e1143]
+              - listitem [ref=e1144]:
+                - link "Fandom's Google Play" [ref=e1145] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.fandom.app&referrer=utm_source%3Dwikia%26utm_medium%3Dglobalfooter
+                  - img "Store icon" [ref=e1146]
+      - generic [ref=e1147]:
+        - generic [ref=e1148]: Catch! Teenieping Wiki is a Fandom TV Community.
+        - button "View Mobile Site" [ref=e1150]
+  - generic: Cookies Settings

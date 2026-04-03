@@ -1,0 +1,1109 @@
+- generic [active] [ref=e1]:
+  - navigation "Fandom top navigation" [ref=e2]:
+    - link "Fandom homepage" [ref=e3] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e4]
+    - generic [ref=e7]:
+      - textbox "Search" [ref=e8]
+      - img [ref=e9]
+    - generic [ref=e11]:
+      - link "Sign In" [ref=e13] [cursor=pointer]:
+        - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping&metadata=header-signin-button
+      - link "Create a Free Account" [ref=e15] [cursor=pointer]:
+        - /url: https://auth.fandom.com/register?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping&metadata=header-registration-button
+  - generic "Community navigation" [ref=e16]:
+    - link "Fandom homepage" [ref=e18] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e19]
+    - link "Catch! Teenieping Wiki" [ref=e21] [cursor=pointer]:
+      - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+      - img "Catch! Teenieping Wiki" [ref=e22]
+    - navigation [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - img [ref=e28]
+              - generic [ref=e30]: Explore
+            - img "Expand" [ref=e31]
+        - listitem [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e36] [cursor=pointer]: Media
+            - img "Expand" [ref=e37]
+        - listitem [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e42] [cursor=pointer]: Characters
+            - img "Expand" [ref=e43]
+        - listitem [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e48] [cursor=pointer]: Misc
+            - img "Expand" [ref=e49]
+        - listitem [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e54] [cursor=pointer]: Community
+            - img "Expand" [ref=e55]
+    - button "Open searchbar" [ref=e58] [cursor=pointer]:
+      - img [ref=e59]
+    - generic [ref=e61]:
+      - link "Discuss" [ref=e62] [cursor=pointer]:
+        - /url: /f
+        - img
+      - link "Switch to Dark Theme" [ref=e63] [cursor=pointer]:
+        - /url: "#"
+        - img
+    - link "Sign In" [ref=e66] [cursor=pointer]:
+      - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping&metadata=header-signin-button
+      - generic [ref=e67]:
+        - img
+        - text: Sign In
+  - generic [ref=e68]:
+    - navigation "Fandom navigation" [ref=e70]:
+      - generic [ref=e71]:
+        - link "Home" [ref=e74] [cursor=pointer]:
+          - /url: https://www.fandom.com/
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e79]: Home
+        - button "Explore" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - generic [ref=e87]: Explore
+        - link "Saved" [ref=e90] [cursor=pointer]:
+          - /url: https://www.fandom.com/saved
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - generic [ref=e95]: Saved
+        - link "Progress" [ref=e98] [cursor=pointer]:
+          - /url: https://www.fandom.com/progress
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e103]: Progress
+        - button "History" [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]:
+            - img [ref=e108]
+            - generic [ref=e110]: History
+    - navigation "Fandom navigation" [ref=e112]:
+      - button "More" [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - generic [ref=e119]: More
+  - generic [ref=e120]:
+    - generic [ref=e122]:
+      - iframe [ref=e125]:
+        - generic [active] [ref=f646e1]:
+          - link [ref=f646e3] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssxxDLrnAXZrHjl7Bsrxg4wKMfN68Bm7wr0knMmeaA6S_y63BZMAxVwopk-rfJwtXMbEF790QHeHTc0LtELMMxwxwXIjtKSyCfXcJ_FcBWOx1oqTUyF7Kx1M_0wgygCxczyvzi_D662qDghyTes9vG7qewYvKbtwg8cFAnjRUREtz9ogrCvShWIbQFrIKQk2Gu8BHrkzNRbgsxdwbQ-V80Z5YgbVc8ATJOTUjLjsmIqGpGNGOHQWhhe1Q_U6gpKikKQ-6sWtHf9ujcmmLvZ_xv7Lbw9DkroyWXGR--gRwQ-3W2t_h4ag7AecPFFuqhd1RiGQcRBXY4OqmIk-hYh-Mcw0H6AK9rqkBFRmfqNM7TLbMdZB7y6eRT6VRSQ4efC2djFCTo00LCOKh2RxRd7iohOBqQHw8oQ_FrCGPbdcXr-q2DcmQlg4hfR8GeUIZObAUQX1ZdznK_RgyTlPXffoBkAQGky6dcG5taA6Vea&sai=AMfl-YTNSiIscRerzm-2CO1pXhfVuVmTH4587PFpCXyj13Zk2zP1zm7c4OWjGKS62SNdt35lSkJNDSpr6XGQYYsyxeU82SWYkRLmBuSaiQXdPkLbUx64GV7cvKIa3RIv21xGNdvS-xhAwDJchr3OiDiSm89PnsOCBcsCXw9xz-nXA_Crk4JBX6FCaHmy0HdOHFNib8VudgP4bYGZJpX7h1UhI-rrLzwjhOTRsgWqUfkjTrDOoyM9nzbtl8yQ3dRShfR5Dy4NKQrCojvsFPmaP6rJf1lXdFCwLgbQClFQqh2RX_ot2dHFrccxAgIFpKhnnnxQjnkkpQfnrHLN5esGFGYPgchz4h42uYOfIQ&sig=Cg0ArKJSzB14x8HA9kcoEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://bts.fandom.com/f/p/4400000000000423844?utm_source=fandom&utm_medium=display&utm_campaign=BTS-01&utm_content=728x90
+            - img [ref=f646e4]
+          - iframe
+      - generic [ref=e126]: Advertisement
+    - generic [ref=e128]:
+      - link "Skip to content" [ref=e129] [cursor=pointer]:
+        - /url: "#page-header"
+      - banner [ref=e131]:
+        - link "Catch! Teenieping Wiki" [ref=e132] [cursor=pointer]:
+          - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - img "Catch! Teenieping Wiki" [ref=e133]
+        - generic [ref=e134]:
+          - link "Catch! Teenieping Wiki" [ref=e136] [cursor=pointer]:
+            - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - generic [ref=e137]:
+            - generic [ref=e138]: 2,004
+            - generic [ref=e139]: pages
+          - generic [ref=e140]:
+            - link "Discuss" [ref=e141] [cursor=pointer]:
+              - /url: /f
+              - img
+            - link "Switch to Dark Theme" [ref=e142] [cursor=pointer]:
+              - /url: "#"
+              - img
+        - navigation [ref=e143]:
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - generic [ref=e146]:
+                - generic [ref=e147] [cursor=pointer]:
+                  - img [ref=e148]
+                  - generic [ref=e150]: Explore
+                - img "Expand" [ref=e151]
+            - listitem [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e156] [cursor=pointer]: Media
+                - img "Expand" [ref=e157]
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e162] [cursor=pointer]: Characters
+                - img "Expand" [ref=e163]
+            - listitem [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e168] [cursor=pointer]: Misc
+                - img "Expand" [ref=e169]
+            - listitem [ref=e171]:
+              - generic [ref=e172]:
+                - generic [ref=e174] [cursor=pointer]: Community
+                - img "Expand" [ref=e175]
+      - generic [ref=e177]:
+        - main [ref=e178]:
+          - generic [ref=e180]:
+            - generic "Contents" [ref=e181]:
+              - button "Contents" [ref=e182] [cursor=pointer]:
+                - img [ref=e183]
+              - text: . . . . . . . . . . . . . . . . . . . .
+            - link "View source" [ref=e185] [cursor=pointer]:
+              - /url: /wiki/Chachaping?action=edit
+              - img [ref=e186]
+            - link "Sign In to Save" [ref=e188] [cursor=pointer]:
+              - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping&uselang=en&metadata=collections-save-button
+              - img [ref=e189]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - text: "in:"
+              - link "Star articles" [ref=e195] [cursor=pointer]:
+                - /url: /wiki/Category:Star_articles
+              - text: ","
+              - link "Characters" [ref=e196] [cursor=pointer]:
+                - /url: /wiki/Category:Characters
+              - text: ","
+              - link "Teeniepings" [ref=e197] [cursor=pointer]:
+                - /url: /wiki/Category:Teeniepings
+              - text: ","
+              - generic [ref=e198]: and 9 more
+            - generic [ref=e199]:
+              - heading "Chachaping" [level=1] [ref=e201]
+              - generic [ref=e202]:
+                - link "Comments" [ref=e203] [cursor=pointer]:
+                  - /url: "#articleComments"
+                  - generic [ref=e204]: "9"
+                  - img
+                - link "Sign In to Save" [ref=e205] [cursor=pointer]:
+                  - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping&uselang=en&metadata=collections-save-button
+                  - img
+                  - generic [ref=e206]: Save
+                - link "View source" [ref=e207] [cursor=pointer]:
+                  - /url: /wiki/Chachaping?action=edit
+                  - img
+                  - text: View source
+                - button "Page Tools" [ref=e209]:
+                  - img
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - strong [ref=e214]: Overview
+              - text: •
+              - link "Gallery" [ref=e215] [cursor=pointer]:
+                - /url: /wiki/Chachaping/Gallery
+            - generic [ref=e216]:
+              - figure [ref=e217]:
+                - img "Cheerupping Render 1" [ref=e219]
+              - generic [ref=e220]:
+                - generic [ref=e221]: You are reading a star article, Cheerup!
+                - text: This article is a
+                - link "star article" [ref=e222] [cursor=pointer]:
+                  - /url: /wiki/Category:Star_articles
+                - text: ", meaning that most sections have been filled adequately, following the wiki's guidelines: the page can therefore serve as an example of the wiki's standards. But of course, any edit, no matter its importance, is still welcome!"
+            - region [ref=e223]:
+              - heading "Chachaping" [level=2] [ref=e224]
+              - figure [ref=e225]:
+                - link "Chachaping Render 1 view image" [ref=e226] [cursor=pointer]:
+                  - /url: https://static.wikia.nocookie.net/catchteeniepin/images/7/7e/Chachaping_Render_1.png/revision/latest?cb=20260304171737
+                  - img "Chachaping Render 1" [ref=e227]
+                  - generic "view image" [ref=e230]:
+                    - img [ref=e231]
+              - table [ref=e234]:
+                - rowgroup [ref=e235]:
+                  - row "International names" [ref=e236]:
+                    - columnheader "International names" [ref=e237]
+                - rowgroup [ref=e238]:
+                  - row "Korean 차차핑 Chachaping Chinese 盼盼萌可 Pàn pàn méng kě Japan チャチャピン Chachapin Russian Чачапин Chachapin Indonesia Cachaping" [ref=e239]:
+                    - cell "Korean 차차핑 Chachaping Chinese 盼盼萌可 Pàn pàn méng kě Japan チャチャピン Chachapin Russian Чачапин Chachapin Indonesia Cachaping" [ref=e240]:
+                      - generic [ref=e241]:
+                        - figure "Korean" [ref=e242]:
+                          - generic "Korean" [ref=e243]:
+                            - img "Korean" [ref=e244]
+                        - paragraph [ref=e245]:
+                          - text: 차차핑
+                          - generic [ref=e246]: Chachaping
+                      - generic [ref=e247]:
+                        - figure "Chinese" [ref=e248]:
+                          - generic "Chinese" [ref=e249]:
+                            - img "Chinese" [ref=e250]
+                        - paragraph [ref=e251]:
+                          - text: 盼盼萌可
+                          - generic [ref=e252]: Pàn pàn méng kě
+                      - generic [ref=e253]:
+                        - figure "Japan" [ref=e254]:
+                          - generic "Japan" [ref=e255]:
+                            - img "Japan" [ref=e256]
+                        - paragraph [ref=e257]:
+                          - text: チャチャピン
+                          - generic [ref=e258]: Chachapin
+                      - generic [ref=e259]:
+                        - figure "Russian" [ref=e260]:
+                          - generic "Russian" [ref=e261]:
+                            - img "Russian" [ref=e262]
+                        - paragraph [ref=e263]:
+                          - text: Чачапин
+                          - generic [ref=e264]: Chachapin
+                      - generic [ref=e265]:
+                        - figure "Indonesia" [ref=e266]:
+                          - generic "Indonesia" [ref=e267]:
+                            - img "Indonesia" [ref=e268]
+                        - paragraph [ref=e269]: Cachaping
+              - generic [ref=e270]:
+                - heading "Info" [level=2] [ref=e271]
+                - generic [ref=e272]:
+                  - heading "Gender" [level=3] [ref=e273]
+                  - generic [ref=e274]: Female
+                - generic [ref=e275]:
+                  - heading "Species" [level=3] [ref=e276]
+                  - link "Royal Emotion Teenieping" [ref=e278] [cursor=pointer]:
+                    - /url: /wiki/Royal_Emotion_Teeniepings
+                - generic [ref=e279]:
+                  - heading "Alignment" [level=3] [ref=e280]
+                  - generic [ref=e281]: Good
+              - generic [ref=e282]:
+                - heading "Magic" [level=2] [ref=e283]
+                - generic [ref=e284]:
+                  - heading "Concept" [level=3] [ref=e285]
+                  - generic [ref=e286]: Hope
+                - generic [ref=e287]:
+                  - heading "Prop" [level=3] [ref=e288]
+                  - generic [ref=e289]: Watering can
+                - generic [ref=e290]:
+                  - heading "Abilities" [level=3] [ref=e291]
+                  - generic [ref=e292]:
+                    - text: Transform into Princess Clover with Romi
+                    - text: Sprinkle water to dispel any kind of magic (Water of Hope)
+                    - text: Grow
+                    - text: Make someone hopeful
+                    - text: Enchant objects
+                    - text: Merge her powers with another object by putting it in the watering can
+              - generic [ref=e293]:
+                - heading "Life" [level=2] [ref=e294]
+                - generic [ref=e295]:
+                  - heading "Residency" [level=3] [ref=e296]
+                  - generic [ref=e297]:
+                    - link "Emotions Kingdom" [ref=e298] [cursor=pointer]:
+                      - /url: /wiki/Emotions_Kingdom
+                    - text: (currently)
+                    - link "Teenieping House" [ref=e299] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_House
+                    - text: (formerly)
+                - generic [ref=e300]:
+                  - heading "Friends" [level=3] [ref=e301]
+                  - generic [ref=e302]:
+                    - link "Romi" [ref=e303] [cursor=pointer]:
+                      - /url: /wiki/Romi
+                    - link "Royal Teeniepings" [ref=e304] [cursor=pointer]:
+                      - /url: /wiki/Royal_Emotion_Teeniepings
+                - generic [ref=e305]:
+                  - heading "Enemies" [level=3] [ref=e306]
+                  - generic [ref=e307]:
+                    - link "Tweetping" [ref=e308] [cursor=pointer]:
+                      - /url: /wiki/Tweetping
+                    - link "Roarping" [ref=e309] [cursor=pointer]:
+                      - /url: /wiki/Roarping
+                    - text: (briefly)
+                - generic [ref=e310]:
+                  - heading "Likes" [level=3] [ref=e311]
+                  - generic [ref=e312]:
+                    - text: Caring for plants
+                    - text: Smelling flowers
+                - generic [ref=e313]:
+                  - heading "Dislikes" [level=3] [ref=e314]
+                  - generic [ref=e315]:
+                    - text: Bad actions
+                    - text: Sorrow
+                    - text: Plants dying
+                - generic [ref=e316]:
+                  - heading "Phrase" [level=3] [ref=e317]
+                  - generic [ref=e318]:
+                    - generic [ref=e319]:
+                      - figure "English" [ref=e320]:
+                        - generic "English" [ref=e321]:
+                          - img "English" [ref=e322]
+                      - paragraph [ref=e323]: Cha-cha!
+                    - generic [ref=e324]:
+                      - figure "Korean" [ref=e325]:
+                        - generic "Korean" [ref=e326]:
+                          - img "Korean" [ref=e327]
+                      - paragraph [ref=e328]:
+                        - text: 차차!
+                        - generic [ref=e329]: Cha-cha!
+                    - generic [ref=e330]:
+                      - figure "Chinese" [ref=e331]:
+                        - generic "Chinese" [ref=e332]:
+                          - img "Chinese" [ref=e333]
+                      - paragraph [ref=e334]:
+                        - text: 锵锵!
+                        - generic [ref=e335]: Qiāng qiāng!
+                    - generic [ref=e336]:
+                      - figure "Japan" [ref=e337]:
+                        - generic "Japan" [ref=e338]:
+                          - img "Japan" [ref=e339]
+                      - paragraph [ref=e340]:
+                        - text: チャチャ!
+                        - generic [ref=e341]: Chacha!
+                    - generic [ref=e342]:
+                      - figure "Russian" [ref=e343]:
+                        - generic "Russian" [ref=e344]:
+                          - img "Russian" [ref=e345]
+                      - paragraph [ref=e346]:
+                        - text: Ча-ча!
+                        - generic [ref=e347]: Cha-cha!
+              - generic [ref=e348]:
+                - heading "Broadcast" [level=2] [ref=e349]
+                - generic [ref=e350]:
+                  - heading "First episode" [level=3] [ref=e351]
+                  - link "Welcome, Dear Hope!" [ref=e353] [cursor=pointer]:
+                    - /url: /wiki/Welcome,_Dear_Hope!
+                - generic [ref=e354]:
+                  - heading "Voice actor" [level=3] [ref=e355]
+                  - generic [ref=e356]:
+                    - generic [ref=e357]:
+                      - figure "Korean" [ref=e358]:
+                        - generic "Korean" [ref=e359]:
+                          - img "Korean" [ref=e360]
+                      - paragraph [ref=e361]:
+                        - link "Lee Bo-Hee" [ref=e362] [cursor=pointer]:
+                          - /url: /wiki/Lee_Bo-Hee
+                    - generic [ref=e363]:
+                      - figure "English" [ref=e364]:
+                        - generic "English" [ref=e365]:
+                          - img "English" [ref=e366]
+                      - paragraph [ref=e367]:
+                        - link "Ximena Manzano" [ref=e368] [cursor=pointer]:
+                          - /url: /wiki/Ximena_Manzano
+                        - text: (Season 1)
+                        - link "Anna Paik" [ref=e369] [cursor=pointer]:
+                          - /url: /wiki/Anna_Paik
+                        - text: (Season 2)
+                    - generic [ref=e370]:
+                      - figure "Chinese" [ref=e371]:
+                        - generic "Chinese" [ref=e372]:
+                          - img "Chinese" [ref=e373]
+                      - paragraph [ref=e374]: Unknown
+                    - generic [ref=e375]:
+                      - figure "Japan" [ref=e376]:
+                        - generic "Japan" [ref=e377]:
+                          - img "Japan" [ref=e378]
+                      - paragraph [ref=e379]:
+                        - link "Ayumi Mano" [ref=e380] [cursor=pointer]:
+                          - /url: /wiki/Ayumi_Mano
+                    - generic [ref=e381]:
+                      - figure "Vietnamese" [ref=e382]:
+                        - generic "Vietnamese" [ref=e383]:
+                          - img "Vietnamese" [ref=e384]
+                      - paragraph [ref=e385]: Unknown
+            - table [ref=e386]:
+              - rowgroup [ref=e387]:
+                - row "“ Okay, then, let Chachaping give you some hope, Cha-cha. ”" [ref=e388]:
+                  - cell "“" [ref=e389]
+                  - cell "Okay, then, let Chachaping give you some hope, Cha-cha." [ref=e390]
+                  - cell "”" [ref=e391]
+                - row "— Chachaping talking to a growing bud in \"Welcome, Dear Hope!\"" [ref=e392]:
+                  - cell "— Chachaping talking to a growing bud in \"Welcome, Dear Hope!\"" [ref=e393]:
+                    - paragraph [ref=e394]:
+                      - generic [ref=e395]:
+                        - text: — Chachaping talking to a growing bud in "
+                        - link "Welcome, Dear Hope!" [ref=e396] [cursor=pointer]:
+                          - /url: /wiki/Welcome,_Dear_Hope!
+                        - text: "\""
+            - paragraph [ref=e397]:
+              - text: Chachaping is the
+              - link "Royal Emotion Teenieping" [ref=e398] [cursor=pointer]:
+                - /url: /wiki/Royal_Emotion_Teeniepings
+              - text: of hope. She appears as one of the main
+              - link "Teeniepings" [ref=e399] [cursor=pointer]:
+                - /url: /wiki/Teeniepings
+              - text: of
+              - link "Catch! Teenieping" [ref=e401] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(season)
+              - text: ", as she accompanies Romi throughout her mission."
+            - paragraph [ref=e402]:
+              - text: A calm and optimistic Teenieping, she always looks at the bright side of life, even when it gets hard. She debuts in "
+              - link "Welcome, Dear Hope!" [ref=e403] [cursor=pointer]:
+                - /url: /wiki/Welcome,_Dear_Hope!
+              - text: "\""
+            - navigation "Contents" [ref=e404]:
+              - button "show" [ref=e405]
+              - generic [ref=e406]:
+                - heading "Contents" [level=2] [ref=e407]:
+                  - img [ref=e408]
+                  - text: Contents
+                - generic [ref=e410]:
+                  - text: "["
+                  - generic "show" [ref=e411] [cursor=pointer]: hide
+                  - text: "]"
+              - list [ref=e412]:
+                - listitem [ref=e413]:
+                  - link "1. Appearance" [ref=e414] [cursor=pointer]:
+                    - /url: "#Appearance"
+                    - generic [ref=e415]: "1."
+                    - generic [ref=e416]: Appearance
+                - listitem [ref=e417]:
+                  - link "2. Personality" [ref=e418] [cursor=pointer]:
+                    - /url: "#Personality"
+                    - generic [ref=e419]: "2."
+                    - generic [ref=e420]: Personality
+                - listitem [ref=e421]:
+                  - link "3. Etymology" [ref=e422] [cursor=pointer]:
+                    - /url: "#Etymology"
+                    - generic [ref=e423]: "3."
+                    - generic [ref=e424]: Etymology
+                - listitem [ref=e425]:
+                  - link "4. Magic" [ref=e426] [cursor=pointer]:
+                    - /url: "#Magic"
+                    - generic [ref=e427]: "4."
+                    - generic [ref=e428]: Magic
+                  - list [ref=e429]:
+                    - listitem [ref=e430]:
+                      - link "4.1. Transformation" [ref=e431] [cursor=pointer]:
+                        - /url: "#Transformation"
+                        - generic [ref=e432]: 4.1.
+                        - generic [ref=e433]: Transformation
+                    - listitem [ref=e434]:
+                      - link "4.2. Tinkle Puff" [ref=e435] [cursor=pointer]:
+                        - /url: "#Tinkle_Puff"
+                        - generic [ref=e436]: 4.2.
+                        - generic [ref=e437]: Tinkle Puff
+                - listitem [ref=e438]:
+                  - link "5. History" [ref=e439] [cursor=pointer]:
+                    - /url: "#History"
+                    - generic [ref=e440]: "5."
+                    - generic [ref=e441]: History
+                  - list [ref=e442]:
+                    - listitem [ref=e443]:
+                      - link "5.1. Past" [ref=e444] [cursor=pointer]:
+                        - /url: "#Past"
+                        - generic [ref=e445]: 5.1.
+                        - generic [ref=e446]: Past
+                    - listitem [ref=e447]:
+                      - link "5.2. Catch! Teenieping" [ref=e448] [cursor=pointer]:
+                        - /url: "#Catch!_Teenieping"
+                        - generic [ref=e449]: 5.2.
+                        - generic [ref=e450]: Catch! Teenieping
+                      - list [ref=e451]:
+                        - listitem [ref=e452]:
+                          - link "5.2.1. Welcome, Dear Hope!" [ref=e453] [cursor=pointer]:
+                            - /url: "#Welcome,_Dear_Hope!"
+                            - generic [ref=e454]: 5.2.1.
+                            - generic [ref=e455]: Welcome, Dear Hope!
+                        - listitem [ref=e456]:
+                          - link "5.2.2. What Does a Tear Candy Taste Like?" [ref=e457] [cursor=pointer]:
+                            - /url: "#What_Does_a_Tear_Candy_Taste_Like?"
+                            - generic [ref=e458]: 5.2.2.
+                            - generic [ref=e459]: What Does a Tear Candy Taste Like?
+                        - listitem [ref=e460]:
+                          - link "5.2.3. Gonna Tweet It All!" [ref=e461] [cursor=pointer]:
+                            - /url: "#Gonna_Tweet_It_All!"
+                            - generic [ref=e462]: 5.2.3.
+                            - generic [ref=e463]: Gonna Tweet It All!
+                        - listitem [ref=e464]:
+                          - link "5.2.4. Angry Roarping" [ref=e465] [cursor=pointer]:
+                            - /url: "#Angry_Roarping"
+                            - generic [ref=e466]: 5.2.4.
+                            - generic [ref=e467]: Angry Roarping
+                        - listitem [ref=e468]:
+                          - link "5.2.5. Too Cold, Coolping!" [ref=e469] [cursor=pointer]:
+                            - /url: "#Too_Cold,_Coolping!"
+                            - generic [ref=e470]: 5.2.5.
+                            - generic [ref=e471]: Too Cold, Coolping!
+                    - listitem [ref=e472]:
+                      - link "5.3. Twinkle Catch! Teenieping" [ref=e473] [cursor=pointer]:
+                        - /url: "#Twinkle_Catch!_Teenieping"
+                        - generic [ref=e474]: 5.3.
+                        - generic [ref=e475]: Twinkle Catch! Teenieping
+                      - list [ref=e476]:
+                        - listitem [ref=e477]:
+                          - link "5.3.1. Twinkle Twinkle, Jewel Teeniepings" [ref=e478] [cursor=pointer]:
+                            - /url: "#Twinkle_Twinkle,_Jewel_Teeniepings"
+                            - generic [ref=e479]: 5.3.1.
+                            - generic [ref=e480]: Twinkle Twinkle, Jewel Teeniepings
+                        - listitem [ref=e481]:
+                          - link "5.3.2. Royal Teenieping Face-Off!" [ref=e482] [cursor=pointer]:
+                            - /url: "#Royal_Teenieping_Face-Off!"
+                            - generic [ref=e483]: 5.3.2.
+                            - generic [ref=e484]: Royal Teenieping Face-Off!
+                        - listitem [ref=e485]:
+                          - link "5.3.3. Teenieping School Graduation" [ref=e486] [cursor=pointer]:
+                            - /url: "#Teenieping_School_Graduation"
+                            - generic [ref=e487]: 5.3.3.
+                            - generic [ref=e488]: Teenieping School Graduation
+                - listitem [ref=e489]:
+                  - link "6. Trivia" [ref=e490] [cursor=pointer]:
+                    - /url: "#Trivia"
+                    - generic [ref=e491]: "6."
+                    - generic [ref=e492]: Trivia
+                - listitem [ref=e493]:
+                  - link "7. Gallery" [ref=e494] [cursor=pointer]:
+                    - /url: "#Gallery"
+                    - generic [ref=e495]: "7."
+                    - generic [ref=e496]: Gallery
+            - heading "Appearance Sign in to edit" [level=2] [ref=e497]:
+              - text: Appearance
+              - link "Sign in to edit" [ref=e499] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D1&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e500]
+            - figure "Chachaping's Appearance" [ref=e502]:
+              - link "Chachaping's Appearance view image" [ref=e503] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/7/73/Chachaping_Render_2.png/revision/latest?cb=20260218202404
+                - img "Chachaping's Appearance" [ref=e504]
+                - generic "view image" [ref=e507]:
+                  - img [ref=e508]
+              - paragraph [ref=e511]: Chachaping's Appearance
+            - paragraph [ref=e512]: Chachaping is a green nature-themed Teenieping.
+            - paragraph [ref=e513]: She has a light green body, a green collar with a round golden badge on it, and a white underbelly with the golden Royal Teenieping symbol. She has long eyelashes with blue irises in her eyes.
+            - paragraph [ref=e514]: She has a green hair tuft with a pigtail, two four-leaf-clover headpieces, and a short, fluffy, fox-like tail with a yellow-green tip.
+            - paragraph [ref=e515]: Her prop is an lime-green watering can with a clover symbol on it.
+            - heading "Personality Sign in to edit" [level=2] [ref=e516]:
+              - text: Personality
+              - link "Sign in to edit" [ref=e518] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D2&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e519]
+            - figure "Chachaping pleading Romi" [ref=e521]:
+              - link "Chachaping pleading view image" [ref=e522] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/9c/S1E20_-_Chachaping_wants_Romi_to_let_her_sleep_with_her.webp/revision/latest?cb=20250222131822
+                - img "Chachaping pleading" [ref=e523]
+                - generic "view image" [ref=e526]:
+                  - img [ref=e527]
+              - paragraph [ref=e530]:
+                - text: Chachaping pleading
+                - link "Romi" [ref=e531] [cursor=pointer]:
+                  - /url: /wiki/Romi
+            - paragraph [ref=e532]: Chachaping is relaxed, calm, and optimistic. She loves taking care of nature - flowers in particular - and remains hopeful when there are difficulties.
+            - paragraph [ref=e533]: However, she has shown to have a fiery side whenever someone does something to anger her, like damaging flowers or embarrassing her.
+            - heading "Etymology Sign in to edit" [level=2] [ref=e534]:
+              - text: Etymology
+              - link "Sign in to edit" [ref=e536] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D3&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e537]
+            - list [ref=e539]:
+              - listitem [ref=e540]: The Korean name 차차핑 ("Chachaping") comes from 차차하다 ("Chachahada"), which means slowly or gradually.
+              - listitem [ref=e541]: The Chinese name 盼盼萌可 ("Pàn pàn méng kě") comes from 盼 ("Pàn"), which if used by itself can mean to expect or to look forward to. When used as 盼望 ("Pànwàng"), it can also mean to hope.
+            - heading "Magic Sign in to edit" [level=2] [ref=e542]:
+              - text: Magic
+              - link "Sign in to edit" [ref=e544] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D4&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e545]
+            - heading "Transformation Sign in to edit" [level=3] [ref=e547]:
+              - text: Transformation
+              - link "Sign in to edit" [ref=e549] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D5&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e550]
+            - figure "Romi transformed as Princess Clover" [ref=e552]:
+              - link "Romi transformed as Princess Clover view image" [ref=e553] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/d5/S1_-_Princess_Clover_pose.png/revision/latest?cb=20250315232657
+                - img "Romi transformed as Princess Clover" [ref=e554]
+                - generic "view image" [ref=e557]:
+                  - img [ref=e558]
+              - paragraph [ref=e561]: Romi transformed as Princess Clover
+            - paragraph [ref=e562]:
+              - text: Like her
+              - link "Royal Teenieping comrades" [ref=e563] [cursor=pointer]:
+                - /url: /wiki/Royal_Teeniepings
+              - text: ", by kissing Romi, Chachaping can help her transform into a magical princess. She can transform Romi into"
+              - link "Princess Clover" [ref=e565] [cursor=pointer]:
+                - /url: /wiki/Princesses
+              - text: .
+            - heading "Tinkle Puff Sign in to edit" [level=3] [ref=e566]:
+              - link "Tinkle Puff" [ref=e568] [cursor=pointer]:
+                - /url: /wiki/Tinkle_Puff
+              - link "Sign in to edit" [ref=e570] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D6&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e571]
+            - figure "Chachaping using her power" [ref=e573]:
+              - link "Chachaping using her power view image" [ref=e574] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/c/cd/S1E09_-_Chachaping_power.png/revision/latest?cb=20211105164942
+                - img "Chachaping using her power" [ref=e575]
+                - generic "view image" [ref=e578]:
+                  - img [ref=e579]
+              - paragraph [ref=e582]: Chachaping using her power
+            - paragraph [ref=e583]: With her watering can, Chachaping can sprinkle Tinkle Puff - called the Water of Hope - that can sprinkle water to dispel different kinds of magic, like enchanting objects, and make plants grow.
+            - figure "Roarping's prop being larger" [ref=e584]:
+              - link "'s prop being larger view image" [ref=e585] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/c/c4/S1E23_-_Chachaping_magic_giant_prop.png/revision/latest?cb=20211105165055
+                - img "'s prop being larger" [ref=e586]
+                - generic "view image" [ref=e589]:
+                  - img [ref=e590]
+              - paragraph [ref=e593]:
+                - link "Roarping" [ref=e594] [cursor=pointer]:
+                  - /url: /wiki/Roarping
+                - text: "'s prop being larger"
+            - paragraph [ref=e595]: Uniquely, she can also use another Teenieping's prop to merge its effects with her own magic.
+            - heading "History Sign in to edit" [level=2] [ref=e596]:
+              - text: History
+              - link "Sign in to edit" [ref=e598] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D7&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e599]
+            - heading "Past Sign in to edit" [level=3] [ref=e601]:
+              - text: Past
+              - link "Sign in to edit" [ref=e603] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D8&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e604]
+            - paragraph [ref=e606]: At some point in her life, Chachaping becomes a Royal Teenieping, alongside her Royal Emotion Teenieping comrades. She then becomes one of the Teeniepings released to Earth from the Cube Chamber.
+            - heading "Catch! Teenieping Sign in to edit" [level=3] [ref=e607]:
+              - link "Catch! Teenieping" [ref=e609] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(season)
+              - link "Sign in to edit" [ref=e611] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D9&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e612]
+            - heading "Welcome, Dear Hope! Sign in to edit" [level=4] [ref=e614]:
+              - link "Welcome, Dear Hope!" [ref=e616] [cursor=pointer]:
+                - /url: /wiki/Welcome,_Dear_Hope!
+              - link "Sign in to edit" [ref=e618] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D10&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e619]
+            - figure "Chachaping watering a flower" [ref=e621]:
+              - link "Chachaping watering a flower view image" [ref=e622] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/bd/S1E09_-_Chachaping_taking_care_of_flower.png/revision/latest?cb=20250303110302
+                - img "Chachaping watering a flower" [ref=e623]
+                - generic "view image" [ref=e626]:
+                  - img [ref=e627]
+              - paragraph [ref=e630]: Chachaping watering a flower
+            - paragraph [ref=e631]: As Chachaping tries to find Romi, she is watering plants with her watering can. While Romi and Heartsping try to think up of ways to help Maya find a four-leaf clover, they find Chachaping and reunite with her, who admits that she had missed Romi, but had hope that they'd meet again.
+            - figure "Romi happy to find Chachaping" [ref=e632]:
+              - link "happy to find Chachaping view image" [ref=e633] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/04/S1E09_-_Romi_happy_to_find_Chachaping.png/revision/latest?cb=20250303231021
+                - img "happy to find Chachaping" [ref=e634]
+                - generic "view image" [ref=e637]:
+                  - img [ref=e638]
+              - paragraph [ref=e641]:
+                - link "Romi" [ref=e642] [cursor=pointer]:
+                  - /url: /wiki/Romi
+                - text: happy to find Chachaping
+            - paragraph [ref=e643]:
+              - text: She's recruited by Romi and Heartsping into Maya's
+              - link "flower shop" [ref=e644] [cursor=pointer]:
+                - /url: /wiki/Harmony_Town_Flower_Shop
+              - text: to help her grow the flowers after they appear to be wilting, and Maya's mom is unable to take care of them. She uses her Tinkle Puff to help enchant the flowers, which she says takes time. But one of the flower's pots contains a four-leaf clover, which gives Maya's mom hope that she can take care of the shop again.
+            - heading "What Does a Tear Candy Taste Like? Sign in to edit" [level=4] [ref=e645]:
+              - link "What Does a Tear Candy Taste Like?" [ref=e647] [cursor=pointer]:
+                - /url: /wiki/What_Does_a_Tear_Candy_Taste_Like%3F
+              - link "Sign in to edit" [ref=e649] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D11&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e650]
+            - figure "Chachaping with Heartsping identifying Weeping" [ref=e652]:
+              - link "Chachaping with identifying view image" [ref=e653] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/6/69/S1E10_-_hand_to_identify_Teenieping.png/revision/latest?cb=20211023130728
+                - img "Chachaping with identifying" [ref=e654]
+                - generic "view image" [ref=e657]:
+                  - img [ref=e658]
+              - paragraph [ref=e661]:
+                - text: Chachaping with
+                - link "Heartsping" [ref=e662] [cursor=pointer]:
+                  - /url: /wiki/Heartsping
+                - text: identifying
+                - link "Weeping" [ref=e663] [cursor=pointer]:
+                  - /url: /wiki/Weeping
+            - paragraph [ref=e664]:
+              - text: As Heartsping and Chachaping try to comfort Romi once she finds out that Sarah might be homesick, the three girls encounter
+              - link "Weeping" [ref=e665] [cursor=pointer]:
+                - /url: /wiki/Weeping
+              - text: . She encourages Romi to cheer up and transform with her into Princess Clover for the first time. After Weeping traps her in a giant bubble due to the effects of her tear candies, Chachaping and Heartsping free Romi, but it causes her to cry profusely, causing multiple tear candies to fall out.
+            - paragraph [ref=e666]: Chachaping uses the Water of Hope to stop the effects, and tells Romi that the effects of Weeping's Tinkle Puff have worked against her, and she has now become trapped in a bubble. Romi uses her magic to free her and catch Weeping.
+            - heading "Gonna Tweet It All! Sign in to edit" [level=4] [ref=e667]:
+              - link "Gonna Tweet It All!" [ref=e669] [cursor=pointer]:
+                - /url: /wiki/Gonna_Tweet_It_All!
+              - link "Sign in to edit" [ref=e671] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D12&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e672]
+            - figure "Chachaping wrapped in a blanket" [ref=e674]:
+              - link "Chachaping wrapped in a blanket view image" [ref=e675] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/bd/S1E20_-_Chachaping_covered.png/revision/latest?cb=20210926063945
+                - img "Chachaping wrapped in a blanket" [ref=e676]
+                - generic "view image" [ref=e679]:
+                  - img [ref=e680]
+              - paragraph [ref=e683]: Chachaping wrapped in a blanket
+            - paragraph [ref=e684]: Chachaping asks Romi if she can sleep in her bed for one night, which Romi allows. However, in a dream, Chachaping finds herself in the bathroom. She inadvertently winds up wetting the bed in real time to her and Romi's surprise. She pleads Romi to keep it a secret, which they do, but Tweetping winds up over-hearing this and shouts about it to the other Royal Emotion Teeniepings while they're asleep.
+            - paragraph [ref=e685]: When they both wake up, Chachaping is upset with Romi, thinking that she had told the other Royal Emotion Teeniepings, who tease her for wetting the bed. But when they find out it's the work of Tweetping, and he's been causing more chaos at school - including learning that Tweetping is going to tell everyone a big secret, which Romi assumes is about her double-identity as both a student and a princess from a magical kingdom - they work together with Heartsping to catch him.
+            - figure "Chachaping taking revenge on Tweetping" [ref=e686]:
+              - link "Chachaping taking revenge on view image" [ref=e687] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/4/40/S1E20_-_Chachaping_wants_revenge_on_Tweetping.png/revision/latest?cb=20210926063954
+                - img "Chachaping taking revenge on" [ref=e688]
+                - generic "view image" [ref=e691]:
+                  - img [ref=e692]
+              - paragraph [ref=e695]:
+                - text: Chachaping taking revenge on
+                - link "Tweetping" [ref=e696] [cursor=pointer]:
+                  - /url: /wiki/Tweetping
+            - paragraph [ref=e697]: Chachaping uses her magic to cover up Tweetping's megaphone when he tries to let other secrets slip, and is sent into a rage when Tweetping tries to shout some more, causing a thundercloud to appear.
+            - paragraph [ref=e698]: Tweetping goes into hiding in a bin on the outside of the school, but is convinced to come out by Romi after she presses him enough to make him spoil where he's hiding, causing Chachaping to open the bin and attack him.
+            - paragraph [ref=e699]: This allows Romi to catch Tweetping, as she, Heartsping and Romi find out the real secret he was going to tell was that Romi forgot to wash her bedsheets after Chachaping wet them. Chachaping begs Romi not to tell Sarah about the incident, which Romi is able to cover up.
+            - heading "Angry Roarping Sign in to edit" [level=4] [ref=e700]:
+              - link "Angry Roarping" [ref=e702] [cursor=pointer]:
+                - /url: /wiki/Angry_Roarping
+              - link "Sign in to edit" [ref=e704] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D13&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e705]
+            - paragraph [ref=e707]: Chachaping notices that the flowers of Harmony Town are all wilted, and starts to get concerned. When she notices that it was the work of Roarping, she gets angry and demands to transform with Romi to sort out this debacle. This doesn't wind up working, as it only makes Roarping get angrier and pursues Marylou's bike - the source of his anger.
+            - figure "Chachaping using Blankping's eraser" [ref=e708]:
+              - link "Chachaping using 's eraser view image" [ref=e709] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/93/S1E23_-_Chachaping_using_Blankping_eraser.png/revision/latest?cb=20210926064036
+                - img "Chachaping using 's eraser" [ref=e710]
+                - generic "view image" [ref=e713]:
+                  - img [ref=e714]
+              - paragraph [ref=e717]:
+                - text: Chachaping using
+                - link "Blankping" [ref=e718] [cursor=pointer]:
+                  - /url: /wiki/Blankping
+                - text: "'s eraser"
+            - paragraph [ref=e719]: In an attempt to stop him, Chachaping uses Blankping's eraser (after he stumbles and uses magic on himself, causing him to forget why he was summoned initally), and combines it with her Water of Hope to calm Roarping down and make him forget what he was angry about, allowing him to be caught by Romi.
+            - heading "Too Cold, Coolping! Sign in to edit" [level=4] [ref=e720]:
+              - link "Too Cold, Coolping!" [ref=e722] [cursor=pointer]:
+                - /url: /wiki/Too_Cold,_Coolping!
+              - link "Sign in to edit" [ref=e724] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D14&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e725]
+            - figure "Chachaping and Dadaping ice skating" [ref=e727]:
+              - link "Chachaping and ice skating view image" [ref=e728] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/92/S1E28_-_Chachaping_Dadaping_skatting.png/revision/latest?cb=20210925072600
+                - img "Chachaping and ice skating" [ref=e729]
+                - generic "view image" [ref=e732]:
+                  - img [ref=e733]
+              - paragraph [ref=e736]:
+                - text: Chachaping and
+                - link "Dadaping" [ref=e737] [cursor=pointer]:
+                  - /url: /wiki/Dadaping
+                - text: ice skating
+            - paragraph [ref=e738]: "While chasing down Coolping, Chachaping comes up with an idea: she uses her watering can on the other Royal Emotion Teeniepings' feet to use as ice skates to navigate an ice floor created by Coolping and a spilt bucket. She's able to catch Coolping and spin him around, dizzying him so that Romi can catch him."
+            - heading "Twinkle Catch! Teenieping Sign in to edit" [level=3] [ref=e739]:
+              - link "Twinkle Catch! Teenieping" [ref=e742] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Catch!_Teenieping
+              - link "Sign in to edit" [ref=e744] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D15&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e745]
+            - paragraph [ref=e747]:
+              - text: After all of the
+              - link "Emotion Teeniepings" [ref=e748] [cursor=pointer]:
+                - /url: /wiki/Emotion_Teeniepings
+              - text: are caught, Chachaping returns to the Emotions Kingdom along with the other Royal Emotion Teeniepings (except for Heartsping) to resume her role as a teacher at the Royal Teenieping School.
+            - heading "Twinkle Twinkle, Jewel Teeniepings Sign in to edit" [level=4] [ref=e749]:
+              - link "Twinkle Twinkle, Jewel Teeniepings" [ref=e751] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Twinkle,_Jewel_Teeniepings
+              - link "Sign in to edit" [ref=e753] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D16&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e754]
+            - paragraph [ref=e756]:
+              - text: Chachaping and Lalaping alert
+              - link "Dr. Monziu" [ref=e757] [cursor=pointer]:
+                - /url: /wiki/Dr._Monziu
+              - text: "- as he’s trying to introduce Romi’s new magical tools after overhearing the Jewel Forest crisis - that the Jewel Heart Wing Phone has gone missing. When they search the"
+              - link "Emotions Kingdom" [ref=e758] [cursor=pointer]:
+                - /url: /wiki/Emotions_Kingdom
+              - text: for the culprit, they find the Royal Teenieping students have stolen the Phone and are leaving in the Teenieping Bus.
+            - heading "Royal Teenieping Face-Off! Sign in to edit" [level=4] [ref=e759]:
+              - link "Royal Teenieping Face-Off!" [ref=e761] [cursor=pointer]:
+                - /url: /wiki/Royal_Teenieping_Face-Off!
+              - link "Sign in to edit" [ref=e763] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D17&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e764]
+            - paragraph [ref=e766]:
+              - text: Chachaping and the other Royal Emotion Teeniepings (except for
+              - link "Happying" [ref=e767] [cursor=pointer]:
+                - /url: /wiki/Happying
+              - text: ) arrive at
+              - link "Heartrose Bakery" [ref=e768] [cursor=pointer]:
+                - /url: /wiki/Heartrose_Bakery
+              - text: to challenge the student Royal Teeniepings to a duel upon realizing their progress in catching the Jewel Teeniepings has been lackluster. She hosts the competition, while Dadaping, Gogoping, and Lalaping challenge them, clarifying what each game they play is testing.
+            - heading "Teenieping School Graduation Sign in to edit" [level=4] [ref=e769]:
+              - link "Teenieping School Graduation" [ref=e771] [cursor=pointer]:
+                - /url: /wiki/Teenieping_School_Graduation
+              - link "Sign in to edit" [ref=e773] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D18&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e774]
+            - paragraph [ref=e776]: Chachaping and the other Royal Emotion Teeniepings (except for Happying) arrive to the bakery to watch the graduation of the Jewel Teeniepings.
+            - heading "Trivia Sign in to edit" [level=2] [ref=e777]:
+              - text: Trivia
+              - link "Sign in to edit" [ref=e779] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D19&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e780]
+            - list [ref=e782]:
+              - listitem [ref=e783]:
+                - text: Chachaping is the second Teenieping to not be caught by Romi, but still join her anyway.
+                - list [ref=e784]:
+                  - listitem [ref=e785]: She is also the first female Teenieping to do this.
+              - listitem [ref=e786]:
+                - text: Chachaping is the first green Royal Teenieping, followed by
+                - link "Sparkleping" [ref=e787] [cursor=pointer]:
+                  - /url: /wiki/Sparkleping
+                - text: and
+                - link "Bonnyping" [ref=e788] [cursor=pointer]:
+                  - /url: /wiki/Bonnyping
+                - text: .
+              - listitem [ref=e789]:
+                - text: According to the
+                - link "Magic Catcher toy" [ref=e790] [cursor=pointer]:
+                  - /url: /wiki/Magic_Catcher/Merchandise
+                - text: ", Chachaping's QR variable name is \"Fairy 05\"."
+            - heading "Gallery Sign in to edit" [level=2] [ref=e791]:
+              - text: Gallery
+              - link "Sign in to edit" [ref=e793] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fveaction%3Dedit%26section%3D20&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e794]
+            - figure [ref=e796]:
+              - link "Check the gallery page" [ref=e797] [cursor=pointer]:
+                - /url: /wiki/Chachaping/Gallery
+                - img "Check the gallery page" [ref=e798]
+            - paragraph [ref=e799]
+            - table [ref=e800]:
+              - rowgroup [ref=e801]:
+                - row "Characters ▼" [ref=e802]:
+                  - cell "Characters ▼" [ref=e803]:
+                    - generic [ref=e804] [cursor=pointer]: Characters ▼
+          - generic [ref=e805]:
+            - generic "Toggle Categories" [ref=e806]:
+              - generic [ref=e807] [cursor=pointer]:
+                - text: Categories
+                - img [ref=e808]
+            - generic [ref=e810]:
+              - text: Community content is available under
+              - link "CC-BY-SA" [ref=e811] [cursor=pointer]:
+                - /url: https://www.fandom.com/licensing
+              - text: unless otherwise noted.
+            - generic [ref=e814]:
+              - paragraph [ref=e817]: 9 Comments
+              - generic [ref=e818]:
+                - img [ref=e820]
+                - heading "Join the conversation" [level=3] [ref=e822]
+                - heading "Sign in to read what others are saying and share your thoughts." [level=4] [ref=e823]
+                - link "SIGN IN" [ref=e824] [cursor=pointer]:
+                  - /url: /login?metadata=anonymous-article-comments-login-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fanon-comments-auth-source%3Dlogin%23articleComments
+                - paragraph [ref=e825]:
+                  - text: Don't have account?
+                  - link "Register now" [ref=e826] [cursor=pointer]:
+                    - /url: /register?metadata=anonymous-article-comments-register-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FChachaping%3Fanon-comments-auth-source%3Dregister%23articleComments
+        - complementary [ref=e827]:
+          - generic [ref=e828]:
+            - generic [ref=e830]:
+              - iframe [ref=e832]:
+                - generic [active] [ref=f648e1]:
+                  - link [ref=f648e3] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstWMMbe20YPamf59hWqBf7luMaTEOu-tsRtJsKpg52bM8L7X6rbZ77wWXBwp8fueudu8cF38v3CxZ5WZA5OhPW-tll6646K079IzX-3ml1sTgFq1TgzvzDQXyMRgBAce3uWNlICGZccwVI921Msf846AFw0h64oEj95F-FjRF1_9Ys6j5So_5P_R1koyeWrEKBmh85io15RPr0uDUQk9zboxu8JPvmsOc-1oRi4cWShKy5A3VY_HZao9Rzbm-fg0vHHgtVhKyWHzswP1y18C7I3XBK4tlk1MikS3yceJW-6ur4RRA8Chn2ggvoHZ5skE5YmFx3NG3UAHf97Zgdzx5hEm-MANotQCByC3veVBsb870xj2lgJod2zQpviWWFAHuzdmWSmKPmZI3Hm9XzRjciZoafvJZUb1rkWBnW0Zto44JbwTZDGfXx5D7W-TxqQVVT1Nrt6-O05lqsNNZJ-joe09moSkBztMQ&sai=AMfl-YRw0iw7fbFI9WTxEIEatz6cc1y9I1AMOtBFYq4xpkcHSXvgPkgh2eHrIWaqxD7V2_q2wrKYAjA3yhhVHBA1t4IBQ32hOJBblDTC-sfPFmWMQGv5bzwtaQUVlhm1-iRggT3FY5_DVYgUY4qxi12gJ7MVSf4Io0klmsb5FogLkS7O3LODR9B48Z5UT411m20-R3s-lBL5RSs49I9_k8uD6SgsDJIKL5b1MAq2jZKN7zjpgtV8FS_PHpRMco8DOAPoRGnAzDGGd3_BUhLvJ9XHMDgOovFD-doFNwt0roH56QYoGZRoZCJIXPS0Nm9DhCez4_YVLItexBv8FzdYcDRXdnNgFCg1gq_7Ew&sig=Cg0ArKJSzEG7g3Z_H0C4EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://bts.fandom.com/f/p/4400000000000423844?utm_source=fandom&utm_medium=display&utm_campaign=BTS-01&utm_content=300x250
+                    - img [ref=f648e4]
+                  - iframe
+              - generic [ref=e833]: Advertisement
+            - generic [ref=e837]:
+              - generic [ref=e838]:
+                - heading "Recent Images" [level=2] [ref=e839]
+                - link [ref=e840] [cursor=pointer]:
+                  - /url: https://www.fandom.com
+                  - img [ref=e843]
+              - generic [ref=e848]:
+                - list [ref=e851]:
+                  - listitem [ref=e852]:
+                    - generic [ref=e854]:
+                      - link "Anna Paik (left) with Lisa Kelley.png" [ref=e855] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                        - img "Anna Paik (left) with Lisa Kelley.png" [ref=e857]
+                      - generic [ref=e858]:
+                        - link "Anna Paik" [ref=e859] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                          - heading "Anna Paik" [level=3] [ref=e860]
+                        - time [ref=e862]: 4 hours ago
+                  - listitem [ref=e863]:
+                    - generic [ref=e865]:
+                      - link "S4 Japanese Banner 4.jpg" [ref=e866] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 4.jpg" [ref=e868]
+                      - generic [ref=e869]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e870] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e871]
+                        - time [ref=e873]: 12 hours ago
+                  - listitem [ref=e874]:
+                    - generic [ref=e876]:
+                      - link "S4 Japanese Banner 3.png" [ref=e877] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 3.png" [ref=e879]
+                      - generic [ref=e880]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e881] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e882]
+                        - time [ref=e884]: 12 hours ago
+                - button "Go to next slide" [ref=e885] [cursor=pointer]:
+                  - img [ref=e886]
+            - generic [ref=e888]:
+              - iframe [ref=e890]:
+                - link [ref=f650e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsvWFNXpwyo4ZLkTVtZUXnHe9GTuxpZh0_eYzUhmTukyCFTn5inQqcl34_R25Nn3eyb8qcUc6fKZbUYbZmWGaiSwTa3mUeinGzM57LOeWIwQOQX7W9D5NT_Oz9KcFeNMOlw7FfXgQYebNPlSHK7IMHmykNW3KvdITriVSsXhIdx1_yLsMvUd8AC0ooVlAUXEUU3SDxkCPQItSpvB3RdP96qeVtAkMsNO2z3uhdFySyW_OnHIQ1y-M2_g_zgm7SmHuO6ZGjdgAB0OvGVoBaR1cahuqZUyDnGjeQmShwyMg17WmTgRz34OOJjHn9SO7OPPxpQQMlgkhtGtQVgtCD_89MH0GM0AxN4daeDlR9uEANViEO3v6pU8TaFPWuDZMnHNUAHHr0H5C0IAGvc1sJ2obZ3CeSuwLgc6sVgkG-muy1ug2ZlU3GUxwk0icViyH7miGkWscL59aQ7VIYXGIhG4nXDUYrleOSGsR8vGEV0DtuKm-0yhPiW_07Uo1HhwOuEEPg&sai=AMfl-YRPumHQUgQcGkl_Yo6YIVo1t4VzW6Jn_8tiBr1J4ryxAMv9d-Th7lHa43OxYlLfOn3OOBhmyw0FdjqT4JS7_4PCuU4yG7IsohmrJZpToVd-kAQtTYYjFPABJ6U3TD8OEtQnGjYfpBq7oOPvXA5isdwqAQqHbn09m9oRcjG1IlLh5cjAUMIlKp2YqkzPXy1mihAbQZ-qqkTeDU-wcgj2PrYrO7ivR4NIUWm5SeJMq2y7RfxMeZBfLDK296gcT1Xj67Fxw55Bmyc8VSLx38w5Ct4_NXyNK6tReQ2EawfwonfqOQ8Qa8q6qnyj0M0tLYi0sW589n-auKJYMGojFdGuc_6GwjUHXbWFWw&sig=Cg0ArKJSzNjcBDIUjW4W&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://www.gamespot.com/
+              - generic [ref=e891]: Advertisement
+            - generic [ref=e892]:
+              - generic [ref=e893]:
+                - link "S1 Royal Teeniepings Group Render 3" [ref=e895] [cursor=pointer]:
+                  - /url: https://catchteenieping.fandom.com/f
+                  - img "S1 Royal Teeniepings Group Render 3" [ref=e896]
+                - generic [ref=e897]:
+                  - link "Join the discussion!" [ref=e899] [cursor=pointer]:
+                    - /url: https://catchteenieping.fandom.com/f
+                  - text: Want to talk about something?
+                  - text: Check out the discussion feed!
+              - paragraph [ref=e900]
+              - table [ref=e901]:
+                - rowgroup [ref=e902]:
+                  - row "Want to help this Wiki grow?" [ref=e903]:
+                    - cell "Want to help this Wiki grow?" [ref=e904]:
+                      - generic [ref=e905]: Want to help this Wiki grow?
+                  - row "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e906]:
+                    - cell "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e907]:
+                      - generic [ref=e908]:
+                        - figure [ref=e909]:
+                          - link "Heartsping S2 Render 1" [ref=e910] [cursor=pointer]:
+                            - /url: /wiki/Special:Random
+                            - img "Heartsping S2 Render 1" [ref=e911]
+                        - paragraph [ref=e912]:
+                          - text: We currently have 93 users editing 2,006 pages and 18,325 files.
+                          - text: The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the
+                          - link "Editing Guide" [ref=e913] [cursor=pointer]:
+                            - /url: /wiki/Catch!_Teenieping_Wiki:Editing_Guide
+                          - text: . After reading, click the button below to get a random page to edit.
+                        - link "Contribute now!" [ref=e915] [cursor=pointer]:
+                          - /url: /wiki/Special:Random
+                          - generic [ref=e916]: Contribute now!
+            - generic [ref=e918]:
+              - iframe [ref=e920]:
+                - link [ref=f663e4] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvoEXaGDVPwPpWacmCTliAvdiZhu-LOr7oM9B38miI8iEnnrjIGasHYFTsg4xnXiT3EqM0GP5RNCmoaAhnMYjXc_DtwmQCMbmVLRxU_B94oDpWI0Ld7r85uJdNxHAhbAwfZozRGwxmu-GBWVbeq2qbRm11GxFO49p-Lf0RyZlcCWOTC_oM68j91LiFhiEUaVZ_FE94j3MmoYe4nUsNzHUpUT5GSobyaKpoOmf2RYUTTgo1YBW67VcAUCMd07RE36i3IDLiKOeg-bKeajSadoCmyyHRk1nnANBVx0uP_Qc8re4PvgRNFt7u5FbHIfe-uZ_JG6G3Y0GmduC1LG0Hag4kl3l5-lKqudFhpOA1cgCxyvBqdfp6XhvgKNxGN-Olds01hkPLqPLHPzOHSGlD3NY1heuqrVYwZJrATO85wnihsbgOEh7ABUXRLC7GyVnzUPdia1j7YLVLQczo1JUMUFDUj-48pPxvAoiSAUA9Yqe8Nj4W5m7eU5q0I7qVVq7BaFtxDNT7V9A&sai=AMfl-YQvJplivjjTxMWaJynsLPWi0YxGGYr0QjtGn2mFWjJGUXW7s20yr94PIalHZyiGa5E1Vb-Q5OTeEZ-7TB8c3udjyZCLr-69lJacXHwLduxuF_Va872iQp8vlOt-Gu7LqhGnpJZmeC9jbRh7RdoXiiwjuHjeQhlX7BKufOJ1b-EfXrUOhA63IhkHCn0ECxakIMNYtO3cEaIE8NNgqsdYgUd7AZwqu32jRBoJGneHvOAMFxOA6N3PpwZObu9wX1CmeXbq6hx_RjIeT--vcRmZ35sMO2WcaGI_xQHrMX7rcPTuc2jLl2nPUfLbfk9lwrBIOz9gYhHiUWJ9R5FBoshPk06k8UtQ9WMcig&sig=Cg0ArKJSzMRFoW9a0Q_yEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.fanatical.com/en/?utm_source=fandom&utm_medium=partner&utm_campaign=fanatical_evergreen&utm_content=evergreen_300x600
+                  - img [ref=f663e5]
+              - generic [ref=e921]: Advertisement
+      - iframe [ref=e925]:
+        - generic [ref=f651e7] [cursor=pointer]:
+          - img [ref=f651e9]
+          - generic [ref=f651e12]:
+            - generic [ref=f651e13]:
+              - generic "무료로 즐기는 오픈월드 액션 RPG" [ref=f651e15]
+              - generic "연운는 웅장한 오픈월드 액션 어드벤처 RPG로, 고전 무협 세계를 생생하게 구현했습니다." [ref=f651e17]
+            - generic [ref=f651e18]:
+              - generic [ref=f651e19]:
+                - generic [ref=f651e20]: "광고:"
+                - generic [ref=f651e21]: NetEase Games
+              - generic [ref=f651e24]: 자세히 보기
+          - link [ref=f651e26]:
+            - /url: https://privacy-center.sharethrough.com/en/consumer-privacy-notice/#4
+    - contentinfo [ref=e926]:
+      - generic [ref=e927]:
+        - generic [ref=e928]:
+          - heading "Fandom homepage" [level=2] [ref=e929]:
+            - link "Fandom homepage" [ref=e930] [cursor=pointer]:
+              - /url: https://www.fandom.com/
+              - img "Fandom logo" [ref=e931]
+          - generic [ref=e932]:
+            - heading "Explore properties" [level=3] [ref=e933]
+            - list [ref=e934]:
+              - listitem [ref=e935]:
+                - link "Fandom" [ref=e936] [cursor=pointer]:
+                  - /url: https://www.fandom.com/
+              - listitem [ref=e937]:
+                - link "Fanatical" [ref=e938] [cursor=pointer]:
+                  - /url: https://www.fanatical.com/
+              - listitem [ref=e939]:
+                - link "GameSpot" [ref=e940] [cursor=pointer]:
+                  - /url: https://www.gamespot.com/
+              - listitem [ref=e941]:
+                - link "Metacritic" [ref=e942] [cursor=pointer]:
+                  - /url: https://www.metacritic.com/
+              - listitem [ref=e943]:
+                - link "TV Guide" [ref=e944] [cursor=pointer]:
+                  - /url: https://www.tvguide.com/
+              - listitem [ref=e945]:
+                - link "Honest Entertainment" [ref=e946] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/screenjunkies
+          - generic [ref=e947]:
+            - heading "Follow Us" [level=3] [ref=e948]
+            - list [ref=e949]:
+              - listitem [ref=e950]:
+                - link "Follow Fandom on Facebook" [ref=e951] [cursor=pointer]:
+                  - /url: https://www.facebook.com/getfandom
+                  - img [ref=e952]
+              - listitem [ref=e954]:
+                - link "Follow Fandom on Twitter" [ref=e955] [cursor=pointer]:
+                  - /url: https://twitter.com/getfandom
+                  - img [ref=e956]
+              - listitem [ref=e958]:
+                - link "Follow Fandom on Youtube" [ref=e959] [cursor=pointer]:
+                  - /url: https://www.youtube.com/fandomentertainment
+                  - img [ref=e960]
+              - listitem [ref=e962]:
+                - link "Follow Fandom on Instagram" [ref=e963] [cursor=pointer]:
+                  - /url: https://www.instagram.com/getfandom/
+                  - img [ref=e964]
+              - listitem [ref=e966]:
+                - link "Follow Fandom on LinkedIn" [ref=e967] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/157252
+                  - img [ref=e968]
+        - generic [ref=e971]:
+          - heading "Overview" [level=3] [ref=e972]
+          - list [ref=e973]:
+            - listitem [ref=e974]:
+              - link "What is Fandom?" [ref=e975] [cursor=pointer]:
+                - /url: https://www.fandom.com/what-is-fandom
+            - listitem [ref=e976]:
+              - link "Essentials" [ref=e977] [cursor=pointer]:
+                - /url: https://www.fandom.com/essentials
+            - listitem [ref=e978]:
+              - link "About" [ref=e979] [cursor=pointer]:
+                - /url: https://www.fandom.com/about
+            - listitem [ref=e980]:
+              - link "Careers" [ref=e981] [cursor=pointer]:
+                - /url: https://www.fandom.com/careers
+            - listitem [ref=e982]:
+              - link "Press" [ref=e983] [cursor=pointer]:
+                - /url: https://www.fandom.com/press
+            - listitem [ref=e984]:
+              - link "Contact" [ref=e985] [cursor=pointer]:
+                - /url: https://www.fandom.com/about#contact
+            - listitem [ref=e986]:
+              - link "Terms of Use" [ref=e987] [cursor=pointer]:
+                - /url: https://www.fandom.com/terms-of-use
+            - listitem [ref=e988]:
+              - link "Privacy Policy" [ref=e989] [cursor=pointer]:
+                - /url: https://www.fandom.com/privacy-policy
+            - listitem [ref=e990]:
+              - link "Digital Services Act" [ref=e991] [cursor=pointer]:
+                - /url: https://www.fandom.com/digital-services-act
+            - listitem [ref=e992]:
+              - link "Global Sitemap" [ref=e993] [cursor=pointer]:
+                - /url: //community.fandom.com/Sitemap
+            - listitem [ref=e994]:
+              - link "Local Sitemap" [ref=e995] [cursor=pointer]:
+                - /url: /wiki/Local_Sitemap
+            - listitem [ref=e996]:
+              - button "Cookies Settings" [ref=e997]
+        - generic [ref=e998]:
+          - generic [ref=e999]:
+            - heading "Community" [level=3] [ref=e1000]
+            - list [ref=e1001]:
+              - listitem [ref=e1002]:
+                - link "Community Central" [ref=e1003] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Community_Central
+              - listitem [ref=e1004]:
+                - link "Support" [ref=e1005] [cursor=pointer]:
+                  - /url: https://fandom.zendesk.com/
+              - listitem [ref=e1006]:
+                - link "Help" [ref=e1007] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Help:Contents
+          - generic [ref=e1008]:
+            - heading "Advertise" [level=3] [ref=e1009]
+            - list [ref=e1010]:
+              - listitem [ref=e1011]:
+                - link "Media Kit" [ref=e1012] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit
+              - listitem [ref=e1013]:
+                - link "Contact" [ref=e1014] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit#contact
+        - generic [ref=e1015]:
+          - generic [ref=e1016]:
+            - heading "Fandom Apps" [level=3] [ref=e1017]
+            - text: Take your favorite fandoms with you and never miss a beat.
+          - generic [ref=e1018]:
+            - img "Fandom App logo" [ref=e1019]
+            - list [ref=e1020]:
+              - listitem [ref=e1021]:
+                - link "Fandom's Apple Store" [ref=e1022] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/fandom-videos-news-reviews/id1230063803
+                  - img "Store icon" [ref=e1023]
+              - listitem [ref=e1024]:
+                - link "Fandom's Google Play" [ref=e1025] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.fandom.app&referrer=utm_source%3Dwikia%26utm_medium%3Dglobalfooter
+                  - img "Store icon" [ref=e1026]
+      - generic [ref=e1027]:
+        - generic [ref=e1028]: Catch! Teenieping Wiki is a Fandom TV Community.
+        - button "View Mobile Site" [ref=e1030]
+  - generic: Cookies Settings

@@ -1,0 +1,1286 @@
+- generic [active] [ref=e1]:
+  - navigation "Fandom top navigation" [ref=e2]:
+    - link "Fandom homepage" [ref=e3] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e4]
+    - generic [ref=e7]:
+      - textbox "Search" [ref=e8]
+      - img [ref=e9]
+    - generic [ref=e11]:
+      - link "Sign In" [ref=e13] [cursor=pointer]:
+        - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping&metadata=header-signin-button
+      - link "Create a Free Account" [ref=e15] [cursor=pointer]:
+        - /url: https://auth.fandom.com/register?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping&metadata=header-registration-button
+  - generic "Community navigation" [ref=e16]:
+    - link "Fandom homepage" [ref=e18] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e19]
+    - link "Catch! Teenieping Wiki" [ref=e21] [cursor=pointer]:
+      - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+      - img "Catch! Teenieping Wiki" [ref=e22]
+    - navigation [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - img [ref=e28]
+              - generic [ref=e30]: Explore
+            - img "Expand" [ref=e31]
+        - listitem [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e36] [cursor=pointer]: Media
+            - img "Expand" [ref=e37]
+        - listitem [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e42] [cursor=pointer]: Characters
+            - img "Expand" [ref=e43]
+        - listitem [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e48] [cursor=pointer]: Misc
+            - img "Expand" [ref=e49]
+        - listitem [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e54] [cursor=pointer]: Community
+            - img "Expand" [ref=e55]
+    - button "Open searchbar" [ref=e58] [cursor=pointer]:
+      - img [ref=e59]
+    - generic [ref=e61]:
+      - link "Discuss" [ref=e62] [cursor=pointer]:
+        - /url: /f
+        - img
+      - link "Switch to Dark Theme" [ref=e63] [cursor=pointer]:
+        - /url: "#"
+        - img
+    - link "Sign In" [ref=e66] [cursor=pointer]:
+      - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping&metadata=header-signin-button
+      - generic [ref=e67]:
+        - img
+        - text: Sign In
+  - generic [ref=e68]:
+    - navigation "Fandom navigation" [ref=e70]:
+      - generic [ref=e71]:
+        - link "Home" [ref=e74] [cursor=pointer]:
+          - /url: https://www.fandom.com/
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e79]: Home
+        - button "Explore" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - generic [ref=e87]: Explore
+        - link "Saved" [ref=e90] [cursor=pointer]:
+          - /url: https://www.fandom.com/saved
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - generic [ref=e95]: Saved
+        - link "Progress" [ref=e98] [cursor=pointer]:
+          - /url: https://www.fandom.com/progress
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e103]: Progress
+        - button "History" [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]:
+            - img [ref=e108]
+            - generic [ref=e110]: History
+    - navigation "Fandom navigation" [ref=e112]:
+      - button "More" [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - generic [ref=e119]: More
+  - generic [ref=e120]:
+    - generic [ref=e122]:
+      - iframe [ref=e125]:
+        - generic [active] [ref=f427e1] [cursor=pointer]:
+          - iframe [ref=f427e5]:
+            - link [ref=f436e2] [cursor=pointer]:
+              - /url: https://insight.adsrvr.org/track/clk?imp=6068a046-6b05-4f92-8900-0588d56e798e&ag=y77yvbi&sfe=1c059dbf&sig=BgfAIsYZ1kOtO-xd0qhVxybdOiAD3YD06mWKQ4QpjPo.&crid=vyn4mihd&cf=9716690&fq=0&t=1&td_s=catchteenieping.fandom.com&rcats=&mste=&mfld=4&mssi=&mfsi=&sv=aerserv&uhow=112&agsa=&wp=0.2151474747474747&rgz=10133&dt=PC&osf=OSX&os=OSX1015&br=Chrome&svpid=d31de0d55f654bb094ffefb84c59daf9&rlangs=ko,os&mlang=&did=&rcxt=Other&tmpc=15.990000000000009&vrtd=&osi=&osv=&daid=&dnr=0&vpb=&crrelr=&npt=1&cc=2~KLUv_WMdqREMxgKdDwAzEkZREdqAEdaiIqhNRXiByym65RRF5QThcm1RuTVRObaoHJcGWGVsnayoXkYPsPoymqyoXkIMXi64GM9o_wAUD1A8rKrkDlgOMNqCKBANOAdAC5CxNjeA5PWFBRIyRGjhjApTFicwhnASFMEHJcYQLhJSpR7lgnc8r39e72da7uk8EhMUV1orxDwqEyVLJxX88qzECyVOBEHRAkQ7wxMDiVAVXJs2ykth7rUK14YDlEA4NuY2C4XOPR8ydoz06NQl2kyAA1Lz9E_n8L7Ttf3XdQ_7fTz3WcEFGKK9bpmU6rdN67qcnpdQ37cqeaseQBQdodJ65fJJQ-e4oOPVAE8cUMLljt3e97aKV2MLvfMiQRSMtytHM0GasgsMP_yeegcAluCGr6fui64CfZzNodx0aLZULVzVxkG1dzNn8z9f16eGptfmPNBG4Lq6mn-NrQxUgy4OgfSDiPj2CO0JDsYUd4muku53jRNIghfBnYkD6ujihHzxxMudJj2i7xV4Yic9YqDYkPn1aoVXF4RDuRRfldvQ5uvXZr0D0a2Tj_3HHvVQNAYe66-QDxVDyi9hxmmKUIFui0XXwKEdm_Ms_qEy7gudV0EBcO4SWiUbcEj0bVWl_Nt-8r13yGHTEWRIGzUgW3oydNki1Qyd6z3qcAD_on4L&dur=1~KLUv_SMFoCgkoO0AAEggAigFTXDg4z4GfADes5HzgRtCCprOJ-r4gyV8&durs=2m1NRZ&bdc=14&mk=Apple&mdl=Chrome&testid=%20TTDContextualTest%20%20&fpa=224&pcm=3&ict=Ethernet&said=4d2432e8-019d-1000-acfe-bdf51716598b&auct=1&tail=1&r=https://m.ntesgsght.com/c/zkhjcx?campaign=thetradedesk_h72na_madhouse_all_kr_install_pc_20251115&ad_group=y77yvbi&ad=vyn4mihd&site_id=catchteenieping.fandom.com&sub_site_id=catchteenieping.fandom.com%2fwiki%2fJoahping&sub1=aerserv&ttd_id=6068a046-6b05-4f92-8900-0588d56e798e&tdid=
+              - img [ref=f436e3]
+          - main:
+            - img [ref=f427e6]
+          - img
+          - iframe
+          - img
+      - generic [ref=e126]: Advertisement
+    - generic [ref=e128]:
+      - link "Skip to content" [ref=e129] [cursor=pointer]:
+        - /url: "#page-header"
+      - banner [ref=e131]:
+        - link "Catch! Teenieping Wiki" [ref=e132] [cursor=pointer]:
+          - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - img "Catch! Teenieping Wiki" [ref=e133]
+        - generic [ref=e134]:
+          - link "Catch! Teenieping Wiki" [ref=e136] [cursor=pointer]:
+            - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - generic [ref=e137]:
+            - generic [ref=e138]: 2,004
+            - generic [ref=e139]: pages
+          - generic [ref=e140]:
+            - link "Discuss" [ref=e141] [cursor=pointer]:
+              - /url: /f
+              - img
+            - link "Switch to Dark Theme" [ref=e142] [cursor=pointer]:
+              - /url: "#"
+              - img
+        - navigation [ref=e143]:
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - generic [ref=e146]:
+                - generic [ref=e147] [cursor=pointer]:
+                  - img [ref=e148]
+                  - generic [ref=e150]: Explore
+                - img "Expand" [ref=e151]
+            - listitem [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e156] [cursor=pointer]: Media
+                - img "Expand" [ref=e157]
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e162] [cursor=pointer]: Characters
+                - img "Expand" [ref=e163]
+            - listitem [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e168] [cursor=pointer]: Misc
+                - img "Expand" [ref=e169]
+            - listitem [ref=e171]:
+              - generic [ref=e172]:
+                - generic [ref=e174] [cursor=pointer]: Community
+                - img "Expand" [ref=e175]
+      - generic [ref=e177]:
+        - main [ref=e178]:
+          - generic [ref=e180]:
+            - generic "Contents" [ref=e181]:
+              - button "Contents" [ref=e182] [cursor=pointer]:
+                - img [ref=e183]
+              - text: . . . . . . . . . . . . . . . . . . . . .
+            - link "View source" [ref=e185] [cursor=pointer]:
+              - /url: /wiki/Joahping?action=edit
+              - img [ref=e186]
+            - link "Sign In to Save" [ref=e188] [cursor=pointer]:
+              - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping&uselang=en&metadata=collections-save-button
+              - img [ref=e189]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - text: "in:"
+              - link "Star articles" [ref=e195] [cursor=pointer]:
+                - /url: /wiki/Category:Star_articles
+              - text: ","
+              - link "Characters" [ref=e196] [cursor=pointer]:
+                - /url: /wiki/Category:Characters
+              - text: ","
+              - link "Teeniepings" [ref=e197] [cursor=pointer]:
+                - /url: /wiki/Category:Teeniepings
+              - text: ","
+              - generic [ref=e198]: and 10 more
+            - generic [ref=e199]:
+              - heading "Joahping" [level=1] [ref=e201]
+              - generic [ref=e202]:
+                - link "Comments" [ref=e203] [cursor=pointer]:
+                  - /url: "#articleComments"
+                  - generic [ref=e204]: "4"
+                  - img
+                - link "Sign In to Save" [ref=e205] [cursor=pointer]:
+                  - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping&uselang=en&metadata=collections-save-button
+                  - img
+                  - generic [ref=e206]: Save
+                - link "View source" [ref=e207] [cursor=pointer]:
+                  - /url: /wiki/Joahping?action=edit
+                  - img
+                  - text: View source
+                - button "Page Tools" [ref=e209]:
+                  - img
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - strong [ref=e214]: Overview
+              - text: •
+              - link "Gallery" [ref=e215] [cursor=pointer]:
+                - /url: /wiki/Joahping/Gallery
+            - generic [ref=e216]:
+              - figure [ref=e217]:
+                - img "Cheerupping Render 1" [ref=e219]
+              - generic [ref=e220]:
+                - generic [ref=e221]: You are reading a star article, Cheerup!
+                - text: This article is a
+                - link "star article" [ref=e222] [cursor=pointer]:
+                  - /url: /wiki/Category:Star_articles
+                - text: ", meaning that most sections have been filled adequately, following the wiki's guidelines: the page can therefore serve as an example of the wiki's standards. But of course, any edit, no matter its importance, is still welcome!"
+            - region [ref=e223]:
+              - heading "Joahping" [level=2] [ref=e224]
+              - generic [ref=e225]:
+                - generic [ref=e226]:
+                  - tablist [ref=e227]:
+                    - listitem [ref=e228] [cursor=pointer]:
+                      - generic [ref=e229]: Normal
+                    - listitem [ref=e230] [cursor=pointer]:
+                      - generic [ref=e231]: Ballerina
+                    - listitem [ref=e232] [cursor=pointer]:
+                      - generic [ref=e233]: Ballerina (On-Stage)
+                  - img [ref=e235] [cursor=pointer]
+                - figure [ref=e238]:
+                  - link "Normal view image" [ref=e239] [cursor=pointer]:
+                    - /url: https://static.wikia.nocookie.net/catchteeniepin/images/1/1e/Joahping_Render_1.png/revision/latest?cb=20210920174248
+                    - img "Normal" [ref=e240]
+                    - generic "view image" [ref=e243]:
+                      - img [ref=e244]
+              - table [ref=e247]:
+                - rowgroup [ref=e248]:
+                  - row "International names" [ref=e249]:
+                    - columnheader "International names" [ref=e250]
+                - rowgroup [ref=e251]:
+                  - row "Korean 조아핑 Joaping Chinese 赞赞萌可 Zàn zàn méng kě Japan ココピン Kokopin" [ref=e252]:
+                    - cell "Korean 조아핑 Joaping Chinese 赞赞萌可 Zàn zàn méng kě Japan ココピン Kokopin" [ref=e253]:
+                      - generic [ref=e254]:
+                        - figure "Korean" [ref=e255]:
+                          - generic "Korean" [ref=e256]:
+                            - img "Korean" [ref=e257]
+                        - paragraph [ref=e258]:
+                          - text: 조아핑
+                          - generic [ref=e259]: Joaping
+                      - generic [ref=e260]:
+                        - figure "Chinese" [ref=e261]:
+                          - generic "Chinese" [ref=e262]:
+                            - img "Chinese" [ref=e263]
+                        - paragraph [ref=e264]:
+                          - text: 赞赞萌可
+                          - generic [ref=e265]: Zàn zàn méng kě
+                      - generic [ref=e266]:
+                        - figure "Japan" [ref=e267]:
+                          - generic "Japan" [ref=e268]:
+                            - img "Japan" [ref=e269]
+                        - paragraph [ref=e270]:
+                          - text: ココピン
+                          - generic [ref=e271]: Kokopin
+              - generic [ref=e272]:
+                - heading "Info" [level=2] [ref=e273]
+                - generic [ref=e274]:
+                  - heading "Gender" [level=3] [ref=e275]
+                  - generic [ref=e276]: Female
+                - generic [ref=e277]:
+                  - heading "Species" [level=3] [ref=e278]
+                  - link "Royal Jewel Teenieping" [ref=e280] [cursor=pointer]:
+                    - /url: /wiki/Royal_Jewel_Teeniepings
+                - generic [ref=e281]:
+                  - heading "Alignment" [level=3] [ref=e282]
+                  - generic [ref=e283]: Good
+              - generic [ref=e284]:
+                - heading "Magic" [level=2] [ref=e285]
+                - generic [ref=e286]:
+                  - heading "Concept" [level=3] [ref=e287]
+                  - generic [ref=e288]: Kindness
+                - generic [ref=e289]:
+                  - heading "Prop" [level=3] [ref=e290]
+                  - generic [ref=e291]: Hairbrush
+                - generic [ref=e292]:
+                  - heading "Jewel" [level=3] [ref=e293]
+                  - link "Emerald" [ref=e295] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Emerald
+                - generic [ref=e296]:
+                  - heading "Abilities" [level=3] [ref=e297]
+                  - generic [ref=e298]:
+                    - text: Transform
+                    - link "Romi" [ref=e299] [cursor=pointer]:
+                      - /url: /wiki/Romi
+                    - text: into Princess Emerald
+                    - text: Control animals
+              - generic [ref=e300]:
+                - heading "Life" [level=2] [ref=e301]
+                - generic [ref=e302]:
+                  - heading "Residency" [level=3] [ref=e303]
+                  - generic [ref=e304]:
+                    - link "Jewel Forest" [ref=e305] [cursor=pointer]:
+                      - /url: /wiki/Jewel_Forest
+                    - text: (currently)
+                    - link "Teenieping School" [ref=e306] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_School
+                    - text: (formerly)
+                - generic [ref=e307]:
+                  - heading "Relations" [level=3] [ref=e308]
+                  - generic [ref=e309]:
+                    - link "Teeheeping" [ref=e310] [cursor=pointer]:
+                      - /url: /wiki/Teeheeping
+                    - text: (best friend)
+                    - link "Trustping" [ref=e311] [cursor=pointer]:
+                      - /url: /wiki/Trustping
+                    - text: (best friend)
+                    - link "Patping" [ref=e312] [cursor=pointer]:
+                      - /url: /wiki/Patping
+                    - text: (best friend)
+                    - link "Heartsping" [ref=e313] [cursor=pointer]:
+                      - /url: /wiki/Heartsping
+                    - text: (mentor and friend)
+                - generic [ref=e314]:
+                  - heading "Friends" [level=3] [ref=e315]
+                  - generic [ref=e316]:
+                    - link "Jewel Teeniepings" [ref=e317] [cursor=pointer]:
+                      - /url: /wiki/Jewel_Teeniepings
+                    - link "Romi" [ref=e318] [cursor=pointer]:
+                      - /url: /wiki/Romi
+                - generic [ref=e319]:
+                  - heading "Enemies" [level=3] [ref=e320]
+                  - generic [ref=e321]:
+                    - link "Maskping" [ref=e322] [cursor=pointer]:
+                      - /url: /wiki/Maskping
+                    - link "Onlyping" [ref=e323] [cursor=pointer]:
+                      - /url: /wiki/Onlyping
+                    - text: (formerly)
+                    - link "Jenny" [ref=e324] [cursor=pointer]:
+                      - /url: /wiki/Jenny
+                    - text: (formerly)
+                - generic [ref=e325]:
+                  - heading "Likes" [level=3] [ref=e326]
+                  - generic [ref=e327]:
+                    - text: Taking care of animals
+                    - text: Brushing and feeding animals
+                    - text: Macarons
+                - generic [ref=e328]:
+                  - heading "Dislikes" [level=3] [ref=e329]
+                  - generic [ref=e330]:
+                    - text: Selfish remarks and actions
+                    - text: Animal harassment
+                    - text: Hot food
+                - generic [ref=e331]:
+                  - heading "Phrase" [level=3] [ref=e332]
+                  - generic [ref=e333]:
+                    - generic [ref=e334]:
+                      - figure "English" [ref=e335]:
+                        - generic "English" [ref=e336]:
+                          - img "English" [ref=e337]
+                      - paragraph [ref=e338]: Joah!
+                    - generic [ref=e339]:
+                      - figure "Korean" [ref=e340]:
+                        - generic "Korean" [ref=e341]:
+                          - img "Korean" [ref=e342]
+                      - paragraph [ref=e343]:
+                        - text: 조아!
+                        - generic [ref=e344]: Joa!
+                    - generic [ref=e345]:
+                      - figure "Chinese" [ref=e346]:
+                        - generic "Chinese" [ref=e347]:
+                          - img "Chinese" [ref=e348]
+                      - paragraph [ref=e349]:
+                        - text: 赞赞!
+                        - generic [ref=e350]: Zàn zàn!
+                    - generic [ref=e351]:
+                      - figure "Japan" [ref=e352]:
+                        - generic "Japan" [ref=e353]:
+                          - img "Japan" [ref=e354]
+                      - paragraph [ref=e355]:
+                        - text: ココ!
+                        - generic [ref=e356]: Koko!
+              - generic [ref=e357]:
+                - heading "Broadcast" [level=2] [ref=e358]
+                - generic [ref=e359]:
+                  - heading "First episode" [level=3] [ref=e360]
+                  - link "Twinkle Twinkle, Jewel Teeniepings" [ref=e362] [cursor=pointer]:
+                    - /url: /wiki/Twinkle_Twinkle,_Jewel_Teeniepings
+                - generic [ref=e363]:
+                  - heading "Voice actor" [level=3] [ref=e364]
+                  - generic [ref=e365]:
+                    - generic [ref=e366]:
+                      - figure "Korean" [ref=e367]:
+                        - generic "Korean" [ref=e368]:
+                          - img "Korean" [ref=e369]
+                      - paragraph [ref=e370]:
+                        - link "Park Ji-yoon" [ref=e371] [cursor=pointer]:
+                          - /url: /wiki/Park_Ji-yoon
+                    - generic [ref=e372]:
+                      - figure "English" [ref=e373]:
+                        - generic "English" [ref=e374]:
+                          - img "English" [ref=e375]
+                      - paragraph [ref=e376]:
+                        - link "Dami Lee" [ref=e377] [cursor=pointer]:
+                          - /url: /wiki/Dami_Lee
+                        - text: Unknown (singing)
+                    - generic [ref=e378]:
+                      - figure "Chinese" [ref=e379]:
+                        - generic "Chinese" [ref=e380]:
+                          - img "Chinese" [ref=e381]
+                      - paragraph [ref=e382]:
+                        - link "Jiang Li" [ref=e383] [cursor=pointer]:
+                          - /url: /wiki/Jiang_Li
+                        - link "Li Xuqiao" [ref=e384] [cursor=pointer]:
+                          - /url: /wiki/Li_Xuqiao
+                        - text: (
+                        - link "Friends of Chinese Idioms" [ref=e385] [cursor=pointer]:
+                          - /url: /wiki/Catch!_Teenieping:_Friends_of_Chinese_Idioms
+                        - text: )
+                    - generic [ref=e386]:
+                      - figure "Japan" [ref=e387]:
+                        - generic "Japan" [ref=e388]:
+                          - img "Japan" [ref=e389]
+                      - paragraph [ref=e390]:
+                        - link "Rui Tanabe" [ref=e391] [cursor=pointer]:
+                          - /url: /wiki/Rui_Tanabe
+            - table [ref=e392]:
+              - rowgroup [ref=e393]:
+                - row "“ Pigeons, please take us to where Romi is, Joah. ”" [ref=e394]:
+                  - cell "“" [ref=e395]
+                  - cell "Pigeons, please take us to where Romi is, Joah." [ref=e396]:
+                    - generic [ref=e397]:
+                      - text: Pigeons, please take us to where
+                      - link "Romi" [ref=e398] [cursor=pointer]:
+                        - /url: /wiki/Romi
+                      - text: is, Joah.
+                  - cell "”" [ref=e399]
+                - row "— Joahping calling for the pigeons in \"Shrinking Romi!\"" [ref=e400]:
+                  - cell "— Joahping calling for the pigeons in \"Shrinking Romi!\"" [ref=e401]:
+                    - paragraph [ref=e402]:
+                      - generic [ref=e403]:
+                        - text: — Joahping calling for the pigeons in "
+                        - link "Shrinking Romi!" [ref=e404] [cursor=pointer]:
+                          - /url: /wiki/Shrinking_Romi!
+                        - text: "\""
+            - paragraph [ref=e405]:
+              - text: Joahping is the
+              - link "Royal Jewel Teenieping" [ref=e406] [cursor=pointer]:
+                - /url: /wiki/Royal_Jewel_Teeniepings
+              - text: of kindness, wielding the
+              - link "emerald" [ref=e407] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Emerald
+              - text: . She appears as one of the main
+              - link "Teeniepings" [ref=e408] [cursor=pointer]:
+                - /url: /wiki/Teeniepings
+              - text: of
+              - link "Twinkle Catch! Teenieping" [ref=e410] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Catch!_Teenieping
+              - text: ", as she accompanies"
+              - link "Romi" [ref=e411] [cursor=pointer]:
+                - /url: /wiki/Romi
+              - text: throughout her mission.
+            - paragraph [ref=e412]:
+              - text: Warm and friendly, she is always ready to help her friends, and treats everyone with kindness. She debuts in "
+              - link "Twinkle Twinkle, Jewel Teeniepings" [ref=e413] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Twinkle,_Jewel_Teeniepings
+              - text: "\"."
+            - navigation "Contents" [ref=e414]:
+              - button "show" [ref=e415]
+              - generic [ref=e416]:
+                - heading "Contents" [level=2] [ref=e417]:
+                  - img [ref=e418]
+                  - text: Contents
+                - generic [ref=e420]:
+                  - text: "["
+                  - generic "show" [ref=e421] [cursor=pointer]: hide
+                  - text: "]"
+              - list [ref=e422]:
+                - listitem [ref=e423]:
+                  - link "1. Appearance" [ref=e424] [cursor=pointer]:
+                    - /url: "#Appearance"
+                    - generic [ref=e425]: "1."
+                    - generic [ref=e426]: Appearance
+                - listitem [ref=e427]:
+                  - link "2. Personality" [ref=e428] [cursor=pointer]:
+                    - /url: "#Personality"
+                    - generic [ref=e429]: "2."
+                    - generic [ref=e430]: Personality
+                - listitem [ref=e431]:
+                  - link "3. Etymology" [ref=e432] [cursor=pointer]:
+                    - /url: "#Etymology"
+                    - generic [ref=e433]: "3."
+                    - generic [ref=e434]: Etymology
+                - listitem [ref=e435]:
+                  - link "4. Magic" [ref=e436] [cursor=pointer]:
+                    - /url: "#Magic"
+                    - generic [ref=e437]: "4."
+                    - generic [ref=e438]: Magic
+                  - list [ref=e439]:
+                    - listitem [ref=e440]:
+                      - link "4.1. Transformation" [ref=e441] [cursor=pointer]:
+                        - /url: "#Transformation"
+                        - generic [ref=e442]: 4.1.
+                        - generic [ref=e443]: Transformation
+                    - listitem [ref=e444]:
+                      - link "4.2. Patting of Kindness" [ref=e445] [cursor=pointer]:
+                        - /url: "#Patting_of_Kindness"
+                        - generic [ref=e446]: 4.2.
+                        - generic [ref=e447]: Patting of Kindness
+                - listitem [ref=e448]:
+                  - link "5. Relationships" [ref=e449] [cursor=pointer]:
+                    - /url: "#Relationships"
+                    - generic [ref=e450]: "5."
+                    - generic [ref=e451]: Relationships
+                  - list [ref=e452]:
+                    - listitem [ref=e453]:
+                      - link "5.1. Patping" [ref=e454] [cursor=pointer]:
+                        - /url: "#Patping"
+                        - generic [ref=e455]: 5.1.
+                        - generic [ref=e456]: Patping
+                - listitem [ref=e457]:
+                  - link "6. History" [ref=e458] [cursor=pointer]:
+                    - /url: "#History"
+                    - generic [ref=e459]: "6."
+                    - generic [ref=e460]: History
+                  - list [ref=e461]:
+                    - listitem [ref=e462]:
+                      - link "6.1. Twinkle Catch! Teenieping" [ref=e463] [cursor=pointer]:
+                        - /url: "#Twinkle_Catch!_Teenieping"
+                        - generic [ref=e464]: 6.1.
+                        - generic [ref=e465]: Twinkle Catch! Teenieping
+                      - list [ref=e466]:
+                        - listitem [ref=e467]:
+                          - link "6.1.1. Twinkle Twinkle, Jewel Teeniepings" [ref=e468] [cursor=pointer]:
+                            - /url: "#Twinkle_Twinkle,_Jewel_Teeniepings"
+                            - generic [ref=e469]: 6.1.1.
+                            - generic [ref=e470]: Twinkle Twinkle, Jewel Teeniepings
+                        - listitem [ref=e471]:
+                          - link "6.1.2. Welcome to Teenieping School!" [ref=e472] [cursor=pointer]:
+                            - /url: "#Welcome_to_Teenieping_School!"
+                            - generic [ref=e473]: 6.1.2.
+                            - generic [ref=e474]: Welcome to Teenieping School!
+                        - listitem [ref=e475]:
+                          - link "6.1.3. Pat Pat~ It's Ok~" [ref=e476] [cursor=pointer]:
+                            - /url: "#Pat_Pat~_It's_Ok~"
+                            - generic [ref=e477]: 6.1.3.
+                            - generic [ref=e478]: Pat Pat~ It's Ok~
+                        - listitem [ref=e479]:
+                          - link "6.1.4. Shrinking Romi!" [ref=e480] [cursor=pointer]:
+                            - /url: "#Shrinking_Romi!"
+                            - generic [ref=e481]: 6.1.4.
+                            - generic [ref=e482]: Shrinking Romi!
+                        - listitem [ref=e483]:
+                          - link "6.1.5. Royal Teenieping Face-Off!" [ref=e484] [cursor=pointer]:
+                            - /url: "#Royal_Teenieping_Face-Off!"
+                            - generic [ref=e485]: 6.1.5.
+                            - generic [ref=e486]: Royal Teenieping Face-Off!
+                        - listitem [ref=e487]:
+                          - link "6.1.6. Teenieping School Graduation" [ref=e488] [cursor=pointer]:
+                            - /url: "#Teenieping_School_Graduation"
+                            - generic [ref=e489]: 6.1.6.
+                            - generic [ref=e490]: Teenieping School Graduation
+                        - listitem [ref=e491]:
+                          - link "6.1.7. The Jewel Forest is Restored" [ref=e492] [cursor=pointer]:
+                            - /url: "#The_Jewel_Forest_is_Restored"
+                            - generic [ref=e493]: 6.1.7.
+                            - generic [ref=e494]: The Jewel Forest is Restored
+                    - listitem [ref=e495]:
+                      - link "6.2. Secret Catch! Teenieping" [ref=e496] [cursor=pointer]:
+                        - /url: "#Secret_Catch!_Teenieping"
+                        - generic [ref=e497]: 6.2.
+                        - generic [ref=e498]: Secret Catch! Teenieping
+                      - list [ref=e499]:
+                        - listitem [ref=e500]:
+                          - link "6.2.1. Teenieping Fashion Show" [ref=e501] [cursor=pointer]:
+                            - /url: "#Teenieping_Fashion_Show"
+                            - generic [ref=e502]: 6.2.1.
+                            - generic [ref=e503]: Teenieping Fashion Show
+                - listitem [ref=e504]:
+                  - link "7. Trivia" [ref=e505] [cursor=pointer]:
+                    - /url: "#Trivia"
+                    - generic [ref=e506]: "7."
+                    - generic [ref=e507]: Trivia
+                - listitem [ref=e508]:
+                  - link "8. Gallery" [ref=e509] [cursor=pointer]:
+                    - /url: "#Gallery"
+                    - generic [ref=e510]: "8."
+                    - generic [ref=e511]: Gallery
+            - heading "Appearance Sign in to edit" [level=2] [ref=e512]:
+              - text: Appearance
+              - link "Sign in to edit" [ref=e514] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D1&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e515]
+            - figure "Joahping's Appearance" [ref=e517]:
+              - link "Joahping's Appearance view image" [ref=e518] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/e2/Joahping_Render_6.png/revision/latest?cb=20260215073417
+                - img "Joahping's Appearance" [ref=e519]
+                - generic "view image" [ref=e522]:
+                  - img [ref=e523]
+              - paragraph [ref=e526]: Joahping's Appearance
+            - paragraph [ref=e527]: Joahping is an emerald-themed Teenieping.
+            - paragraph [ref=e528]: She has a light-yellow body, green eyes, a black nose, and short, yellow bangs, and long yellow hair which is colored amber orange at the end.
+            - paragraph [ref=e529]: She wears a coral pink tiara with a green colored emerald inside, and a collar that has the same or identical pattern at the end of her hair; the collar is colored orange and has a gold button on it.
+            - paragraph [ref=e530]: Her prop is a yellow hairbrush with a green gemstone and butterfly on it.
+            - heading "Personality Sign in to edit" [level=2] [ref=e531]:
+              - text: Personality
+              - link "Sign in to edit" [ref=e533] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D2&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e534]
+            - paragraph [ref=e536]:
+              - text: Joahping is a kind, warm-hearted, and gentle Teenieping who always keeps a friendly and polite demeanor to everyone she meets. Her sensitive nature allows her to connect and empathize with others, letting her provide compassion and comfort to those who need it. She tends to see the beauty in things others find ugly, as shown in "
+              - link "Where's My Muse, Sculpt?" [ref=e537] [cursor=pointer]:
+                - /url: /wiki/Where%27s_My_Muse,_Sculpt%3F
+              - text: "\""
+            - paragraph [ref=e538]:
+              - text: While these traits make her seem naive and meek, Joahping can show moments of assertiveness and leadership when needed. In "
+              - link "Shrinking Romi!" [ref=e539] [cursor=pointer]:
+                - /url: /wiki/Shrinking_Romi!
+              - text: "\", Joahping fearlessly calmed down a pigeon, led"
+              - link "Teeheeping" [ref=e540] [cursor=pointer]:
+                - /url: /wiki/Teeheeping
+              - text: and
+              - link "Trustping" [ref=e541] [cursor=pointer]:
+                - /url: /wiki/Trustping
+              - text: to find Romi, convinced
+              - link "Timidping" [ref=e542] [cursor=pointer]:
+                - /url: /wiki/Timidping
+              - text: to stop hiding, and even gained the courage to transform with Romi for the first time to save
+              - link "Timidping" [ref=e543] [cursor=pointer]:
+                - /url: /wiki/Timidping
+              - text: .
+            - paragraph [ref=e544]: Despite clearly being more polite and friendlier than her friends, Joahping is considered a troublemaker as she tags along with them, even in troublesome situations.
+            - heading "Etymology Sign in to edit" [level=2] [ref=e545]:
+              - text: Etymology
+              - link "Sign in to edit" [ref=e547] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D3&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e548]
+            - list [ref=e550]:
+              - listitem [ref=e551]: The Korean name 조아핑 ("Joaping") comes from the word 좋아 ("Joh-a"), which means "good". It could also be derived from the word 좋다 ("Johda"), which means "good" or "kind" in the third adjective form.
+              - listitem [ref=e552]: The Chinese name 赞赞萌可 ("Zàn zàn méng kě") comes from 赞 ("Zàn"), which by itself means "to praise", "to assist", or "to support".
+              - listitem [ref=e553]: The Japanese name ココピン ("Kokopin") comes from the phrase 真心/まごころ ("Magokoro/ma go koro"), which means "sincerity", "true heart", or "devotion".
+            - heading "Magic Sign in to edit" [level=2] [ref=e554]:
+              - text: Magic
+              - link "Sign in to edit" [ref=e556] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D4&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e557]
+            - heading "Transformation Sign in to edit" [level=3] [ref=e559]:
+              - text: Transformation
+              - link "Sign in to edit" [ref=e561] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D5&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e562]
+            - figure "Romi transformed into Princess Emerald" [ref=e564]:
+              - link "Romi transformed into Princess Emerald view image" [ref=e565] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/2/28/S2_-_Princess_Emerald_pose.png/revision/latest?cb=20220304110531
+                - img "Romi transformed into Princess Emerald" [ref=e566]
+                - generic "view image" [ref=e569]:
+                  - img [ref=e570]
+              - paragraph [ref=e573]: Romi transformed into Princess Emerald
+            - paragraph [ref=e574]:
+              - text: Joahping can help Romi transform into
+              - link "Princess Emerald" [ref=e576] [cursor=pointer]:
+                - /url: /wiki/Princesses
+              - text: ; when Romi starts the transformation, she will appear and kiss Romi in order to transform. When transformed, Romi can use the power of her various tools as well as Joahping's to carry out the task at hand.
+            - heading "Patting of Kindness Sign in to edit" [level=3] [ref=e577]:
+              - text: Patting of Kindness
+              - link "Sign in to edit" [ref=e579] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D6&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e580]
+            - figure "Joahping using her Tinkle Puff" [ref=e582]:
+              - link "Joahping using her Tinkle Puff view image" [ref=e583] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/a/a8/S2E07_-_Joahping_using_her_powers_on_a_bird.jpg/revision/latest?cb=20241005021829
+                - img "Joahping using her Tinkle Puff" [ref=e584]
+                - generic "view image" [ref=e587]:
+                  - img [ref=e588]
+              - paragraph [ref=e591]: Joahping using her Tinkle Puff
+            - paragraph [ref=e592]:
+              - text: With her hairbrush, Joahping can sprinkle Patting of Kindness to communicate with and control animals by brushing or sprinkling
+              - link "Tinkle Puff" [ref=e593] [cursor=pointer]:
+                - /url: /wiki/Tinkle_Puff
+              - text: to them. By showering flocks of lost migratory birds with the Patting of Kindness, Joahping can instinctively guide them back onto their correct migratory paths, preventing them from perishing due to misdirection.
+            - figure "A pigeon being controlled" [ref=e594]:
+              - link "A pigeon being controlled view image" [ref=e595] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/b3/S2E07_-_A_bird_being_controlled.jpg/revision/latest?cb=20250226053950
+                - img "A pigeon being controlled" [ref=e596]
+                - generic "view image" [ref=e599]:
+                  - img [ref=e600]
+              - paragraph [ref=e603]: A pigeon being controlled
+            - paragraph [ref=e604]: However, when wild animals encroach on human settlements, Joahping can use the Patting of Kindness to gently encourage them to return to their natural habitats without resorting to harmful deterrents.
+            - heading "Relationships Sign in to edit" [level=2] [ref=e605]:
+              - text: Relationships
+              - link "Sign in to edit" [ref=e607] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D7&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e608]
+            - heading "Patping Sign in to edit" [level=3] [ref=e610]:
+              - link "Patping" [ref=e612] [cursor=pointer]:
+                - /url: /wiki/Patping
+              - link "Sign in to edit" [ref=e614] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D8&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e615]
+            - figure "Patping comforting Joahping" [ref=e617]:
+              - link "Patping comforting Joahping view image" [ref=e618] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/09/S2E06_-_Patping_comforting_Joahping.jpg/revision/latest?cb=20250304090008
+                - img "Patping comforting Joahping" [ref=e619]
+                - generic "view image" [ref=e622]:
+                  - img [ref=e623]
+              - paragraph [ref=e626]: Patping comforting Joahping
+            - paragraph [ref=e627]:
+              - text: Patping is Joahping's best friend from the Jewel Forest. Joahping appreciates Patping's support and encouragement, which is how she was able to be accepted into the Royal Teenieping School. Upon being reunited again, the two are overjoyed and comment on how much they missed each other. Throughout "
+              - link "Pat Pat~ It's Ok~" [ref=e628] [cursor=pointer]:
+                - /url: /wiki/Pat_Pat~_It%27s_Ok~
+              - text: "\", Patping remains by Joahping's side and goes along with her plan to help Kyle, so she would feel comforted."
+            - heading "History Sign in to edit" [level=2] [ref=e629]:
+              - text: History
+              - link "Sign in to edit" [ref=e631] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D9&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e632]
+            - heading "Twinkle Catch! Teenieping Sign in to edit" [level=3] [ref=e634]:
+              - link "Twinkle Catch! Teenieping" [ref=e637] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Catch!_Teenieping
+              - link "Sign in to edit" [ref=e639] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D10&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e640]
+            - heading "Twinkle Twinkle, Jewel Teeniepings Sign in to edit" [level=4] [ref=e642]:
+              - link "Twinkle Twinkle, Jewel Teeniepings" [ref=e644] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Twinkle,_Jewel_Teeniepings
+              - link "Sign in to edit" [ref=e646] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D11&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e647]
+            - paragraph [ref=e649]: Joahping makes her first appearance alongside Teeheeping and Trustping, attempting to steal the Jewel Heartwing Phone to save their Jewel Forest friends despite not being fully trained; however, they got caught by Teacher Lalaping and Chachaping, but the three managed to escape successfully.
+            - figure "Joahping hears something" [ref=e650]:
+              - link "Joahping hears something view image" [ref=e651] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/05/S2E01_-_Joahping_hear_something.webp/revision/latest?cb=20241008015811
+                - img "Joahping hears something" [ref=e652]
+                - generic "view image" [ref=e655]:
+                  - img [ref=e656]
+              - paragraph [ref=e659]: Joahping hears something
+            - paragraph [ref=e660]: They find Earth a really dangerous place, until they find donuts to eat, Joahping mentions that they should hesitate in eating otherwise the man will notice that his donuts disappear until she and the two got caught by Romi and Heartsping and a chase begins.
+            - figure "Romi saves Joahping alongside the others" [ref=e661]:
+              - link "Romi saves Joahping alongside the others view image" [ref=e662] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/b5/S2E01_-_Jewel_Teeniepings_in_Princess_Diaheart%27s_embrace.png/revision/latest?cb=20250304223409
+                - img "Romi saves Joahping alongside the others" [ref=e663]
+                - generic "view image" [ref=e666]:
+                  - img [ref=e667]
+              - paragraph [ref=e670]: Romi saves Joahping alongside the others
+            - paragraph [ref=e671]: Teeheeping, Joahping, and Trustping run away so that Romi won't get the Jewel Heart Wing Phone. The three are really good at dodging making Romi having a hard time to catch. Finally, they all go to the construction area and when inside something which causes a dead end for the three. Teeheeping, Joahping, and Trustping explained on why they have to steal the phone, then when they start to fall, Romi saves the three.
+            - heading "Welcome to Teenieping School! Sign in to edit" [level=4] [ref=e672]:
+              - link "Welcome to Teenieping School!" [ref=e674] [cursor=pointer]:
+                - /url: /wiki/Welcome_to_Teenieping_School!
+              - link "Sign in to edit" [ref=e676] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D12&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e677]
+            - figure "Joahping introducing herself alongside Teeheeping and Trustping" [ref=e679]:
+              - link "Joahping introducing herself alongside Teeheeping and Trustping view image" [ref=e680] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/b1/S2E02_-_Royal_Jewel_Teeniepings_group_shot.png/revision/latest?cb=20250222140928
+                - img "Joahping introducing herself alongside Teeheeping and Trustping" [ref=e681]
+                - generic "view image" [ref=e684]:
+                  - img [ref=e685]
+              - paragraph [ref=e688]: Joahping introducing herself alongside Teeheeping and Trustping
+            - paragraph [ref=e689]:
+              - text: Joahping and her friends choose to stay with Romi to help accompany her while the catching progress is not done.
+              - link "Lalaping" [ref=e690] [cursor=pointer]:
+                - /url: /wiki/Lalaping
+              - text: discourages Joahping and her friends and being mean to them because they aren't even official Royal Teeniepings.
+            - figure "The Royals getting dizzy by Heartsping's magic" [ref=e691]:
+              - link "The Royals getting dizzy by Heartsping's magic view image" [ref=e692] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/c/ce/S2E02_-_Royal_Jewels_dizzy.png/revision/latest?cb=20250316073152
+                - img "The Royals getting dizzy by Heartsping's magic" [ref=e693]
+                - generic "view image" [ref=e696]:
+                  - img [ref=e697]
+              - paragraph [ref=e700]: The Royals getting dizzy by Heartsping's magic
+            - paragraph [ref=e701]:
+              - text: Romi was given a package with the
+              - link "Teenieping School" [ref=e702] [cursor=pointer]:
+                - /url: /wiki/Teenieping_School
+              - text: ", Joahping agrees that it will help her with her studies while the others just misbehaves. Suddendly, Teeheeping rings the bell then Trustping came along, Joahping tried to stop Trustping but ends up swinging with them, then"
+              - link "Heartsping" [ref=e703] [cursor=pointer]:
+                - /url: /wiki/Heartsping
+              - text: applies her magic to them to end their misbehavior.
+            - figure "The Trainee Royals gathering food" [ref=e704]:
+              - link "The Trainee Royals gathering food view image" [ref=e705] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/8/8f/S2E02_-_Royal_Jewels_looking_at_the_food.png/revision/latest?cb=20250319230349
+                - img "The Trainee Royals gathering food" [ref=e706]
+                - generic "view image" [ref=e709]:
+                  - img [ref=e710]
+              - paragraph [ref=e713]: The Trainee Royals gathering food
+            - paragraph [ref=e714]: Now that the three are enrolled into the school, they were about to begin lessons until Teeheeping became hungry, a food truck appeared that will only be for the first day of class, the trio were excited to get food. However Teeheeping forced Joahping eat a broccoli, Joahping will eat it just this once. They fell asleep fast.
+            - heading "Pat Pat~ It's Ok~ Sign in to edit" [level=4] [ref=e715]:
+              - link "Pat Pat~ It's Ok~" [ref=e717] [cursor=pointer]:
+                - /url: /wiki/Pat_Pat~_It%27s_Ok~
+              - link "Sign in to edit" [ref=e719] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D13&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e720]
+            - figure "Reunite with Patping" [ref=e722]:
+              - link "Reunite with view image" [ref=e723] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/2/2e/S2E06_-_Joahping_and_Patping_reunite.jpg/revision/latest?cb=20250227112623
+                - img "Reunite with" [ref=e724]
+                - generic "view image" [ref=e727]:
+                  - img [ref=e728]
+              - paragraph [ref=e731]:
+                - text: Reunite with
+                - link "Patping" [ref=e732] [cursor=pointer]:
+                  - /url: /wiki/Patping
+            - paragraph [ref=e733]:
+              - text: Joahping thinks that she's not good enough to be a
+              - link "Royal Teenieping" [ref=e734] [cursor=pointer]:
+                - /url: /wiki/Royal_Teeniepings
+              - text: . Afterwards,
+              - link "Kyle" [ref=e735] [cursor=pointer]:
+                - /url: /wiki/Kyle
+              - text: ", who was in a similar situation, left"
+              - link "Heartrose Bakery" [ref=e736] [cursor=pointer]:
+                - /url: /wiki/Heartrose_Bakery
+              - text: . While searching him, she meets
+              - link "Patping" [ref=e737] [cursor=pointer]:
+                - /url: /wiki/Patping
+              - text: ", her childhood friend; she brings Patping to Heartrose Bakery and introduces her to"
+              - link "Romi" [ref=e738] [cursor=pointer]:
+                - /url: /wiki/Romi
+              - text: and
+              - link "Heartsping" [ref=e739] [cursor=pointer]:
+                - /url: /wiki/Heartsping
+              - text: ", but during the introduction, Joahping's voice is like super-duper fast! Then,"
+              - link "Princess Sapphire" [ref=e740] [cursor=pointer]:
+                - /url: /wiki/Princesses
+              - text: ", who was unaware of the situation, blocks Patping's attempt to catch her, and when all of Patping's magic finally takes effect, she is told that Princess Sapphire can catch her only then."
+            - heading "Shrinking Romi! Sign in to edit" [level=4] [ref=e741]:
+              - link "Shrinking Romi!" [ref=e743] [cursor=pointer]:
+                - /url: /wiki/Shrinking_Romi!
+              - link "Sign in to edit" [ref=e745] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D14&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e746]
+            - figure "Joahping using her Tinkle Puff on a pigeon" [ref=e748]:
+              - link "Joahping using her Tinkle Puff on a pigeon view image" [ref=e749] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/a/a8/S2E07_-_Joahping_using_her_powers_on_a_bird.jpg/revision/latest?cb=20241005021829
+                - img "Joahping using her Tinkle Puff on a pigeon" [ref=e750]
+                - generic "view image" [ref=e753]:
+                  - img [ref=e754]
+              - paragraph [ref=e757]: Joahping using her Tinkle Puff on a pigeon
+            - paragraph [ref=e758]:
+              - text: Joahping and her classmates were lessoning about Dangerous Creatures in the Earth. However a pigeon entered the bakery which causes mayhem. Joahping uses her magic to make the pigeon calm and become friendly. Soon enough, Joahping says goodbye to the pigeon when it was going to leave. However a
+              - link "mysterious Teenieping" [ref=e759] [cursor=pointer]:
+                - /url: /wiki/Maskping
+              - text: comes along, which made Heartsping leave, Joahping got concerned and told everyone about it.
+            - paragraph [ref=e760]: Afterwards, Romi, Marylou, and Maya spotted Timidping, however Timidping made the 3 shrunk into teenieping sized then Romi and her friends got missing. Teeheeping, Joahping, and Trustping went to look for them, Joahping went to communicate with animals if they saw something, but the animals ignored her, untill 2 pigeons came by and alerted them.
+            - paragraph [ref=e761]: One of the pigeons found Timidping, attracting Teeheeping, Joahping, and Trustping's attention. The three began to chase Timidping, Timidping was afraid and told them that its best to hide. Joahping got angry and confronted him that if you hide, nothing will happen, and mentions that they hsve similar hometowns, as well as making Timidping help them bring Romi and her friends back to normal.
+            - paragraph [ref=e762]: The four rode on the pigeons that were controlled by Joahping, in a search for Romi and the others, they found Romi and her friends, now that they have been back to normal, Trustping overjoyed which makes the pigeons frightened, Joahping tried to calm down the pigeons untill Timidping started falling.
+            - figure "Joahping transforming" [ref=e763]:
+              - link "Joahping transforming view image" [ref=e764] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/6/6b/S2_-_Joahping_brushing_her_hair.jpg/revision/latest?cb=20250304090001
+                - img "Joahping transforming" [ref=e765]
+                - generic "view image" [ref=e768]:
+                  - img [ref=e769]
+              - paragraph [ref=e772]: Joahping transforming
+            - paragraph [ref=e773]: Romi forced Joahping to transform in order to save Timidping, Joahping was afraid, as she never did her transformation power, but Joahping cared for Timidping, and assisted Romi in transforming. Romi saved Timidping, Joahping went to Timidping and smiled because of him, she was able to do transformation magic, with Timidping blushing.
+            - heading "Royal Teenieping Face-Off! Sign in to edit" [level=4] [ref=e774]:
+              - link "Royal Teenieping Face-Off!" [ref=e776] [cursor=pointer]:
+                - /url: /wiki/Royal_Teenieping_Face-Off!
+              - link "Sign in to edit" [ref=e778] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D15&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e779]
+            - paragraph [ref=e781]:
+              - text: Joahping faces off against the
+              - link "Royal Emotion Teeniepings" [ref=e782] [cursor=pointer]:
+                - /url: /wiki/Royal_Emotion_Teeniepings
+              - text: along with
+              - link "Teeheeping" [ref=e783] [cursor=pointer]:
+                - /url: /wiki/Teeheeping
+              - text: and
+              - link "Trustping" [ref=e784] [cursor=pointer]:
+                - /url: /wiki/Trustping
+              - text: . Although it was a bit difficult at first, she succeeded in winning the final battle, the tower building battle, and successfully completed the training that the Royal Emotion Teeniepings gave them.
+            - heading "Teenieping School Graduation Sign in to edit" [level=4] [ref=e785]:
+              - link "Teenieping School Graduation" [ref=e787] [cursor=pointer]:
+                - /url: /wiki/Teenieping_School_Graduation
+              - link "Sign in to edit" [ref=e789] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D16&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e790]
+            - figure "She and her friends graduating" [ref=e792]:
+              - link "She and her friends graduating view image" [ref=e793] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/da/S2E24_-_Jewel_Teeniepings_graduating.png/revision/latest?cb=20231022155930
+                - img "She and her friends graduating" [ref=e794]
+                - generic "view image" [ref=e797]:
+                  - img [ref=e798]
+              - paragraph [ref=e801]: She and her friends graduating
+            - paragraph [ref=e802]:
+              - text: Joahping is recognized for catching all the Jewel Teeniepings along with Teeheeping and Trustping, and she is granted graduation from
+              - link "Teenieping School" [ref=e803] [cursor=pointer]:
+                - /url: /wiki/Teenieping_School
+              - text: and promotion to Royal Teenieping. After that, she and her friends went into the cake box and came out, and after enjoying a fancy graduation party, she sings
+              - link "Jewel Teenieping Song" [ref=e804] [cursor=pointer]:
+                - /url: /wiki/Jewel_Teenieping_Song
+              - text: as her graduation song. After the graduation ceremony, while looking at photos on Romi's
+              - link "Jewel Heart Wing Phone" [ref=e805] [cursor=pointer]:
+                - /url: /wiki/Jewel_Heart_Wing_Phone
+              - text: ", she reminisces about many things that happened on Earth. But when she first came to Earth, a photo emerged of her being chased by a raccoon while trying to give her a kind pat. She was embarrassed and tried to explain herself by saying that it was her first time, and she was clumsy. Then, when she sees Romi sad about her breakup, she creates an Imperial Stone with other jewels and gives it to her as a gift. After that, just as she was about to get on a taxi to the kingdom, she didn't want to be separated and saw Teeheeping and Trustping crying, and Romi bursting into tears upon seeing this, and she also burst into tears."
+            - heading "The Jewel Forest is Restored Sign in to edit" [level=4] [ref=e806]:
+              - link "The Jewel Forest is Restored" [ref=e808] [cursor=pointer]:
+                - /url: /wiki/The_Jewel_Forest_is_Restored
+              - link "Sign in to edit" [ref=e810] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D17&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e811]
+            - paragraph [ref=e813]:
+              - text: Joahping,
+              - link "Teeheeping" [ref=e814] [cursor=pointer]:
+                - /url: /wiki/Teeheeping
+              - text: ", and"
+              - link "Trustping" [ref=e815] [cursor=pointer]:
+                - /url: /wiki/Trustping
+              - text: went to the
+              - link "Jewel Cavern" [ref=e816] [cursor=pointer]:
+                - /url: /wiki/Jewel_Cavern
+              - text: to return the
+              - link "Imperial Stone" [ref=e817] [cursor=pointer]:
+                - /url: /wiki/Imperial_Stone
+              - text: to
+              - link "Romi" [ref=e818] [cursor=pointer]:
+                - /url: /wiki/Romi
+              - text: . As well as it helped Romi and
+              - link "Heartsping" [ref=e819] [cursor=pointer]:
+                - /url: /wiki/Heartsping
+              - text: escape the cavern and restored the
+              - link "Jewel Forest" [ref=e820] [cursor=pointer]:
+                - /url: /wiki/Jewel_Forest
+              - text: happily, and receives her royal symbol.
+            - heading "Secret Catch! Teenieping Sign in to edit" [level=3] [ref=e821]:
+              - link "Secret Catch! Teenieping" [ref=e824] [cursor=pointer]:
+                - /url: /wiki/Secret_Catch!_Teenieping
+              - link "Sign in to edit" [ref=e826] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D18&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e827]
+            - heading "Teenieping Fashion Show Sign in to edit" [level=4] [ref=e829]:
+              - link "Teenieping Fashion Show" [ref=e831] [cursor=pointer]:
+                - /url: /wiki/Teenieping_Fashion_Show
+              - link "Sign in to edit" [ref=e833] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D19&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e834]
+            - figure "She and her friends reunite with Romi" [ref=e836]:
+              - link "She and her friends reunite with view image" [ref=e837] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/8/8b/S3E24_-_Royal_Jewelpings_reunite_with_Romi.png/revision/latest?cb=20250827022346
+                - img "She and her friends reunite with" [ref=e838]
+                - generic "view image" [ref=e841]:
+                  - img [ref=e842]
+              - paragraph [ref=e845]:
+                - text: She and her friends reunite with
+                - link "Romi" [ref=e846] [cursor=pointer]:
+                  - /url: /wiki/Romi
+            - paragraph [ref=e847]:
+              - text: Joahping and her friends are seen driving the
+              - link "Teenieping bus" [ref=e848] [cursor=pointer]:
+                - /url: /wiki/Teenieping_Bus
+              - text: to watch the fashion show in the "
+              - link "Teenieping Fashion Show" [ref=e849] [cursor=pointer]:
+                - /url: /wiki/Teenieping_Fashion_Show
+              - text: "\". But she didn't get dressed as the key cubes that were taken by"
+              - link "Jenny" [ref=e850] [cursor=pointer]:
+                - /url: /wiki/Jenny
+              - text: .
+            - heading "Trivia Sign in to edit" [level=2] [ref=e851]:
+              - text: Trivia
+              - link "Sign in to edit" [ref=e853] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D20&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e854]
+            - list [ref=e856]:
+              - listitem [ref=e857]:
+                - text: She is the third Teenieping to transform with Romi later in the
+                - link "series" [ref=e858] [cursor=pointer]:
+                  - /url: /wiki/Catch!_Teenieping_(series)
+                - text: .
+                - list [ref=e859]:
+                  - listitem [ref=e860]:
+                    - text: The first being was
+                    - link "Happying" [ref=e861] [cursor=pointer]:
+                      - /url: /wiki/Happying
+                    - text: to transform into Princess Sunshine.
+                  - listitem [ref=e862]:
+                    - text: The second being was all the
+                    - link "Royal Teeniepings" [ref=e863] [cursor=pointer]:
+                      - /url: /wiki/Royal_Emotion_Teeniepings
+                    - text: to transform into Princess Veronica.
+                  - listitem [ref=e864]:
+                    - text: The fourth being was
+                    - link "Okeydokeyping" [ref=e865] [cursor=pointer]:
+                      - /url: /wiki/Okeydokeyping
+                    - text: to transform into Princess Crystal.
+                  - listitem [ref=e866]:
+                    - text: The fifth was
+                    - link "Jellyping" [ref=e867] [cursor=pointer]:
+                      - /url: /wiki/Jellyping
+                    - text: to transform into Princess Jellystin.
+              - listitem [ref=e868]:
+                - text: Joahping shares some similarities with
+                - link "Chachaping" [ref=e869] [cursor=pointer]:
+                  - /url: /wiki/Chachaping
+                - text: ","
+                - link "Okeydokeyping" [ref=e870] [cursor=pointer]:
+                  - /url: /wiki/Okeydokeyping
+                - text: ", and"
+                - link "Fluffyping" [ref=e871] [cursor=pointer]:
+                  - /url: /wiki/Fluffyping
+                - text: as they're all nice and kind Royal Teeniepings.
+              - listitem [ref=e872]:
+                - text: Joahping is shown to be ticklish, as she burst out laughing before Heartsping even touched her in the tickling test, as seen in "
+                - link "Tickle Tickle, Try Not to Laugh!" [ref=e873] [cursor=pointer]:
+                  - /url: /wiki/Tickle_Tickle,_Try_Not_to_Laugh!
+                - text: "\"."
+            - heading "Gallery Sign in to edit" [level=2] [ref=e874]:
+              - text: Gallery
+              - link "Sign in to edit" [ref=e876] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fveaction%3Dedit%26section%3D21&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e877]
+            - figure [ref=e879]:
+              - link "Check the gallery page" [ref=e880] [cursor=pointer]:
+                - /url: /wiki/Joahping/Gallery
+                - img "Check the gallery page" [ref=e881]
+            - paragraph [ref=e882]
+            - table [ref=e883]:
+              - rowgroup [ref=e884]:
+                - row "Characters ▼" [ref=e885]:
+                  - cell "Characters ▼" [ref=e886]:
+                    - generic [ref=e887] [cursor=pointer]: Characters ▼
+          - generic [ref=e888]:
+            - generic "Toggle Categories" [ref=e889]:
+              - generic [ref=e890] [cursor=pointer]:
+                - text: Categories
+                - img [ref=e891]
+            - generic [ref=e893]:
+              - text: Community content is available under
+              - link "CC-BY-SA" [ref=e894] [cursor=pointer]:
+                - /url: https://www.fandom.com/licensing
+              - text: unless otherwise noted.
+            - generic [ref=e897]:
+              - paragraph [ref=e900]: 4 Comments
+              - generic [ref=e901]:
+                - img [ref=e903]
+                - heading "Join the conversation" [level=3] [ref=e905]
+                - heading "Sign in to read what others are saying and share your thoughts." [level=4] [ref=e906]
+                - link "SIGN IN" [ref=e907] [cursor=pointer]:
+                  - /url: /login?metadata=anonymous-article-comments-login-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fanon-comments-auth-source%3Dlogin%23articleComments
+                - paragraph [ref=e908]:
+                  - text: Don't have account?
+                  - link "Register now" [ref=e909] [cursor=pointer]:
+                    - /url: /register?metadata=anonymous-article-comments-register-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping%3Fanon-comments-auth-source%3Dregister%23articleComments
+        - complementary [ref=e910]:
+          - generic [ref=e911]:
+            - generic [ref=e913]:
+              - iframe [ref=e915]:
+                - generic [ref=f428e3]:
+                  - link [ref=f428e4] [cursor=pointer]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cgn9WwB3OaYKtKovs5t0Pj-uQiQjB8ZX_hQGezb3exRWwkB8QASDD7u4NYJuj6YS4KaABnK_7qALIAQPgAgCoAwHIAwiqBIoDT9DSo5AmvxvQlAo1a8atox3tly9QmD2XImOYPxezj4dgue82qtBXQcPHXAcaxqG1x-5gweSreC5MJ8l-MMxJKeMDiS1jGvZCrp34DWRQF6v7uwAVP73UIsS9rlvWZiUzx1URpnmBD3qkA-9hOX2KDVhE7lBFvIV3VeKW8pP6vnIyuDaD3sNxn1hY7qH39hdVShBrNMCswgaGUYo5kHymcTzLQDO3UGamBizUWFbPrWclHEixUhxpTL1MynyViiogZ_87mboUA76TnW7q4sbc3_DRcybDRaSIvjH4a3F2OczIqBLPtm3pf24QwTetqwW0U-iBXCr-MTZSLRr3sTWBtsEgHQzcJ6s7Aa4Iqa8HH7sZdtbel78R-IicACzjb59gt9sbh0neFB87LsH9jl2YETIPJwVfqTV6bB9LTy_RndxI44E7UasdIzw2mDTLp5DIHNbpyfCXAaov7EfK6f_en8BjBFOAtqFXHG9GWrRglB1tU7Lot26pYFoRDGIFbx1XRLXB_nJ4CM-lUcAE2NOVkdYF4AQBiAXl5d6UWKAGA4AHzNCE1wGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAiIACqANIvf3BOlj8xfOr1c6TA7EJq1dulRjKeeCACgOYCwHICwGiDAOQAQGqDQJLUsgNAeINEwipjPSr1c6TAxULtrkFHY81JIHqDRMIx4P1q9XOkwMVC7a5BR2PNSSB8A0CiA7___________8B2BMN0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNjE2MTQ1NzAyM1AGuhcCOAGqGBcJAAAAAICo-EASCjYxNjE0NTcwMjMYAbIYCRICsFMYAyIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIgo32q9XOkwMVC7a5BR2PNSSBEAEYASAAEgLPcfD_BwE&num=1&cid=CAQS5AEABaugfUZyCbIv8SrXPkrfdQ_ZeXde6MHdmW8vN6Pmeq2hOgYO6GKPjUY_jGy7hAD-h7m3pEaAA46-ylROuGo9udA9Dn_Ut1Vz1CtniVLRDvJN_tTQXFWQkFuEUM_1AXu_PNYolS7xey-Oy9Qh6we7RfT5t61jouc1vfN56KwRy5lZ1ojlQMDsAk1zckhtHx4Xhe3hqnwAiAhBSIt_pNYg6fVpwl0C00dwpc6_4YfjS6LLNQWqFrIjVWxeVecl_WoHvHC3n6WgMpJOlkxqSqqJYhobtDx605HoK0X4Tq02UJfUmZsYAQ&sig=AOD64_1XC0g5jxVLCTp9iOQNMH1Zv6eL2A&client=ca-pub-7983542246824243&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://www.hero-wars.com/%3Fdelayedsignup%3Dtrue%26nx_source%3Dadx_adwordsdisplay.hw_wb_uu_-.cc-ww_en.g-mix.a-mix.au-lal.opt-purchase2.cr-hw_st_fbadalt4c_gif.cn-300_600.lp-delayed.dt-display.cid-23665816293.agid-194920147416.csd-190326.-%26cp%3D.aid-801027827968%26gad_source%3D5%26gad_campaignid%3D23665816293%26gclid%3DEAIaIQobChMIgo32q9XOkwMVC7a5BR2PNSSBEAEYASAAEgLPcfD_BwE
+                  - generic [ref=f428e6]:
+                    - link [ref=f428e8] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLJa0a3P0jQTVqlHY3I9E7u5KNx4n0biUl7uEc9ICfwZRXy-hVb0ilb2yued8N8GgfTpijgUpgL6PbPESL9aLXbTvL7OqUXbNZ3cMqdFR40hY5WAqKY0uXumPFpxHUnpsdvvlaF9oJZQWTdHuEdW35Bwyjy2YogpQlcgG1zJ2HN6DvEwBdLp3D47GVuu7jV9TVSqY3uaew3v8JQEWswd2oEf1qXECYglb0sbo5777WKZ7iE4iMrB5hdPChOj8DZ8G4G05z9VmO3lVmkSz8a-vH_DxdmuiWXYTnpkapNYF5zjIX5iF3h-GMSmgr5rx2rIWe6dLo0zPOjn-ZqmWzKp2M8cIza64PfdKhvCTrw_0NLcs2R4zFFXcp6J1xK2KxVOjUOFJjVBad0rfUhiJoLxCtHQ39WlJIPHuo_u0aEB7Z1kWwcY8tg6aE8obakJXQwO7Lhp35s6twfI-iUAbm8w-jSebeFq0sJz7KUskRtj0mHE6eFb5_N9y_ftn4aVzvtSvH90gC6hXwWeE6gI2arqrD6UrvHPWyrLyNBvy-VKLUQG4wwG28hM298V2WZRsT1bBZe3X34ilujSbkxby44poFhzPBcLbM6AhYY9RO_j5mmkwy8Vhx9ajaxXV8s168PhOyxRhBk-OS_TEHLknDNdlELwaxtBS_w5ywdE_W_8MttBvGm733x4hpeJg_h0O9PLDWw3q6_0h9OI0GxRTfwA6sW9-HHODaLftE2BDXQN3y5DnznUUfvanNtgT04APQYVTMaGYiEpX-JMbBdLPaDW6gq8PQJe5BWC16T1rBlYgR_A-EQ5lGd98r1QPChFWqEzAKzxE2FOzwbLClQ-ivq_v0sWJlAz3Ks1nEM_A-659zJcIGu9vqrpgQd_XXDY400DcRw3TpowY4TqAP_DBDcBRmyE-NQX8ivnrhEOUQz-xdfRQ6ChymYn1lBuEXwlgqa5cOVIv3_b_1e9dMPJpdYY4q61HNPS9g_kyFtz7Q0X_t1Du61_ueMOGtzWlz3mbja7hFM3d_ANVflLDKGCDE_tCxuD3bEaEU5bok6W3lD0OQiIkSzk0FQE5xh7s7cL-wz3uijONOs-CxjEKP5yCz7IK4Ip8phq9sWPxXqQup5K1c2XkdmCFd4dz8QcNEtTiwEeklFUJBfGK4e4sEzW6SDyNiQEfllu33LVxf52fztGeK2K9O5bb_jw5lHuC0bZ2vbm6hJfkc-KPScFn3NN18-XW03_b1MeuX6nlxxtCpKNXvWVdnbOgKbPFYTXBHhoNuzeUF8GPp9z-uWEzJnTpTPHrPxTUuzGr-WXjjXrASp5iXJkxFRWB2TRO8kfUFv5rVAXkqTSXkVoYHXurOfvasbLbNW0vEF29MzfKW2xUZ3KSeTQGVBjvfcI3nFhguCRACVdpjj1C_UcT2b6NL_yFYrJjh0GagTZwMvLbkvFiq6azAlSfSqlGmF2xJmAzDurEwhV2gMDVk4Yc1xCmWwj7OAYwQDzMAKPrz2WEhjqhQ1FkG6DLq8L32Z-CjOXkD6jlbgZrYPCyyVEpP0jceTb4Mk-fsXSRPIS87SVqGRN80sGPalxH-GIjSK8Sbw0KGfYBFJ3MWy-1CbdseIyfgTjPkrXbdPBNevChtUNHT_S455l9T0u1xUYlBN_t_VdqLtEXH09LW4tPUcavIV3B6aTjdZL_vqhdnHeCp4y2E3fre4mM9qHF3HIlix9xW4u0RS38zBJ21I50UseQt5wJGXzqA9zPR-5BK5AUjkwVb01tPKMD5-w-_NGv3VjPOau0CzGFiCzPlRfKeR7ZCYIFz4m3_7xIMm8u5hbQzKws0KnDJEuvZ5JRgezGp4OvcZKsBxycp4ChSs1xm9ibD-l8rJ8K7O9e2aKjb6v9jyR5RHiLiWDQ8pQNZw7yYaLp-BGj4b31I1PBdwg8fH9z3Gg4bbeFAUuM__wKR56p45tZYIzBlRPK0AL85IeVwVRZ9Xekk1Vm58_VhMq6MF8DPo9IcMjqGcjaZOIxnVf9Ze2TMAc4VGbgvhKOBeqFWjUuKX7rTcXL1AukF3K6DpudFN8RcY_4QlF0IoXnkWBBistFptllAchGy_-r9g42ROUHliX68T9xzLk8ffXBEasb3dj3qgrDQg9qrbUH_k8UGPO-5lt3dXTRr5l_IxyUwMrt1p-CERqG-55dEZ3NFVZMr1PDC--2JP1k4H2KPMfg11Zu0jhYwyIz69eHElBnA3sbByuQxj_8D69JRhA5IWmg-x3jUt0fn_u9Cun6_dh2e8N6SoFHekiQ5YImgOBRg0Bk3pZXxL_FEoNqw1RbkH2UXbP5jN59FmLr4Xpnn3Da0ffVXd8QKjKPNDYD2rO6tTU7NzG9p_ufqsOEwA4Qqahz02b6nDXViLy_kGaLOtrWgK3kTHy1YgRlTFsKKlTWLPzjjxBvV-uS5mtYaBGF_zFLE0LXEVSLMVUpPb4pB8X1u8j5T2ieXr7RRYYribC7oF9EyxnGGvs7A__76OiJCp9hDAq-x4vRu1GWZHCjxzhK3RrdEGXPeOJf0HWx3gtbjmYjxXTbzxPG8tQOJiQC_3tgwfYYOnr6gTwU9nu__Wtsq32dxunrj-exl_Yhi4YSYSn8VCk3rVqqDFbgRAtrP_IoGwaTGevr4Dhl35_rWJy79NAqB-O_bDtZBaTMNvypg5SHSsZUUlWuL0UjapJh6spfnK06UhY&opi=122715837
+                      - img [ref=f428e10]
+                    - link [ref=f428e12] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLJa0a3P0jQTVqlHY3I9E7u5KNx4n0biUl7uEc9ICfwZRXy-hVb0ilb2yued8N8GgfTpijgUpgL6PbPESL9aLXbTvL7OqUXbNZ3cMqdFR40hY5WAqKY0uXumPFpxHUnpsdvvlaF9oJZQWTdHuEdW35Bwyjy2YogpQlcgG1zJ2HN6DvEwBdLp3D47GVuu7jV9TVSqY3uaew3v8JQEWswd2oEf1qXECYglb0sbo5777WKZ7iE4iMrB5hdPChOj8DZ8G4G05z9VmO3lVmkSz8a-vH_DxdmuiWXYTnpkapNYF5zjIX5iF3h-GMSmgr5rx2rIWe6dLo0zPOjn-ZqmWzKp2M8cIza64PfdKhvCTrw_0NLcs2R4zFFXcp6J1xK2KxVOjUOFJjVBad0rfUhiJoLxCtHQ39WlJIPHuo_u0aEB7Z1kWwcY8tg6aE8obakJXQwO7Lhp35s6twfI-iUAbm8w-jSebeFq0sJz7KUskRtj0mHE6eFb5_N9y_ftn4aVzvtSvH90gC6hXwWeE6gI2arqrD6UrvHPWyrLyNBvy-VKLUQG4wwG28hM298V2WZRsT1bBZe3X34ilujSbkxby44poFhzPBcLbM6AhYY9RO_j5mmkwy8Vhx9ajaxXV8s168PhOyxRhBk-OS_TEHLknDNdlELwaxtBS_w5ywdE_W_8MttBvGm733x4hpeJg_h0O9PLDWw3q6_0h9OI0GxRTfwA6sW9-HHODaLftE2BDXQN3y5DnznUUfvanNtgT04APQYVTMaGYiEpX-JMbBdLPaDW6gq8PQJe5BWC16T1rBlYgR_A-EQ5lGd98r1QPChFWqEzAKzxE2FOzwbLClQ-ivq_v0sWJlAz3Ks1nEM_A-659zJcIGu9vqrpgQd_XXDY400DcRw3TpowY4TqAP_DBDcBRmyE-NQX8ivnrhEOUQz-xdfRQ6ChymYn1lBuEXwlgqa5cOVIv3_b_1e9dMPJpdYY4q61HNPS9g_kyFtz7Q0X_t1Du61_ueMOGtzWlz3mbja7hFM3d_ANVflLDKGCDE_tCxuD3bEaEU5bok6W3lD0OQiIkSzk0FQE5xh7s7cL-wz3uijONOs-CxjEKP5yCz7IK4Ip8phq9sWPxXqQup5K1c2XkdmCFd4dz8QcNEtTiwEeklFUJBfGK4e4sEzW6SDyNiQEfllu33LVxf52fztGeK2K9O5bb_jw5lHuC0bZ2vbm6hJfkc-KPScFn3NN18-XW03_b1MeuX6nlxxtCpKNXvWVdnbOgKbPFYTXBHhoNuzeUF8GPp9z-uWEzJnTpTPHrPxTUuzGr-WXjjXrASp5iXJkxFRWB2TRO8kfUFv5rVAXkqTSXkVoYHXurOfvasbLbNW0vEF29MzfKW2xUZ3KSeTQGVBjvfcI3nFhguCRACVdpjj1C_UcT2b6NL_yFYrJjh0GagTZwMvLbkvFiq6azAlSfSqlGmF2xJmAzDurEwhV2gMDVk4Yc1xCmWwj7OAYwQDzMAKPrz2WEhjqhQ1FkG6DLq8L32Z-CjOXkD6jlbgZrYPCyyVEpP0jceTb4Mk-fsXSRPIS87SVqGRN80sGPalxH-GIjSK8Sbw0KGfYBFJ3MWy-1CbdseIyfgTjPkrXbdPBNevChtUNHT_S455l9T0u1xUYlBN_t_VdqLtEXH09LW4tPUcavIV3B6aTjdZL_vqhdnHeCp4y2E3fre4mM9qHF3HIlix9xW4u0RS38zBJ21I50UseQt5wJGXzqA9zPR-5BK5AUjkwVb01tPKMD5-w-_NGv3VjPOau0CzGFiCzPlRfKeR7ZCYIFz4m3_7xIMm8u5hbQzKws0KnDJEuvZ5JRgezGp4OvcZKsBxycp4ChSs1xm9ibD-l8rJ8K7O9e2aKjb6v9jyR5RHiLiWDQ8pQNZw7yYaLp-BGj4b31I1PBdwg8fH9z3Gg4bbeFAUuM__wKR56p45tZYIzBlRPK0AL85IeVwVRZ9Xekk1Vm58_VhMq6MF8DPo9IcMjqGcjaZOIxnVf9Ze2TMAc4VGbgvhKOBeqFWjUuKX7rTcXL1AukF3K6DpudFN8RcY_4QlF0IoXnkWBBistFptllAchGy_-r9g42ROUHliX68T9xzLk8ffXBEasb3dj3qgrDQg9qrbUH_k8UGPO-5lt3dXTRr5l_IxyUwMrt1p-CERqG-55dEZ3NFVZMr1PDC--2JP1k4H2KPMfg11Zu0jhYwyIz69eHElBnA3sbByuQxj_8D69JRhA5IWmg-x3jUt0fn_u9Cun6_dh2e8N6SoFHekiQ5YImgOBRg0Bk3pZXxL_FEoNqw1RbkH2UXbP5jN59FmLr4Xpnn3Da0ffVXd8QKjKPNDYD2rO6tTU7NzG9p_ufqsOEwA4Qqahz02b6nDXViLy_kGaLOtrWgK3kTHy1YgRlTFsKKlTWLPzjjxBvV-uS5mtYaBGF_zFLE0LXEVSLMVUpPb4pB8X1u8j5T2ieXr7RRYYribC7oF9EyxnGGvs7A__76OiJCp9hDAq-x4vRu1GWZHCjxzhK3RrdEGXPeOJf0HWx3gtbjmYjxXTbzxPG8tQOJiQC_3tgwfYYOnr6gTwU9nu__Wtsq32dxunrj-exl_Yhi4YSYSn8VCk3rVqqDFbgRAtrP_IoGwaTGevr4Dhl35_rWJy79NAqB-O_bDtZBaTMNvypg5SHSsZUUlWuL0UjapJh6spfnK06UhY&opi=122715837
+                      - img [ref=f428e14]
+                  - img [ref=f428e17] [cursor=pointer]
+                  - generic [ref=f428e28]:
+                    - img [ref=f428e31]
+                    - generic [ref=f428e34]:
+                      - text: Ads by
+                      - img [ref=f428e35]
+                    - generic [ref=f428e38]:
+                      - generic [ref=f428e41] [cursor=pointer]: Send feedback
+                      - link [ref=f428e43] [cursor=pointer]:
+                        - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLJa0a3P0jQTVqlHY3I9E7u5KNx4n0biUl7uEc9ICfwZRXy-hVb0ilb2yued8N8GgfTpijgUpgL6PbPESL9aLXbTvL7OqUXbNZ3cMqdFR40hY5WAqKY0uXumPFpxHUnpsdvvlaF9oJZQWTdHuEdW35Bwyjy2YogpQlcgG1zJ2HN6DvEwBdLp3D47GVuu7jV9TVSqY3uaew3v8JQEWswd2oEf1qXECYglb0sbo5777WKZ7iE4iMrB5hdPChOj8DZ8G4G05z9VmO3lVmkSz8a-vH_DxdmuiWXYTnpkapNYF5zjIX5iF3h-GMSmgr5rx2rIWe6dLo0zPOjn-ZqmWzKp2M8cIza64PfdKhvCTrw_0NLcs2R4zFFXcp6J1xK2KxVOjUOFJjVBad0rfUhiJoLxCtHQ39WlJIPHuo_u0aEB7Z1kWwcY8tg6aE8obakJXQwO7Lhp35s6twfI-iUAbm8w-jSebeFq0sJz7KUskRtj0mHE6eFb5_N9y_ftn4aVzvtSvH90gC6hXwWeE6gI2arqrD6UrvHPWyrLyNBvy-VKLUQG4wwG28hM298V2WZRsT1bBZe3X34ilujSbkxby44poFhzPBcLbM6AhYY9RO_j5mmkwy8Vhx9ajaxXV8s168PhOyxRhBk-OS_TEHLknDNdlELwaxtBS_w5ywdE_W_8MttBvGm733x4hpeJg_h0O9PLDWw3q6_0h9OI0GxRTfwA6sW9-HHODaLftE2BDXQN3y5DnznUUfvanNtgT04APQYVTMaGYiEpX-JMbBdLPaDW6gq8PQJe5BWC16T1rBlYgR_A-EQ5lGd98r1QPChFWqEzAKzxE2FOzwbLClQ-ivq_v0sWJlAz3Ks1nEM_A-659zJcIGu9vqrpgQd_XXDY400DcRw3TpowY4TqAP_DBDcBRmyE-NQX8ivnrhEOUQz-xdfRQ6ChymYn1lBuEXwlgqa5cOVIv3_b_1e9dMPJpdYY4q61HNPS9g_kyFtz7Q0X_t1Du61_ueMOGtzWlz3mbja7hFM3d_ANVflLDKGCDE_tCxuD3bEaEU5bok6W3lD0OQiIkSzk0FQE5xh7s7cL-wz3uijONOs-CxjEKP5yCz7IK4Ip8phq9sWPxXqQup5K1c2XkdmCFd4dz8QcNEtTiwEeklFUJBfGK4e4sEzW6SDyNiQEfllu33LVxf52fztGeK2K9O5bb_jw5lHuC0bZ2vbm6hJfkc-KPScFn3NN18-XW03_b1MeuX6nlxxtCpKNXvWVdnbOgKbPFYTXBHhoNuzeUF8GPp9z-uWEzJnTpTPHrPxTUuzGr-WXjjXrASp5iXJkxFRWB2TRO8kfUFv5rVAXkqTSXkVoYHXurOfvasbLbNW0vEF29MzfKW2xUZ3KSeTQGVBjvfcI3nFhguCRACVdpjj1C_UcT2b6NL_yFYrJjh0GagTZwMvLbkvFiq6azAlSfSqlGmF2xJmAzDurEwhV2gMDVk4Yc1xCmWwj7OAYwQDzMAKPrz2WEhjqhQ1FkG6DLq8L32Z-CjOXkD6jlbgZrYPCyyVEpP0jceTb4Mk-fsXSRPIS87SVqGRN80sGPalxH-GIjSK8Sbw0KGfYBFJ3MWy-1CbdseIyfgTjPkrXbdPBNevChtUNHT_S455l9T0u1xUYlBN_t_VdqLtEXH09LW4tPUcavIV3B6aTjdZL_vqhdnHeCp4y2E3fre4mM9qHF3HIlix9xW4u0RS38zBJ21I50UseQt5wJGXzqA9zPR-5BK5AUjkwVb01tPKMD5-w-_NGv3VjPOau0CzGFiCzPlRfKeR7ZCYIFz4m3_7xIMm8u5hbQzKws0KnDJEuvZ5JRgezGp4OvcZKsBxycp4ChSs1xm9ibD-l8rJ8K7O9e2aKjb6v9jyR5RHiLiWDQ8pQNZw7yYaLp-BGj4b31I1PBdwg8fH9z3Gg4bbeFAUuM__wKR56p45tZYIzBlRPK0AL85IeVwVRZ9Xekk1Vm58_VhMq6MF8DPo9IcMjqGcjaZOIxnVf9Ze2TMAc4VGbgvhKOBeqFWjUuKX7rTcXL1AukF3K6DpudFN8RcY_4QlF0IoXnkWBBistFptllAchGy_-r9g42ROUHliX68T9xzLk8ffXBEasb3dj3qgrDQg9qrbUH_k8UGPO-5lt3dXTRr5l_IxyUwMrt1p-CERqG-55dEZ3NFVZMr1PDC--2JP1k4H2KPMfg11Zu0jhYwyIz69eHElBnA3sbByuQxj_8D69JRhA5IWmg-x3jUt0fn_u9Cun6_dh2e8N6SoFHekiQ5YImgOBRg0Bk3pZXxL_FEoNqw1RbkH2UXbP5jN59FmLr4Xpnn3Da0ffVXd8QKjKPNDYD2rO6tTU7NzG9p_ufqsOEwA4Qqahz02b6nDXViLy_kGaLOtrWgK3kTHy1YgRlTFsKKlTWLPzjjxBvV-uS5mtYaBGF_zFLE0LXEVSLMVUpPb4pB8X1u8j5T2ieXr7RRYYribC7oF9EyxnGGvs7A__76OiJCp9hDAq-x4vRu1GWZHCjxzhK3RrdEGXPeOJf0HWx3gtbjmYjxXTbzxPG8tQOJiQC_3tgwfYYOnr6gTwU9nu__Wtsq32dxunrj-exl_Yhi4YSYSn8VCk3rVqqDFbgRAtrP_IoGwaTGevr4Dhl35_rWJy79NAqB-O_bDtZBaTMNvypg5SHSsZUUlWuL0UjapJh6spfnK06UhY&opi=122715837
+                        - generic [ref=f428e44]:
+                          - text: Why this ad?
+                          - img [ref=f428e45]
+                  - generic [ref=f428e47]:
+                    - generic [ref=f428e50] [cursor=pointer]: Not interested in this ad
+                    - generic [ref=f428e53] [cursor=pointer]: Ad covered content
+                    - generic [ref=f428e56] [cursor=pointer]: Seen this ad multiple times
+                    - generic [ref=f428e59] [cursor=pointer]: Ad was inappropriate
+                  - generic [ref=f428e65]: Thanks. Feedback improves Google ads
+                  - generic [ref=f428e71]:
+                    - text: Ad closed by
+                    - img [ref=f428e72]
+              - generic [ref=e916]: Advertisement
+            - generic [ref=e920]:
+              - generic [ref=e921]:
+                - heading "Recent Images" [level=2] [ref=e922]
+                - link [ref=e923] [cursor=pointer]:
+                  - /url: https://www.fandom.com
+                  - img [ref=e926]
+              - generic [ref=e931]:
+                - list [ref=e934]:
+                  - listitem [ref=e935]:
+                    - generic [ref=e937]:
+                      - link "Anna Paik (left) with Lisa Kelley.png" [ref=e938] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                        - img "Anna Paik (left) with Lisa Kelley.png" [ref=e940]
+                      - generic [ref=e941]:
+                        - link "Anna Paik" [ref=e942] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                          - heading "Anna Paik" [level=3] [ref=e943]
+                        - time [ref=e945]: 4 hours ago
+                  - listitem [ref=e946]:
+                    - generic [ref=e948]:
+                      - link "S4 Japanese Banner 4.jpg" [ref=e949] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 4.jpg" [ref=e951]
+                      - generic [ref=e952]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e953] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e954]
+                        - time [ref=e956]: 12 hours ago
+                  - listitem [ref=e957]:
+                    - generic [ref=e959]:
+                      - link "S4 Japanese Banner 3.png" [ref=e960] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 3.png" [ref=e962]
+                      - generic [ref=e963]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e964] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e965]
+                        - time [ref=e967]: 12 hours ago
+                - button "Go to next slide" [ref=e968] [cursor=pointer]:
+                  - img [ref=e969]
+            - generic [ref=e971]:
+              - iframe [ref=e973]:
+                - link [ref=f429e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsvfWE9cI_vOkLjBLcnfhuwmzJenzk8AfPKUzypMVSCrLd-XbXWK6mcKPE55HMmZWq0-8FzX_CLm8IjRMCvv14NEOfpz4Tm6lY_auc4lwLdl8CNMRoOe36eqnCFo9Tf6wO4Ob8KMEKzySVTnyX-Nwwp_1qXo6Tp0iWslSCGt8KUvIDQFtUTkKG2g-YFVOXQ1GSJwkI__KYKTyW1ZgiWXm3fhDwkfCcePgmSUr7gTpam-Dvn15w6z4roIKNZ1Yzb5ly_V2PJa8SwBv-fRy5bHAG5FqLWt0f-7A4_BWltigBJpoCZnFfsNDKOcZgZlncGpzAh1_IG7HWIQF14iZmWIBHxtr90JwJemE1IQLN40-J4FqmwoFF-5pu1o43_VQB8BC_giJiCvQoCROierN9Qxb5VXS51aRls882bjxalsE-ytDckqSDZFxIKxv66xKcgrfQKtdpdMS9FFZ30oaIkwc8yjH7zymUUeHWk-cWu3fsmXNVQ3oaGSZCZaNcjkhcpTBA&sai=AMfl-YSFkNx2iIbPnBsh0Vc4TDiE0e-573FyMS8CZcHmueELtqTGnlArht9uvCVyXijhPMrTf7IOjiCFMwaYTLSUavsjC-Rz5RZWwxPxcOHFmbwDWUkfzBywbn2ChOWbqEvZOYyT3x-IPPoijkqWx_xvwympjK2bURwxWtyZoKmAj7FID6yrGumQpzLv7_YCOc-SoeQEAFp8foey3ZOu3FYN3sXAEoYUQGL4SLLzxX0tjo0hcK4x22x7wr2X-lvInBbwcZVMs4G8YJcVpLQBH-bZ5pB3sK-teT2P4JYGQuS0G8byRTpWGTV8HYCxoYmOpLrQ0U1XAP7cuxfLg5rjwKXt9_zJgPL1-2tHcQ&sig=Cg0ArKJSzNJEEqpDck7H&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://www.gamespot.com/
+              - generic [ref=e974]: Advertisement
+            - generic [ref=e975]:
+              - generic [ref=e976]:
+                - link "S1 Royal Teeniepings Group Render 3" [ref=e978] [cursor=pointer]:
+                  - /url: https://catchteenieping.fandom.com/f
+                  - img "S1 Royal Teeniepings Group Render 3" [ref=e979]
+                - generic [ref=e980]:
+                  - link "Join the discussion!" [ref=e982] [cursor=pointer]:
+                    - /url: https://catchteenieping.fandom.com/f
+                  - text: Want to talk about something?
+                  - text: Check out the discussion feed!
+              - paragraph [ref=e983]
+              - table [ref=e984]:
+                - rowgroup [ref=e985]:
+                  - row "Want to help this Wiki grow?" [ref=e986]:
+                    - cell "Want to help this Wiki grow?" [ref=e987]:
+                      - generic [ref=e988]: Want to help this Wiki grow?
+                  - row "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e989]:
+                    - cell "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e990]:
+                      - generic [ref=e991]:
+                        - figure [ref=e992]:
+                          - link "Heartsping S2 Render 1" [ref=e993] [cursor=pointer]:
+                            - /url: /wiki/Special:Random
+                            - img "Heartsping S2 Render 1" [ref=e994]
+                        - paragraph [ref=e995]:
+                          - text: We currently have 93 users editing 2,006 pages and 18,325 files.
+                          - text: The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the
+                          - link "Editing Guide" [ref=e996] [cursor=pointer]:
+                            - /url: /wiki/Catch!_Teenieping_Wiki:Editing_Guide
+                          - text: . After reading, click the button below to get a random page to edit.
+                        - link "Contribute now!" [ref=e998] [cursor=pointer]:
+                          - /url: /wiki/Special:Random
+                          - generic [ref=e999]: Contribute now!
+      - iframe [ref=e1005]:
+        - generic [ref=f430e7] [cursor=pointer]:
+          - img [ref=f430e9]
+          - generic [ref=f430e12]:
+            - generic [ref=f430e13]:
+              - generic "무료로 즐기는 오픈월드 액션 RPG" [ref=f430e15]
+              - generic "연운는 웅장한 오픈월드 액션 어드벤처 RPG로, 고전 무협 세계를 생생하게 구현했습니다." [ref=f430e17]
+            - generic [ref=f430e18]:
+              - generic [ref=f430e19]:
+                - generic [ref=f430e20]: "광고:"
+                - generic [ref=f430e21]: NetEase Games
+              - generic [ref=f430e24]: 자세히 보기
+          - link [ref=f430e26]:
+            - /url: https://privacy-center.sharethrough.com/en/consumer-privacy-notice/#4
+    - contentinfo [ref=e1006]:
+      - generic [ref=e1007]:
+        - generic [ref=e1008]:
+          - heading "Fandom homepage" [level=2] [ref=e1009]:
+            - link "Fandom homepage" [ref=e1010] [cursor=pointer]:
+              - /url: https://www.fandom.com/
+              - img "Fandom logo" [ref=e1011]
+          - generic [ref=e1012]:
+            - heading "Explore properties" [level=3] [ref=e1013]
+            - list [ref=e1014]:
+              - listitem [ref=e1015]:
+                - link "Fandom" [ref=e1016] [cursor=pointer]:
+                  - /url: https://www.fandom.com/
+              - listitem [ref=e1017]:
+                - link "Fanatical" [ref=e1018] [cursor=pointer]:
+                  - /url: https://www.fanatical.com/
+              - listitem [ref=e1019]:
+                - link "GameSpot" [ref=e1020] [cursor=pointer]:
+                  - /url: https://www.gamespot.com/
+              - listitem [ref=e1021]:
+                - link "Metacritic" [ref=e1022] [cursor=pointer]:
+                  - /url: https://www.metacritic.com/
+              - listitem [ref=e1023]:
+                - link "TV Guide" [ref=e1024] [cursor=pointer]:
+                  - /url: https://www.tvguide.com/
+              - listitem [ref=e1025]:
+                - link "Honest Entertainment" [ref=e1026] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/screenjunkies
+          - generic [ref=e1027]:
+            - heading "Follow Us" [level=3] [ref=e1028]
+            - list [ref=e1029]:
+              - listitem [ref=e1030]:
+                - link "Follow Fandom on Facebook" [ref=e1031] [cursor=pointer]:
+                  - /url: https://www.facebook.com/getfandom
+                  - img [ref=e1032]
+              - listitem [ref=e1034]:
+                - link "Follow Fandom on Twitter" [ref=e1035] [cursor=pointer]:
+                  - /url: https://twitter.com/getfandom
+                  - img [ref=e1036]
+              - listitem [ref=e1038]:
+                - link "Follow Fandom on Youtube" [ref=e1039] [cursor=pointer]:
+                  - /url: https://www.youtube.com/fandomentertainment
+                  - img [ref=e1040]
+              - listitem [ref=e1042]:
+                - link "Follow Fandom on Instagram" [ref=e1043] [cursor=pointer]:
+                  - /url: https://www.instagram.com/getfandom/
+                  - img [ref=e1044]
+              - listitem [ref=e1046]:
+                - link "Follow Fandom on LinkedIn" [ref=e1047] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/157252
+                  - img [ref=e1048]
+        - generic [ref=e1051]:
+          - heading "Overview" [level=3] [ref=e1052]
+          - list [ref=e1053]:
+            - listitem [ref=e1054]:
+              - link "What is Fandom?" [ref=e1055] [cursor=pointer]:
+                - /url: https://www.fandom.com/what-is-fandom
+            - listitem [ref=e1056]:
+              - link "Essentials" [ref=e1057] [cursor=pointer]:
+                - /url: https://www.fandom.com/essentials
+            - listitem [ref=e1058]:
+              - link "About" [ref=e1059] [cursor=pointer]:
+                - /url: https://www.fandom.com/about
+            - listitem [ref=e1060]:
+              - link "Careers" [ref=e1061] [cursor=pointer]:
+                - /url: https://www.fandom.com/careers
+            - listitem [ref=e1062]:
+              - link "Press" [ref=e1063] [cursor=pointer]:
+                - /url: https://www.fandom.com/press
+            - listitem [ref=e1064]:
+              - link "Contact" [ref=e1065] [cursor=pointer]:
+                - /url: https://www.fandom.com/about#contact
+            - listitem [ref=e1066]:
+              - link "Terms of Use" [ref=e1067] [cursor=pointer]:
+                - /url: https://www.fandom.com/terms-of-use
+            - listitem [ref=e1068]:
+              - link "Privacy Policy" [ref=e1069] [cursor=pointer]:
+                - /url: https://www.fandom.com/privacy-policy
+            - listitem [ref=e1070]:
+              - link "Digital Services Act" [ref=e1071] [cursor=pointer]:
+                - /url: https://www.fandom.com/digital-services-act
+            - listitem [ref=e1072]:
+              - link "Global Sitemap" [ref=e1073] [cursor=pointer]:
+                - /url: //community.fandom.com/Sitemap
+            - listitem [ref=e1074]:
+              - link "Local Sitemap" [ref=e1075] [cursor=pointer]:
+                - /url: /wiki/Local_Sitemap
+            - listitem [ref=e1076]:
+              - button "Cookies Settings" [ref=e1077]
+        - generic [ref=e1078]:
+          - generic [ref=e1079]:
+            - heading "Community" [level=3] [ref=e1080]
+            - list [ref=e1081]:
+              - listitem [ref=e1082]:
+                - link "Community Central" [ref=e1083] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Community_Central
+              - listitem [ref=e1084]:
+                - link "Support" [ref=e1085] [cursor=pointer]:
+                  - /url: https://fandom.zendesk.com/
+              - listitem [ref=e1086]:
+                - link "Help" [ref=e1087] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Help:Contents
+          - generic [ref=e1088]:
+            - heading "Advertise" [level=3] [ref=e1089]
+            - list [ref=e1090]:
+              - listitem [ref=e1091]:
+                - link "Media Kit" [ref=e1092] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit
+              - listitem [ref=e1093]:
+                - link "Contact" [ref=e1094] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit#contact
+        - generic [ref=e1095]:
+          - generic [ref=e1096]:
+            - heading "Fandom Apps" [level=3] [ref=e1097]
+            - text: Take your favorite fandoms with you and never miss a beat.
+          - generic [ref=e1098]:
+            - img "Fandom App logo" [ref=e1099]
+            - list [ref=e1100]:
+              - listitem [ref=e1101]:
+                - link "Fandom's Apple Store" [ref=e1102] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/fandom-videos-news-reviews/id1230063803
+                  - img "Store icon" [ref=e1103]
+              - listitem [ref=e1104]:
+                - link "Fandom's Google Play" [ref=e1105] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.fandom.app&referrer=utm_source%3Dwikia%26utm_medium%3Dglobalfooter
+                  - img "Store icon" [ref=e1106]
+      - generic [ref=e1107]:
+        - generic [ref=e1108]: Catch! Teenieping Wiki is a Fandom TV Community.
+        - button "View Mobile Site" [ref=e1110]
+  - generic: Cookies Settings

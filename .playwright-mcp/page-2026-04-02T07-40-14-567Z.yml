@@ -1,0 +1,1424 @@
+- generic [active] [ref=e1]:
+  - navigation "Fandom top navigation" [ref=e2]:
+    - link "Fandom homepage" [ref=e3] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e4]
+    - generic [ref=e7]:
+      - textbox "Search" [ref=e8]
+      - img [ref=e9]
+    - generic [ref=e11]:
+      - link "Sign In" [ref=e13] [cursor=pointer]:
+        - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FList_of_Teeniepings&metadata=header-signin-button
+      - link "Create a Free Account" [ref=e15] [cursor=pointer]:
+        - /url: https://auth.fandom.com/register?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FList_of_Teeniepings&metadata=header-registration-button
+  - generic "Community navigation" [ref=e16]:
+    - link "Fandom homepage" [ref=e18] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e19]
+    - link "Catch! Teenieping Wiki" [ref=e21] [cursor=pointer]:
+      - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+      - img "Catch! Teenieping Wiki" [ref=e22]
+    - navigation [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - img [ref=e28]
+              - generic [ref=e30]: Explore
+            - img "Expand" [ref=e31]
+        - listitem [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e36] [cursor=pointer]: Media
+            - img "Expand" [ref=e37]
+        - listitem [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e42] [cursor=pointer]: Characters
+            - img "Expand" [ref=e43]
+        - listitem [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e48] [cursor=pointer]: Misc
+            - img "Expand" [ref=e49]
+        - listitem [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e54] [cursor=pointer]: Community
+            - img "Expand" [ref=e55]
+    - button "Open searchbar" [ref=e58] [cursor=pointer]:
+      - img [ref=e59]
+    - generic [ref=e61]:
+      - link "Discuss" [ref=e62] [cursor=pointer]:
+        - /url: /f
+        - img
+      - link "Switch to Dark Theme" [ref=e63] [cursor=pointer]:
+        - /url: "#"
+        - img
+    - link "Sign In" [ref=e66] [cursor=pointer]:
+      - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FList_of_Teeniepings&metadata=header-signin-button
+      - generic [ref=e67]:
+        - img
+        - text: Sign In
+  - generic [ref=e68]:
+    - navigation "Fandom navigation" [ref=e70]:
+      - generic [ref=e71]:
+        - link "Home" [ref=e74] [cursor=pointer]:
+          - /url: https://www.fandom.com/
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e79]: Home
+        - button "Explore" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - generic [ref=e87]: Explore
+        - link "Saved" [ref=e90] [cursor=pointer]:
+          - /url: https://www.fandom.com/saved
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - generic [ref=e95]: Saved
+        - link "Progress" [ref=e98] [cursor=pointer]:
+          - /url: https://www.fandom.com/progress
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e103]: Progress
+        - button "History" [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]:
+            - img [ref=e108]
+            - generic [ref=e110]: History
+    - navigation "Fandom navigation" [ref=e112]:
+      - button "More" [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - generic [ref=e119]: More
+  - generic [ref=e120]:
+    - generic [ref=e122]:
+      - iframe [ref=e125]:
+        - generic [ref=f26e3]:
+          - link [ref=f26e4] [cursor=pointer]:
+            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CImhxWx3OacmNEJqBvcAP0KjCsAawoOHYhAGqmLWv3xXc2R4QASDD7u4NYJuj6YS4KaABnK_7qALIAQPgAgCoAwHIAwiqBJgDT9DHmX__WEQXmGz8dH8K-I1OJBVL5lLdbjbRDyspPai3a1HvbHdGzuR5yYnN3ZG9efK7k8YyGSe_NejQIBHprfAlWy6d-7D1JoL3bBKrI-SDvvvZoEQJxcWPJK5t5pIUZQtn60qdB2C2MiF3CU_gCpxrJKy1JnilKpxvCQfK6zD35VFzv8s0JxYp-CPzpZQ38XV4AQcf_bSS7Gvdc6lYWRbf3xaHAaQOvbPPA2J8XU80mJKxVLT92SCQxGMSIJWA0Edrl9nagGtb4894VLkrgQKVA7uqqIK7_8wac0ADLdT1NOCNHZqD5s1K4JoeM4H56eCXQPIegmCse80fdzsGt3DY8_yN6iCJqKlUiydF3CRk86-h9cu3-5MmE0aufK6-Ds1eyp0fNv8QS27PhQTs6Qyfp8fVbe8ZoayeDwuGxbPZ6ufI6jm9EIcKW4yzje6MSXCh-9Yar8Tv1raMkTvDM772CgYBPM3TbWiWqSv0zom6ox2a4VZ909l88_1DiDBnSrr-8WT7VCT02m8Zh6sDYK9eG25dD63MwASe6LTEwQXgBAGIBYGVnpRXoAYDgAfM0ITXAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICIgAKoA0i9_cE6WJjlxPvUzpMDsQngVDOn14qxHIAKA5gLAcgLAaIMA5ABAaoNAktSyA0B4g0TCKq6xfvUzpMDFZpADwIdUJQQZuoNEwiWrsb71M6TAxWaQA8CHVCUEGbwDQKIDv___________wHYEw3QFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo2MTYxNDU3MDIzUAa6FwI4AaoYFwkAAAAAQBgGQRIKNjE2MTQ1NzAyMxgBshgJEgKwUxgDIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIiafH-9TOkwMVmkAPAh1QlBBmEAEYASAAEgJ6C_D_BwE&num=1&cid=CAQS5AEABaugfd1uJqppOllWnHamoN45QEcCbm6pWBiN5GLkVzTjOiqplVeMQR1HKUbkDaJIYx-MHs03eLfvn1iJFn72kTk18XJccfIDJpmo_jHMrsBPcOGuIsZjq2p3gUZ6MaDkrWpIFZa6-elEaInsl_Ff2IO2IbNMi5dDUSMdsVbOiFNfVeCqUPt54ycTbT9ZBGwpnIso3Q9w4n6aiSWIDooIewn8tw2S6MYgzhEMTpgHIZzMZWOaE0SjxAh0Bs1B2cME5Jcy7l2814orIZ5W8yapkpzhWhPlVPPy6XFTXGNVBaOW3LgYAQ&sig=AOD64_0aOwv9NMcOJ0u873yAcNZ4i12b4w&client=ca-pub-7983542246824243&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://www.hero-wars.com/%3Fdelayedsignup%3Dtrue%26nx_source%3Dadx_adwordsdisplay.hw_wb_uu_-.cc-ww_other.g-mix.a-mix.au-lal.opt-purchase2.cr-hw_st_fbadalt4c_gif.cn-970_250.lp-delayed.dt-display.cid-23396321921.agid-189390468126.csd-050326.-%26cp%3D.aid-799311471014%26gad_source%3D5%26gad_campaignid%3D23396321921%26gclid%3DEAIaIQobChMIiafH-9TOkwMVmkAPAh1QlBBmEAEYASAAEgJ6C_D_BwE
+          - generic [ref=f26e6]:
+            - link [ref=f26e8] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLK9oS8gKBqX11VNutvu4onenuDe5XoJetfD_je-ZEOOJHECTUj601_4R53M0AyEmORc9T15nW7lOQhRNAFJC2LU5URSa0R4OnoqybmTeJV1SQrIsbWzz-ijdHgIi8JT-hCOVUdhsjSzm08XSkUYblpyghrEjeqIB6xGxHE-MXISseB5GuKiW5YOEq-pFTkpvQM-juQQMRLY0bilM612CKL46fYqcxoUdpd7LiurKAtNvfUKoXGL7ggn3hxZzE5sznxA6Jr96e_dOF9HATc1FY15GntCVY1K0yHRjt6FGQicWz6CJdDvGP4h-8DavlXpu-Acw-VrjGnyzGB-qRqflyYohLa7deYT_h_JxFpGbGgBwGr3B_owTM9JwyZtQro_ZmKYkmbT5JqcN_npRE7cgTa6HGV8TtIn6JbVonTjmWOrA3HmOF4GIgO0FjPp8aoO3c2_KySUR5O6mW_Nxyk7vbCubnAzsSExBcJqdfWYVgFud7rAPGBMYRrceNc0OC_Rap3joOQGX4ZNaclpfoicZbjEClB1TSIreDu6QVyKZHxml3iWIT7iXDbXMmMOHK1w_qm_5BxkiwyjLg6PVxilOGcmUorI7IXuDAiv9J8iv3X4awiYLwhNTBOAG5aRTfm9_P019eT-7N9QYxxDXzuo1EUVtx2I2_epUY5Rjt-EgFIp62glx9Rg39JhjNUjnKHhjDLPCmIyW-ZxUbFWJERhJySR3yyW93ZH_XbSswsj5KgOunp1KRgUI3svmNRlE5S4Tft6xeNuB75m3Ykc0mcgdaNkHXuDDPNrtGf3t87jOBn3dm1dIDd27NVNxzO0H2HKIijyAzsGZT4emB0qx0I_MPmY-EwIwC4SEG4s_arCo8ehtJVzJVf69N1-4Z_Gwz74s41y7bhrKQjJpeU-y624uspCWxDpMe-Rq1rORVt6xesJmF8u25gGn58qNz2n3Ht1xxNvh9r4MrSqWbnD5IUEQXQngq-0HSb3qb-i0bGV0KT_RRmTUB1IMKfmEktSvzDk5H_u7fi2NnpUoCPszszeDs06Odz-fwHyxkfjetDmfMKl8KWaToFuHybuHIEJ1v92_P1YWG2raFcNdinQM0IXVAsV2dC4QyL69dVkZGqJmyyeCE706A5_EEnW3SXK0XFNpXB1oZePZPrKWfu39SVcMs4M0s3baXLMJt1FUQQ3A-JAwVS-7AjZvBqJ4JDI5bPeBhMST_87nSgspxwtkwH1npp7G61QrThx-KnkiFxcQj8NQ9oft8YYB9WP5VAnzVzAWBq2KGavNayltg44vdqd3-GteYJcK_jDzr4Ntu9NPpowG-GnnlQYQ7pd02Fu_DAdFJDKgUH9ZAMaZN5QlB_R1smRlakId5vXJujmAZyFHI1G8KNkQYI_C0b1fMD5GSrQt3ZubpK-vemBtH2p3yViqUFqtwPVpb220_a-D65iHnGvSHHaFDB1ePMJ-D7iYuMyvkVnwXFNP8wfAvYxvJ6A2m2khq8EExF-LoHbWCTVYJSLZDDj7DZvbpmEPZ0Lagum_FKaXADgmiScFNasp6HkaB8rRuLqSJlySqJvNtB43SeQvW7-9vfPlbMxrm_wPKt0fv5D4_e0gQlm0fmmC6dX0fn8Btx0yg8cgl4x7XBwQ78e-BPTdTAtKFodmxb_2t2a260oGAuyh3MxEOFHVLsM37AgkwPK3DA9BFqTDxoCO49udwDb7QPQOX3LH20zIbNggPC0SV6lnQjBrA6D7ddkjdGRc5NElEyyIxTgZnYM11AHZ2GFUJZtOQ28Vaz36Cte54l4m7amdSqZ64wvutz4V16AO9kkPJGrjUhUk9URtqI3NTude-36ZTsim8WG_X5lLs3Dnln3BQjEmV0CXbLbuzbtuGBFxdCvjalp92-HJM3C91JldvreEmGSp1nfxA--7cKxCOJXhomjz8T8i1EW6_b4QEAt8du14-r7KcXwzwJBrX5bzYMo80XB8MnarYsII7ikHhE15_OjsJsdH39ZHOChoBC6-SFUDsgZQyMhUYzBI1O8gnr5oknAs7UrNcDT8q320vzE9uUmL2t7JNa_zO85Oyfh3oKJbhyMA89fYiqij0jsymeviJ_GbTiL4o4K7OLqlpMYaGJS3gjLlXV0DslGx_PhAUgVNlBDSwZtWR2Ba3ga9v6GvwGmrTDmNsOCJZdh4WFS3-5MA6IsMP86qCzGV2wWbrkuG5WceeKeTeTdQjhrIZWz-wsrwEoxxgc32wabFCOVwzSDdwoiiBZOscuxPtuPg4OPMLDWmWfUxmRbxBVmDIAONdMTDoVX8w5O1XFDv0jZ2czde1xLj62HkdTgUIyuEo_-ZyT1-N9e2ckfuWaBQ9HtU5UUW8YjfM2daUfAoCmv55By1Ta_BRaX0-wsEnKqEV9MNAa5Z1r9PM5hp7N6SZaCy3jxEj_jY2j7TffCMv0Id5R1EYsSPkVsySGqGdIy41QK0SHb27Mkbbfa8VwFQdz5lbMwHCbYnuuXeEn8kpFBIOZGekB9ht0-T9XsIjUpe1XiH_webPkeNPUv5BptjU7J16xUyB8OnNfsJeifSTrbDrN36hGK27t2_drmfoP-uUOUPJ0NG0RNRnwwI-ERLjq9ZabA08-mQIDBr5sUXLhBiKHvxND4bZIQrOuKMV2XDE75eUa6ZIFMwHky0f4Brii5LEsnWl5NYplSeWfJy-gutiKPPEP9ej-Cx60nPP7y8yMp5gTICWHQKcZd6api5LnkEOZ9GQN1nIWea8QUkISLEj_jtf1gVc8Bbrvh5bcWMYk_lkfla4yxAV9rxA&opi=122715837
+              - img [ref=f26e10]
+            - link [ref=f26e12] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLK9oS8gKBqX11VNutvu4onenuDe5XoJetfD_je-ZEOOJHECTUj601_4R53M0AyEmORc9T15nW7lOQhRNAFJC2LU5URSa0R4OnoqybmTeJV1SQrIsbWzz-ijdHgIi8JT-hCOVUdhsjSzm08XSkUYblpyghrEjeqIB6xGxHE-MXISseB5GuKiW5YOEq-pFTkpvQM-juQQMRLY0bilM612CKL46fYqcxoUdpd7LiurKAtNvfUKoXGL7ggn3hxZzE5sznxA6Jr96e_dOF9HATc1FY15GntCVY1K0yHRjt6FGQicWz6CJdDvGP4h-8DavlXpu-Acw-VrjGnyzGB-qRqflyYohLa7deYT_h_JxFpGbGgBwGr3B_owTM9JwyZtQro_ZmKYkmbT5JqcN_npRE7cgTa6HGV8TtIn6JbVonTjmWOrA3HmOF4GIgO0FjPp8aoO3c2_KySUR5O6mW_Nxyk7vbCubnAzsSExBcJqdfWYVgFud7rAPGBMYRrceNc0OC_Rap3joOQGX4ZNaclpfoicZbjEClB1TSIreDu6QVyKZHxml3iWIT7iXDbXMmMOHK1w_qm_5BxkiwyjLg6PVxilOGcmUorI7IXuDAiv9J8iv3X4awiYLwhNTBOAG5aRTfm9_P019eT-7N9QYxxDXzuo1EUVtx2I2_epUY5Rjt-EgFIp62glx9Rg39JhjNUjnKHhjDLPCmIyW-ZxUbFWJERhJySR3yyW93ZH_XbSswsj5KgOunp1KRgUI3svmNRlE5S4Tft6xeNuB75m3Ykc0mcgdaNkHXuDDPNrtGf3t87jOBn3dm1dIDd27NVNxzO0H2HKIijyAzsGZT4emB0qx0I_MPmY-EwIwC4SEG4s_arCo8ehtJVzJVf69N1-4Z_Gwz74s41y7bhrKQjJpeU-y624uspCWxDpMe-Rq1rORVt6xesJmF8u25gGn58qNz2n3Ht1xxNvh9r4MrSqWbnD5IUEQXQngq-0HSb3qb-i0bGV0KT_RRmTUB1IMKfmEktSvzDk5H_u7fi2NnpUoCPszszeDs06Odz-fwHyxkfjetDmfMKl8KWaToFuHybuHIEJ1v92_P1YWG2raFcNdinQM0IXVAsV2dC4QyL69dVkZGqJmyyeCE706A5_EEnW3SXK0XFNpXB1oZePZPrKWfu39SVcMs4M0s3baXLMJt1FUQQ3A-JAwVS-7AjZvBqJ4JDI5bPeBhMST_87nSgspxwtkwH1npp7G61QrThx-KnkiFxcQj8NQ9oft8YYB9WP5VAnzVzAWBq2KGavNayltg44vdqd3-GteYJcK_jDzr4Ntu9NPpowG-GnnlQYQ7pd02Fu_DAdFJDKgUH9ZAMaZN5QlB_R1smRlakId5vXJujmAZyFHI1G8KNkQYI_C0b1fMD5GSrQt3ZubpK-vemBtH2p3yViqUFqtwPVpb220_a-D65iHnGvSHHaFDB1ePMJ-D7iYuMyvkVnwXFNP8wfAvYxvJ6A2m2khq8EExF-LoHbWCTVYJSLZDDj7DZvbpmEPZ0Lagum_FKaXADgmiScFNasp6HkaB8rRuLqSJlySqJvNtB43SeQvW7-9vfPlbMxrm_wPKt0fv5D4_e0gQlm0fmmC6dX0fn8Btx0yg8cgl4x7XBwQ78e-BPTdTAtKFodmxb_2t2a260oGAuyh3MxEOFHVLsM37AgkwPK3DA9BFqTDxoCO49udwDb7QPQOX3LH20zIbNggPC0SV6lnQjBrA6D7ddkjdGRc5NElEyyIxTgZnYM11AHZ2GFUJZtOQ28Vaz36Cte54l4m7amdSqZ64wvutz4V16AO9kkPJGrjUhUk9URtqI3NTude-36ZTsim8WG_X5lLs3Dnln3BQjEmV0CXbLbuzbtuGBFxdCvjalp92-HJM3C91JldvreEmGSp1nfxA--7cKxCOJXhomjz8T8i1EW6_b4QEAt8du14-r7KcXwzwJBrX5bzYMo80XB8MnarYsII7ikHhE15_OjsJsdH39ZHOChoBC6-SFUDsgZQyMhUYzBI1O8gnr5oknAs7UrNcDT8q320vzE9uUmL2t7JNa_zO85Oyfh3oKJbhyMA89fYiqij0jsymeviJ_GbTiL4o4K7OLqlpMYaGJS3gjLlXV0DslGx_PhAUgVNlBDSwZtWR2Ba3ga9v6GvwGmrTDmNsOCJZdh4WFS3-5MA6IsMP86qCzGV2wWbrkuG5WceeKeTeTdQjhrIZWz-wsrwEoxxgc32wabFCOVwzSDdwoiiBZOscuxPtuPg4OPMLDWmWfUxmRbxBVmDIAONdMTDoVX8w5O1XFDv0jZ2czde1xLj62HkdTgUIyuEo_-ZyT1-N9e2ckfuWaBQ9HtU5UUW8YjfM2daUfAoCmv55By1Ta_BRaX0-wsEnKqEV9MNAa5Z1r9PM5hp7N6SZaCy3jxEj_jY2j7TffCMv0Id5R1EYsSPkVsySGqGdIy41QK0SHb27Mkbbfa8VwFQdz5lbMwHCbYnuuXeEn8kpFBIOZGekB9ht0-T9XsIjUpe1XiH_webPkeNPUv5BptjU7J16xUyB8OnNfsJeifSTrbDrN36hGK27t2_drmfoP-uUOUPJ0NG0RNRnwwI-ERLjq9ZabA08-mQIDBr5sUXLhBiKHvxND4bZIQrOuKMV2XDE75eUa6ZIFMwHky0f4Brii5LEsnWl5NYplSeWfJy-gutiKPPEP9ej-Cx60nPP7y8yMp5gTICWHQKcZd6api5LnkEOZ9GQN1nIWea8QUkISLEj_jtf1gVc8Bbrvh5bcWMYk_lkfla4yxAV9rxA&opi=122715837
+              - img [ref=f26e14]
+          - img [ref=f26e17] [cursor=pointer]
+          - generic [ref=f26e28]:
+            - img [ref=f26e31]
+            - generic [ref=f26e34]:
+              - text: Ads by
+              - img [ref=f26e35]
+            - generic [ref=f26e38]:
+              - generic [ref=f26e41] [cursor=pointer]: Send feedback
+              - link [ref=f26e43] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLK9oS8gKBqX11VNutvu4onenuDe5XoJetfD_je-ZEOOJHECTUj601_4R53M0AyEmORc9T15nW7lOQhRNAFJC2LU5URSa0R4OnoqybmTeJV1SQrIsbWzz-ijdHgIi8JT-hCOVUdhsjSzm08XSkUYblpyghrEjeqIB6xGxHE-MXISseB5GuKiW5YOEq-pFTkpvQM-juQQMRLY0bilM612CKL46fYqcxoUdpd7LiurKAtNvfUKoXGL7ggn3hxZzE5sznxA6Jr96e_dOF9HATc1FY15GntCVY1K0yHRjt6FGQicWz6CJdDvGP4h-8DavlXpu-Acw-VrjGnyzGB-qRqflyYohLa7deYT_h_JxFpGbGgBwGr3B_owTM9JwyZtQro_ZmKYkmbT5JqcN_npRE7cgTa6HGV8TtIn6JbVonTjmWOrA3HmOF4GIgO0FjPp8aoO3c2_KySUR5O6mW_Nxyk7vbCubnAzsSExBcJqdfWYVgFud7rAPGBMYRrceNc0OC_Rap3joOQGX4ZNaclpfoicZbjEClB1TSIreDu6QVyKZHxml3iWIT7iXDbXMmMOHK1w_qm_5BxkiwyjLg6PVxilOGcmUorI7IXuDAiv9J8iv3X4awiYLwhNTBOAG5aRTfm9_P019eT-7N9QYxxDXzuo1EUVtx2I2_epUY5Rjt-EgFIp62glx9Rg39JhjNUjnKHhjDLPCmIyW-ZxUbFWJERhJySR3yyW93ZH_XbSswsj5KgOunp1KRgUI3svmNRlE5S4Tft6xeNuB75m3Ykc0mcgdaNkHXuDDPNrtGf3t87jOBn3dm1dIDd27NVNxzO0H2HKIijyAzsGZT4emB0qx0I_MPmY-EwIwC4SEG4s_arCo8ehtJVzJVf69N1-4Z_Gwz74s41y7bhrKQjJpeU-y624uspCWxDpMe-Rq1rORVt6xesJmF8u25gGn58qNz2n3Ht1xxNvh9r4MrSqWbnD5IUEQXQngq-0HSb3qb-i0bGV0KT_RRmTUB1IMKfmEktSvzDk5H_u7fi2NnpUoCPszszeDs06Odz-fwHyxkfjetDmfMKl8KWaToFuHybuHIEJ1v92_P1YWG2raFcNdinQM0IXVAsV2dC4QyL69dVkZGqJmyyeCE706A5_EEnW3SXK0XFNpXB1oZePZPrKWfu39SVcMs4M0s3baXLMJt1FUQQ3A-JAwVS-7AjZvBqJ4JDI5bPeBhMST_87nSgspxwtkwH1npp7G61QrThx-KnkiFxcQj8NQ9oft8YYB9WP5VAnzVzAWBq2KGavNayltg44vdqd3-GteYJcK_jDzr4Ntu9NPpowG-GnnlQYQ7pd02Fu_DAdFJDKgUH9ZAMaZN5QlB_R1smRlakId5vXJujmAZyFHI1G8KNkQYI_C0b1fMD5GSrQt3ZubpK-vemBtH2p3yViqUFqtwPVpb220_a-D65iHnGvSHHaFDB1ePMJ-D7iYuMyvkVnwXFNP8wfAvYxvJ6A2m2khq8EExF-LoHbWCTVYJSLZDDj7DZvbpmEPZ0Lagum_FKaXADgmiScFNasp6HkaB8rRuLqSJlySqJvNtB43SeQvW7-9vfPlbMxrm_wPKt0fv5D4_e0gQlm0fmmC6dX0fn8Btx0yg8cgl4x7XBwQ78e-BPTdTAtKFodmxb_2t2a260oGAuyh3MxEOFHVLsM37AgkwPK3DA9BFqTDxoCO49udwDb7QPQOX3LH20zIbNggPC0SV6lnQjBrA6D7ddkjdGRc5NElEyyIxTgZnYM11AHZ2GFUJZtOQ28Vaz36Cte54l4m7amdSqZ64wvutz4V16AO9kkPJGrjUhUk9URtqI3NTude-36ZTsim8WG_X5lLs3Dnln3BQjEmV0CXbLbuzbtuGBFxdCvjalp92-HJM3C91JldvreEmGSp1nfxA--7cKxCOJXhomjz8T8i1EW6_b4QEAt8du14-r7KcXwzwJBrX5bzYMo80XB8MnarYsII7ikHhE15_OjsJsdH39ZHOChoBC6-SFUDsgZQyMhUYzBI1O8gnr5oknAs7UrNcDT8q320vzE9uUmL2t7JNa_zO85Oyfh3oKJbhyMA89fYiqij0jsymeviJ_GbTiL4o4K7OLqlpMYaGJS3gjLlXV0DslGx_PhAUgVNlBDSwZtWR2Ba3ga9v6GvwGmrTDmNsOCJZdh4WFS3-5MA6IsMP86qCzGV2wWbrkuG5WceeKeTeTdQjhrIZWz-wsrwEoxxgc32wabFCOVwzSDdwoiiBZOscuxPtuPg4OPMLDWmWfUxmRbxBVmDIAONdMTDoVX8w5O1XFDv0jZ2czde1xLj62HkdTgUIyuEo_-ZyT1-N9e2ckfuWaBQ9HtU5UUW8YjfM2daUfAoCmv55By1Ta_BRaX0-wsEnKqEV9MNAa5Z1r9PM5hp7N6SZaCy3jxEj_jY2j7TffCMv0Id5R1EYsSPkVsySGqGdIy41QK0SHb27Mkbbfa8VwFQdz5lbMwHCbYnuuXeEn8kpFBIOZGekB9ht0-T9XsIjUpe1XiH_webPkeNPUv5BptjU7J16xUyB8OnNfsJeifSTrbDrN36hGK27t2_drmfoP-uUOUPJ0NG0RNRnwwI-ERLjq9ZabA08-mQIDBr5sUXLhBiKHvxND4bZIQrOuKMV2XDE75eUa6ZIFMwHky0f4Brii5LEsnWl5NYplSeWfJy-gutiKPPEP9ej-Cx60nPP7y8yMp5gTICWHQKcZd6api5LnkEOZ9GQN1nIWea8QUkISLEj_jtf1gVc8Bbrvh5bcWMYk_lkfla4yxAV9rxA&opi=122715837
+                - generic [ref=f26e44]:
+                  - text: Why this ad?
+                  - img [ref=f26e45]
+          - generic [ref=f26e47]:
+            - generic [ref=f26e50] [cursor=pointer]: Not interested in this ad
+            - generic [ref=f26e53] [cursor=pointer]: Ad covered content
+            - generic [ref=f26e56] [cursor=pointer]: Seen this ad multiple times
+            - generic [ref=f26e59] [cursor=pointer]: Ad was inappropriate
+          - generic [ref=f26e65]: Thanks. Feedback improves Google ads
+          - generic [ref=f26e71]:
+            - text: Ad closed by
+            - img [ref=f26e72]
+      - generic [ref=e126]: Advertisement
+    - generic [ref=e128]:
+      - link "Skip to content" [ref=e129] [cursor=pointer]:
+        - /url: "#page-header"
+      - banner [ref=e131]:
+        - link "Catch! Teenieping Wiki" [ref=e132] [cursor=pointer]:
+          - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - img "Catch! Teenieping Wiki" [ref=e133]
+        - generic [ref=e134]:
+          - link "Catch! Teenieping Wiki" [ref=e136] [cursor=pointer]:
+            - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - generic [ref=e137]:
+            - generic [ref=e138]: 2,006
+            - generic [ref=e139]: pages
+          - generic [ref=e140]:
+            - link "Discuss" [ref=e141] [cursor=pointer]:
+              - /url: /f
+              - img
+            - link "Switch to Dark Theme" [ref=e142] [cursor=pointer]:
+              - /url: "#"
+              - img
+        - navigation [ref=e143]:
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - generic [ref=e146]:
+                - generic [ref=e147] [cursor=pointer]:
+                  - img [ref=e148]
+                  - generic [ref=e150]: Explore
+                - img "Expand" [ref=e151]
+            - listitem [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e156] [cursor=pointer]: Media
+                - img "Expand" [ref=e157]
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e162] [cursor=pointer]: Characters
+                - img "Expand" [ref=e163]
+            - listitem [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e168] [cursor=pointer]: Misc
+                - img "Expand" [ref=e169]
+            - listitem [ref=e171]:
+              - generic [ref=e172]:
+                - generic [ref=e174] [cursor=pointer]: Community
+                - img "Expand" [ref=e175]
+      - generic [ref=e177]:
+        - main [ref=e178]:
+          - generic [ref=e180]:
+            - link "View source" [ref=e181] [cursor=pointer]:
+              - /url: /wiki/List_of_Teeniepings?action=edit
+              - img [ref=e182]
+            - link "Sign In to Save" [ref=e184] [cursor=pointer]:
+              - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FList_of_Teeniepings&uselang=en&metadata=collections-save-button
+              - img [ref=e185]
+          - generic [ref=e187]:
+            - generic [ref=e190]:
+              - text: "in:"
+              - link "Lists" [ref=e191] [cursor=pointer]:
+                - /url: /wiki/Category:Lists
+              - text: ","
+              - link "Teenieping lists" [ref=e192] [cursor=pointer]:
+                - /url: /wiki/Category:Teenieping_lists
+              - text: ","
+              - link "Spoiler articles" [ref=e193] [cursor=pointer]:
+                - /url: /wiki/Category:Spoiler_articles
+              - text: ","
+              - link "Star articles" [ref=e194] [cursor=pointer]:
+                - /url: /wiki/Category:Star_articles
+            - generic [ref=e195]:
+              - heading "List of Teeniepings" [level=1] [ref=e197]
+              - generic [ref=e198]:
+                - link "Comments" [ref=e199] [cursor=pointer]:
+                  - /url: "#articleComments"
+                  - generic [ref=e200]: "70"
+                  - img
+                - link "Sign In to Save" [ref=e201] [cursor=pointer]:
+                  - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FList_of_Teeniepings&uselang=en&metadata=collections-save-button
+                  - img
+                  - generic [ref=e202]: Save
+                - link "View source" [ref=e203] [cursor=pointer]:
+                  - /url: /wiki/List_of_Teeniepings?action=edit
+                  - img
+                  - text: View source
+                - button "Page Tools" [ref=e205]:
+                  - img
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - figure [ref=e210]:
+                - img "Blankping Render 3" [ref=e212]
+              - generic [ref=e213]:
+                - generic [ref=e214]: What's the difference? I'm confused, Blank-blank!
+                - text: This article is about the list of all the
+                - link "Teeniepings" [ref=e215] [cursor=pointer]:
+                  - /url: /wiki/Teeniepings
+                - text: ", which is not to be confused with the"
+                - link "Teeniepings" [ref=e216] [cursor=pointer]:
+                  - /url: /wiki/Teeniepings
+                - text: "' page or any of the other list of Teeniepings subpages. You may be looking for"
+                - link "Teeniepings" [ref=e217] [cursor=pointer]:
+                  - /url: /wiki/Teeniepings
+                - text: or the
+                - link "Teeniepings lists" [ref=e218] [cursor=pointer]:
+                  - /url: /wiki/Category:Teenieping_lists
+                - text: .
+            - generic [ref=e219]:
+              - figure [ref=e220]:
+                - img "Tweetping render 2" [ref=e222]
+              - generic [ref=e223]:
+                - generic [ref=e224]: Be careful, Tweet!
+                - text: This
+                - link "page" [ref=e225] [cursor=pointer]:
+                  - /url: /wiki/Category:Spoiler_articles
+                - text: "contains spoilers from Season 5 content/episodes, or Season 6, that are not available on YouTube yet, or spoilers from Heartsping: Teenieping of Love and Teenieping: Legend of the Whale Heartstone. Read at your own risk!"
+            - generic [ref=e226]:
+              - figure [ref=e227]:
+                - img "Cheerupping Render 1" [ref=e229]
+              - generic [ref=e230]:
+                - generic [ref=e231]: You are reading a star article, Cheerup!
+                - text: This article is a
+                - link "star article" [ref=e232] [cursor=pointer]:
+                  - /url: /wiki/Category:Star_articles
+                - text: ", meaning that most sections have been filled adequately, following the wiki's guidelines: the page can therefore serve as an example of the wiki's standards. But of course, any edit, no matter its importance, is still welcome!"
+            - paragraph [ref=e233]:
+              - text: This page is a list of all the
+              - link "Teeniepings" [ref=e234] [cursor=pointer]:
+                - /url: /wiki/Teeniepings
+              - text: seen throughout the
+              - link "show" [ref=e235] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(series)
+              - text: ". There are Teeniepings from different types, each having its own season:"
+            - list [ref=e236]:
+              - listitem [ref=e237]:
+                - text: The
+                - link "Emotion Teeniepings" [ref=e239] [cursor=pointer]:
+                  - /url: /wiki/Emotion_Teeniepings
+                - text: in
+                - link "Catch! Teenieping" [ref=e241] [cursor=pointer]:
+                  - /url: /wiki/Catch!_Teenieping_(season)
+                - text: ", emotion-themed Teeniepings residing in the"
+                - link "Emotions Kingdom" [ref=e242] [cursor=pointer]:
+                  - /url: /wiki/Emotions_Kingdom
+                - text: .
+              - listitem [ref=e243]:
+                - text: The
+                - link "Jewel Teeniepings" [ref=e245] [cursor=pointer]:
+                  - /url: /wiki/Jewel_Teeniepings
+                - text: in
+                - link "Twinkle Catch! Teenieping" [ref=e247] [cursor=pointer]:
+                  - /url: /wiki/Twinkle_Catch!_Teenieping
+                - text: ", jewel-themed Teeniepings residing in the"
+                - link "Jewel Forest" [ref=e248] [cursor=pointer]:
+                  - /url: /wiki/Jewel_Forest
+                - text: .
+              - listitem [ref=e249]:
+                - text: The
+                - link "Key Teeniepings" [ref=e251] [cursor=pointer]:
+                  - /url: /wiki/Key_Teeniepings
+                - text: in
+                - link "Secret Catch! Teenieping" [ref=e253] [cursor=pointer]:
+                  - /url: /wiki/Secret_Catch!_Teenieping
+                - text: ", key-themed Teeniepings residing in the"
+                - link "Mystic Town" [ref=e254] [cursor=pointer]:
+                  - /url: /wiki/Mystic_Town
+                - text: .
+              - listitem [ref=e255]:
+                - text: The
+                - link "Dessert Teeniepings" [ref=e257] [cursor=pointer]:
+                  - /url: /wiki/Dessert_Teeniepings
+                - text: in
+                - link "Dessert Catch! Teenieping" [ref=e259] [cursor=pointer]:
+                  - /url: /wiki/Dessert_Catch!_Teenieping
+                - text: ", dessert-themed Teeniepings residing in the"
+                - link "Dessert Town" [ref=e260] [cursor=pointer]:
+                  - /url: /wiki/Dessert_Town
+                - text: .
+              - listitem [ref=e261]:
+                - text: The
+                - link "Star Teeniepings" [ref=e263] [cursor=pointer]:
+                  - /url: /wiki/Star_Teeniepings
+                - text: in
+                - link "Star Catch! Teenieping" [ref=e265] [cursor=pointer]:
+                  - /url: /wiki/Star_Catch!_Teenieping
+                - text: ", constellation-themed Teeniepings residing in the"
+                - link "Space Star Village" [ref=e266] [cursor=pointer]:
+                  - /url: /wiki/Space_Star_Village
+                - text: .
+              - listitem [ref=e267]:
+                - text: The
+                - link "Princess Teeniepings" [ref=e269] [cursor=pointer]:
+                  - /url: /wiki/Princess_Teeniepings
+                - text: in
+                - link "Princess Catch! Teenieping" [ref=e271] [cursor=pointer]:
+                  - /url: /wiki/Princess_Catch!_Teenieping
+                - text: ", princess-themed Teeniepings who currently do not have a residency, but were last seen on the"
+                - link "Princess Summit Express" [ref=e272] [cursor=pointer]:
+                  - /url: /wiki/Princess_Summit_Express
+                - text: .
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - tablist [ref=e275]:
+                  - listitem [ref=e276] [cursor=pointer]:
+                    - link "Season 1" [ref=e278]:
+                      - /url: "#"
+                  - listitem [ref=e279] [cursor=pointer]:
+                    - link "Season 2" [ref=e281]:
+                      - /url: "#"
+                  - listitem [ref=e282] [cursor=pointer]:
+                    - link "Season 3" [ref=e284]:
+                      - /url: "#"
+                  - listitem [ref=e285] [cursor=pointer]:
+                    - link "Season 4" [ref=e287]:
+                      - /url: "#"
+                  - listitem [ref=e288] [cursor=pointer]:
+                    - link "Season 5" [ref=e290]:
+                      - /url: "#"
+                  - listitem [ref=e291] [cursor=pointer]:
+                    - link "Season 6" [ref=e293]:
+                      - /url: "#"
+                  - listitem [ref=e294] [cursor=pointer]:
+                    - 'link "Heartsping: Teenieping of Love" [ref=e296]':
+                      - /url: "#"
+                - img [ref=e298] [cursor=pointer]
+              - generic [ref=e300]:
+                - heading "Royal Emotion Teeniepings" [level=3] [ref=e301]:
+                  - link "Royal Emotion Teeniepings" [ref=e303] [cursor=pointer]:
+                    - /url: /wiki/Royal_Emotion_Teeniepings
+                - table [ref=e304]:
+                  - rowgroup [ref=e305]:
+                    - row "Name Episode Description Transformation Image" [ref=e306]:
+                      - columnheader "Name" [ref=e307]
+                      - columnheader "Episode" [ref=e308]
+                      - columnheader "Description" [ref=e309]
+                      - columnheader "Transformation" [ref=e310]
+                      - columnheader "Image" [ref=e311]
+                    - row "Heartsping \"The Cookie Mess\" The Royal Teenieping of love; she is in charge of taking care of Romi. Heart-themed, she is full of love and deeply cares for her friends. Princess Heart" [ref=e312]:
+                      - cell "Heartsping" [ref=e313]:
+                        - link "Heartsping" [ref=e314] [cursor=pointer]:
+                          - /url: /wiki/Heartsping
+                      - cell "\"The Cookie Mess\"" [ref=e315]:
+                        - text: "\""
+                        - link "The Cookie Mess" [ref=e316] [cursor=pointer]:
+                          - /url: /wiki/The_Cookie_Mess
+                        - text: "\""
+                      - cell "The Royal Teenieping of love; she is in charge of taking care of Romi. Heart-themed, she is full of love and deeply cares for her friends." [ref=e317]:
+                        - text: The Royal Teenieping of love; she is in charge of taking care of
+                        - link "Romi" [ref=e318] [cursor=pointer]:
+                          - /url: /wiki/Romi
+                        - text: . Heart-themed, she is full of love and deeply cares for her friends.
+                      - cell "Princess Heart" [ref=e319]:
+                        - link "Princess Heart" [ref=e320] [cursor=pointer]:
+                          - /url: /wiki/Princesses
+                      - cell [ref=e321]:
+                        - figure [ref=e322]:
+                          - link "Heartsping S1 Render 1" [ref=e323] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/3b/Heartsping_S1_Render_1.png/revision/latest?cb=20240602044610
+                            - img "Heartsping S1 Render 1" [ref=e324]
+                    - row "Dadaping \"Dadaping, the Smart One\" The Royal Emotion Teenieping of rightness; he is studious, smart, and organized. Cloud-themed, he often helps the team with his large knowledge and inventive ideas. Princess Cloudia" [ref=e325]:
+                      - cell "Dadaping" [ref=e326]:
+                        - link "Dadaping" [ref=e327] [cursor=pointer]:
+                          - /url: /wiki/Dadaping
+                      - cell "\"Dadaping, the Smart One\"" [ref=e328]:
+                        - text: "\""
+                        - link "Dadaping, the Smart One" [ref=e329] [cursor=pointer]:
+                          - /url: /wiki/Dadaping,_the_Smart_One
+                        - text: "\""
+                      - cell "The Royal Emotion Teenieping of rightness; he is studious, smart, and organized. Cloud-themed, he often helps the team with his large knowledge and inventive ideas." [ref=e330]
+                      - cell "Princess Cloudia" [ref=e331]
+                      - cell [ref=e332]:
+                        - figure [ref=e333]:
+                          - link "Dadaping Render 1" [ref=e334] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/5/51/Dadaping_Render_1.png/revision/latest?cb=20220114163613
+                            - img "Dadaping Render 1" [ref=e335]
+                    - row "Gogoping \"You Can Do It, Maya!\" The Royal Emotion Teenieping of courage; he is sporty, brave, and energetic. Star-themed, he likes challenges and impulsive actions, but can sometimes lose touch with reality. Princess Star" [ref=e336]:
+                      - cell "Gogoping" [ref=e337]:
+                        - link "Gogoping" [ref=e338] [cursor=pointer]:
+                          - /url: /wiki/Gogoping
+                      - cell "\"You Can Do It, Maya!\"" [ref=e339]:
+                        - text: "\""
+                        - link "You Can Do It, Maya!" [ref=e340] [cursor=pointer]:
+                          - /url: /wiki/You_Can_Do_It,_Maya!
+                        - text: "\""
+                      - cell "The Royal Emotion Teenieping of courage; he is sporty, brave, and energetic. Star-themed, he likes challenges and impulsive actions, but can sometimes lose touch with reality." [ref=e341]
+                      - cell "Princess Star" [ref=e342]
+                      - cell [ref=e343]:
+                        - figure [ref=e344]:
+                          - link "Gogoping Render 1" [ref=e345] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/04/Gogoping_Render_1.png/revision/latest?cb=20220114163807
+                            - img "Gogoping Render 1" [ref=e346]
+                    - row "Chachaping \"Welcome, Dear Hope!\" The Royal Emotion Teenieping of hope; she has a calm personality. Nature-themed, she loves nature and flowers and never loses hope during difficult times. Princess Clover" [ref=e347]:
+                      - cell "Chachaping" [ref=e348]:
+                        - link "Chachaping" [ref=e349] [cursor=pointer]:
+                          - /url: /wiki/Chachaping
+                      - cell "\"Welcome, Dear Hope!\"" [ref=e350]:
+                        - text: "\""
+                        - link "Welcome, Dear Hope!" [ref=e351] [cursor=pointer]:
+                          - /url: /wiki/Welcome,_Dear_Hope!
+                        - text: "\""
+                      - cell "The Royal Emotion Teenieping of hope; she has a calm personality. Nature-themed, she loves nature and flowers and never loses hope during difficult times." [ref=e352]
+                      - cell "Princess Clover" [ref=e353]
+                      - cell [ref=e354]:
+                        - figure [ref=e355]:
+                          - link "Chachaping Render 1" [ref=e356] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/7/7e/Chachaping_Render_1.png/revision/latest?cb=20260304171737
+                            - img "Chachaping Render 1" [ref=e357]
+                    - row "Lalaping \"Let's Sing With Joy\" The Teenieping of joy, she is energetic and cheerful. Music-themed, she likes to sing loudly to express her feelings and lift the team's mood. Princess Melody" [ref=e358]:
+                      - cell "Lalaping" [ref=e359]:
+                        - link "Lalaping" [ref=e360] [cursor=pointer]:
+                          - /url: /wiki/Lalaping
+                      - cell "\"Let's Sing With Joy\"" [ref=e361]:
+                        - text: "\""
+                        - link "Let's Sing With Joy" [ref=e362] [cursor=pointer]:
+                          - /url: /wiki/Let%27s_Sing_With_Joy
+                        - text: "\""
+                      - cell "The Teenieping of joy, she is energetic and cheerful. Music-themed, she likes to sing loudly to express her feelings and lift the team's mood." [ref=e363]
+                      - cell "Princess Melody" [ref=e364]
+                      - cell [ref=e365]:
+                        - figure [ref=e366]:
+                          - link "Lalaping Render 1" [ref=e367] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/5/58/Lalaping_Render_1.png/revision/latest?cb=20220114163745
+                            - img "Lalaping Render 1" [ref=e368]
+                    - row "Happying \"Happying's Back\" The Teenieping of happiness, sunshine-themed, she appears as the last missing Royal Teenieping of the season who was secretly transformed into the villain Giggleping. Princess Sunshine" [ref=e369]:
+                      - cell "Happying" [ref=e370]:
+                        - link "Happying" [ref=e371] [cursor=pointer]:
+                          - /url: /wiki/Happying
+                      - cell "\"Happying's Back\"" [ref=e372]:
+                        - text: "\""
+                        - link "Happying's Back" [ref=e373] [cursor=pointer]:
+                          - /url: /wiki/Happying%27s_Back
+                        - text: "\""
+                      - cell "The Teenieping of happiness, sunshine-themed, she appears as the last missing Royal Teenieping of the season who was secretly transformed into the villain Giggleping." [ref=e374]
+                      - cell "Princess Sunshine" [ref=e375]
+                      - cell [ref=e376]:
+                        - figure [ref=e377]:
+                          - link "Happying S1 Render 1" [ref=e378] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/5/58/Happying_S1_Render_1.png/revision/latest?cb=20260218204457
+                            - img "Happying S1 Render 1" [ref=e379]
+                - heading "Villain Teeniepings" [level=3] [ref=e380]
+                - table [ref=e381]:
+                  - rowgroup [ref=e382]:
+                    - row "Name Episode Description Image" [ref=e383]:
+                      - columnheader "Name" [ref=e384]
+                      - columnheader "Episode" [ref=e385]
+                      - columnheader "Description" [ref=e386]
+                      - columnheader "Image" [ref=e387]
+                    - row "Giggleping \"Likey the Pranks, Giggleping!\" An unidentified Teenieping, who likes to make tricks and pranks. She allies with the freed Teeniepings to try to steal Romi's Magic Catcher." [ref=e388]:
+                      - cell "Giggleping" [ref=e389]:
+                        - link "Giggleping" [ref=e390] [cursor=pointer]:
+                          - /url: /wiki/Giggleping
+                      - cell "\"Likey the Pranks, Giggleping!\"" [ref=e391]:
+                        - text: "\""
+                        - link "Likey the Pranks, Giggleping!" [ref=e392] [cursor=pointer]:
+                          - /url: /wiki/Likey_the_Pranks,_Giggleping!
+                        - text: "\""
+                      - cell "An unidentified Teenieping, who likes to make tricks and pranks. She allies with the freed Teeniepings to try to steal Romi's Magic Catcher." [ref=e393]
+                      - cell [ref=e394]:
+                        - figure [ref=e395]:
+                          - link "Giggleping Render 1" [ref=e396] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/4/45/Giggleping_Render_1.png/revision/latest?cb=20260225200114
+                            - img "Giggleping Render 1" [ref=e397]
+                    - row "Egoping \"In The Name Of The Royalpings\" The Teenieping of selfishness, she appears as the final boss of Season 1, and the one who led Happying to transform into Giggleping and who controlled the latter." [ref=e398]:
+                      - cell "Egoping" [ref=e399]:
+                        - link "Egoping" [ref=e400] [cursor=pointer]:
+                          - /url: /wiki/Egoping
+                      - cell "\"In The Name Of The Royalpings\"" [ref=e401]:
+                        - text: "\""
+                        - link "In The Name Of The Royalpings" [ref=e402] [cursor=pointer]:
+                          - /url: /wiki/In_The_Name_Of_The_Royalpings
+                        - text: "\""
+                      - cell "The Teenieping of selfishness, she appears as the final boss of Season 1, and the one who led Happying to transform into Giggleping and who controlled the latter." [ref=e403]
+                      - cell [ref=e404]:
+                        - figure [ref=e405]:
+                          - link "Egoping Render 1" [ref=e406] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/00/Egoping_Render_1.png/revision/latest?cb=20260228172440
+                            - img "Egoping Render 1" [ref=e407]
+                - heading "Regular Emotion Teeniepings" [level=3] [ref=e408]:
+                  - generic [ref=e409]:
+                    - text: Regular
+                    - link "Emotion Teeniepings" [ref=e410] [cursor=pointer]:
+                      - /url: /wiki/Emotion_Teeniepings
+                - table [ref=e413]:
+                  - rowgroup [ref=e414]:
+                    - row "Name Episode Description Power Image" [ref=e415]:
+                      - columnheader "Name" [ref=e416]
+                      - columnheader "Episode" [ref=e417]
+                      - columnheader "Description" [ref=e418]
+                      - columnheader "Power" [ref=e419]
+                      - columnheader "Image" [ref=e420]
+                    - row "Kikiping \"The Cookie Mess\" The Teenieping of playfulness, he is noisy and foolish. He likes to play mischievous pranks and have fun with everything and everyone. Make others do pranks." [ref=e421]:
+                      - cell "Kikiping" [ref=e422]:
+                        - link "Kikiping" [ref=e423] [cursor=pointer]:
+                          - /url: /wiki/Kikiping
+                      - cell "\"The Cookie Mess\"" [ref=e424]:
+                        - text: "\""
+                        - link "The Cookie Mess" [ref=e425] [cursor=pointer]:
+                          - /url: /wiki/The_Cookie_Mess
+                        - text: "\""
+                      - cell "The Teenieping of playfulness, he is noisy and foolish. He likes to play mischievous pranks and have fun with everything and everyone." [ref=e426]
+                      - cell "Make others do pranks." [ref=e427]
+                      - cell [ref=e428]:
+                        - figure [ref=e429]:
+                          - link "Kikiping Render 1" [ref=e430] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/ea/Kikiping_Render_1.png/revision/latest?cb=20260215061821
+                            - img "Kikiping Render 1" [ref=e431]
+                    - row "Charmping \"A Very Charming Teenieping!\" The Teenieping of cuteness, she lives only for cuteness and loves to eat cotton candy. Make others act cute." [ref=e432]:
+                      - cell "Charmping" [ref=e433]:
+                        - link "Charmping" [ref=e434] [cursor=pointer]:
+                          - /url: /wiki/Charmping
+                      - cell "\"A Very Charming Teenieping!\"" [ref=e435]:
+                        - text: "\""
+                        - link "A Very Charming Teenieping!" [ref=e436] [cursor=pointer]:
+                          - /url: /wiki/A_Very_Charming_Teenieping!
+                        - text: "\""
+                      - cell "The Teenieping of cuteness, she lives only for cuteness and loves to eat cotton candy." [ref=e437]
+                      - cell "Make others act cute." [ref=e438]
+                      - cell [ref=e439]:
+                        - figure [ref=e440]:
+                          - link "Charmping Render 1" [ref=e441] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/a/a2/Charmping_Render_1.png/revision/latest?cb=20260306181633
+                            - img "Charmping Render 1" [ref=e442]
+                    - row "Shyping \"A Shy New Classmate\" The Teenieping of shyness, she is shy and gets easily embarrassed and wants to stay away from anyone. Make others shy." [ref=e443]:
+                      - cell "Shyping" [ref=e444]:
+                        - link "Shyping" [ref=e445] [cursor=pointer]:
+                          - /url: /wiki/Shyping
+                      - cell "\"A Shy New Classmate\"" [ref=e446]:
+                        - text: "\""
+                        - link "A Shy New Classmate" [ref=e447] [cursor=pointer]:
+                          - /url: /wiki/A_Shy_New_Classmate
+                        - text: "\""
+                      - cell "The Teenieping of shyness, she is shy and gets easily embarrassed and wants to stay away from anyone." [ref=e448]
+                      - cell "Make others shy." [ref=e449]
+                      - cell [ref=e450]:
+                        - figure [ref=e451]:
+                          - link "Shyping Render 1" [ref=e452] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/6/6b/Shyping_Render_1.png/revision/latest?cb=20260203231307
+                            - img "Shyping Render 1" [ref=e453]
+                    - row "Dareping \"Who's the Best?\" The Teenieping of competitiveness, he loves challenges and winning, and he really wants to win. Give others a burning desire to win, making them start challenges." [ref=e454]:
+                      - cell "Dareping" [ref=e455]:
+                        - link "Dareping" [ref=e456] [cursor=pointer]:
+                          - /url: /wiki/Dareping
+                      - cell "\"Who's the Best?\"" [ref=e457]:
+                        - text: "\""
+                        - link "Who's the Best?" [ref=e458] [cursor=pointer]:
+                          - /url: /wiki/Who%27s_the_Best%3F
+                        - text: "\""
+                      - cell "The Teenieping of competitiveness, he loves challenges and winning, and he really wants to win." [ref=e459]
+                      - cell "Give others a burning desire to win, making them start challenges." [ref=e460]
+                      - cell [ref=e461]:
+                        - figure [ref=e462]:
+                          - link "Dareping Render 1" [ref=e463] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/6/67/Dareping_Render_1.png/revision/latest?cb=20250924061754
+                            - img "Dareping Render 1" [ref=e464]
+                    - row "Blankping \"Oops, I Forgot!\" The Teenieping of obliviousness, he is lazy and clumsy and forgets various things. Make others forget about various things." [ref=e465]:
+                      - cell "Blankping" [ref=e466]:
+                        - link "Blankping" [ref=e467] [cursor=pointer]:
+                          - /url: /wiki/Blankping
+                      - cell "\"Oops, I Forgot!\"" [ref=e468]:
+                        - text: "\""
+                        - link "Oops, I Forgot!" [ref=e469] [cursor=pointer]:
+                          - /url: /wiki/Oops,_I_Forgot!
+                        - text: "\""
+                      - cell "The Teenieping of obliviousness, he is lazy and clumsy and forgets various things." [ref=e470]
+                      - cell "Make others forget about various things." [ref=e471]
+                      - cell [ref=e472]:
+                        - figure [ref=e473]:
+                          - link "Blankping Render 1" [ref=e474] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/2/27/Blankping_Render_1.png/revision/latest?cb=20260126092259
+                            - img "Blankping Render 1" [ref=e475]
+                    - row "Dreamping \"Marylou's Tummy Ache\" The Teenieping of imagination, she likes to trick others with her magic. Create illusions and transform into objects." [ref=e476]:
+                      - cell "Dreamping" [ref=e477]:
+                        - link "Dreamping" [ref=e478] [cursor=pointer]:
+                          - /url: /wiki/Dreamping
+                      - cell "\"Marylou's Tummy Ache\"" [ref=e479]:
+                        - text: "\""
+                        - link "Marylou's Tummy Ache" [ref=e480] [cursor=pointer]:
+                          - /url: /wiki/Marylou%27s_Tummy_Ache
+                        - text: "\""
+                      - cell "The Teenieping of imagination, she likes to trick others with her magic." [ref=e481]
+                      - cell "Create illusions and transform into objects." [ref=e482]
+                      - cell [ref=e483]:
+                        - figure [ref=e484]:
+                          - link "Dreamping Render 1" [ref=e485] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/2/29/Dreamping_Render_1.png/revision/latest?cb=20260322172635
+                            - img "Dreamping Render 1" [ref=e486]
+                    - row "Weeping \"What Does a Tear Candy Taste Like?\" The Teenieping of sadness, she likes rainy days, but feels happy when eating tear candy. Transform tears into candies called tear candies." [ref=e487]:
+                      - cell "Weeping" [ref=e488]:
+                        - link "Weeping" [ref=e489] [cursor=pointer]:
+                          - /url: /wiki/Weeping
+                      - cell "\"What Does a Tear Candy Taste Like?\"" [ref=e490]:
+                        - text: "\""
+                        - link "What Does a Tear Candy Taste Like?" [ref=e491] [cursor=pointer]:
+                          - /url: /wiki/What_Does_a_Tear_Candy_Taste_Like%3F
+                        - text: "\""
+                      - cell "The Teenieping of sadness, she likes rainy days, but feels happy when eating tear candy." [ref=e492]
+                      - cell "Transform tears into candies called tear candies." [ref=e493]
+                      - cell [ref=e494]:
+                        - figure [ref=e495]:
+                          - link "Weeping Render 1" [ref=e496] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/7/73/Weeping_Render_1.png/revision/latest?cb=20260131225700
+                            - img "Weeping Render 1" [ref=e497]
+                    - row "Moseyping \"Find Moseyping!\" The Teenieping of laziness, he is lazy and always tired, and doesn't want to do anything. Make himself invisible and make others lazy." [ref=e498]:
+                      - cell "Moseyping" [ref=e499]:
+                        - link "Moseyping" [ref=e500] [cursor=pointer]:
+                          - /url: /wiki/Moseyping
+                      - cell "\"Find Moseyping!\"" [ref=e501]:
+                        - text: "\""
+                        - link "Find Moseyping!" [ref=e502] [cursor=pointer]:
+                          - /url: /wiki/Find_Moseyping!
+                        - text: "\""
+                      - cell "The Teenieping of laziness, he is lazy and always tired, and doesn't want to do anything." [ref=e503]
+                      - cell "Make himself invisible and make others lazy." [ref=e504]
+                      - cell [ref=e505]:
+                        - figure [ref=e506]:
+                          - link "Moseyping Render 1" [ref=e507] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/07/Moseyping_Render_1.png/revision/latest?cb=20260211225556
+                            - img "Moseyping Render 1" [ref=e508]
+                    - row "Mimicping \"Mimicping is a Fan\" The Teenieping of imitation, he is a fan of the famous singer Hye-joo. Make others imitate anything." [ref=e509]:
+                      - cell "Mimicping" [ref=e510]:
+                        - link "Mimicping" [ref=e511] [cursor=pointer]:
+                          - /url: /wiki/Mimicping
+                      - cell "\"Mimicping is a Fan\"" [ref=e512]:
+                        - text: "\""
+                        - link "Mimicping is a Fan" [ref=e513] [cursor=pointer]:
+                          - /url: /wiki/Mimicping_is_a_Fan
+                        - text: "\""
+                      - cell "The Teenieping of imitation, he is a fan of the famous singer Hye-joo." [ref=e514]:
+                        - text: The Teenieping of imitation, he is a fan of the famous singer
+                        - link "Hye-joo" [ref=e515] [cursor=pointer]:
+                          - /url: /wiki/Hye-joo
+                        - text: .
+                      - cell "Make others imitate anything." [ref=e516]
+                      - cell [ref=e517]:
+                        - figure [ref=e518]:
+                          - link "Mimicping Render 2" [ref=e519] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/8/86/Mimicping_Render_2.png/revision/latest?cb=20260211230334
+                            - img "Mimicping Render 2" [ref=e520]
+                    - row "Narrping \"Don't Look at the Mirror!\" The Teenieping of narcissism, she loves herself, and tries to be as beautiful as possible. Give others magic mirrors that make them appear beautiful." [ref=e521]:
+                      - cell "Narrping" [ref=e522]:
+                        - link "Narrping" [ref=e523] [cursor=pointer]:
+                          - /url: /wiki/Narrping
+                      - cell "\"Don't Look at the Mirror!\"" [ref=e524]:
+                        - text: "\""
+                        - link "Don't Look at the Mirror!" [ref=e525] [cursor=pointer]:
+                          - /url: /wiki/Don%27t_Look_at_the_Mirror!
+                        - text: "\""
+                      - cell "The Teenieping of narcissism, she loves herself, and tries to be as beautiful as possible." [ref=e526]
+                      - cell "Give others magic mirrors that make them appear beautiful." [ref=e527]
+                      - cell [ref=e528]:
+                        - figure [ref=e529]:
+                          - link "Narrping Render 1" [ref=e530] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/32/Narrping_Render_1.png/revision/latest?cb=20260210225209
+                            - img "Narrping Render 1" [ref=e531]
+                    - row "Spookping \"Spooky Picture Time\" The Teenieping of fear, he loves scaring others, but he's actually a huge coward. Show someone's greatest fear." [ref=e532]:
+                      - cell "Spookping" [ref=e533]:
+                        - link "Spookping" [ref=e534] [cursor=pointer]:
+                          - /url: /wiki/Spookping
+                      - cell "\"Spooky Picture Time\"" [ref=e535]:
+                        - text: "\""
+                        - link "Spooky Picture Time" [ref=e536] [cursor=pointer]:
+                          - /url: /wiki/Spooky_Picture_Time
+                        - text: "\""
+                      - cell "The Teenieping of fear, he loves scaring others, but he's actually a huge coward." [ref=e537]
+                      - cell "Show someone's greatest fear." [ref=e538]
+                      - cell [ref=e539]:
+                        - figure [ref=e540]:
+                          - link "Spookping Render 1" [ref=e541] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/c/cc/Spookping_Render_1.png/revision/latest?cb=20260202195008
+                            - img "Spookping Render 1" [ref=e542]
+                    - row "Tutuping \"Love Me More\" The Teenieping of jealousy, she is a fan of make-up, and she thinks Romi is the prettiest person in the world, but she used to be rivals with Heartsping. Make others jealous." [ref=e543]:
+                      - cell "Tutuping" [ref=e544]:
+                        - link "Tutuping" [ref=e545] [cursor=pointer]:
+                          - /url: /wiki/Tutuping
+                      - cell "\"Love Me More\"" [ref=e546]:
+                        - text: "\""
+                        - link "Love Me More" [ref=e547] [cursor=pointer]:
+                          - /url: /wiki/Love_Me_More
+                        - text: "\""
+                      - cell "The Teenieping of jealousy, she is a fan of make-up, and she thinks Romi is the prettiest person in the world, but she used to be rivals with Heartsping." [ref=e548]
+                      - cell "Make others jealous." [ref=e549]
+                      - cell [ref=e550]:
+                        - figure [ref=e551]:
+                          - link "Tutuping Render 1" [ref=e552] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/01/Tutuping_Render_1.png/revision/latest?cb=20260201175338
+                            - img "Tutuping Render 1" [ref=e553]
+                    - row "Goodping \"Find the Lucky Stamp\" The Teenieping of wholesomeness, she likes to reward others who do good actions, which are lucky stamps. Give others a lucky stamp, that makes them lucky for the day." [ref=e554]:
+                      - cell "Goodping" [ref=e555]:
+                        - link "Goodping" [ref=e556] [cursor=pointer]:
+                          - /url: /wiki/Goodping
+                      - cell "\"Find the Lucky Stamp\"" [ref=e557]:
+                        - text: "\""
+                        - link "Find the Lucky Stamp" [ref=e558] [cursor=pointer]:
+                          - /url: /wiki/Find_the_Lucky_Stamp
+                        - text: "\""
+                      - cell "The Teenieping of wholesomeness, she likes to reward others who do good actions, which are lucky stamps." [ref=e559]
+                      - cell "Give others a lucky stamp, that makes them lucky for the day." [ref=e560]
+                      - cell [ref=e561]:
+                        - figure [ref=e562]:
+                          - link "Goodping Render 1" [ref=e563] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/b9/Goodping_Render_1.png/revision/latest?cb=20260222190822
+                            - img "Goodping Render 1" [ref=e564]
+                    - row "Tweetping \"Gonna Tweet It All!\" The Teenieping of chatter, he likes revealing other's secrets, he also likes to chat. Make others reveal their secrets." [ref=e565]:
+                      - cell "Tweetping" [ref=e566]:
+                        - link "Tweetping" [ref=e567] [cursor=pointer]:
+                          - /url: /wiki/Tweetping
+                      - cell "\"Gonna Tweet It All!\"" [ref=e568]:
+                        - text: "\""
+                        - link "Gonna Tweet It All!" [ref=e569] [cursor=pointer]:
+                          - /url: /wiki/Gonna_Tweet_It_All!
+                        - text: "\""
+                      - cell "The Teenieping of chatter, he likes revealing other's secrets, he also likes to chat." [ref=e570]
+                      - cell "Make others reveal their secrets." [ref=e571]
+                      - cell [ref=e572]:
+                        - figure [ref=e573]:
+                          - link "Tweetping Render 1" [ref=e574] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/db/Tweetping_Render_1.png/revision/latest?cb=20260201175011
+                            - img "Tweetping Render 1" [ref=e575]
+                    - row "Allmineping \"Greedy Allmineping\" The Teenieping of greed, she likes stealing food to keep everything only for her. Steal objects by plugging her hand into her basket." [ref=e576]:
+                      - cell "Allmineping" [ref=e577]:
+                        - link "Allmineping" [ref=e578] [cursor=pointer]:
+                          - /url: /wiki/Allmineping
+                      - cell "\"Greedy Allmineping\"" [ref=e579]:
+                        - text: "\""
+                        - link "Greedy Allmineping" [ref=e580] [cursor=pointer]:
+                          - /url: /wiki/Greedy_Allmineping
+                        - text: "\""
+                      - cell "The Teenieping of greed, she likes stealing food to keep everything only for her." [ref=e581]
+                      - cell "Steal objects by plugging her hand into her basket." [ref=e582]
+                      - cell [ref=e583]:
+                        - figure [ref=e584]:
+                          - link "Allmineping Render 1" [ref=e585] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/9f/Allmineping_Render_1.png/revision/latest?cb=20260126064014
+                            - img "Allmineping Render 1" [ref=e586]
+                    - row "Roarping \"Angry Roarping\" The Teenieping of anger, he gets angry easily. When angry, he releases heat, make others angry." [ref=e587]:
+                      - cell "Roarping" [ref=e588]:
+                        - link "Roarping" [ref=e589] [cursor=pointer]:
+                          - /url: /wiki/Roarping
+                      - cell "\"Angry Roarping\"" [ref=e590]:
+                        - text: "\""
+                        - link "Angry Roarping" [ref=e591] [cursor=pointer]:
+                          - /url: /wiki/Angry_Roarping
+                        - text: "\""
+                      - cell "The Teenieping of anger, he gets angry easily." [ref=e592]
+                      - cell "When angry, he releases heat, make others angry." [ref=e593]
+                      - cell [ref=e594]:
+                        - figure [ref=e595]:
+                          - link "Roarping Render 1" [ref=e596] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/ea/Roarping_Render_1.png/revision/latest?cb=20260209033529
+                            - img "Roarping Render 1" [ref=e597]
+                    - row "Nonoping \"That's a No, Nonoping!\" The Teenieping of rejection, he doesn't like much as he says no to everything, but he loves broccoli. Make others reject everything." [ref=e598]:
+                      - cell "Nonoping" [ref=e599]:
+                        - link "Nonoping" [ref=e600] [cursor=pointer]:
+                          - /url: /wiki/Nonoping
+                      - cell "\"That's a No, Nonoping!\"" [ref=e601]:
+                        - text: "\""
+                        - link "That's a No, Nonoping!" [ref=e602] [cursor=pointer]:
+                          - /url: /wiki/That%27s_a_No,_Nonoping!
+                        - text: "\""
+                      - cell "The Teenieping of rejection, he doesn't like much as he says no to everything, but he loves broccoli." [ref=e603]
+                      - cell "Make others reject everything." [ref=e604]
+                      - cell [ref=e605]:
+                        - figure [ref=e606]:
+                          - link "Nonoping Render 1" [ref=e607] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/97/Nonoping_Render_1.png/revision/latest?cb=20260210215810
+                            - img "Nonoping Render 1" [ref=e608]
+                    - row "Luvping \"The Arrow of Luvping\" The Teenieping of attraction, she lives only for love, and tries to spread love with everyone. Make others fall in love." [ref=e609]:
+                      - cell "Luvping" [ref=e610]:
+                        - link "Luvping" [ref=e611] [cursor=pointer]:
+                          - /url: /wiki/Luvping
+                      - cell "\"The Arrow of Luvping\"" [ref=e612]:
+                        - text: "\""
+                        - link "The Arrow of Luvping" [ref=e613] [cursor=pointer]:
+                          - /url: /wiki/The_Arrow_of_Luvping
+                        - text: "\""
+                      - cell "The Teenieping of attraction, she lives only for love, and tries to spread love with everyone." [ref=e614]
+                      - cell "Make others fall in love." [ref=e615]
+                      - cell [ref=e616]:
+                        - figure [ref=e617]:
+                          - link "Luvping Render 1" [ref=e618] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/b1/Luvping_Render_1.png/revision/latest?cb=20260214223117
+                            - img "Luvping Render 1" [ref=e619]
+                    - row "Coolping \"Too Cold, Coolping!\" The Teenieping of coldness, he used to live in a fridge as he only loves cold things, but he doesn't like warm things. Make others feel cold and freeze things." [ref=e620]:
+                      - cell "Coolping" [ref=e621]:
+                        - link "Coolping" [ref=e622] [cursor=pointer]:
+                          - /url: /wiki/Coolping
+                      - cell "\"Too Cold, Coolping!\"" [ref=e623]:
+                        - text: "\""
+                        - link "Too Cold, Coolping!" [ref=e624] [cursor=pointer]:
+                          - /url: /wiki/Too_Cold,_Coolping!
+                        - text: "\""
+                      - cell "The Teenieping of coldness, he used to live in a fridge as he only loves cold things, but he doesn't like warm things." [ref=e625]
+                      - cell "Make others feel cold and freeze things." [ref=e626]
+                      - cell [ref=e627]:
+                        - figure [ref=e628]:
+                          - link "Coolping Render 1" [ref=e629] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/5/59/Coolping_Render_1.png/revision/latest?cb=20260324200052
+                            - img "Coolping Render 1" [ref=e630]
+                    - row "Artping \"The Art is Alive!\" The Teenieping of art, he is a talented painter, and loves to paint. Make his paintings come alive." [ref=e631]:
+                      - cell "Artping" [ref=e632]:
+                        - link "Artping" [ref=e633] [cursor=pointer]:
+                          - /url: /wiki/Artping
+                      - cell "\"The Art is Alive!\"" [ref=e634]:
+                        - text: "\""
+                        - link "The Art is Alive!" [ref=e635] [cursor=pointer]:
+                          - /url: /wiki/The_Art_is_Alive!
+                        - text: "\""
+                      - cell "The Teenieping of art, he is a talented painter, and loves to paint." [ref=e636]
+                      - cell "Make his paintings come alive." [ref=e637]
+                      - cell [ref=e638]:
+                        - figure [ref=e639]:
+                          - link "Artping Render 1" [ref=e640] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/5/5e/Artping_Render_1.png/revision/latest?cb=20260126072614
+                            - img "Artping Render 1" [ref=e641]
+                    - row "Heavyping \"Phew, Too Heavy!\" The Teenieping of heaviness, he likes to exercise as he is sporty. Make objects heavy." [ref=e642]:
+                      - cell "Heavyping" [ref=e643]:
+                        - link "Heavyping" [ref=e644] [cursor=pointer]:
+                          - /url: /wiki/Heavyping
+                      - cell "\"Phew, Too Heavy!\"" [ref=e645]:
+                        - text: "\""
+                        - link "Phew, Too Heavy!" [ref=e646] [cursor=pointer]:
+                          - /url: /wiki/Phew,_Too_Heavy!
+                        - text: "\""
+                      - cell "The Teenieping of heaviness, he likes to exercise as he is sporty." [ref=e647]
+                      - cell "Make objects heavy." [ref=e648]
+                      - cell [ref=e649]:
+                        - figure [ref=e650]:
+                          - link "Heavyping Render 1" [ref=e651] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/c/ce/Heavyping_Render_1.png/revision/latest?cb=20260218024711
+                            - img "Heavyping Render 1" [ref=e652]
+                    - row "Oppoping \"The Upside Down World\" The Teenieping of opposition, he sees the world upside down, and wants it to be like that. Make things turn upside down." [ref=e653]:
+                      - cell "Oppoping" [ref=e654]:
+                        - link "Oppoping" [ref=e655] [cursor=pointer]:
+                          - /url: /wiki/Oppoping
+                      - cell "\"The Upside Down World\"" [ref=e656]:
+                        - text: "\""
+                        - link "The Upside Down World" [ref=e657] [cursor=pointer]:
+                          - /url: /wiki/The_Upside_Down_World
+                        - text: "\""
+                      - cell "The Teenieping of opposition, he sees the world upside down, and wants it to be like that." [ref=e658]
+                      - cell "Make things turn upside down." [ref=e659]
+                      - cell [ref=e660]:
+                        - figure [ref=e661]:
+                          - link "Oppoping Render 1" [ref=e662] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/3b/Oppoping_Render_1.png/revision/latest?cb=20260210013613
+                            - img "Oppoping Render 1" [ref=e663]
+                    - row "Zipping \"Zipping Likes It Fast\" The Teenieping of speed, he likes everything fast, and loves to go fast. Go super fast." [ref=e664]:
+                      - cell "Zipping" [ref=e665]:
+                        - link "Zipping" [ref=e666] [cursor=pointer]:
+                          - /url: /wiki/Zipping
+                      - cell "\"Zipping Likes It Fast\"" [ref=e667]:
+                        - text: "\""
+                        - link "Zipping Likes It Fast" [ref=e668] [cursor=pointer]:
+                          - /url: /wiki/Zipping_Likes_It_Fast
+                        - text: "\""
+                      - cell "The Teenieping of speed, he likes everything fast, and loves to go fast." [ref=e669]
+                      - cell "Go super fast." [ref=e670]
+                      - cell [ref=e671]:
+                        - figure [ref=e672]:
+                          - link "Zipping Render 1" [ref=e673] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/4/4a/Zipping_Render_1.png/revision/latest?cb=20260129113558
+                            - img "Zipping Render 1" [ref=e674]
+                    - row "Bebeping \"Do You Wanna Be A Baby?\" The Teenieping of childishness, a young Teenieping who wants everyone to be babies. Turn others into babies." [ref=e675]:
+                      - cell "Bebeping" [ref=e676]:
+                        - link "Bebeping" [ref=e677] [cursor=pointer]:
+                          - /url: /wiki/Bebeping
+                      - cell "\"Do You Wanna Be A Baby?\"" [ref=e678]:
+                        - text: "\""
+                        - link "Do You Wanna Be A Baby?" [ref=e679] [cursor=pointer]:
+                          - /url: /wiki/Do_You_Wanna_Be_A_Baby%3F
+                        - text: "\""
+                      - cell "The Teenieping of childishness, a young Teenieping who wants everyone to be babies." [ref=e680]
+                      - cell "Turn others into babies." [ref=e681]
+                      - cell [ref=e682]:
+                        - figure [ref=e683]:
+                          - link "Bebeping Render 1" [ref=e684] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/f/f1/Bebeping_Render_1.png/revision/latest?cb=20260126083334
+                            - img "Bebeping Render 1" [ref=e685]
+                    - row "Sleeping \"The Sleeping Beauty Of Heartrose\" The Teenieping of drowsiness, he likes to look into others' dreams, and loves eating jellies that are made from dreams. Make someone fall asleep to look at their dreams and transform them into jellies." [ref=e686]:
+                      - cell "Sleeping" [ref=e687]:
+                        - link "Sleeping" [ref=e688] [cursor=pointer]:
+                          - /url: /wiki/Sleeping
+                      - cell "\"The Sleeping Beauty Of Heartrose\"" [ref=e689]:
+                        - text: "\""
+                        - link "The Sleeping Beauty Of Heartrose" [ref=e690] [cursor=pointer]:
+                          - /url: /wiki/The_Sleeping_Beauty_Of_Heartrose
+                        - text: "\""
+                      - cell "The Teenieping of drowsiness, he likes to look into others' dreams, and loves eating jellies that are made from dreams." [ref=e691]
+                      - cell "Make someone fall asleep to look at their dreams and transform them into jellies." [ref=e692]
+                      - cell [ref=e693]:
+                        - figure [ref=e694]:
+                          - link "Sleeping Render 1" [ref=e695] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/37/Sleeping_Render_1.png/revision/latest?cb=20260202210709
+                            - img "Sleeping Render 1" [ref=e696]
+                    - row "Stickping \"Stuck with Lena\" The Teenieping of bond, she doesn't like when others argue and uses her magic to make them stick together for a while. Stick others together or stick an object anywhere." [ref=e697]:
+                      - cell "Stickping" [ref=e698]:
+                        - link "Stickping" [ref=e699] [cursor=pointer]:
+                          - /url: /wiki/Stickping
+                      - cell "\"Stuck with Lena\"" [ref=e700]:
+                        - text: "\""
+                        - link "Stuck with Lena" [ref=e701] [cursor=pointer]:
+                          - /url: /wiki/Stuck_with_Lena
+                        - text: "\""
+                      - cell "The Teenieping of bond, she doesn't like when others argue and uses her magic to make them stick together for a while." [ref=e702]
+                      - cell "Stick others together or stick an object anywhere." [ref=e703]
+                      - cell [ref=e704]:
+                        - figure [ref=e705]:
+                          - link "Stickping Render 1" [ref=e706] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/a/a1/Stickping_Render_1.png/revision/latest?cb=20260202190415
+                            - img "Stickping Render 1" [ref=e707]
+                    - row "Curieping \"The Funny Monster\" The Teenieping of curiosity, she is curious and likes to look at everything. Make objects bigger." [ref=e708]:
+                      - cell "Curieping" [ref=e709]:
+                        - link "Curieping" [ref=e710] [cursor=pointer]:
+                          - /url: /wiki/Curieping
+                      - cell "\"The Funny Monster\"" [ref=e711]:
+                        - text: "\""
+                        - link "The Funny Monster" [ref=e712] [cursor=pointer]:
+                          - /url: /wiki/The_Funny_Monster
+                        - text: "\""
+                      - cell "The Teenieping of curiosity, she is curious and likes to look at everything." [ref=e713]
+                      - cell "Make objects bigger." [ref=e714]
+                      - cell [ref=e715]:
+                        - figure [ref=e716]:
+                          - link "Curieping Render 1" [ref=e717] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/e2/Curieping_Render_1.png/revision/latest?cb=20260210194839
+                            - img "Curieping Render 1" [ref=e718]
+                    - row "Toyping \"It's Play Time!\" The Teenieping of attachment, she loves playing with toys to have fun, and wants the whole world to be filled with toys. Transform objects or others into toys." [ref=e719]:
+                      - cell "Toyping" [ref=e720]:
+                        - link "Toyping" [ref=e721] [cursor=pointer]:
+                          - /url: /wiki/Toyping
+                      - cell "\"It's Play Time!\"" [ref=e722]:
+                        - text: "\""
+                        - link "It's Play Time!" [ref=e723] [cursor=pointer]:
+                          - /url: /wiki/It%27s_Play_Time!
+                        - text: "\""
+                      - cell "The Teenieping of attachment, she loves playing with toys to have fun, and wants the whole world to be filled with toys." [ref=e724]
+                      - cell "Transform objects or others into toys." [ref=e725]
+                      - cell [ref=e726]:
+                        - figure [ref=e727]:
+                          - link "Toyping Render 1" [ref=e728] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/37/Toyping_Render_1.png/revision/latest?cb=20260201212909
+                            - img "Toyping Render 1" [ref=e729]
+                    - row "Wannabeping \"A Strange Guest At Heartrose\" The Teenieping of disguise, she is a master of disguise who likes tricking others with her disguises. Transform into someone else." [ref=e730]:
+                      - cell "Wannabeping" [ref=e731]:
+                        - link "Wannabeping" [ref=e732] [cursor=pointer]:
+                          - /url: /wiki/Wannabeping
+                      - cell "\"A Strange Guest At Heartrose\"" [ref=e733]:
+                        - text: "\""
+                        - link "A Strange Guest At Heartrose" [ref=e734] [cursor=pointer]:
+                          - /url: /wiki/A_Strange_Guest_At_Heartrose
+                        - text: "\""
+                      - cell "The Teenieping of disguise, she is a master of disguise who likes tricking others with her disguises." [ref=e735]
+                      - cell "Transform into someone else." [ref=e736]
+                      - cell [ref=e737]:
+                        - figure [ref=e738]:
+                          - link "Wannabeping Render 1" [ref=e739] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/1/16/Wannabeping_Render_1.png/revision/latest?cb=20260131230548
+                            - img "Wannabeping Render 1" [ref=e740]
+                    - row "Floraping \"The Flower Incident\" The Teenieping of environment, he is the gardener of the Emotions Kingdom, who likes to take care of the flowers, but hates it when others pluck them. Transform others into flowers." [ref=e741]:
+                      - cell "Floraping" [ref=e742]:
+                        - link "Floraping" [ref=e743] [cursor=pointer]:
+                          - /url: /wiki/Floraping
+                      - cell "\"The Flower Incident\"" [ref=e744]:
+                        - text: "\""
+                        - link "The Flower Incident" [ref=e745] [cursor=pointer]:
+                          - /url: /wiki/The_Flower_Incident
+                        - text: "\""
+                      - cell "The Teenieping of environment, he is the gardener of the Emotions Kingdom, who likes to take care of the flowers, but hates it when others pluck them." [ref=e746]
+                      - cell "Transform others into flowers." [ref=e747]
+                      - cell [ref=e748]:
+                        - figure [ref=e749]:
+                          - link "Floraping Render 1" [ref=e750] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/7/7c/Floraping_Render_1.png/revision/latest?cb=20260228162328
+                            - img "Floraping Render 1" [ref=e751]
+                    - row "Noraping \"Baby Noriping!\" The Teenieping of naïveness, he loves playing video games, but doesn't care to take care of his little brother Noriping. Make others start playing." [ref=e752]:
+                      - cell "Noraping" [ref=e753]:
+                        - link "Noraping" [ref=e754] [cursor=pointer]:
+                          - /url: /wiki/Noraping
+                      - cell "\"Baby Noriping!\"" [ref=e755]:
+                        - text: "\""
+                        - link "Baby Noriping!" [ref=e756] [cursor=pointer]:
+                          - /url: /wiki/Baby_Noriping!
+                        - text: "\""
+                      - cell "The Teenieping of naïveness, he loves playing video games, but doesn't care to take care of his little brother Noriping." [ref=e757]
+                      - cell "Make others start playing." [ref=e758]
+                      - cell [ref=e759]:
+                        - figure [ref=e760]:
+                          - link "Noraping Render 1" [ref=e761] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/2/2f/Noraping_Render_1.png/revision/latest?cb=20260210215449
+                            - img "Noraping Render 1" [ref=e762]
+                    - row "Noriping The Teenieping of innocence, he is a baby Teenieping who only wants to play with his brother Noraping. Move an object along with his prop." [ref=e763]:
+                      - cell "Noriping" [ref=e764]:
+                        - link "Noriping" [ref=e765] [cursor=pointer]:
+                          - /url: /wiki/Noriping
+                      - cell "The Teenieping of innocence, he is a baby Teenieping who only wants to play with his brother Noraping." [ref=e766]
+                      - cell "Move an object along with his prop." [ref=e767]
+                      - cell [ref=e768]:
+                        - figure [ref=e769]:
+                          - link "Noriping Render 1" [ref=e770] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/30/Noriping_Render_1.png/revision/latest?cb=20260210215138
+                            - img "Noriping Render 1" [ref=e771]
+                    - row "Sighping \"Princess Sunshine\" The Teenieping of premonition, she isn't happy and she is a bit shy, and wants to give up, but thanks to Happying, she feels happy now. Play her trumpet to make others feel depressed and unlucky." [ref=e772]:
+                      - cell "Sighping" [ref=e773]:
+                        - link "Sighping" [ref=e774] [cursor=pointer]:
+                          - /url: /wiki/Sighping
+                      - cell "\"Princess Sunshine\"" [ref=e775]:
+                        - text: "\""
+                        - link "Princess Sunshine" [ref=e776] [cursor=pointer]:
+                          - /url: /wiki/Princess_Sunshine
+                        - text: "\""
+                      - cell "The Teenieping of premonition, she isn't happy and she is a bit shy, and wants to give up, but thanks to Happying, she feels happy now." [ref=e777]
+                      - cell "Play her trumpet to make others feel depressed and unlucky." [ref=e778]
+                      - cell [ref=e779]:
+                        - figure [ref=e780]:
+                          - link "Sighping Render 2" [ref=e781] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/5/53/Sighping_Render_2.png/revision/latest?cb=20260203230318
+                            - img "Sighping Render 2" [ref=e782]
+                    - row "Shushping \"Trouble In The Library\" The Teenieping of intelligence, he spends his time studying to earn as many trophies as he can. Immobilize others to make them recite the multiplication table." [ref=e783]:
+                      - cell "Shushping" [ref=e784]:
+                        - link "Shushping" [ref=e785] [cursor=pointer]:
+                          - /url: /wiki/Shushping
+                      - cell "\"Trouble In The Library\"" [ref=e786]:
+                        - text: "\""
+                        - link "Trouble In The Library" [ref=e787] [cursor=pointer]:
+                          - /url: /wiki/Trouble_In_The_Library
+                        - text: "\""
+                      - cell "The Teenieping of intelligence, he spends his time studying to earn as many trophies as he can." [ref=e788]
+                      - cell "Immobilize others to make them recite the multiplication table." [ref=e789]
+                      - cell [ref=e790]:
+                        - figure [ref=e791]:
+                          - link "Shushping Render 1" [ref=e792] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/4/40/Shushping_Render_1.png/revision/latest?cb=20260203231719
+                            - img "Shushping Render 1" [ref=e793]
+                    - row "Freezeping \"The Coolest Friendship\" The Teenieping of coolness, he is Coolping's best friend. After an argument with him, he starts to hate ice cream. Create an ice mask on others." [ref=e794]:
+                      - cell "Freezeping" [ref=e795]:
+                        - link "Freezeping" [ref=e796] [cursor=pointer]:
+                          - /url: /wiki/Freezeping
+                      - cell "\"The Coolest Friendship\"" [ref=e797]:
+                        - text: "\""
+                        - link "The Coolest Friendship" [ref=e798] [cursor=pointer]:
+                          - /url: /wiki/The_Coolest_Friendship
+                        - text: "\""
+                      - cell "The Teenieping of coolness, he is Coolping's best friend. After an argument with him, he starts to hate ice cream." [ref=e799]
+                      - cell "Create an ice mask on others." [ref=e800]
+                      - cell [ref=e801]:
+                        - figure [ref=e802]:
+                          - link "Freezeping Render 1" [ref=e803] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/4/44/Freezeping_Render_1.png/revision/latest?cb=20260228161731
+                            - img "Freezeping Render 1" [ref=e804]
+                    - row "Sparkping \"The Electric Touch\" The Teenieping of thrill, he has electricity powers and likes crazy activities. Control and travel through electricity." [ref=e805]:
+                      - cell "Sparkping" [ref=e806]:
+                        - link "Sparkping" [ref=e807] [cursor=pointer]:
+                          - /url: /wiki/Sparkping
+                      - cell "\"The Electric Touch\"" [ref=e808]:
+                        - text: "\""
+                        - link "The Electric Touch" [ref=e809] [cursor=pointer]:
+                          - /url: /wiki/The_Electric_Touch
+                        - text: "\""
+                      - cell "The Teenieping of thrill, he has electricity powers and likes crazy activities." [ref=e810]
+                      - cell "Control and travel through electricity." [ref=e811]
+                      - cell [ref=e812]:
+                        - figure [ref=e813]:
+                          - link "Sparkping Render 2" [ref=e814] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/0f/Sparkping_Render_2.png/revision/latest?cb=20260202201950
+                            - img "Sparkping Render 2" [ref=e815]
+                    - row "Aloneping \"Teenieping From The Ocean\" The Teenieping of loneliness, he likes to stay alone. He used to live inside a whale, and he also loves fishing alone. Create a protective shield." [ref=e816]:
+                      - cell "Aloneping" [ref=e817]:
+                        - link "Aloneping" [ref=e818] [cursor=pointer]:
+                          - /url: /wiki/Aloneping
+                      - cell "\"Teenieping From The Ocean\"" [ref=e819]:
+                        - text: "\""
+                        - link "Teenieping From The Ocean" [ref=e820] [cursor=pointer]:
+                          - /url: /wiki/Teenieping_From_The_Ocean
+                        - text: "\""
+                      - cell "The Teenieping of loneliness, he likes to stay alone. He used to live inside a whale, and he also loves fishing alone." [ref=e821]
+                      - cell "Create a protective shield." [ref=e822]
+                      - cell [ref=e823]:
+                        - figure [ref=e824]:
+                          - link "Aloneping Render 2" [ref=e825] [cursor=pointer]:
+                            - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/e7/Aloneping_Render_2.png/revision/latest?cb=20260126065325
+                            - img "Aloneping Render 2" [ref=e826]
+          - generic [ref=e828]:
+            - generic "Toggle Categories" [ref=e829]:
+              - generic [ref=e830] [cursor=pointer]:
+                - text: Categories
+                - img [ref=e831]
+            - generic [ref=e833]:
+              - text: Community content is available under
+              - link "CC-BY-SA" [ref=e834] [cursor=pointer]:
+                - /url: https://www.fandom.com/licensing
+              - text: unless otherwise noted.
+            - generic [ref=e837]:
+              - paragraph [ref=e840]: 70 Comments
+              - generic [ref=e841]:
+                - img [ref=e843]
+                - heading "Join the conversation" [level=3] [ref=e845]
+                - heading "Sign in to read what others are saying and share your thoughts." [level=4] [ref=e846]
+                - link "SIGN IN" [ref=e847] [cursor=pointer]:
+                  - /url: /login?metadata=anonymous-article-comments-login-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FList_of_Teeniepings%3Fanon-comments-auth-source%3Dlogin%23articleComments
+                - paragraph [ref=e848]:
+                  - text: Don't have account?
+                  - link "Register now" [ref=e849] [cursor=pointer]:
+                    - /url: /register?metadata=anonymous-article-comments-register-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FList_of_Teeniepings%3Fanon-comments-auth-source%3Dregister%23articleComments
+        - complementary [ref=e850]:
+          - generic [ref=e851]:
+            - generic [ref=e853]:
+              - iframe [ref=e855]:
+                - generic [ref=f27e3]:
+                  - link [ref=f27e4] [cursor=pointer]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cs3KJWx3OadmQEJqBvcAP0KjCsAaxtY3qhQG38ez0pxLXxaKsTxABIMPu7g1gm6PphLgpoAHT8abkA8gBA-ACAKgDAcgDCKoEkQNP0FVZ0s1OrcYsGvKwmUntnV3WEHJ6Ss_c3FbpeA3lbEhUkoYGMiAn1GYyjfWyZUuo_yKgPhxKG_S1XMX4vhrLRu7V3bc1WashcOrS9DKRpLW26Az5LJCtjkks0smWAz9IT0ZUe_-qiIjyvtBZ3HPcKGDzHN9v36ZfO993r74h3YTNhDVkNYVEvGko9Cpgfe3VWWmYQRPXwbyvS7a7QOEoWX0qYVKmuOs7shuB8lxMcCKaNt7KqMNzKOJhwEUJYNfDu2B7MrGyJ0rFhXPwMG7ZH2t86ep7NFROjSu6X6A9n5mLrDS84cslnTKBjIVUUr6aCASCCOubp3uYcEJk0JvVenKjGtHWYtrVRg0AUjv0NdXi0raL5J7MWPwCC23NepPjH4lWMabYIRksIHhHxSVQv6WXg_pEFe2R7RikaLAPkc4jBtHxg_O3R2qXX2csbWB7YhQBW5jOq7JsLNNLwQu1HG8uy1lm1UlqOufqmsUs7iIF7jvZh3sJY3Rb4B2NN-7Y32CjJ2b6DwrTYh3qXMB9DMAEg7qn6LAB4AQBiAXj356qA6AGA4AHlY7ZG6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICIgAKoA0i9_cE6WJjlxPvUzpMDsQkgyf9bubXJJIAKA5gLAcgLAaIMA5ABAaoNAktSyA0B4g0TCKu6xfvUzpMDFZpADwIdUJQQZuoNEwiXrsb71M6TAxWaQA8CHVCUEGbwDQKIDv___________wHYEwzQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo2MTYxNDU3MDIzUAa6FwI4AaoYFwkAAAAAIAoAQRIKNjE2MTQ1NzAyMxgBshgFGAMiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMImarH-9TOkwMVmkAPAh1QlBBmEAEYASAAEgI-dvD_BwE&num=1&cid=CAQS5AEABaugfd1uJqppOllWnHamoN45QEcCbm6pWBiN5GLkVzTjOiqplVeMQR1HKUbkDaJIYx-MHs03eLfvn1iJFn72kTk18XJccfIDJpmo_jHMrsBPcOGuIsZjq2p3gUZ6MaDkrWpIFZa6-elEaInsl_Ff2IO2IbNMi5dDUSMdsVbOiFNfVeCqUPt54ycTbT9ZBGwpnIso3Q9w4n6aiSWIDooIewn8tw2S6MYgzhEMTpgHIZzMZWOaE0SjxAh0Bs1B2cME5Jcy7l2814orIZ5W8yapkpzhWhPlVPPy6XFTXGNVBaOW3LgYAQ&sig=AOD64_3cDbzs6IZ_T0BSPmYer7C1neTvig&client=ca-pub-7983542246824243&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://www.AdaptedMind.com/Math-Worksheets.html%3Futm_medium%3Dcpc%26utm_source%3Dgoogle%26campaignid%3D893890531%26campaign_type%3Ddisplay%26placement%3Dd%26utm_content%3D%26adid%3D687634257011%26adset_id%3D47463390467%26utm_term%3D%26ad_position%3D%26device%3Dc%26gad_source%3D5%26gad_campaignid%3D893890531%26gclid%3DEAIaIQobChMImarH-9TOkwMVmkAPAh1QlBBmEAEYASAAEgI-dvD_BwE
+                  - generic [ref=f27e6]:
+                    - link [ref=f27e8] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLII4U2ESNarg1Ze8kJmRcskuSWQkoIdJGsKqavUuEEW2ejUp6ddC6v5Z3om7RfUR-TqohjN_F0GMW5-sDijKsarUJNPcsdMBxRISZPgLVegWEaTnXD2Gx1qONRbFQGsOJQ5At59yX9aBf5zp0sTmg4BuWLGnyFpsozrWb3kXEWPmeYsEyXvR59hfxs8nd11T8MrWtDUUPuSONuO4zPCYJOWDzVpUyurlpB3b5bvPEMErXepnFJQJUNDk9aJyrbdwguyxEw0w5enUJR-AtGTUTFbSwhQE8An_kFVhsLKCQXkg59t-o5NCmYsA9HHDpil0hzdDWa_Izo2eq1Uwmo_k4OKbweps6zpEtBzcG2XVWow8AIn9voaYrGds7Ybmb40bFYWtIbN-iWOM54ago3woJfPti4dVIjPLVBDr3Afqp-V5rWTCBdmqh0AUZtrnF_WmMm1iVgxUEroQ-MK55JmRAIY5OsPt03hBilGBxwllbtqUVfVh_KYTw0g-8CtdNOSk4373GrUFeh7YQAdaqTrK0I5Q1YgFw9hGW_Lzu2VAJ1VBDhf6lQhHhyusoo6uQRFNBzcIcKQ6QPp92s4z--C1rdPYGj50VOVbGBmsgKl_cLfJT0Bx0acOHXpvuxiucgIU8r2IcZKLtKa_5qYqvV5qc_XjFpt5_3BFOs4WU3-Lsi0cbkTmBuTHa04fn_juvPzIlaADksoUHOe32F7jQZo10VRfoh9ZBWSv5xvXJfV5nAjHFqojzL7IdWI2ntfKX7gWmUIX--wESCGwB6HKjADReqIDpUSwizqf314Uv8P3rnyObLeRtwoF3vocMdxNqRzHlXVvIfPzH5-NdSahGULV78R-KaeIvb7mRFfqd1AhKoisX3ZxSHOU-aOJ4GrcqUcdmf2J94RWDZbqvNO_BNEkGzScJw05gMIEuI7O2qhlB-HKSR3pigjbT71OGSvn4zOyQF-PGRrMfy2-V-B2R98QjK66jMW4Gyvq2N2SXqm9OJgGv4eDGC7BttJcUuXGW6Uap4CjBoH9xDLwc5We5IauUTFpr_khuMD6gw9977i5Nd7FmfBcu_cdyu-Cc5YD-Vfb5buOHLDMfyif1HsWMVAvu2Otztvtr0XHpGryp0t_3aw-cd426_XEzTllKUPpxtrPddzimSg7E28VQgphiEfAQ9l2l538-trBdL-ZVwSVxDGLrDrrenlkl3QYSUKJ9L5Sjii1ufrD42fDav3lr8yeB6sVjxt_gZUhf2l5upIBLaSn_BEuW7ARqRjmvPt8f0wbadUbGJ2VcbPS5_v9PqgG8pacgbzYR_6-f-l7ow4IuPFus5yWpZfmB0F0u7gL6Qot2O0IbVkJUxI1O8I04iWhbGTiuh3XyU-3XjFGWzQN44hfxEYna72cWzrF79JdZWb78RH4FS5c5-3y3D7YSDD__sxjWe29MsNKZPiB-ldNor5f9q_P7bXYfZPSC1AjHv131Rj6-Al3yLbQzPsPc8RhI9c7Jtb7rL3NLzyMXNxrUOdutSQpg0Bona97Wt5x0MgNghaoOYxkfOjAeX5PUCSctdbG5yx1Oi34eIm_noHivCVqhHXZqDwFWzoBpu3yVgQvMA5L84NEuTjozNHcbPWCXNscWOPf_WS5DDKVAYu6H9bsaAFJsxarHYH0R5eckkNF5HDxiv0Yg0y4AEIV4dqOe9zDmGRBoiYkAQYz4-c_1PHAh6OyBQkKhwRbS5ck_L21qEE3lvEvl4XzFLaKBXCiuU4KnhdpYNvcF4qYGZkqpkE1CzZq6Zh2rmv_mFuAAw_WeqXQzZqm10ezMnjiii-fVOLn4DL6FS2IGHQ76Xtsloy087Wbc4AjoNO7CUl5ntlgB7tLLGlH50uo7-s6adXWzahJiUVHTw98wNvoXGONLIqqX61wcP4Ux7DQsMmLLrdpiCQ6nHkOLGdsSpssfg-LubA30vxXpH47_3yz-eV77DHv-l4ho8nZTsDRMe5aI5eh8OdCdwiMLgFlIfc8y9djnQSkyQ-G59zQj6Wm2Mc_dh_fkxbMqgrIuzngVCxPaAWhPoHN0IVRhpT1JnHNjDiDtuRx55RtvcV9xmT1cz58EM7K6Qx86oU3IZ7lyc_r1JjP1ZYvD_oMrE19KfmY0i3X8_BOn8v9Zt6uvFDoDXAI_GscIw8MDVRDJHP7l_EG-JJ07ZhDg38dV6h8jXsU4a-x_Vr1wtklvKeVt2eUKvZ7gDmh0NHQYU_Mn-SPJgw3JwKLj8VgsT1PrGd7LlpM8SN_E1-QXqlE-H5ljreNK073r4x_Gc1tggHLOi4NUxNlhGJeYT3IFJ2AdY5br4_02xJJlxQzQEb-vY0up5NZwg58k1IOK_BHH9hBIU4OfEiZ64VsO8GZytNhTH_FIkAoso6cQFSqvbntgRFM3iKLGekLKb4JdIkWtpplMuqNTGkUjHZixT8py66M2Ev6TfXARJul4J9zIP0pU0VFitPPZvqovEUl2FVemBcQvSXAB717vdnCdAgf8HgzWdVFQGsWjUieN7zpXHLwRsz9N9QSSA1ZcRI6_gbz_9Fbi8GNsVohMGpWEIXLYXMp8MNafhVq_Ft18Wpomz1n-MCFr8WFlFNwvzUpCAfjAMfN3Hu8f6iP6V806H6uuL3AtTsv_uxLHlxRpLhF0bDg9N-Vy-PMVCGbRDlyp6JtvX0n_nhpNHGZirVgX6nFhDR88WF7XyK-EGVUxSGL8GXgY2CuUifWa32jHXSNN_dyaqOVLHBbTvoFA&opi=122715837
+                      - img [ref=f27e10]
+                    - link [ref=f27e12] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLII4U2ESNarg1Ze8kJmRcskuSWQkoIdJGsKqavUuEEW2ejUp6ddC6v5Z3om7RfUR-TqohjN_F0GMW5-sDijKsarUJNPcsdMBxRISZPgLVegWEaTnXD2Gx1qONRbFQGsOJQ5At59yX9aBf5zp0sTmg4BuWLGnyFpsozrWb3kXEWPmeYsEyXvR59hfxs8nd11T8MrWtDUUPuSONuO4zPCYJOWDzVpUyurlpB3b5bvPEMErXepnFJQJUNDk9aJyrbdwguyxEw0w5enUJR-AtGTUTFbSwhQE8An_kFVhsLKCQXkg59t-o5NCmYsA9HHDpil0hzdDWa_Izo2eq1Uwmo_k4OKbweps6zpEtBzcG2XVWow8AIn9voaYrGds7Ybmb40bFYWtIbN-iWOM54ago3woJfPti4dVIjPLVBDr3Afqp-V5rWTCBdmqh0AUZtrnF_WmMm1iVgxUEroQ-MK55JmRAIY5OsPt03hBilGBxwllbtqUVfVh_KYTw0g-8CtdNOSk4373GrUFeh7YQAdaqTrK0I5Q1YgFw9hGW_Lzu2VAJ1VBDhf6lQhHhyusoo6uQRFNBzcIcKQ6QPp92s4z--C1rdPYGj50VOVbGBmsgKl_cLfJT0Bx0acOHXpvuxiucgIU8r2IcZKLtKa_5qYqvV5qc_XjFpt5_3BFOs4WU3-Lsi0cbkTmBuTHa04fn_juvPzIlaADksoUHOe32F7jQZo10VRfoh9ZBWSv5xvXJfV5nAjHFqojzL7IdWI2ntfKX7gWmUIX--wESCGwB6HKjADReqIDpUSwizqf314Uv8P3rnyObLeRtwoF3vocMdxNqRzHlXVvIfPzH5-NdSahGULV78R-KaeIvb7mRFfqd1AhKoisX3ZxSHOU-aOJ4GrcqUcdmf2J94RWDZbqvNO_BNEkGzScJw05gMIEuI7O2qhlB-HKSR3pigjbT71OGSvn4zOyQF-PGRrMfy2-V-B2R98QjK66jMW4Gyvq2N2SXqm9OJgGv4eDGC7BttJcUuXGW6Uap4CjBoH9xDLwc5We5IauUTFpr_khuMD6gw9977i5Nd7FmfBcu_cdyu-Cc5YD-Vfb5buOHLDMfyif1HsWMVAvu2Otztvtr0XHpGryp0t_3aw-cd426_XEzTllKUPpxtrPddzimSg7E28VQgphiEfAQ9l2l538-trBdL-ZVwSVxDGLrDrrenlkl3QYSUKJ9L5Sjii1ufrD42fDav3lr8yeB6sVjxt_gZUhf2l5upIBLaSn_BEuW7ARqRjmvPt8f0wbadUbGJ2VcbPS5_v9PqgG8pacgbzYR_6-f-l7ow4IuPFus5yWpZfmB0F0u7gL6Qot2O0IbVkJUxI1O8I04iWhbGTiuh3XyU-3XjFGWzQN44hfxEYna72cWzrF79JdZWb78RH4FS5c5-3y3D7YSDD__sxjWe29MsNKZPiB-ldNor5f9q_P7bXYfZPSC1AjHv131Rj6-Al3yLbQzPsPc8RhI9c7Jtb7rL3NLzyMXNxrUOdutSQpg0Bona97Wt5x0MgNghaoOYxkfOjAeX5PUCSctdbG5yx1Oi34eIm_noHivCVqhHXZqDwFWzoBpu3yVgQvMA5L84NEuTjozNHcbPWCXNscWOPf_WS5DDKVAYu6H9bsaAFJsxarHYH0R5eckkNF5HDxiv0Yg0y4AEIV4dqOe9zDmGRBoiYkAQYz4-c_1PHAh6OyBQkKhwRbS5ck_L21qEE3lvEvl4XzFLaKBXCiuU4KnhdpYNvcF4qYGZkqpkE1CzZq6Zh2rmv_mFuAAw_WeqXQzZqm10ezMnjiii-fVOLn4DL6FS2IGHQ76Xtsloy087Wbc4AjoNO7CUl5ntlgB7tLLGlH50uo7-s6adXWzahJiUVHTw98wNvoXGONLIqqX61wcP4Ux7DQsMmLLrdpiCQ6nHkOLGdsSpssfg-LubA30vxXpH47_3yz-eV77DHv-l4ho8nZTsDRMe5aI5eh8OdCdwiMLgFlIfc8y9djnQSkyQ-G59zQj6Wm2Mc_dh_fkxbMqgrIuzngVCxPaAWhPoHN0IVRhpT1JnHNjDiDtuRx55RtvcV9xmT1cz58EM7K6Qx86oU3IZ7lyc_r1JjP1ZYvD_oMrE19KfmY0i3X8_BOn8v9Zt6uvFDoDXAI_GscIw8MDVRDJHP7l_EG-JJ07ZhDg38dV6h8jXsU4a-x_Vr1wtklvKeVt2eUKvZ7gDmh0NHQYU_Mn-SPJgw3JwKLj8VgsT1PrGd7LlpM8SN_E1-QXqlE-H5ljreNK073r4x_Gc1tggHLOi4NUxNlhGJeYT3IFJ2AdY5br4_02xJJlxQzQEb-vY0up5NZwg58k1IOK_BHH9hBIU4OfEiZ64VsO8GZytNhTH_FIkAoso6cQFSqvbntgRFM3iKLGekLKb4JdIkWtpplMuqNTGkUjHZixT8py66M2Ev6TfXARJul4J9zIP0pU0VFitPPZvqovEUl2FVemBcQvSXAB717vdnCdAgf8HgzWdVFQGsWjUieN7zpXHLwRsz9N9QSSA1ZcRI6_gbz_9Fbi8GNsVohMGpWEIXLYXMp8MNafhVq_Ft18Wpomz1n-MCFr8WFlFNwvzUpCAfjAMfN3Hu8f6iP6V806H6uuL3AtTsv_uxLHlxRpLhF0bDg9N-Vy-PMVCGbRDlyp6JtvX0n_nhpNHGZirVgX6nFhDR88WF7XyK-EGVUxSGL8GXgY2CuUifWa32jHXSNN_dyaqOVLHBbTvoFA&opi=122715837
+                      - img [ref=f27e14]
+                  - img [ref=f27e17] [cursor=pointer]
+                  - generic [ref=f27e28]:
+                    - img [ref=f27e31]
+                    - generic [ref=f27e34]:
+                      - text: Ads by
+                      - img [ref=f27e35]
+                    - generic [ref=f27e38]:
+                      - generic [ref=f27e41] [cursor=pointer]: Send feedback
+                      - link [ref=f27e43] [cursor=pointer]:
+                        - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLII4U2ESNarg1Ze8kJmRcskuSWQkoIdJGsKqavUuEEW2ejUp6ddC6v5Z3om7RfUR-TqohjN_F0GMW5-sDijKsarUJNPcsdMBxRISZPgLVegWEaTnXD2Gx1qONRbFQGsOJQ5At59yX9aBf5zp0sTmg4BuWLGnyFpsozrWb3kXEWPmeYsEyXvR59hfxs8nd11T8MrWtDUUPuSONuO4zPCYJOWDzVpUyurlpB3b5bvPEMErXepnFJQJUNDk9aJyrbdwguyxEw0w5enUJR-AtGTUTFbSwhQE8An_kFVhsLKCQXkg59t-o5NCmYsA9HHDpil0hzdDWa_Izo2eq1Uwmo_k4OKbweps6zpEtBzcG2XVWow8AIn9voaYrGds7Ybmb40bFYWtIbN-iWOM54ago3woJfPti4dVIjPLVBDr3Afqp-V5rWTCBdmqh0AUZtrnF_WmMm1iVgxUEroQ-MK55JmRAIY5OsPt03hBilGBxwllbtqUVfVh_KYTw0g-8CtdNOSk4373GrUFeh7YQAdaqTrK0I5Q1YgFw9hGW_Lzu2VAJ1VBDhf6lQhHhyusoo6uQRFNBzcIcKQ6QPp92s4z--C1rdPYGj50VOVbGBmsgKl_cLfJT0Bx0acOHXpvuxiucgIU8r2IcZKLtKa_5qYqvV5qc_XjFpt5_3BFOs4WU3-Lsi0cbkTmBuTHa04fn_juvPzIlaADksoUHOe32F7jQZo10VRfoh9ZBWSv5xvXJfV5nAjHFqojzL7IdWI2ntfKX7gWmUIX--wESCGwB6HKjADReqIDpUSwizqf314Uv8P3rnyObLeRtwoF3vocMdxNqRzHlXVvIfPzH5-NdSahGULV78R-KaeIvb7mRFfqd1AhKoisX3ZxSHOU-aOJ4GrcqUcdmf2J94RWDZbqvNO_BNEkGzScJw05gMIEuI7O2qhlB-HKSR3pigjbT71OGSvn4zOyQF-PGRrMfy2-V-B2R98QjK66jMW4Gyvq2N2SXqm9OJgGv4eDGC7BttJcUuXGW6Uap4CjBoH9xDLwc5We5IauUTFpr_khuMD6gw9977i5Nd7FmfBcu_cdyu-Cc5YD-Vfb5buOHLDMfyif1HsWMVAvu2Otztvtr0XHpGryp0t_3aw-cd426_XEzTllKUPpxtrPddzimSg7E28VQgphiEfAQ9l2l538-trBdL-ZVwSVxDGLrDrrenlkl3QYSUKJ9L5Sjii1ufrD42fDav3lr8yeB6sVjxt_gZUhf2l5upIBLaSn_BEuW7ARqRjmvPt8f0wbadUbGJ2VcbPS5_v9PqgG8pacgbzYR_6-f-l7ow4IuPFus5yWpZfmB0F0u7gL6Qot2O0IbVkJUxI1O8I04iWhbGTiuh3XyU-3XjFGWzQN44hfxEYna72cWzrF79JdZWb78RH4FS5c5-3y3D7YSDD__sxjWe29MsNKZPiB-ldNor5f9q_P7bXYfZPSC1AjHv131Rj6-Al3yLbQzPsPc8RhI9c7Jtb7rL3NLzyMXNxrUOdutSQpg0Bona97Wt5x0MgNghaoOYxkfOjAeX5PUCSctdbG5yx1Oi34eIm_noHivCVqhHXZqDwFWzoBpu3yVgQvMA5L84NEuTjozNHcbPWCXNscWOPf_WS5DDKVAYu6H9bsaAFJsxarHYH0R5eckkNF5HDxiv0Yg0y4AEIV4dqOe9zDmGRBoiYkAQYz4-c_1PHAh6OyBQkKhwRbS5ck_L21qEE3lvEvl4XzFLaKBXCiuU4KnhdpYNvcF4qYGZkqpkE1CzZq6Zh2rmv_mFuAAw_WeqXQzZqm10ezMnjiii-fVOLn4DL6FS2IGHQ76Xtsloy087Wbc4AjoNO7CUl5ntlgB7tLLGlH50uo7-s6adXWzahJiUVHTw98wNvoXGONLIqqX61wcP4Ux7DQsMmLLrdpiCQ6nHkOLGdsSpssfg-LubA30vxXpH47_3yz-eV77DHv-l4ho8nZTsDRMe5aI5eh8OdCdwiMLgFlIfc8y9djnQSkyQ-G59zQj6Wm2Mc_dh_fkxbMqgrIuzngVCxPaAWhPoHN0IVRhpT1JnHNjDiDtuRx55RtvcV9xmT1cz58EM7K6Qx86oU3IZ7lyc_r1JjP1ZYvD_oMrE19KfmY0i3X8_BOn8v9Zt6uvFDoDXAI_GscIw8MDVRDJHP7l_EG-JJ07ZhDg38dV6h8jXsU4a-x_Vr1wtklvKeVt2eUKvZ7gDmh0NHQYU_Mn-SPJgw3JwKLj8VgsT1PrGd7LlpM8SN_E1-QXqlE-H5ljreNK073r4x_Gc1tggHLOi4NUxNlhGJeYT3IFJ2AdY5br4_02xJJlxQzQEb-vY0up5NZwg58k1IOK_BHH9hBIU4OfEiZ64VsO8GZytNhTH_FIkAoso6cQFSqvbntgRFM3iKLGekLKb4JdIkWtpplMuqNTGkUjHZixT8py66M2Ev6TfXARJul4J9zIP0pU0VFitPPZvqovEUl2FVemBcQvSXAB717vdnCdAgf8HgzWdVFQGsWjUieN7zpXHLwRsz9N9QSSA1ZcRI6_gbz_9Fbi8GNsVohMGpWEIXLYXMp8MNafhVq_Ft18Wpomz1n-MCFr8WFlFNwvzUpCAfjAMfN3Hu8f6iP6V806H6uuL3AtTsv_uxLHlxRpLhF0bDg9N-Vy-PMVCGbRDlyp6JtvX0n_nhpNHGZirVgX6nFhDR88WF7XyK-EGVUxSGL8GXgY2CuUifWa32jHXSNN_dyaqOVLHBbTvoFA&opi=122715837
+                        - generic [ref=f27e44]:
+                          - text: Why this ad?
+                          - img [ref=f27e45]
+                  - generic [ref=f27e47]:
+                    - generic [ref=f27e50] [cursor=pointer]: Not interested in this ad
+                    - generic [ref=f27e53] [cursor=pointer]: Ad covered content
+                    - generic [ref=f27e56] [cursor=pointer]: Seen this ad multiple times
+                    - generic [ref=f27e59] [cursor=pointer]: Ad was inappropriate
+                  - generic [ref=f27e65]: Thanks. Feedback improves Google ads
+                  - generic [ref=f27e71]:
+                    - text: Ad closed by
+                    - img [ref=f27e72]
+              - generic [ref=e856]: Advertisement
+            - generic [ref=e860]:
+              - generic [ref=e861]:
+                - heading "Recent Images" [level=2] [ref=e862]
+                - link [ref=e863] [cursor=pointer]:
+                  - /url: https://www.fandom.com
+                  - img [ref=e866]
+              - generic [ref=e871]:
+                - list [ref=e874]:
+                  - listitem [ref=e875]:
+                    - generic [ref=e877]:
+                      - link "Anna Paik (left) with Lisa Kelley.png" [ref=e878] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                        - img "Anna Paik (left) with Lisa Kelley.png" [ref=e880]
+                      - generic [ref=e881]:
+                        - link "Anna Paik" [ref=e882] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                          - heading "Anna Paik" [level=3] [ref=e883]
+                        - time [ref=e885]: 4 hours ago
+                  - listitem [ref=e886]:
+                    - generic [ref=e888]:
+                      - link "S4 Japanese Banner 4.jpg" [ref=e889] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 4.jpg" [ref=e891]
+                      - generic [ref=e892]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e893] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e894]
+                        - time [ref=e896]: 12 hours ago
+                  - listitem [ref=e897]:
+                    - generic [ref=e899]:
+                      - link "S4 Japanese Banner 3.png" [ref=e900] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 3.png" [ref=e902]
+                      - generic [ref=e903]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e904] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e905]
+                        - time [ref=e907]: 12 hours ago
+                - button "Go to next slide" [ref=e908] [cursor=pointer]:
+                  - img [ref=e909]
+            - generic [ref=e911]:
+              - iframe [ref=e913]:
+                - generic [active] [ref=f28e1]:
+                  - iframe [ref=f28e4]:
+                    - generic [active] [ref=f37e1]:
+                      - iframe [ref=f37e2] [cursor=pointer]:
+                        - img [ref=f44e2]
+                      - link [ref=f37e3] [cursor=pointer]:
+                        - /url: https://insight.adsrvr.org/track/clk?imp=70aa6d83-42aa-40af-bbdc-7b5ac4ce1a99&ag=w8mxaj2&sfe=1c059d59&sig=sAu9yrTL9DIskFwhbjfmr30zsSOnrpi5D4ar__FuRQM.&crid=2zl4o98g&cf=9716690&fq=0&t=1&td_s=catchteenieping.fandom.com&rcats=&mste=&mfld=4&mssi=&mfsi=&sv=triplelift&uhow=112&agsa=&wp=0.218&rgz=10133&dt=PC&osf=OSX&os=OSX1015&br=Chrome&svpid=1215&rlangs=ko,os&mlang=&did=&rcxt=Other&tmpc=18.02000000000004&vrtd=&osi=&osv=&daid=&dnr=0&vpb=&crrelr=&npt=&cc=2~KLUv_WMdqREMyQLlDgDED4NtqnCqQq9AEbvce1rEzhqZQgd3OG14YWoySOeXlA1Q0ofRbDRvOThnYPaTrRlhdGNodGVlbmkWN3BnaS1kbyIKRwVrb4H2zvX6jLVkM25ud3lqwALfrCjKAgd1ejBwY2940AKx4u7LsV8ytNC5maOliD9RbWlk78W80NvYsBoxMzM5Mjk0OTYzMy1lNzktYTVmNjIwVD5KnYqsRBPg-p2Jqo_-2KvIWXNkShGYoOTjdfq_fwoIt4DCleqeZxgqMgYInOic6LgRAeIRBgj4wmQYDuoRBgj7wFgYDLgSAMASAMgSANASAuASAOgSAegSAogTBJgTAKgTPNATAED80BwQgCi4MCE6MB6sQGVIS_IyOzTteItKimaFFHqYADk0UEhSSIBfALiVwcIVdHfXKW7vBpNqzwD0RAyB9lSARPWIHEYGCp1OT1Gl7jEh914Csdbh75ugKiy5j1Iwovc5S-wSbjVkrtGVl2wOwovbHTfvCIfVpk0ClCZCG4oYyKw9XZLcWZJ-lWCYAhLV_3-_4Cx-8Ncbij7TlD2nEvR40hRc_twm1BsDhzdKzjNiZcqMV4XExwrLEiCDghmOsr95x2EhqCOaYDhqyM76ZDrq_J8uG917SIeW0Vr6Fg..&dur=1~KLUv_SMFoCgkoO0AAEggAigFTUus8D4GfADes5HzgRtCCprOJ-r4gyV8&durs=hwuNMt&bdc=14&mk=Apple&mdl=Chrome&testid=%20TTDContextualTest%20%20&adpt=tl_ltriplelift&fpa=275&pcm=3&ict=Unknown&said=1364060390726602949633-330&auct=1&tail=1&r=https://m.ntesgsght.com/c/zkhjcx?campaign=thetradedesk_h72na_madhouse_all_kr_install_pc_20251115&ad_group=w8mxaj2&ad=2zl4o98g&site_id=catchteenieping.fandom.com&sub_site_id=catchteenieping.fandom.com%2fwiki%2fList_of_Teeniepings&sub1=triplelift&ttd_id=70aa6d83-42aa-40af-bbdc-7b5ac4ce1a99&tdid=
+                        - img [ref=f37e4]
+                  - img [ref=f28e6] [cursor=pointer]
+              - generic [ref=e914]: Advertisement
+            - generic [ref=e915]:
+              - generic [ref=e916]:
+                - link "S1 Royal Teeniepings Group Render 3" [ref=e918] [cursor=pointer]:
+                  - /url: https://catchteenieping.fandom.com/f
+                  - img "S1 Royal Teeniepings Group Render 3" [ref=e919]
+                - generic [ref=e920]:
+                  - link "Join the discussion!" [ref=e922] [cursor=pointer]:
+                    - /url: https://catchteenieping.fandom.com/f
+                  - text: Want to talk about something?
+                  - text: Check out the discussion feed!
+              - paragraph [ref=e923]
+              - table [ref=e924]:
+                - rowgroup [ref=e925]:
+                  - row "Want to help this Wiki grow?" [ref=e926]:
+                    - cell "Want to help this Wiki grow?" [ref=e927]:
+                      - generic [ref=e928]: Want to help this Wiki grow?
+                  - row "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e929]:
+                    - cell "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e930]:
+                      - generic [ref=e931]:
+                        - figure [ref=e932]:
+                          - link "Heartsping S2 Render 1" [ref=e933] [cursor=pointer]:
+                            - /url: /wiki/Special:Random
+                            - img "Heartsping S2 Render 1" [ref=e934]
+                        - paragraph [ref=e935]:
+                          - text: We currently have 93 users editing 2,006 pages and 18,325 files.
+                          - text: The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the
+                          - link "Editing Guide" [ref=e936] [cursor=pointer]:
+                            - /url: /wiki/Catch!_Teenieping_Wiki:Editing_Guide
+                          - text: . After reading, click the button below to get a random page to edit.
+                        - link "Contribute now!" [ref=e938] [cursor=pointer]:
+                          - /url: /wiki/Special:Random
+                          - generic [ref=e939]: Contribute now!
+            - generic [ref=e941]:
+              - iframe [ref=e943]:
+                - generic [ref=f38e3]:
+                  - link [ref=f38e4] [cursor=pointer]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cmgs_XB3OacOBAoKLpt8PqYuqmAKDjfXKhQH2_pCGyxWwkB8QASDD7u4NYJuj6YS4KaABnK_7qALIAQPgAgCoAwHIAwiqBJcDT9DgBYUlompb63lHwkK1LRo0CXntIOIIlZRWRLg6JyRrk28rfDLgCIHLm_mW_0QM_lakbZOi8t_3dRPWR4SzvXTMb8WsAA42Ugq0ACnnUSPuDEXhuzTQziq62PpJFPUXAZaeyhBVuq5jz_lxzjQcU6TATj4VpIo7cRkia_ViBatrbUz0XFHIAP23LG8vAMdPR-BqYvOQdqW1BSkxZq70xn2g4nomvFYF-90c5Sq7zBCsYtwsR66VsF2YTkHZuuLMgw9C6xIFWPj74enbyuPY_auPbqfMca-fRvEPg-TzEAlIdnvLORu4X00wlAhsfnwO2PkuwKbc5dZsfjInbkUXNcR18o53XHLwSpNW6au36CQzrDk8Ef5PLXjmS-L0oyDtWliOM-8bPdREwKKxwdHKnvJCdOHAiCHonUcNebw3DXxm8QAXfjQz3sOR9EDIwjrdDqQJttCjLVIdJv47-vt7trJbKWafIWjfh5r_xklokwpHWBmfjoKAFertQvoq2Uqd2PfjBc8P7UH-0ODArAKX8yAo_BMSGq_ABNupraDQBeAEAYgF0Nb6-VegBgOAB8zQhNcBqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgIiAAqgDSL39wTpYicj0-9TOkwOxCXxvU39WiSAcgAoDmAsByAsBogwDkAEBqg0CS1LIDQHiDRMIq_v0-9TOkwMVgoXpBR2phQoj6g0TCP3Z9fvUzpMDFYKF6QUdqYUKI_ANAogO____________AdgTDdAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjYxNjE0NTcwMjNQBroXAjgBqhgXCQAAAACAiv1AEgo2MTYxNDU3MDIzGAGyGAkSArBTGAMiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIw5_2-9TOkwMVgoXpBR2phQojEAEYASAAEgJZnfD_BwE&num=1&cid=CAQS5AEABaugfbhuMlOK0xu_N3A0OOlc1exW3z9GmOah9KSvRG21zt1QyaIE-ASdGPTtZjpR23EJtIhGKKtPiML82_tE8nbNVWPhV_6u6fjncpK__OGiU_6CLvn5pm8-KWwm7gvX5ekJaYJ5LKRI_LJE399QypJBJZRXsXYGQ8-1a56T68lntXAxBu6-JNWCCOin2cEM8LDJCBsp1KT-uYi6riIlQ4NRbLqpGqDsSICdySPO-Ks2AFzFv6rST3rekxsNemDk83SW7-mCFfTf-6qzQU0lXVT5_SYkKs3NVMZpTtB8kxTaRxUYAQ&sig=AOD64_0BifwEuS5fbZg6YWJD3r8Z3JXvGw&client=ca-pub-7983542246824243&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://www.hero-wars.com/%3Fdelayedsignup%3Dtrue%26nx_source%3Dadx_adwordsdisplay.hw_wb_uu_-.cc-ww_en.g-mix.a-mix.au-risk_audience.opt-purchase2.cr-hw_st_fbadalt4c_gif.cn-300_600.lp-delayed.dt-display.cid-23609650000.agid-193341379803.csd-050326.-%26cp%3D.aid-802457725621%26gad_source%3D5%26gad_campaignid%3D23609650000%26gclid%3DEAIaIQobChMIw5_2-9TOkwMVgoXpBR2phQojEAEYASAAEgJZnfD_BwE
+                  - generic [ref=f38e6]:
+                    - link [ref=f38e8] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLKg1L9hEzKJxO1YSxkZPVEAu85z-jUqLvYZNZSi2w2tTRib8bopZm9k9_By8LU_3oWWXN9y_V46Z45o37H5ftVgmZ4MhfXI0Js1srhoinuZ2-COGpxA7qe4cw2E070ivaw2YD2EY0OFSZDwKpnphB76UE4uY5HjXgb7d9y9DOFQIDk_Qkh87-wDr-56v9eYGaDXRmD2ek28ElhM-6kW4uA1n1tSMHES_qiv3Esb9wCkMr3MAQLAM6wJnsfwaSGBE06cgIacT3R2PKdESWNyUS1VLUsA4OD7CNBfH81ikngmKRjbeQo-SIxyIInp2QcvRbSnBry0rJW9SK4frwOyQ2U2CQ_hdoQm9j8-TjkZfnaPx3bDcHfWXdPS0UmpVWl8uvZqWWxd1zh9a6LaKjskxG_3KBlDe1OfgKE-vOuYMTaCeM21VJuoEgmro7Sr8L768i2Ss9TzIz43cznYfWMLUzJPLgGkXHohJI0p2bWnC51macWgylvT8JxsHNev_NmiTYAD8G3hi8T7-YiuPhpkw4AC0iJcfD1EaoDwN2Py1PC_g-y_GtLlniJYPLf96ne4gJW0LNeF3a2gnhO7czeFqH1Ie3qcxvxARvxXdC9HtFN0rXkTEjdTBfnt3utCl8nAayBJfg47oCX7M2MMZhWzpM9SE6qAeQ5l6X9Pltl8AFqpj4n9sOy8k6Vskj8I_lbCSIDbWrjEWKzmdPw6_GEL8KdEbfcPuScschmB3-K2sOlqKVm0y_tADQoe_KqohxPBEUzOYRzX-ugk46_3Q7al0NBt7c-V8xcR3ZcsHAyzDpqw0qFnwOZ7_OPiPsYkO-Djj4xJ1d3GwtcmJTbcM59_-Y8G-CaMegDuS8mk8eQG89bV9J6PRQuw2QCBpFZLv27zYT3k69sn9JsYN1hD10DyxAl9yFUgxK7GfpyESpPKnlEDUg8sDiwRYR2fz1rkolvRjO_tVFHXAzGcSCOFXqpKaQOBSzPXNrjEChcrurkPsQC8RA5H8Trk6kxxOFJQ9wLDIWy_2K2efYH7VvXbWAkHbtMyAxumxbKkOYqfSjsRTOho2JW-5vi6paVWZ3Vo_HgJKXagkW0WURhWLqi0nygYDAbtnWM8oXmUZAwDxoRWmQmhl_vQxHes622s9RdU5TXx0gNfyrupMqjy0SBRxpI5Xm9s64zrYUVhEscV-YxTNYucFgq0qQSJ5DSkhI8JDflyG8EZR69ZgnIgJrCa9DvVUH4kO0FnETFxMbN2OHdhOAa-05aT_zpfNZgwIjwQKqzQkjwD73gWi0q7Fp7X6rfN3tj0kMQISL415bSy0AkJenre0c3t5Q9lpwE5qLLsRdQ55S3KQgS6TkqXwMebo6oSqTPC4AJmX1teCOujsOPbOcQpPV_kabaxX7Xgw0ZcO3ZM_blxg3AayAcGyagZrU4R80V5eP1H64Rmkbyb-84Rjsa9AMkdWOrDmvTWa4e7bUjTqtxe-k5oMYiPr8JdF2TFhC1AnceBLpXJgivjpnVfn__EcdBNDKiQ-zJVBauPNiW-DW6aJP_iTJUSf-Y38wGtYLZvjDFbQZO_55x2j5L6RZSJwXauUYbWenZBX6J1r-F30ziVrooR6lAHK4qd0OJ9Fydcmah3lrMoPSkqLJztHhafgj9z46D2uqxtYjkwLocmiCh29ajJIMgTRsbqCIqjqq0eZvT1LTInCh6t4leGPIOcMNtBzB12sqePBnRfW3aAouda2fw0-mciiIN5eTIpy9co3SAON17ZJuU2N3oupkfB4wOFHYdOb4DV2tfEQWQNMGhvY_oq5GWUVFfYpQUU4y_rA3jbcfdQWGp7Oj4U3dsZiTNKE6M0eEZVr-EccS2HhygBUKSf1siJXHgXABLJ-Ihg4QDEvAX0AUv6Pd0H2VWtJs7F6OkFvE1P9REd1o41JEEDsm4LFR_EezeRkWEJRBvHEiSch_XtT3R30sKjMpVyPVhYTk91s4bNksExlk2f0PBMGTegy4-xu3pfBZp_NFtMuW-aW0k16hHMp6oPP0zMqfI1UScZCZk7o-8rknZTaPYxrXIKut3AHuG8dgxqcn58Lw_ccrWN-R5fxWHEzopL0zDt4IRsg6HYAB7ggyrii1AZlX1cNYwuZcNE5NKrxnR7Ek1tkB4KqbCLH3nXave1L1TZMXYZdNrSkDs3TaNoIPBjqrh3unk6z1HhWAeIb7TlKng8GfWiz9GGfq29E1h2xO5JyOPKXRrRmXcN6HWskR6WFODvCuqSJPuoVesYA-HxtKgiurPgyNBLKk84QxICJOya3MjtO-KLLLdjBXszbsWnDoy-ZzOPhSjSRPog_T4ZoO8YGVVh9MUrGYS1pmQnC2dcvQhS2n7YiLdbGS6M6scr88h7osgmG7XxV8Gkn9EIKkB5ryRLM2i5U_s2Mj7RSPJJcXuqufuvV0bTi8sug-5CvVTLOgNKoJKg443J5PSaUczGft6cMY5tqrRY5Qy0S4WfOLSkEYbqD6r-ReWLRIRy4rfisjBPNMJQNjUsf3b-WAKHMYL2g8a5s1z6N8ZcMM0g08qveSAQg_8MfE_uca5ga18Kh8r3zGHQrjFB1lL75ojmp5eRe2qubsYVE4rZh7U2IMfn2HS9VznqVZeiVijkS99FuBAVx4_5226wYQe2H-fkJN1bilWyt8AqpqOZtkZEtcZxVuYawPewkiupSRcHreJubU-923c8EmJIFOvob69e0WGmIDzV4bfStIhkouOsSGl7ADPdbpAxBMAP7tkWWnssMAlc-lLHM_PnoXsC7aD2k5wc74BgPi-Mm5w&opi=122715837
+                      - img [ref=f38e10]
+                    - link [ref=f38e12] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLKg1L9hEzKJxO1YSxkZPVEAu85z-jUqLvYZNZSi2w2tTRib8bopZm9k9_By8LU_3oWWXN9y_V46Z45o37H5ftVgmZ4MhfXI0Js1srhoinuZ2-COGpxA7qe4cw2E070ivaw2YD2EY0OFSZDwKpnphB76UE4uY5HjXgb7d9y9DOFQIDk_Qkh87-wDr-56v9eYGaDXRmD2ek28ElhM-6kW4uA1n1tSMHES_qiv3Esb9wCkMr3MAQLAM6wJnsfwaSGBE06cgIacT3R2PKdESWNyUS1VLUsA4OD7CNBfH81ikngmKRjbeQo-SIxyIInp2QcvRbSnBry0rJW9SK4frwOyQ2U2CQ_hdoQm9j8-TjkZfnaPx3bDcHfWXdPS0UmpVWl8uvZqWWxd1zh9a6LaKjskxG_3KBlDe1OfgKE-vOuYMTaCeM21VJuoEgmro7Sr8L768i2Ss9TzIz43cznYfWMLUzJPLgGkXHohJI0p2bWnC51macWgylvT8JxsHNev_NmiTYAD8G3hi8T7-YiuPhpkw4AC0iJcfD1EaoDwN2Py1PC_g-y_GtLlniJYPLf96ne4gJW0LNeF3a2gnhO7czeFqH1Ie3qcxvxARvxXdC9HtFN0rXkTEjdTBfnt3utCl8nAayBJfg47oCX7M2MMZhWzpM9SE6qAeQ5l6X9Pltl8AFqpj4n9sOy8k6Vskj8I_lbCSIDbWrjEWKzmdPw6_GEL8KdEbfcPuScschmB3-K2sOlqKVm0y_tADQoe_KqohxPBEUzOYRzX-ugk46_3Q7al0NBt7c-V8xcR3ZcsHAyzDpqw0qFnwOZ7_OPiPsYkO-Djj4xJ1d3GwtcmJTbcM59_-Y8G-CaMegDuS8mk8eQG89bV9J6PRQuw2QCBpFZLv27zYT3k69sn9JsYN1hD10DyxAl9yFUgxK7GfpyESpPKnlEDUg8sDiwRYR2fz1rkolvRjO_tVFHXAzGcSCOFXqpKaQOBSzPXNrjEChcrurkPsQC8RA5H8Trk6kxxOFJQ9wLDIWy_2K2efYH7VvXbWAkHbtMyAxumxbKkOYqfSjsRTOho2JW-5vi6paVWZ3Vo_HgJKXagkW0WURhWLqi0nygYDAbtnWM8oXmUZAwDxoRWmQmhl_vQxHes622s9RdU5TXx0gNfyrupMqjy0SBRxpI5Xm9s64zrYUVhEscV-YxTNYucFgq0qQSJ5DSkhI8JDflyG8EZR69ZgnIgJrCa9DvVUH4kO0FnETFxMbN2OHdhOAa-05aT_zpfNZgwIjwQKqzQkjwD73gWi0q7Fp7X6rfN3tj0kMQISL415bSy0AkJenre0c3t5Q9lpwE5qLLsRdQ55S3KQgS6TkqXwMebo6oSqTPC4AJmX1teCOujsOPbOcQpPV_kabaxX7Xgw0ZcO3ZM_blxg3AayAcGyagZrU4R80V5eP1H64Rmkbyb-84Rjsa9AMkdWOrDmvTWa4e7bUjTqtxe-k5oMYiPr8JdF2TFhC1AnceBLpXJgivjpnVfn__EcdBNDKiQ-zJVBauPNiW-DW6aJP_iTJUSf-Y38wGtYLZvjDFbQZO_55x2j5L6RZSJwXauUYbWenZBX6J1r-F30ziVrooR6lAHK4qd0OJ9Fydcmah3lrMoPSkqLJztHhafgj9z46D2uqxtYjkwLocmiCh29ajJIMgTRsbqCIqjqq0eZvT1LTInCh6t4leGPIOcMNtBzB12sqePBnRfW3aAouda2fw0-mciiIN5eTIpy9co3SAON17ZJuU2N3oupkfB4wOFHYdOb4DV2tfEQWQNMGhvY_oq5GWUVFfYpQUU4y_rA3jbcfdQWGp7Oj4U3dsZiTNKE6M0eEZVr-EccS2HhygBUKSf1siJXHgXABLJ-Ihg4QDEvAX0AUv6Pd0H2VWtJs7F6OkFvE1P9REd1o41JEEDsm4LFR_EezeRkWEJRBvHEiSch_XtT3R30sKjMpVyPVhYTk91s4bNksExlk2f0PBMGTegy4-xu3pfBZp_NFtMuW-aW0k16hHMp6oPP0zMqfI1UScZCZk7o-8rknZTaPYxrXIKut3AHuG8dgxqcn58Lw_ccrWN-R5fxWHEzopL0zDt4IRsg6HYAB7ggyrii1AZlX1cNYwuZcNE5NKrxnR7Ek1tkB4KqbCLH3nXave1L1TZMXYZdNrSkDs3TaNoIPBjqrh3unk6z1HhWAeIb7TlKng8GfWiz9GGfq29E1h2xO5JyOPKXRrRmXcN6HWskR6WFODvCuqSJPuoVesYA-HxtKgiurPgyNBLKk84QxICJOya3MjtO-KLLLdjBXszbsWnDoy-ZzOPhSjSRPog_T4ZoO8YGVVh9MUrGYS1pmQnC2dcvQhS2n7YiLdbGS6M6scr88h7osgmG7XxV8Gkn9EIKkB5ryRLM2i5U_s2Mj7RSPJJcXuqufuvV0bTi8sug-5CvVTLOgNKoJKg443J5PSaUczGft6cMY5tqrRY5Qy0S4WfOLSkEYbqD6r-ReWLRIRy4rfisjBPNMJQNjUsf3b-WAKHMYL2g8a5s1z6N8ZcMM0g08qveSAQg_8MfE_uca5ga18Kh8r3zGHQrjFB1lL75ojmp5eRe2qubsYVE4rZh7U2IMfn2HS9VznqVZeiVijkS99FuBAVx4_5226wYQe2H-fkJN1bilWyt8AqpqOZtkZEtcZxVuYawPewkiupSRcHreJubU-923c8EmJIFOvob69e0WGmIDzV4bfStIhkouOsSGl7ADPdbpAxBMAP7tkWWnssMAlc-lLHM_PnoXsC7aD2k5wc74BgPi-Mm5w&opi=122715837
+                      - img [ref=f38e14]
+                  - img [ref=f38e17] [cursor=pointer]
+                  - generic [ref=f38e28]:
+                    - img [ref=f38e31]
+                    - generic [ref=f38e34]:
+                      - text: Ads by
+                      - img [ref=f38e35]
+                    - generic [ref=f38e38]:
+                      - generic [ref=f38e41] [cursor=pointer]: Send feedback
+                      - link [ref=f38e43] [cursor=pointer]:
+                        - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLKg1L9hEzKJxO1YSxkZPVEAu85z-jUqLvYZNZSi2w2tTRib8bopZm9k9_By8LU_3oWWXN9y_V46Z45o37H5ftVgmZ4MhfXI0Js1srhoinuZ2-COGpxA7qe4cw2E070ivaw2YD2EY0OFSZDwKpnphB76UE4uY5HjXgb7d9y9DOFQIDk_Qkh87-wDr-56v9eYGaDXRmD2ek28ElhM-6kW4uA1n1tSMHES_qiv3Esb9wCkMr3MAQLAM6wJnsfwaSGBE06cgIacT3R2PKdESWNyUS1VLUsA4OD7CNBfH81ikngmKRjbeQo-SIxyIInp2QcvRbSnBry0rJW9SK4frwOyQ2U2CQ_hdoQm9j8-TjkZfnaPx3bDcHfWXdPS0UmpVWl8uvZqWWxd1zh9a6LaKjskxG_3KBlDe1OfgKE-vOuYMTaCeM21VJuoEgmro7Sr8L768i2Ss9TzIz43cznYfWMLUzJPLgGkXHohJI0p2bWnC51macWgylvT8JxsHNev_NmiTYAD8G3hi8T7-YiuPhpkw4AC0iJcfD1EaoDwN2Py1PC_g-y_GtLlniJYPLf96ne4gJW0LNeF3a2gnhO7czeFqH1Ie3qcxvxARvxXdC9HtFN0rXkTEjdTBfnt3utCl8nAayBJfg47oCX7M2MMZhWzpM9SE6qAeQ5l6X9Pltl8AFqpj4n9sOy8k6Vskj8I_lbCSIDbWrjEWKzmdPw6_GEL8KdEbfcPuScschmB3-K2sOlqKVm0y_tADQoe_KqohxPBEUzOYRzX-ugk46_3Q7al0NBt7c-V8xcR3ZcsHAyzDpqw0qFnwOZ7_OPiPsYkO-Djj4xJ1d3GwtcmJTbcM59_-Y8G-CaMegDuS8mk8eQG89bV9J6PRQuw2QCBpFZLv27zYT3k69sn9JsYN1hD10DyxAl9yFUgxK7GfpyESpPKnlEDUg8sDiwRYR2fz1rkolvRjO_tVFHXAzGcSCOFXqpKaQOBSzPXNrjEChcrurkPsQC8RA5H8Trk6kxxOFJQ9wLDIWy_2K2efYH7VvXbWAkHbtMyAxumxbKkOYqfSjsRTOho2JW-5vi6paVWZ3Vo_HgJKXagkW0WURhWLqi0nygYDAbtnWM8oXmUZAwDxoRWmQmhl_vQxHes622s9RdU5TXx0gNfyrupMqjy0SBRxpI5Xm9s64zrYUVhEscV-YxTNYucFgq0qQSJ5DSkhI8JDflyG8EZR69ZgnIgJrCa9DvVUH4kO0FnETFxMbN2OHdhOAa-05aT_zpfNZgwIjwQKqzQkjwD73gWi0q7Fp7X6rfN3tj0kMQISL415bSy0AkJenre0c3t5Q9lpwE5qLLsRdQ55S3KQgS6TkqXwMebo6oSqTPC4AJmX1teCOujsOPbOcQpPV_kabaxX7Xgw0ZcO3ZM_blxg3AayAcGyagZrU4R80V5eP1H64Rmkbyb-84Rjsa9AMkdWOrDmvTWa4e7bUjTqtxe-k5oMYiPr8JdF2TFhC1AnceBLpXJgivjpnVfn__EcdBNDKiQ-zJVBauPNiW-DW6aJP_iTJUSf-Y38wGtYLZvjDFbQZO_55x2j5L6RZSJwXauUYbWenZBX6J1r-F30ziVrooR6lAHK4qd0OJ9Fydcmah3lrMoPSkqLJztHhafgj9z46D2uqxtYjkwLocmiCh29ajJIMgTRsbqCIqjqq0eZvT1LTInCh6t4leGPIOcMNtBzB12sqePBnRfW3aAouda2fw0-mciiIN5eTIpy9co3SAON17ZJuU2N3oupkfB4wOFHYdOb4DV2tfEQWQNMGhvY_oq5GWUVFfYpQUU4y_rA3jbcfdQWGp7Oj4U3dsZiTNKE6M0eEZVr-EccS2HhygBUKSf1siJXHgXABLJ-Ihg4QDEvAX0AUv6Pd0H2VWtJs7F6OkFvE1P9REd1o41JEEDsm4LFR_EezeRkWEJRBvHEiSch_XtT3R30sKjMpVyPVhYTk91s4bNksExlk2f0PBMGTegy4-xu3pfBZp_NFtMuW-aW0k16hHMp6oPP0zMqfI1UScZCZk7o-8rknZTaPYxrXIKut3AHuG8dgxqcn58Lw_ccrWN-R5fxWHEzopL0zDt4IRsg6HYAB7ggyrii1AZlX1cNYwuZcNE5NKrxnR7Ek1tkB4KqbCLH3nXave1L1TZMXYZdNrSkDs3TaNoIPBjqrh3unk6z1HhWAeIb7TlKng8GfWiz9GGfq29E1h2xO5JyOPKXRrRmXcN6HWskR6WFODvCuqSJPuoVesYA-HxtKgiurPgyNBLKk84QxICJOya3MjtO-KLLLdjBXszbsWnDoy-ZzOPhSjSRPog_T4ZoO8YGVVh9MUrGYS1pmQnC2dcvQhS2n7YiLdbGS6M6scr88h7osgmG7XxV8Gkn9EIKkB5ryRLM2i5U_s2Mj7RSPJJcXuqufuvV0bTi8sug-5CvVTLOgNKoJKg443J5PSaUczGft6cMY5tqrRY5Qy0S4WfOLSkEYbqD6r-ReWLRIRy4rfisjBPNMJQNjUsf3b-WAKHMYL2g8a5s1z6N8ZcMM0g08qveSAQg_8MfE_uca5ga18Kh8r3zGHQrjFB1lL75ojmp5eRe2qubsYVE4rZh7U2IMfn2HS9VznqVZeiVijkS99FuBAVx4_5226wYQe2H-fkJN1bilWyt8AqpqOZtkZEtcZxVuYawPewkiupSRcHreJubU-923c8EmJIFOvob69e0WGmIDzV4bfStIhkouOsSGl7ADPdbpAxBMAP7tkWWnssMAlc-lLHM_PnoXsC7aD2k5wc74BgPi-Mm5w&opi=122715837
+                        - generic [ref=f38e44]:
+                          - text: Why this ad?
+                          - img [ref=f38e45]
+                  - generic [ref=f38e47]:
+                    - generic [ref=f38e50] [cursor=pointer]: Not interested in this ad
+                    - generic [ref=f38e53] [cursor=pointer]: Ad covered content
+                    - generic [ref=f38e56] [cursor=pointer]: Seen this ad multiple times
+                    - generic [ref=f38e59] [cursor=pointer]: Ad was inappropriate
+                  - generic [ref=f38e65]: Thanks. Feedback improves Google ads
+                  - generic [ref=f38e71]:
+                    - text: Ad closed by
+                    - img [ref=f38e72]
+              - generic [ref=e944]: Advertisement
+      - iframe [ref=e948]:
+        - generic [ref=f29e7] [cursor=pointer]:
+          - img [ref=f29e9]
+          - generic [ref=f29e12]:
+            - generic [ref=f29e13]:
+              - generic "무료로 즐기는 오픈월드 액션 RPG" [ref=f29e15]
+              - generic "연운는 웅장한 오픈월드 액션 어드벤처 RPG로, 고전 무협 세계를 생생하게 구현했습니다." [ref=f29e17]
+            - generic [ref=f29e18]:
+              - generic [ref=f29e19]:
+                - generic [ref=f29e20]: "광고:"
+                - generic [ref=f29e21]: NetEase Games
+              - generic [ref=f29e24]: 자세히 보기
+          - link [ref=f29e26]:
+            - /url: https://privacy-center.sharethrough.com/en/consumer-privacy-notice/#4
+    - contentinfo [ref=e949]:
+      - generic [ref=e950]:
+        - generic [ref=e951]:
+          - heading "Fandom homepage" [level=2] [ref=e952]:
+            - link "Fandom homepage" [ref=e953] [cursor=pointer]:
+              - /url: https://www.fandom.com/
+              - img "Fandom logo" [ref=e954]
+          - generic [ref=e955]:
+            - heading "Explore properties" [level=3] [ref=e956]
+            - list [ref=e957]:
+              - listitem [ref=e958]:
+                - link "Fandom" [ref=e959] [cursor=pointer]:
+                  - /url: https://www.fandom.com/
+              - listitem [ref=e960]:
+                - link "Fanatical" [ref=e961] [cursor=pointer]:
+                  - /url: https://www.fanatical.com/
+              - listitem [ref=e962]:
+                - link "GameSpot" [ref=e963] [cursor=pointer]:
+                  - /url: https://www.gamespot.com/
+              - listitem [ref=e964]:
+                - link "Metacritic" [ref=e965] [cursor=pointer]:
+                  - /url: https://www.metacritic.com/
+              - listitem [ref=e966]:
+                - link "TV Guide" [ref=e967] [cursor=pointer]:
+                  - /url: https://www.tvguide.com/
+              - listitem [ref=e968]:
+                - link "Honest Entertainment" [ref=e969] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/screenjunkies
+          - generic [ref=e970]:
+            - heading "Follow Us" [level=3] [ref=e971]
+            - list [ref=e972]:
+              - listitem [ref=e973]:
+                - link "Follow Fandom on Facebook" [ref=e974] [cursor=pointer]:
+                  - /url: https://www.facebook.com/getfandom
+                  - img [ref=e975]
+              - listitem [ref=e977]:
+                - link "Follow Fandom on Twitter" [ref=e978] [cursor=pointer]:
+                  - /url: https://twitter.com/getfandom
+                  - img [ref=e979]
+              - listitem [ref=e981]:
+                - link "Follow Fandom on Youtube" [ref=e982] [cursor=pointer]:
+                  - /url: https://www.youtube.com/fandomentertainment
+                  - img [ref=e983]
+              - listitem [ref=e985]:
+                - link "Follow Fandom on Instagram" [ref=e986] [cursor=pointer]:
+                  - /url: https://www.instagram.com/getfandom/
+                  - img [ref=e987]
+              - listitem [ref=e989]:
+                - link "Follow Fandom on LinkedIn" [ref=e990] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/157252
+                  - img [ref=e991]
+        - generic [ref=e994]:
+          - heading "Overview" [level=3] [ref=e995]
+          - list [ref=e996]:
+            - listitem [ref=e997]:
+              - link "What is Fandom?" [ref=e998] [cursor=pointer]:
+                - /url: https://www.fandom.com/what-is-fandom
+            - listitem [ref=e999]:
+              - link "Essentials" [ref=e1000] [cursor=pointer]:
+                - /url: https://www.fandom.com/essentials
+            - listitem [ref=e1001]:
+              - link "About" [ref=e1002] [cursor=pointer]:
+                - /url: https://www.fandom.com/about
+            - listitem [ref=e1003]:
+              - link "Careers" [ref=e1004] [cursor=pointer]:
+                - /url: https://www.fandom.com/careers
+            - listitem [ref=e1005]:
+              - link "Press" [ref=e1006] [cursor=pointer]:
+                - /url: https://www.fandom.com/press
+            - listitem [ref=e1007]:
+              - link "Contact" [ref=e1008] [cursor=pointer]:
+                - /url: https://www.fandom.com/about#contact
+            - listitem [ref=e1009]:
+              - link "Terms of Use" [ref=e1010] [cursor=pointer]:
+                - /url: https://www.fandom.com/terms-of-use
+            - listitem [ref=e1011]:
+              - link "Privacy Policy" [ref=e1012] [cursor=pointer]:
+                - /url: https://www.fandom.com/privacy-policy
+            - listitem [ref=e1013]:
+              - link "Digital Services Act" [ref=e1014] [cursor=pointer]:
+                - /url: https://www.fandom.com/digital-services-act
+            - listitem [ref=e1015]:
+              - link "Global Sitemap" [ref=e1016] [cursor=pointer]:
+                - /url: //community.fandom.com/Sitemap
+            - listitem [ref=e1017]:
+              - link "Local Sitemap" [ref=e1018] [cursor=pointer]:
+                - /url: /wiki/Local_Sitemap
+            - listitem [ref=e1019]:
+              - button "Cookies Settings" [ref=e1020]
+        - generic [ref=e1021]:
+          - generic [ref=e1022]:
+            - heading "Community" [level=3] [ref=e1023]
+            - list [ref=e1024]:
+              - listitem [ref=e1025]:
+                - link "Community Central" [ref=e1026] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Community_Central
+              - listitem [ref=e1027]:
+                - link "Support" [ref=e1028] [cursor=pointer]:
+                  - /url: https://fandom.zendesk.com/
+              - listitem [ref=e1029]:
+                - link "Help" [ref=e1030] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Help:Contents
+          - generic [ref=e1031]:
+            - heading "Advertise" [level=3] [ref=e1032]
+            - list [ref=e1033]:
+              - listitem [ref=e1034]:
+                - link "Media Kit" [ref=e1035] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit
+              - listitem [ref=e1036]:
+                - link "Contact" [ref=e1037] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit#contact
+        - generic [ref=e1038]:
+          - generic [ref=e1039]:
+            - heading "Fandom Apps" [level=3] [ref=e1040]
+            - text: Take your favorite fandoms with you and never miss a beat.
+          - generic [ref=e1041]:
+            - img "Fandom App logo" [ref=e1042]
+            - list [ref=e1043]:
+              - listitem [ref=e1044]:
+                - link "Fandom's Apple Store" [ref=e1045] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/fandom-videos-news-reviews/id1230063803
+                  - img "Store icon" [ref=e1046]
+              - listitem [ref=e1047]:
+                - link "Fandom's Google Play" [ref=e1048] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.fandom.app&referrer=utm_source%3Dwikia%26utm_medium%3Dglobalfooter
+                  - img "Store icon" [ref=e1049]
+      - generic [ref=e1050]:
+        - generic [ref=e1051]: Catch! Teenieping Wiki is a Fandom TV Community.
+        - button "View Mobile Site" [ref=e1053]
+  - generic: Cookies Settings

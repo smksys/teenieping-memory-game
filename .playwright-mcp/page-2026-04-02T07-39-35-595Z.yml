@@ -1,0 +1,2037 @@
+- generic [active] [ref=e1]:
+  - navigation "Fandom top navigation" [ref=e2]:
+    - link "Fandom homepage" [ref=e3] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e4]
+    - generic [ref=e7]:
+      - textbox "Search" [ref=e8]
+      - img [ref=e9]
+    - generic [ref=e11]:
+      - link "Sign In" [ref=e13] [cursor=pointer]:
+        - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHeartsping&metadata=header-signin-button
+      - link "Create a Free Account" [ref=e15] [cursor=pointer]:
+        - /url: https://auth.fandom.com/register?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHeartsping&metadata=header-registration-button
+  - generic "Community navigation" [ref=e16]:
+    - link "Fandom homepage" [ref=e18] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e19]
+    - link "Catch! Teenieping Wiki" [ref=e21] [cursor=pointer]:
+      - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+      - img "Catch! Teenieping Wiki" [ref=e22]
+    - navigation [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - img [ref=e28]
+              - generic [ref=e30]: Explore
+            - img "Expand" [ref=e31]
+        - listitem [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e36] [cursor=pointer]: Media
+            - img "Expand" [ref=e37]
+        - listitem [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e42] [cursor=pointer]: Characters
+            - img "Expand" [ref=e43]
+        - listitem [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e48] [cursor=pointer]: Misc
+            - img "Expand" [ref=e49]
+        - listitem [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e54] [cursor=pointer]: Community
+            - img "Expand" [ref=e55]
+    - button "Open searchbar" [ref=e58] [cursor=pointer]:
+      - img [ref=e59]
+    - generic [ref=e61]:
+      - link "Discuss" [ref=e62] [cursor=pointer]:
+        - /url: /f
+        - img
+      - link "Switch to Dark Theme" [ref=e63] [cursor=pointer]:
+        - /url: "#"
+        - img
+    - link "Sign In" [ref=e66] [cursor=pointer]:
+      - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHeartsping&metadata=header-signin-button
+      - generic [ref=e67]:
+        - img
+        - text: Sign In
+  - generic [ref=e68]:
+    - navigation "Fandom navigation" [ref=e70]:
+      - generic [ref=e71]:
+        - link "Home" [ref=e74] [cursor=pointer]:
+          - /url: https://www.fandom.com/
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e79]: Home
+        - button "Explore" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - generic [ref=e87]: Explore
+        - link "Saved" [ref=e90] [cursor=pointer]:
+          - /url: https://www.fandom.com/saved
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - generic [ref=e95]: Saved
+        - link "Progress" [ref=e98] [cursor=pointer]:
+          - /url: https://www.fandom.com/progress
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e103]: Progress
+        - button "History" [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]:
+            - img [ref=e108]
+            - generic [ref=e110]: History
+    - navigation "Fandom navigation" [ref=e112]:
+      - button "More" [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - generic [ref=e119]: More
+  - generic [ref=e120]:
+    - generic [ref=e124]: Advertisement
+    - generic [ref=e126]:
+      - link "Skip to content" [ref=e127] [cursor=pointer]:
+        - /url: "#page-header"
+      - banner [ref=e129]:
+        - link "Catch! Teenieping Wiki" [ref=e130] [cursor=pointer]:
+          - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - img "Catch! Teenieping Wiki" [ref=e131]
+        - generic [ref=e132]:
+          - link "Catch! Teenieping Wiki" [ref=e134] [cursor=pointer]:
+            - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - generic [ref=e135]:
+            - generic [ref=e136]: 2,004
+            - generic [ref=e137]: pages
+          - generic [ref=e138]:
+            - link "Discuss" [ref=e139] [cursor=pointer]:
+              - /url: /f
+              - img
+            - link "Switch to Dark Theme" [ref=e140] [cursor=pointer]:
+              - /url: "#"
+              - img
+        - navigation [ref=e141]:
+          - list [ref=e142]:
+            - listitem [ref=e143]:
+              - generic [ref=e144]:
+                - generic [ref=e145] [cursor=pointer]:
+                  - img [ref=e146]
+                  - generic [ref=e148]: Explore
+                - img "Expand" [ref=e149]
+            - listitem [ref=e151]:
+              - generic [ref=e152]:
+                - generic [ref=e154] [cursor=pointer]: Media
+                - img "Expand" [ref=e155]
+            - listitem [ref=e157]:
+              - generic [ref=e158]:
+                - generic [ref=e160] [cursor=pointer]: Characters
+                - img "Expand" [ref=e161]
+            - listitem [ref=e163]:
+              - generic [ref=e164]:
+                - generic [ref=e166] [cursor=pointer]: Misc
+                - img "Expand" [ref=e167]
+            - listitem [ref=e169]:
+              - generic [ref=e170]:
+                - generic [ref=e172] [cursor=pointer]: Community
+                - img "Expand" [ref=e173]
+      - generic [ref=e175]:
+        - main [ref=e176]:
+          - generic [ref=e178]:
+            - generic "Contents" [ref=e179]:
+              - button "Contents" [ref=e180] [cursor=pointer]:
+                - img [ref=e181]
+              - text: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+            - link "View source" [ref=e183] [cursor=pointer]:
+              - /url: /wiki/Heartsping?action=edit
+              - img [ref=e184]
+            - link "Sign In to Save" [ref=e186] [cursor=pointer]:
+              - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHeartsping&uselang=en&metadata=collections-save-button
+              - img [ref=e187]
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - generic [ref=e192]:
+                - text: "in:"
+                - link "Spoiler articles" [ref=e193] [cursor=pointer]:
+                  - /url: /wiki/Category:Spoiler_articles
+                - text: ","
+                - link "Star articles" [ref=e194] [cursor=pointer]:
+                  - /url: /wiki/Category:Star_articles
+                - text: ","
+                - link "Characters" [ref=e195] [cursor=pointer]:
+                  - /url: /wiki/Category:Characters
+                - text: ","
+                - generic [ref=e196]: and 26 more
+              - generic [ref=e199]:
+                - text: English
+                - img "Toggle" [ref=e200]
+            - generic [ref=e202]:
+              - heading "Heartsping" [level=1] [ref=e204]
+              - generic [ref=e205]:
+                - link "Comments" [ref=e206] [cursor=pointer]:
+                  - /url: "#articleComments"
+                  - generic [ref=e207]: "50"
+                  - img
+                - link "Sign In to Save" [ref=e208] [cursor=pointer]:
+                  - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHeartsping&uselang=en&metadata=collections-save-button
+                  - img
+                  - generic [ref=e209]: Save
+                - link "View source" [ref=e210] [cursor=pointer]:
+                  - /url: /wiki/Heartsping?action=edit
+                  - img
+                  - text: View source
+                - button "Page Tools" [ref=e212]:
+                  - img
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - strong [ref=e217]: Overview
+              - text: •
+              - link "Gallery" [ref=e218] [cursor=pointer]:
+                - /url: /wiki/Heartsping/Gallery
+            - generic [ref=e219]:
+              - figure [ref=e220]:
+                - img "Tweetping render 2" [ref=e222]
+              - generic [ref=e223]:
+                - generic [ref=e224]: Be careful, Tweet!
+                - text: This
+                - link "page" [ref=e225] [cursor=pointer]:
+                  - /url: /wiki/Category:Spoiler_articles
+                - text: "contains spoilers from Season 5 content/episodes, or Season 6, that are not available on YouTube yet, or spoilers from Heartsping: Teenieping of Love and Teenieping: Legend of the Whale Heartstone. Read at your own risk!"
+            - generic [ref=e226]:
+              - figure [ref=e227]:
+                - img "Cheerupping Render 1" [ref=e229]
+              - generic [ref=e230]:
+                - generic [ref=e231]: You are reading a star article, Cheerup!
+                - text: This article is a
+                - link "star article" [ref=e232] [cursor=pointer]:
+                  - /url: /wiki/Category:Star_articles
+                - text: ", meaning that most sections have been filled adequately, following the wiki's guidelines: the page can therefore serve as an example of the wiki's standards. But of course, any edit, no matter its importance, is still welcome!"
+            - region [ref=e233]:
+              - heading "Heartsping" [level=2] [ref=e234]
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - tablist [ref=e237]:
+                    - listitem [ref=e238] [cursor=pointer]:
+                      - generic [ref=e239]: Season 1
+                    - listitem [ref=e240] [cursor=pointer]:
+                      - generic [ref=e241]: Season 2
+                    - listitem [ref=e242] [cursor=pointer]:
+                      - generic [ref=e243]: Season 3
+                    - listitem [ref=e244] [cursor=pointer]:
+                      - generic [ref=e245]: Season 4
+                    - listitem [ref=e246] [cursor=pointer]:
+                      - generic [ref=e247]: Season 5
+                    - listitem [ref=e248] [cursor=pointer]:
+                      - generic [ref=e249]: Season 6
+                    - listitem [ref=e250] [cursor=pointer]:
+                      - generic [ref=e251]: Prequel/Movie
+                  - img [ref=e253] [cursor=pointer]
+                - figure [ref=e256]:
+                  - link "Season 1 view image" [ref=e257] [cursor=pointer]:
+                    - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/3b/Heartsping_S1_Render_1.png/revision/latest?cb=20240602044610
+                    - img "Season 1" [ref=e258]
+                    - generic "view image" [ref=e261]:
+                      - img [ref=e262]
+              - table [ref=e265]:
+                - rowgroup [ref=e266]:
+                  - row "International names" [ref=e267]:
+                    - columnheader "International names" [ref=e268]
+                - rowgroup [ref=e269]:
+                  - row "Korean 하츄핑 Hachyuping Chinese 爱心萌可 Àixīn méng kě Taiwan 愛心萌可 Àixīn méng kě Japan ハチュピン Hachupin Russian Хартпин Khartpin Thailand ฮาชูพิง Ḥā chū phing Mongolian Зүрхэнпин Zürkhenpin" [ref=e270]:
+                    - cell "Korean 하츄핑 Hachyuping Chinese 爱心萌可 Àixīn méng kě Taiwan 愛心萌可 Àixīn méng kě Japan ハチュピン Hachupin Russian Хартпин Khartpin Thailand ฮาชูพิง Ḥā chū phing Mongolian Зүрхэнпин Zürkhenpin" [ref=e271]:
+                      - generic [ref=e272]:
+                        - figure "Korean" [ref=e273]:
+                          - generic "Korean" [ref=e274]:
+                            - img "Korean" [ref=e275]
+                        - paragraph [ref=e276]:
+                          - text: 하츄핑
+                          - generic [ref=e277]: Hachyuping
+                      - generic [ref=e278]:
+                        - figure "Chinese" [ref=e279]:
+                          - generic "Chinese" [ref=e280]:
+                            - img "Chinese" [ref=e281]
+                        - paragraph [ref=e282]:
+                          - text: 爱心萌可
+                          - generic [ref=e283]: Àixīn méng kě
+                      - generic [ref=e284]:
+                        - figure "Taiwan" [ref=e285]:
+                          - generic "Taiwan" [ref=e286]:
+                            - img "Taiwan" [ref=e287]
+                        - paragraph [ref=e288]:
+                          - text: 愛心萌可
+                          - generic [ref=e289]: Àixīn méng kě
+                      - generic [ref=e290]:
+                        - figure "Japan" [ref=e291]:
+                          - generic "Japan" [ref=e292]:
+                            - img "Japan" [ref=e293]
+                        - paragraph [ref=e294]:
+                          - text: ハチュピン
+                          - generic [ref=e295]: Hachupin
+                      - generic [ref=e296]:
+                        - figure "Russian" [ref=e297]:
+                          - generic "Russian" [ref=e298]:
+                            - img "Russian" [ref=e299]
+                        - paragraph [ref=e300]:
+                          - text: Хартпин
+                          - generic [ref=e301]: Khartpin
+                      - generic [ref=e302]:
+                        - figure "Thailand" [ref=e303]:
+                          - generic "Thailand" [ref=e304]:
+                            - img "Thailand" [ref=e305]
+                        - paragraph [ref=e306]:
+                          - text: ฮาชูพิง
+                          - generic [ref=e307]: Ḥā chū phing
+                      - generic [ref=e308]:
+                        - figure "Mongolian" [ref=e309]:
+                          - generic "Mongolian" [ref=e310]:
+                            - img "Mongolian" [ref=e311]
+                        - paragraph [ref=e312]:
+                          - text: Зүрхэнпин
+                          - generic [ref=e313]: Zürkhenpin
+              - generic [ref=e314]:
+                - heading "Info" [level=2] [ref=e315]
+                - generic [ref=e316]:
+                  - heading "Gender" [level=3] [ref=e317]
+                  - generic [ref=e318]: Female
+                - generic [ref=e319]:
+                  - heading "Species" [level=3] [ref=e320]
+                  - link "Royal Emotion Teenieping" [ref=e322] [cursor=pointer]:
+                    - /url: /wiki/Royal_Emotion_Teeniepings
+                - generic [ref=e323]:
+                  - heading "Aliases" [level=3] [ref=e324]
+                  - generic [ref=e325]:
+                    - text: Love's Heartsping (season 1)
+                    - text: Diamond Heartsping (Season 2)
+                    - text: Flora Heartsping (Season 3)
+                    - text: Berry Heartsping (Season 4)
+                    - text: Star Heartsping (Season 5)
+                    - text: Princess Heartsping (Season 6)
+                    - text: Twinkle Twinkle (by
+                    - link "Sculptping" [ref=e326] [cursor=pointer]:
+                      - /url: /wiki/Sculptping
+                    - text: )
+                - generic [ref=e327]:
+                  - heading "Alignment" [level=3] [ref=e328]
+                  - generic [ref=e329]: Good
+              - generic [ref=e330]:
+                - heading "Magic" [level=2] [ref=e331]
+                - generic [ref=e332]:
+                  - heading "Concept" [level=3] [ref=e333]
+                  - generic [ref=e334]: Love
+                - generic [ref=e335]:
+                  - heading "Prop" [level=3] [ref=e336]
+                  - generic [ref=e337]:
+                    - text: Handheld mirror (Season 1)
+                    - text: Harp (Season 2)
+                    - text: Perfume bottle (Season 3)
+                    - text: Hand bell (Season 4)
+                    - text: Bunny plush (Prequel/Movie)
+                    - text: Glowpuff star pillow (Season 5)
+                    - text: Magic wand (Season 6)
+                - generic [ref=e338]:
+                  - heading "Jewel" [level=3] [ref=e339]
+                  - link "Pink Diamond" [ref=e341] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Pink_diamond
+                - generic [ref=e342]:
+                  - heading "Abilities" [level=3] [ref=e343]
+                  - generic [ref=e344]:
+                    - text: Transform
+                    - link "Romi" [ref=e345] [cursor=pointer]:
+                      - /url: /wiki/Romi
+                    - text: into
+                    - link "Princess Heart" [ref=e346] [cursor=pointer]:
+                      - /url: /wiki/Princesses
+                    - text: (Season 1)
+                    - text: Blind someone (Season 1)
+                    - text: Healing tears
+                    - text: Transform Romi into Princess Diaheart (Season 2)
+                    - text: Create a magic melody staff to trap people or block a path (Season 2)
+                    - text: Transform Romi into Princess Floraheart (Season 3)
+                    - text: Attack and hurt her opponent (Season 3)
+                    - text: Resuscitate someone
+                    - text: Destroy her opponent's magic
+                    - text: Transform Romi into Princess Berryheart (Season 4)
+                    - text: Transform Romi into Princess Brightheart (Season 5)
+                    - text: Transform Romi into the Unnamed Princess (Prequel/Movie)
+                    - text: Transform Romi into Princess Fancyheart (Season 6)
+              - generic [ref=e347]:
+                - heading "Life" [level=2] [ref=e348]
+                - generic [ref=e349]:
+                  - heading "Residency" [level=3] [ref=e350]
+                  - generic [ref=e351]:
+                    - link "Emotions Kingdom" [ref=e352] [cursor=pointer]:
+                      - /url: /wiki/Emotions_Kingdom
+                    - text: (formerly)
+                    - link "Teenieping House" [ref=e353] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_House
+                    - text: (Season 1)
+                    - link "Teenieping School" [ref=e354] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_School
+                    - text: (Season 2)
+                    - link "Teenieping Secret Castle" [ref=e355] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_Secret_Castle
+                    - text: (Season 3)
+                    - link "Teenieping Village" [ref=e356] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_Village
+                    - text: (Season 4)
+                    - link "Celestial" [ref=e357] [cursor=pointer]:
+                      - /url: /wiki/Celestial
+                    - text: (Season 5)
+                    - link "Teenieping Princess House" [ref=e358] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_Princess_House
+                    - text: (Season 6)
+                    - link "Mysterious Village" [ref=e359] [cursor=pointer]:
+                      - /url: /wiki/Mysterious_Village
+                    - text: (Prequel)
+                - generic [ref=e360]:
+                  - heading "Occupation" [level=3] [ref=e361]
+                  - generic [ref=e362]:
+                    - text: Teacher of the
+                    - link "Teenieping School" [ref=e363] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_School
+                    - text: (Season 2)
+                - generic [ref=e364]:
+                  - heading "Friends" [level=3] [ref=e365]
+                  - generic [ref=e366]:
+                    - link "Romi" [ref=e367] [cursor=pointer]:
+                      - /url: /wiki/Romi
+                    - text: (soulmate)
+                    - link "Royal Teeniepings" [ref=e368] [cursor=pointer]:
+                      - /url: /wiki/Royal_Teeniepings
+                    - link "Truthping" [ref=e369] [cursor=pointer]:
+                      - /url: /wiki/Truthping
+                    - text: (best friend)
+                    - link "Maya" [ref=e370] [cursor=pointer]:
+                      - /url: /wiki/Maya
+                    - link "Luca" [ref=e371] [cursor=pointer]:
+                      - /url: /wiki/Luca
+                    - link "Jewel Teeniepings" [ref=e372] [cursor=pointer]:
+                      - /url: /wiki/Jewel_Teeniepings
+                    - link "Key Teeniepings" [ref=e373] [cursor=pointer]:
+                      - /url: /wiki/Key_Teeniepings
+                    - link "Dessert Teeniepings" [ref=e374] [cursor=pointer]:
+                      - /url: /wiki/Dessert_Teeniepings
+                    - link "Star Teeniepings" [ref=e375] [cursor=pointer]:
+                      - /url: /wiki/Star_Teeniepings
+                    - link "Princess Teeniepings" [ref=e376] [cursor=pointer]:
+                      - /url: /wiki/Princess_Teeniepings
+                    - link "Legend Teeniepings" [ref=e377] [cursor=pointer]:
+                      - /url: /wiki/Legend_Teeniepings
+                    - link "Onlyping" [ref=e378] [cursor=pointer]:
+                      - /url: /wiki/Onlyping
+                    - link "Heart King" [ref=e379] [cursor=pointer]:
+                      - /url: /wiki/Heart_King
+                    - link "Queen Belita" [ref=e380] [cursor=pointer]:
+                      - /url: /wiki/Queen_Belita
+                    - link "Queen Stella" [ref=e381] [cursor=pointer]:
+                      - /url: /wiki/Queen_Stella
+                    - link "Jenny" [ref=e382] [cursor=pointer]:
+                      - /url: /wiki/Jenny
+                    - link "Dr. Monziu" [ref=e383] [cursor=pointer]:
+                      - /url: /wiki/Dr._Monziu
+                - generic [ref=e384]:
+                  - heading "Enemies" [level=3] [ref=e385]
+                  - generic [ref=e386]:
+                    - link "Giggleping" [ref=e387] [cursor=pointer]:
+                      - /url: /wiki/Giggleping
+                    - text: (formerly)
+                    - link "Egoping" [ref=e388] [cursor=pointer]:
+                      - /url: /wiki/Egoping
+                    - text: (formerly)
+                    - link "Maskping" [ref=e389] [cursor=pointer]:
+                      - /url: /wiki/Maskping
+                    - text: (formerly)
+                    - link "Onlyping" [ref=e390] [cursor=pointer]:
+                      - /url: /wiki/Onlyping
+                    - text: (formerly)
+                    - link "Jenny" [ref=e391] [cursor=pointer]:
+                      - /url: /wiki/Jenny
+                    - text: (formerly)
+                    - link "Puffping" [ref=e392] [cursor=pointer]:
+                      - /url: /wiki/Puffping
+                    - text: (formerly)
+                    - link "Eclipseping" [ref=e393] [cursor=pointer]:
+                      - /url: /wiki/Eclipseping
+                    - text: (currently)
+                    - link "Truthping" [ref=e394] [cursor=pointer]:
+                      - /url: /wiki/Truthping
+                    - text: (formerly)
+                    - link "Aliens" [ref=e395] [cursor=pointer]:
+                      - /url: /wiki/Aliens
+                    - link "Thieves" [ref=e396] [cursor=pointer]:
+                      - /url: /wiki/Thieves
+                - generic [ref=e397]:
+                  - heading "Likes" [level=3] [ref=e398]
+                  - generic [ref=e399]:
+                    - text: Practicing expressions in her hand mirror
+                    - text: Drinking tea
+                    - text: Playing the harp
+                    - text: Creamy strawberry cake
+                    - text: Strawberries
+                    - text: Fairy tales
+                - generic [ref=e400]:
+                  - heading "Dislikes" [level=3] [ref=e401]
+                  - generic [ref=e402]:
+                    - text: Being forced to wake up
+                    - text: Being surprised
+                    - text: Anything that tastes sour
+                    - text: Fighting
+                - generic [ref=e403]:
+                  - heading "Phrase" [level=3] [ref=e404]
+                  - generic [ref=e405]:
+                    - generic [ref=e406]:
+                      - figure "English" [ref=e407]:
+                        - generic "English" [ref=e408]:
+                          - img "English" [ref=e409]
+                      - paragraph [ref=e410]:
+                        - text: Chu!
+                        - text: Heart-chu!
+                    - generic [ref=e411]:
+                      - figure "Korean" [ref=e412]:
+                        - generic "Korean" [ref=e413]:
+                          - img "Korean" [ref=e414]
+                      - paragraph [ref=e415]:
+                        - text: 츄!
+                        - text: Chyu!
+                        - text: 하츄!
+                        - text: Hachyu!
+                    - generic [ref=e416]:
+                      - figure "Chinese" [ref=e417]:
+                        - generic "Chinese" [ref=e418]:
+                          - img "Chinese" [ref=e419]
+                      - paragraph [ref=e420]:
+                        - text: 啾!
+                        - generic [ref=e421]: Jiū!
+                    - generic [ref=e422]:
+                      - figure "Japan" [ref=e423]:
+                        - generic "Japan" [ref=e424]:
+                          - img "Japan" [ref=e425]
+                      - paragraph [ref=e426]:
+                        - text: チュ!
+                        - text: Chyu!
+                        - text: ハチュ!
+                        - text: Hachyu!
+                    - generic [ref=e427]:
+                      - figure "Russian" [ref=e428]:
+                        - generic "Russian" [ref=e429]:
+                          - img "Russian" [ref=e430]
+                      - paragraph [ref=e431]:
+                        - text: Чу!
+                        - generic [ref=e432]: Chu!
+                    - generic [ref=e433]:
+                      - figure "Thailand" [ref=e434]:
+                        - generic "Thailand" [ref=e435]:
+                          - img "Thailand" [ref=e436]
+                      - paragraph [ref=e437]:
+                        - text: จู๊ว!
+                        - generic [ref=e438]: Cū́w!
+              - generic [ref=e439]:
+                - heading "Broadcast" [level=2] [ref=e440]
+                - generic [ref=e441]:
+                  - heading "First episode" [level=3] [ref=e442]
+                  - link "The Cookie Mess" [ref=e444] [cursor=pointer]:
+                    - /url: /wiki/The_Cookie_Mess
+                - generic [ref=e445]:
+                  - heading "Voice actor" [level=3] [ref=e446]
+                  - generic [ref=e447]:
+                    - generic [ref=e448]:
+                      - figure "Korean" [ref=e449]:
+                        - generic "Korean" [ref=e450]:
+                          - img "Korean" [ref=e451]
+                      - paragraph [ref=e452]:
+                        - link "Cho Kyung-yi" [ref=e453] [cursor=pointer]:
+                          - /url: /wiki/Cho_Kyung-yi
+                    - generic [ref=e454]:
+                      - figure "English" [ref=e455]:
+                        - generic "English" [ref=e456]:
+                          - img "English" [ref=e457]
+                      - paragraph [ref=e458]:
+                        - link "Regina Tiscareño" [ref=e459] [cursor=pointer]:
+                          - /url: /wiki/Regina_Tiscare%C3%B1o
+                        - text: (Season 1)
+                        - link "Nancy Kim" [ref=e460] [cursor=pointer]:
+                          - /url: /wiki/Nancy_Kim
+                        - text: (Season 2)
+                        - link "Ari Sucar" [ref=e461] [cursor=pointer]:
+                          - /url: /wiki/Ari_Sucar
+                        - text: (Season 3)
+                        - text: Unknown (Season 4)
+                    - generic [ref=e462]:
+                      - figure "Chinese" [ref=e463]:
+                        - generic "Chinese" [ref=e464]:
+                          - img "Chinese" [ref=e465]
+                      - paragraph [ref=e466]:
+                        - link "Lin Min" [ref=e467] [cursor=pointer]:
+                          - /url: /wiki/Lin_Min
+                        - link "Chen Yanyi" [ref=e468] [cursor=pointer]:
+                          - /url: /wiki/Chen_Yanyi
+                        - text: (audiobook)
+                        - link "Li Xuqiao" [ref=e469] [cursor=pointer]:
+                          - /url: /wiki/Li_Xuqiao
+                        - text: (
+                        - link "Friends of Chinese Idioms" [ref=e470] [cursor=pointer]:
+                          - /url: /wiki/Catch!_Teenieping:_Friends_of_Chinese_Idioms
+                        - text: )
+                    - generic [ref=e471]:
+                      - figure "Japan" [ref=e472]:
+                        - generic "Japan" [ref=e473]:
+                          - img "Japan" [ref=e474]
+                      - paragraph [ref=e475]:
+                        - link "Rie Hikisaka" [ref=e476] [cursor=pointer]:
+                          - /url: /wiki/Rie_Hikisaka
+                    - generic [ref=e477]:
+                      - figure "Russian" [ref=e478]:
+                        - generic "Russian" [ref=e479]:
+                          - img "Russian" [ref=e480]
+                      - paragraph [ref=e481]: Unknown
+                    - generic [ref=e482]:
+                      - figure "Indonesia" [ref=e483]:
+                        - generic "Indonesia" [ref=e484]:
+                          - img "Indonesia" [ref=e485]
+                      - paragraph [ref=e486]:
+                        - link "Leni Marlina" [ref=e487] [cursor=pointer]:
+                          - /url: /wiki/Leni_Marlina
+                    - generic [ref=e488]:
+                      - figure "Vietnamese" [ref=e489]:
+                        - generic "Vietnamese" [ref=e490]:
+                          - img "Vietnamese" [ref=e491]
+                      - paragraph [ref=e492]:
+                        - link "Trần Mai Ngọc Châu" [ref=e493] [cursor=pointer]:
+                          - /url: /wiki/Tr%E1%BA%A7n_Mai_Ng%E1%BB%8Dc_Ch%C3%A2u
+                    - generic [ref=e494]:
+                      - figure "Mexico" [ref=e495]:
+                        - generic "Mexico" [ref=e496]:
+                          - img "Mexico" [ref=e497]
+                      - paragraph [ref=e498]: Unknown
+            - table [ref=e499]:
+              - rowgroup [ref=e500]:
+                - row "“ I'm sure there's a Teenieping nearby, Chu. ”" [ref=e501]:
+                  - cell "“" [ref=e502]
+                  - cell "I'm sure there's a Teenieping nearby, Chu." [ref=e503]:
+                    - generic [ref=e504]:
+                      - text: I'm sure there's a
+                      - link "Teenieping" [ref=e505] [cursor=pointer]:
+                        - /url: /wiki/Teeniepings
+                      - text: nearby, Chu.
+                  - cell "”" [ref=e506]
+                - row "— Heartsping thinking that there's a work of a Teenieping that's being involved in \"The Cookie Mess\"." [ref=e507]:
+                  - cell "— Heartsping thinking that there's a work of a Teenieping that's being involved in \"The Cookie Mess\"." [ref=e508]:
+                    - paragraph [ref=e509]:
+                      - generic [ref=e510]:
+                        - text: — Heartsping thinking that there's a work of a Teenieping that's being involved in "
+                        - link "The Cookie Mess" [ref=e511] [cursor=pointer]:
+                          - /url: /wiki/The_Cookie_Mess
+                        - text: "\"."
+            - paragraph [ref=e512]:
+              - text: Heartsping is the Royal Teenieping of love, wielding the pink diamond in
+              - link "Twinkle Catch! Teenieping" [ref=e514] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Catch!_Teenieping
+              - text: ", and is"
+              - link "Romi" [ref=e515] [cursor=pointer]:
+                - /url: /wiki/Romi
+              - text: "'s personal Teenieping."
+            - paragraph [ref=e516]:
+              - text: A loving, affectionate, and supportive Teenieping, she always remains by Romi's side and cares about her friends' well being. She is the deuteragonist of the
+              - link "Catch! Teenieping series" [ref=e517] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(series)
+              - text: .
+            - navigation "Contents" [ref=e518]:
+              - button "show" [ref=e519]
+              - generic [ref=e520]:
+                - heading "Contents" [level=2] [ref=e521]:
+                  - img [ref=e522]
+                  - text: Contents
+                - generic [ref=e524]:
+                  - text: "["
+                  - generic "show" [ref=e525] [cursor=pointer]: hide
+                  - text: "]"
+              - list [ref=e526]:
+                - listitem [ref=e527]:
+                  - link "1. Appearance" [ref=e528] [cursor=pointer]:
+                    - /url: "#Appearance"
+                    - generic [ref=e529]: "1."
+                    - generic [ref=e530]: Appearance
+                  - list [ref=e531]:
+                    - listitem [ref=e532]:
+                      - link "1.1. Season 1" [ref=e533] [cursor=pointer]:
+                        - /url: "#Season_1"
+                        - generic [ref=e534]: 1.1.
+                        - generic [ref=e535]: Season 1
+                    - listitem [ref=e536]:
+                      - link "1.2. Season 2" [ref=e537] [cursor=pointer]:
+                        - /url: "#Season_2"
+                        - generic [ref=e538]: 1.2.
+                        - generic [ref=e539]: Season 2
+                    - listitem [ref=e540]:
+                      - link "1.3. Season 3" [ref=e541] [cursor=pointer]:
+                        - /url: "#Season_3"
+                        - generic [ref=e542]: 1.3.
+                        - generic [ref=e543]: Season 3
+                    - listitem [ref=e544]:
+                      - link "1.4. Season 4" [ref=e545] [cursor=pointer]:
+                        - /url: "#Season_4"
+                        - generic [ref=e546]: 1.4.
+                        - generic [ref=e547]: Season 4
+                    - listitem [ref=e548]:
+                      - link "1.5. Season 5" [ref=e549] [cursor=pointer]:
+                        - /url: "#Season_5"
+                        - generic [ref=e550]: 1.5.
+                        - generic [ref=e551]: Season 5
+                    - listitem [ref=e552]:
+                      - link "1.6. Season 6" [ref=e553] [cursor=pointer]:
+                        - /url: "#Season_6"
+                        - generic [ref=e554]: 1.6.
+                        - generic [ref=e555]: Season 6
+                    - listitem [ref=e556]:
+                      - link "1.7. Prequel/Movie" [ref=e557] [cursor=pointer]:
+                        - /url: "#Prequel/Movie"
+                        - generic [ref=e558]: 1.7.
+                        - generic [ref=e559]: Prequel/Movie
+                - listitem [ref=e560]:
+                  - link "2. Personality" [ref=e561] [cursor=pointer]:
+                    - /url: "#Personality"
+                    - generic [ref=e562]: "2."
+                    - generic [ref=e563]: Personality
+                - listitem [ref=e564]:
+                  - link "3. Etymology" [ref=e565] [cursor=pointer]:
+                    - /url: "#Etymology"
+                    - generic [ref=e566]: "3."
+                    - generic [ref=e567]: Etymology
+                - listitem [ref=e568]:
+                  - link "4. Magic" [ref=e569] [cursor=pointer]:
+                    - /url: "#Magic"
+                    - generic [ref=e570]: "4."
+                    - generic [ref=e571]: Magic
+                  - list [ref=e572]:
+                    - listitem [ref=e573]:
+                      - link "4.1. Transformation" [ref=e574] [cursor=pointer]:
+                        - /url: "#Transformation"
+                        - generic [ref=e575]: 4.1.
+                        - generic [ref=e576]: Transformation
+                    - listitem [ref=e577]:
+                      - link "4.2. Abilities" [ref=e578] [cursor=pointer]:
+                        - /url: "#Abilities"
+                        - generic [ref=e579]: 4.2.
+                        - generic [ref=e580]: Abilities
+                      - list [ref=e581]:
+                        - listitem [ref=e582]:
+                          - link "4.2.1. Tinkle Puff" [ref=e583] [cursor=pointer]:
+                            - /url: "#Tinkle_Puff"
+                            - generic [ref=e584]: 4.2.1.
+                            - generic [ref=e585]: Tinkle Puff
+                          - list [ref=e586]:
+                            - listitem [ref=e587]:
+                              - link "4.2.1.1. Catch! Teenieping" [ref=e588] [cursor=pointer]:
+                                - /url: "#Catch!_Teenieping"
+                                - generic [ref=e589]: 4.2.1.1.
+                                - generic [ref=e590]: Catch! Teenieping
+                            - listitem [ref=e591]:
+                              - link "4.2.1.2. Twinkle Catch! Teenieping" [ref=e592] [cursor=pointer]:
+                                - /url: "#Twinkle_Catch!_Teenieping"
+                                - generic [ref=e593]: 4.2.1.2.
+                                - generic [ref=e594]: Twinkle Catch! Teenieping
+                            - listitem [ref=e595]:
+                              - link "4.2.1.3. Secret Catch! Teenieping" [ref=e596] [cursor=pointer]:
+                                - /url: "#Secret_Catch!_Teenieping"
+                                - generic [ref=e597]: 4.2.1.3.
+                                - generic [ref=e598]: Secret Catch! Teenieping
+                            - listitem [ref=e599]:
+                              - link "4.2.1.4. Dessert Catch! Teenieping" [ref=e600] [cursor=pointer]:
+                                - /url: "#Dessert_Catch!_Teenieping"
+                                - generic [ref=e601]: 4.2.1.4.
+                                - generic [ref=e602]: Dessert Catch! Teenieping
+                            - listitem [ref=e603]:
+                              - link "4.2.1.5. Star Catch! Teenieping" [ref=e604] [cursor=pointer]:
+                                - /url: "#Star_Catch!_Teenieping"
+                                - generic [ref=e605]: 4.2.1.5.
+                                - generic [ref=e606]: Star Catch! Teenieping
+                            - listitem [ref=e607]:
+                              - link "4.2.1.6. Princess Catch! Teenieping" [ref=e608] [cursor=pointer]:
+                                - /url: "#Princess_Catch!_Teenieping"
+                                - generic [ref=e609]: 4.2.1.6.
+                                - generic [ref=e610]: Princess Catch! Teenieping
+                        - listitem [ref=e611]:
+                          - link "4.2.2. Special Powers" [ref=e612] [cursor=pointer]:
+                            - /url: "#Special_Powers"
+                            - generic [ref=e613]: 4.2.2.
+                            - generic [ref=e614]: Special Powers
+                - listitem [ref=e615]:
+                  - link "5. History" [ref=e616] [cursor=pointer]:
+                    - /url: "#History"
+                    - generic [ref=e617]: "5."
+                    - generic [ref=e618]: History
+                  - list [ref=e619]:
+                    - listitem [ref=e620]:
+                      - 'link "5.1. Heartsping: Teenieping of Love" [ref=e621] [cursor=pointer]':
+                        - /url: "#Heartsping:_Teenieping_of_Love"
+                        - generic [ref=e622]: 5.1.
+                        - generic [ref=e623]: "Heartsping: Teenieping of Love"
+                    - listitem [ref=e624]:
+                      - link "5.2. Growing Up With Romi" [ref=e625] [cursor=pointer]:
+                        - /url: "#Growing_Up_With_Romi"
+                        - generic [ref=e626]: 5.2.
+                        - generic [ref=e627]: Growing Up With Romi
+                    - listitem [ref=e628]:
+                      - link "5.3. Catch! Teenieping" [ref=e629] [cursor=pointer]:
+                        - /url: "#Catch!_Teenieping_2"
+                        - generic [ref=e630]: 5.3.
+                        - generic [ref=e631]: Catch! Teenieping
+                      - list [ref=e632]:
+                        - listitem [ref=e633]:
+                          - link "5.3.1. Come Back Home, Heartsping!" [ref=e634] [cursor=pointer]:
+                            - /url: "#Come_Back_Home,_Heartsping!"
+                            - generic [ref=e635]: 5.3.1.
+                            - generic [ref=e636]: Come Back Home, Heartsping!
+                        - listitem [ref=e637]:
+                          - link "5.3.2. Love Me More" [ref=e638] [cursor=pointer]:
+                            - /url: "#Love_Me_More"
+                            - generic [ref=e639]: 5.3.2.
+                            - generic [ref=e640]: Love Me More
+                        - listitem [ref=e641]:
+                          - link "5.3.3. The Arrow of Luvping" [ref=e642] [cursor=pointer]:
+                            - /url: "#The_Arrow_of_Luvping"
+                            - generic [ref=e643]: 5.3.3.
+                            - generic [ref=e644]: The Arrow of Luvping
+                        - listitem [ref=e645]:
+                          - link "5.3.4. Princess Veronica" [ref=e646] [cursor=pointer]:
+                            - /url: "#Princess_Veronica"
+                            - generic [ref=e647]: 5.3.4.
+                            - generic [ref=e648]: Princess Veronica
+                    - listitem [ref=e649]:
+                      - link "5.4. Twinkle Catch! Teenieping" [ref=e650] [cursor=pointer]:
+                        - /url: "#Twinkle_Catch!_Teenieping_2"
+                        - generic [ref=e651]: 5.4.
+                        - generic [ref=e652]: Twinkle Catch! Teenieping
+                      - list [ref=e653]:
+                        - listitem [ref=e654]:
+                          - link "5.4.1. Tickle Tickle, Try Not to Laugh!" [ref=e655] [cursor=pointer]:
+                            - /url: "#Tickle_Tickle,_Try_Not_to_Laugh!"
+                            - generic [ref=e656]: 5.4.1.
+                            - generic [ref=e657]: Tickle Tickle, Try Not to Laugh!
+                        - listitem [ref=e658]:
+                          - link "5.4.2. Ow Ow, No More Boo-Boos!" [ref=e659] [cursor=pointer]:
+                            - /url: "#Ow_Ow,_No_More_Boo-Boos!"
+                            - generic [ref=e660]: 5.4.2.
+                            - generic [ref=e661]: Ow Ow, No More Boo-Boos!
+                        - listitem [ref=e662]:
+                          - link "5.4.3. Shrinking Romi!" [ref=e663] [cursor=pointer]:
+                            - /url: "#Shrinking_Romi!"
+                            - generic [ref=e664]: 5.4.3.
+                            - generic [ref=e665]: Shrinking Romi!
+                        - listitem [ref=e666]:
+                          - link "5.4.4. Things Get Wooly!" [ref=e667] [cursor=pointer]:
+                            - /url: "#Things_Get_Wooly!"
+                            - generic [ref=e668]: 5.4.4.
+                            - generic [ref=e669]: Things Get Wooly!
+                        - listitem [ref=e670]:
+                          - link "5.4.5. Another Princess" [ref=e671] [cursor=pointer]:
+                            - /url: "#Another_Princess"
+                            - generic [ref=e672]: 5.4.5.
+                            - generic [ref=e673]: Another Princess
+                        - listitem [ref=e674]:
+                          - link "5.4.6. Heartrose Becomes a Kingdom" [ref=e675] [cursor=pointer]:
+                            - /url: "#Heartrose_Becomes_a_Kingdom"
+                            - generic [ref=e676]: 5.4.6.
+                            - generic [ref=e677]: Heartrose Becomes a Kingdom
+                        - listitem [ref=e678]:
+                          - link "5.4.7. Who's the Real Heartsping?" [ref=e679] [cursor=pointer]:
+                            - /url: "#Who's_the_Real_Heartsping?"
+                            - generic [ref=e680]: 5.4.7.
+                            - generic [ref=e681]: Who's the Real Heartsping?
+                        - listitem [ref=e682]:
+                          - link "5.4.8. A Perilous Picnic" [ref=e683] [cursor=pointer]:
+                            - /url: "#A_Perilous_Picnic"
+                            - generic [ref=e684]: 5.4.8.
+                            - generic [ref=e685]: A Perilous Picnic
+                        - listitem [ref=e686]:
+                          - link "5.4.9. Teenieping School Graduation" [ref=e687] [cursor=pointer]:
+                            - /url: "#Teenieping_School_Graduation"
+                            - generic [ref=e688]: 5.4.9.
+                            - generic [ref=e689]: Teenieping School Graduation
+                        - listitem [ref=e690]:
+                          - link "5.4.10. Heartsping in Danger" [ref=e691] [cursor=pointer]:
+                            - /url: "#Heartsping_in_Danger"
+                            - generic [ref=e692]: 5.4.10.
+                            - generic [ref=e693]: Heartsping in Danger
+                        - listitem [ref=e694]:
+                          - link "5.4.11. The Jewel Forest is Restored" [ref=e695] [cursor=pointer]:
+                            - /url: "#The_Jewel_Forest_is_Restored"
+                            - generic [ref=e696]: 5.4.11.
+                            - generic [ref=e697]: The Jewel Forest is Restored
+                    - listitem [ref=e698]:
+                      - link "5.5. Secret Catch! Teenieping" [ref=e699] [cursor=pointer]:
+                        - /url: "#Secret_Catch!_Teenieping_2"
+                        - generic [ref=e700]: 5.5.
+                        - generic [ref=e701]: Secret Catch! Teenieping
+                      - list [ref=e702]:
+                        - listitem [ref=e703]:
+                          - link "5.5.1. Secret Catch! Key Teeniepings" [ref=e704] [cursor=pointer]:
+                            - /url: "#Secret_Catch!_Key_Teeniepings"
+                            - generic [ref=e705]: 5.5.1.
+                            - generic [ref=e706]: Secret Catch! Key Teeniepings
+                        - listitem [ref=e707]:
+                          - link "5.5.2. Transform! Floraheart" [ref=e708] [cursor=pointer]:
+                            - /url: "#Transform!_Floraheart"
+                            - generic [ref=e709]: 5.5.2.
+                            - generic [ref=e710]: Transform! Floraheart
+                        - listitem [ref=e711]:
+                          - link "5.5.3. Romi and Heartsping's Bodies are Switched" [ref=e712] [cursor=pointer]:
+                            - /url: "#Romi_and_Heartsping's_Bodies_are_Switched"
+                            - generic [ref=e713]: 5.5.3.
+                            - generic [ref=e714]: Romi and Heartsping's Bodies are Switched
+                        - listitem [ref=e715]:
+                          - link "5.5.4. Snow White Romi" [ref=e716] [cursor=pointer]:
+                            - /url: "#Snow_White_Romi"
+                            - generic [ref=e717]: 5.5.4.
+                            - generic [ref=e718]: Snow White Romi
+                        - listitem [ref=e719]:
+                          - link "5.5.5. Teenieping Amusement Park for Everyone" [ref=e720] [cursor=pointer]:
+                            - /url: "#Teenieping_Amusement_Park_for_Everyone"
+                            - generic [ref=e721]: 5.5.5.
+                            - generic [ref=e722]: Teenieping Amusement Park for Everyone
+                        - listitem [ref=e723]:
+                          - link "5.5.6. Teenieping Fashion Show" [ref=e724] [cursor=pointer]:
+                            - /url: "#Teenieping_Fashion_Show"
+                            - generic [ref=e725]: 5.5.6.
+                            - generic [ref=e726]: Teenieping Fashion Show
+                        - listitem [ref=e727]:
+                          - link "5.5.7. Mystic Town on a Thread" [ref=e728] [cursor=pointer]:
+                            - /url: "#Mystic_Town_on_a_Thread"
+                            - generic [ref=e729]: 5.5.7.
+                            - generic [ref=e730]: Mystic Town on a Thread
+                        - listitem [ref=e731]:
+                          - link "5.5.8. Goodbye, Key Teeniepings" [ref=e732] [cursor=pointer]:
+                            - /url: "#Goodbye,_Key_Teeniepings"
+                            - generic [ref=e733]: 5.5.8.
+                            - generic [ref=e734]: Goodbye, Key Teeniepings
+                    - listitem [ref=e735]:
+                      - link "5.6. Dessert Catch! Teenieping" [ref=e736] [cursor=pointer]:
+                        - /url: "#Dessert_Catch!_Teenieping_2"
+                        - generic [ref=e737]: 5.6.
+                        - generic [ref=e738]: Dessert Catch! Teenieping
+                      - list [ref=e739]:
+                        - listitem [ref=e740]:
+                          - link "5.6.1. Sweet Dessert Teeniepings" [ref=e741] [cursor=pointer]:
+                            - /url: "#Sweet_Dessert_Teeniepings"
+                            - generic [ref=e742]: 5.6.1.
+                            - generic [ref=e743]: Sweet Dessert Teeniepings
+                        - listitem [ref=e744]:
+                          - link "5.6.2. Transform! Princess BerryHeart" [ref=e745] [cursor=pointer]:
+                            - /url: "#Transform!_Princess_BerryHeart"
+                            - generic [ref=e746]: 5.6.2.
+                            - generic [ref=e747]: Transform! Princess BerryHeart
+                        - listitem [ref=e748]:
+                          - link "5.6.3. I Want To Be a Royal Teenieping" [ref=e749] [cursor=pointer]:
+                            - /url: "#I_Want_To_Be_a_Royal_Teenieping"
+                            - generic [ref=e750]: 5.6.3.
+                            - generic [ref=e751]: I Want To Be a Royal Teenieping
+                        - listitem [ref=e752]:
+                          - link "5.6.4. Shashaping Will Cure You" [ref=e753] [cursor=pointer]:
+                            - /url: "#Shashaping_Will_Cure_You"
+                            - generic [ref=e754]: 5.6.4.
+                            - generic [ref=e755]: Shashaping Will Cure You
+                    - listitem [ref=e756]:
+                      - link "5.7. Star Catch! Teenieping" [ref=e757] [cursor=pointer]:
+                        - /url: "#Star_Catch!_Teenieping_2"
+                        - generic [ref=e758]: 5.7.
+                        - generic [ref=e759]: Star Catch! Teenieping
+                      - list [ref=e760]:
+                        - listitem [ref=e761]:
+                          - link "5.7.1. The Girl Who Came Upon a Star" [ref=e762] [cursor=pointer]:
+                            - /url: "#The_Girl_Who_Came_Upon_a_Star"
+                            - generic [ref=e763]: 5.7.1.
+                            - generic [ref=e764]: The Girl Who Came Upon a Star
+                    - listitem [ref=e765]:
+                      - link "5.8. Princess Catch! Teenieping" [ref=e766] [cursor=pointer]:
+                        - /url: "#Princess_Catch!_Teenieping_2"
+                        - generic [ref=e767]: 5.8.
+                        - generic [ref=e768]: Princess Catch! Teenieping
+                - listitem [ref=e769]:
+                  - link "6. Trivia" [ref=e770] [cursor=pointer]:
+                    - /url: "#Trivia"
+                    - generic [ref=e771]: "6."
+                    - generic [ref=e772]: Trivia
+                - listitem [ref=e773]:
+                  - link "7. Gallery" [ref=e774] [cursor=pointer]:
+                    - /url: "#Gallery"
+                    - generic [ref=e775]: "7."
+                    - generic [ref=e776]: Gallery
+            - heading "Appearance" [level=2] [ref=e777]
+            - paragraph [ref=e778]: Heartsping is a pink heart-themed Teenieping. While her appearance can be easily recognized, it differs each season.
+            - heading "Season 1" [level=3] [ref=e779]
+            - figure "Heartsping's S1 Appearance" [ref=e780]:
+              - link "Heartsping's S1 Appearance view image" [ref=e781] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/7/79/Heartsping_S1_Render_16.png/revision/latest?cb=20260322130439
+                - img "Heartsping's S1 Appearance" [ref=e782]
+                - generic "view image" [ref=e785]:
+                  - img [ref=e786]
+              - paragraph [ref=e789]: Heartsping's S1 Appearance
+            - paragraph [ref=e790]:
+              - text: In
+              - link "Catch! Teenieping" [ref=e792] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(season)
+              - text: ", Heartsping has pale pink fur, pink eyes, and a pigtail style with curled and pink at the end, with a pink fringe and tints at the bottom."
+            - paragraph [ref=e793]: She also has a pink collar with a round gold badge, her golden Royal Teenieping sign on her chest, and a long heart tail with gold on it.
+            - paragraph [ref=e794]: Her prop is a gold and pink handheld mirror with a pink ribbon shaped like a heart.
+            - heading "Season 2" [level=3] [ref=e795]
+            - figure "Heartping's S2 Appearance" [ref=e796]:
+              - link "Heartping's S2 Appearance view image" [ref=e797] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/a/a5/Heartsping_S2_Render_4.png/revision/latest?cb=20251208173712
+                - img "Heartping's S2 Appearance" [ref=e798]
+                - generic "view image" [ref=e801]:
+                  - img [ref=e802]
+              - paragraph [ref=e805]: Heartping's S2 Appearance
+            - paragraph [ref=e806]:
+              - text: In
+              - link "Twinkle Catch! Teenieping" [ref=e808] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Catch!_Teenieping
+              - text: ", she wields the pink diamond, and her prop becomes a pink mini heart-shaped harp with a heart jewel on top of it, and her hearts are made from pink diamond and her collar is shaped as a ribbon."
+            - heading "Season 3" [level=3] [ref=e809]
+            - figure "Heartsping's S3 Appearance" [ref=e810]:
+              - link "Heartsping's S3 Appearance view image" [ref=e811] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/da/Heartsping_S3_Render_2.png/revision/latest?cb=20260123135850
+                - img "Heartsping's S3 Appearance" [ref=e812]
+                - generic "view image" [ref=e815]:
+                  - img [ref=e816]
+              - paragraph [ref=e819]: Heartsping's S3 Appearance
+            - paragraph [ref=e820]:
+              - text: In
+              - link "Secret Catch! Teenieping" [ref=e822] [cursor=pointer]:
+                - /url: /wiki/Secret_Catch!_Teenieping
+              - text: ", she holds some flower jewels on her head and gets a new white tutu-like dress which has a translucent skirt."
+            - paragraph [ref=e823]: Her prop becomes a pink heart-shaped perfume bottle, and she equips a pink heart-shaped key.
+            - heading "Season 4" [level=3] [ref=e824]
+            - figure "Heartsping's S4 Appearance" [ref=e825]:
+              - link "Heartsping's S4 Appearance view image" [ref=e826] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/4/42/Heartsping_S4_Render_5.png/revision/latest?cb=20260322130811
+                - img "Heartsping's S4 Appearance" [ref=e827]
+                - generic "view image" [ref=e830]:
+                  - img [ref=e831]
+              - paragraph [ref=e834]: Heartsping's S4 Appearance
+            - paragraph [ref=e835]:
+              - text: In
+              - link "Dessert Catch! Teenieping" [ref=e837] [cursor=pointer]:
+                - /url: /wiki/Dessert_Catch!_Teenieping
+              - text: ", she now wears strawberry heart cookie flower-shaped clips, a white dress, a pink collar adorned with a yellow bow, and a pink skirt."
+            - paragraph [ref=e838]: Her prop is a pink bell with a hint of white, and a yellow stick, including a pink bow.
+            - heading "Season 5" [level=3] [ref=e839]
+            - figure "Heartsping's S5 Appearance" [ref=e840]:
+              - link "Heartsping's S5 Appearance view image" [ref=e841] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/37/Heartsping_S5_Render_24.png/revision/latest?cb=20250916175909
+                - img "Heartsping's S5 Appearance" [ref=e842]
+                - generic "view image" [ref=e845]:
+                  - img [ref=e846]
+              - paragraph [ref=e849]: Heartsping's S5 Appearance
+            - paragraph [ref=e850]:
+              - text: In
+              - link "Star Catch! Teenieping" [ref=e852] [cursor=pointer]:
+                - /url: /wiki/Star_Catch!_Teenieping
+              - text: ", she now wears pink jewel stars with pastel rainbow shots. Her outfit is similar to her Season 4 design of clothes, but the skirt has a golden hem and her torso has light pink line patterns on both sides."
+            - paragraph [ref=e853]: Also, she has a pink bow with a pink star outlined in gold in the middle.
+            - paragraph [ref=e854]: Her prop is a pink glowpuff star pillow.
+            - heading "Season 6" [level=3] [ref=e855]
+            - figure "Heartsping's S6 Appearance" [ref=e856]:
+              - link "Heartsping's S6 Appearance view image" [ref=e857] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/2/29/Heartsping_S6_Render_1.png/revision/latest?cb=20260319060948
+                - img "Heartsping's S6 Appearance" [ref=e858]
+                - generic "view image" [ref=e861]:
+                  - img [ref=e862]
+              - paragraph [ref=e865]: Heartsping's S6 Appearance
+            - paragraph [ref=e866]:
+              - text: In
+              - link "Princess Catch! Teenieping" [ref=e868] [cursor=pointer]:
+                - /url: /wiki/Princess_Catch!_Teenieping
+              - text: ", she now wears two glittery heart clips similar to her heart clips in Season 1; the tints of her pigtails also have glitter. She wears a white dress with thin golden lines around her Royal Mark, a pink skirt, which also has a golden line at the end, a golden belt, a transparent pink collar with a heart on the center, and a silver tiara with a pink heart in the middle."
+            - paragraph [ref=e869]: She also wears white shoes now instead of white tights.
+            - paragraph [ref=e870]: Her prop is a magical wand.
+            - heading "Prequel/Movie" [level=3] [ref=e871]: Prequel/Movie
+            - figure "Heartsping's Former Appearance" [ref=e872]:
+              - link "Heartsping's Former Appearance view image" [ref=e873] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/dc/Heartsping_M1_Render_2.png/revision/latest?cb=20240820155906
+                - img "Heartsping's Former Appearance" [ref=e874]
+                - generic "view image" [ref=e877]:
+                  - img [ref=e878]
+              - paragraph [ref=e881]: Heartsping's Former Appearance
+            - paragraph [ref=e882]:
+              - text: Her prequel design is like her Season 1 design, but without her Royal Mark (since she was not a
+              - link "Royal Teenieping" [ref=e883] [cursor=pointer]:
+                - /url: /wiki/Royal_Teeniepings
+              - text: beforehand). Instead of the mirror, she has a rabbit plush, but it has no special effects.
+            - heading "Personality" [level=2] [ref=e884]
+            - figure "Heartsping acting cute when having a strawberry tart" [ref=e885]:
+              - link "Heartsping acting cute when having a strawberry tart view image" [ref=e886] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/e2/S1E17_-_Heartsping_very_cute_pose_eyes.png/revision/latest?cb=20230830134808
+                - img "Heartsping acting cute when having a strawberry tart" [ref=e887]
+                - generic "view image" [ref=e890]:
+                  - img [ref=e891]
+              - paragraph [ref=e894]: Heartsping acting cute when having a strawberry tart
+            - paragraph [ref=e895]: Heartsping is nice and kindhearted. She has a girly and feminine attitude, likes to act cute, and occupies herself with various activities, like having tea with friends or striking cute poses.
+            - paragraph [ref=e896]: "She also loves her friends: she likes to make them happy, even though it sometimes makes her hide things or follow them even though she doesn't want to."
+            - paragraph [ref=e897]:
+              - text: She can be immature like her Royal Teenieping colleagues, as she likes to follow her instincts without thinking of the consequences, but she can also be more mature when the situation demands it. In Twinkle Catch! Teenieping, she acts strictly towards the
+              - link "Royal Teenieping students" [ref=e898] [cursor=pointer]:
+                - /url: /wiki/Royal_Jewel_Teeniepings
+              - text: and is dedicated to teaching them about various subjects and imposing order when needed.
+            - paragraph [ref=e899]: Heartsping is also smart, given her upbringing as a Royal Teenieping, possessing excellent skills in physics and nursing. She also has extensive knowledge of nearly every Teenieping in the Emotions Kingdom, as she can describe who they are and their abilities.
+            - paragraph [ref=e900]:
+              - text: Before she met Romi, she was introverted and listened to a
+              - link "mysterious Teenieping" [ref=e901] [cursor=pointer]:
+                - /url: /wiki/Truthping
+              - text: ", who stated that Teeniepings and humans cannot be friends. She was shy and nervous, reluctantly ignoring"
+              - link "Romi" [ref=e902] [cursor=pointer]:
+                - /url: /wiki/Romi
+              - text: and
+              - link "Marie" [ref=e903] [cursor=pointer]:
+                - /url: /wiki/Marie
+              - text: "'s request, but she later opens up and is willing to stand up for herself when times are tough."
+            - heading "Etymology" [level=2] [ref=e904]
+            - list [ref=e905]:
+              - listitem [ref=e906]: The Korean name 하츄핑 ("Hachyuping") is a combination of the words 하트 ("Hateu"), which is the Korean transliteration of the English word heart, and 츄 ("Chu"), which is the sound of kissing.
+              - listitem [ref=e907]: The English name ("Heartsping") is meant to represent the theme that she's based on, hearts.
+              - listitem [ref=e908]: The Chinese name 爱心萌可 ("Àixīn méng kě") comes from the word 爱心 ("Àixīn") meaning love, which is Heartsping's concept. It is also similar to the word 爱心形状 ("Àixīn xíngzhuàng"), which means "heart shape". This aligns with Heartsping's theme of hearts.
+            - heading "Magic" [level=2] [ref=e909]
+            - heading "Transformation" [level=3] [ref=e910]
+            - generic [ref=e912]:
+              - generic [ref=e913]:
+                - generic:
+                  - generic "Previous photo" [ref=e914] [cursor=pointer]:
+                    - img [ref=e915]
+                  - generic "Next photo" [ref=e917] [cursor=pointer]:
+                    - img [ref=e918]
+                - list [ref=e920]:
+                  - listitem [ref=e921]:
+                    - generic "Expand slideshow" [ref=e922]:
+                      - img "Romi transformed into Princess Heart" [ref=e923] [cursor=pointer]
+                    - generic [ref=e925]: Romi transformed into Princess Heart
+              - generic [ref=e927]: 1/6
+            - paragraph [ref=e928]:
+              - text: Like her
+              - link "Royal Teenieping comrades" [ref=e929] [cursor=pointer]:
+                - /url: /wiki/Royal_Teeniepings
+              - text: ", by kissing"
+              - link "Romi" [ref=e930] [cursor=pointer]:
+                - /url: /wiki/Romi
+              - text: ", Heartsping can help her transform into a magical princess, a different one for each season:"
+            - list [ref=e931]:
+              - listitem [ref=e932]:
+                - link "Princess Heart" [ref=e933] [cursor=pointer]:
+                  - /url: /wiki/Princesses
+                - text: in
+                - link "Catch! Teenieping" [ref=e935] [cursor=pointer]:
+                  - /url: /wiki/Catch!_Teenieping_(season)
+                - text: .
+              - listitem [ref=e936]:
+                - link "Princess Diaheart" [ref=e937] [cursor=pointer]:
+                  - /url: /wiki/Princesses
+                - text: in
+                - link "Twinkle Catch! Teenieping" [ref=e939] [cursor=pointer]:
+                  - /url: /wiki/Twinkle_Catch!_Teenieping
+                - text: .
+              - listitem [ref=e940]:
+                - link "Princess Floraheart" [ref=e941] [cursor=pointer]:
+                  - /url: /wiki/Princesses
+                - text: in
+                - link "Secret Catch! Teenieping" [ref=e943] [cursor=pointer]:
+                  - /url: /wiki/Secret_Catch!_Teenieping
+                - text: .
+              - listitem [ref=e944]:
+                - link "Princess Berryheart" [ref=e945] [cursor=pointer]:
+                  - /url: /wiki/Princesses
+                - text: in
+                - link "Dessert Catch! Teenieping" [ref=e947] [cursor=pointer]:
+                  - /url: /wiki/Dessert_Catch!_Teenieping
+                - text: .
+              - listitem [ref=e948]:
+                - link "Princess Brightheart" [ref=e949] [cursor=pointer]:
+                  - /url: /wiki/Princesses
+                - text: in
+                - link "Star Catch! Teenieping" [ref=e951] [cursor=pointer]:
+                  - /url: /wiki/Star_Catch!_Teenieping
+                - text: .
+              - listitem [ref=e952]:
+                - link "Princess Fancyheart" [ref=e953] [cursor=pointer]:
+                  - /url: /wiki/Princesses
+                - text: in
+                - link "Princess Catch! Teenieping" [ref=e955] [cursor=pointer]:
+                  - /url: /wiki/Princess_Catch!_Teenieping
+                - text: .
+            - paragraph [ref=e956]:
+              - text: When transformed, Romi gains physical strength and can use the power of her various
+              - link "magic tools" [ref=e957] [cursor=pointer]:
+                - /url: /wiki/List_of_magical_inventions
+              - text: to carry out her objective.
+            - heading "Abilities" [level=3] [ref=e958]
+            - heading "Tinkle Puff" [level=4] [ref=e959]:
+              - link "Tinkle Puff" [ref=e961] [cursor=pointer]:
+                - /url: /wiki/Tinkle_Puff
+            - paragraph [ref=e962]: "Heartsping has various powers in each of the seasons she appears in:"
+            - heading "Catch! Teenieping" [level=5] [ref=e963]:
+              - generic [ref=e964]: Catch! Teenieping
+            - figure "Heartsping shining the Reflection of Love" [ref=e965]:
+              - link "Heartsping shining the Reflection of Love view image" [ref=e966] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/b/b9/S1E47_-_Heartsping_power.png/revision/latest?cb=20211022081647
+                - img "Heartsping shining the Reflection of Love" [ref=e967]
+                - generic "view image" [ref=e970]:
+                  - img [ref=e971]
+              - paragraph [ref=e974]: Heartsping shining the Reflection of Love
+            - paragraph [ref=e975]: With her magic hand held mirror, Heartsping can shine the Light of Love, a bright light that can blind and distract people.
+            - heading "Twinkle Catch! Teenieping" [level=5] [ref=e976]:
+              - generic [ref=e977]: Twinkle Catch! Teenieping
+            - figure "Heartsping playing the Melody of Love" [ref=e978]:
+              - link "Heartsping playing the Melody of Love view image" [ref=e979] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/0b/S2E02_-_Heartsping_power.png/revision/latest?cb=20250321211909
+                - img "Heartsping playing the Melody of Love" [ref=e980]
+                - generic "view image" [ref=e983]:
+                  - img [ref=e984]
+              - paragraph [ref=e987]: Heartsping playing the Melody of Love
+            - paragraph [ref=e988]: With her magic harp, she can play the Melody of Love which creates a flying pink melody staff able to perform various actions, such as wrapping people, blocking a path with a barrier, and combat an opponent's magic.
+            - heading "Secret Catch! Teenieping" [level=5] [ref=e989]:
+              - generic [ref=e990]: Secret Catch! Teenieping
+            - figure "Heartsping spreading the Scent of Love" [ref=e991]:
+              - link "Heartsping spreading the Scent of Love view image" [ref=e992] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/6/6a/S3E03_-_Heartsping_power.png/revision/latest?cb=20230830134821
+                - img "Heartsping spreading the Scent of Love" [ref=e993]
+                - generic "view image" [ref=e996]:
+                  - img [ref=e997]
+              - paragraph [ref=e1000]: Heartsping spreading the Scent of Love
+            - paragraph [ref=e1001]: With her magic perfume bottle, she can spread the Scent of Love, which takes the form of red petals acting like projectiles. While it can dismiss her opponent's magic by changing the Tinkle Puff's trajectory, it can also hurt them.
+            - heading "Dessert Catch! Teenieping" [level=5] [ref=e1002]:
+              - generic [ref=e1003]: Dessert Catch! Teenieping
+            - figure "Heartsping ringing the Bells of Love" [ref=e1004]:
+              - link "Heartsping ringing the Bells of Love view image" [ref=e1005] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/c/ca/S4E03_-_Berry_Heartsping_rings_the_Bells_of_Love.png/revision/latest?cb=20240910085207
+                - img "Heartsping ringing the Bells of Love" [ref=e1006]
+                - generic "view image" [ref=e1009]:
+                  - img [ref=e1010]
+              - paragraph [ref=e1013]: Heartsping ringing the Bells of Love
+            - paragraph [ref=e1014]: With her hand bell, she can ring the Bell Ring of Love which takes the form of pink music notes acting like projectiles like the Scent of Love. It can dismiss her opponent's magic by sprinkling music notes.
+            - heading "Star Catch! Teenieping" [level=5] [ref=e1015]:
+              - generic [ref=e1016]: Star Catch! Teenieping
+            - figure "Heartsping using the Stardust of Love" [ref=e1017]:
+              - link "Heartsping using the Stardust of Love view image" [ref=e1018] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/d8/S5E08_-_Heartsping%27s_Tinkle_Puff_in_Season_5.jpg/revision/latest?cb=20250718204111
+                - img "Heartsping using the Stardust of Love" [ref=e1019]
+                - generic "view image" [ref=e1022]:
+                  - img [ref=e1023]
+              - paragraph [ref=e1026]: Heartsping using the Stardust of Love
+            - paragraph [ref=e1027]: With her glowpuff star pillow, she can use the Stardust of Love. It can be used to dismiss the opponent's magic or to manipulate objects.
+            - heading "Princess Catch! Teenieping" [level=5] [ref=e1028]:
+              - generic [ref=e1029]: Princess Catch! Teenieping
+            - figure "Heartsping using the Mask Pack of Love" [ref=e1030]:
+              - link "Heartsping using the Mask Pack of Love view image" [ref=e1031] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/94/S6E16_-_Heartsping_using_the_Mask_Pack_of_Love.jpg/revision/latest?cb=20260322004837
+                - img "Heartsping using the Mask Pack of Love" [ref=e1032]
+                - generic "view image" [ref=e1035]:
+                  - img [ref=e1036]
+              - paragraph [ref=e1039]: Heartsping using the Mask Pack of Love
+            - paragraph [ref=e1040]: With her magic wand, she can send the Mask Pack of Love. It can be used to massage the opponent's face to dismiss their magic.
+            - heading "Special Powers" [level=4] [ref=e1041]
+            - paragraph [ref=e1042]: Heartsping's tears possess a unique and powerful magic, its true potential hidden until its initial release. Each tear holds the ability to revive and dispel any deadly curse or danger associated with the individual it comes into contact with. This power can be instinctively triggered in times of crisis.
+            - figure "Heartsping playing a much stronger Melody of Love." [ref=e1043]:
+              - link "Heartsping playing a much stronger Melody of Love. view image" [ref=e1044] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/31/S2E21_-_Heartsping_playing_an_enhanced_Lovely_Tune.png/revision/latest?cb=20230830134818
+                - img "Heartsping playing a much stronger Melody of Love." [ref=e1045]
+                - generic "view image" [ref=e1048]:
+                  - img [ref=e1049]
+              - paragraph [ref=e1052]: Heartsping playing a much stronger Melody of Love.
+            - paragraph [ref=e1053]:
+              - text: The golden Royal Teeniepings symbol - the sign of her being a Royal Teenieping - also holds a powerful magic that she can use in dire situations. When activated, her chest glows, and it increases the strength of her main magic power, allowing her for example to break some spells, like the
+              - link "Enchanted Flute" [ref=e1054] [cursor=pointer]:
+                - /url: /wiki/Enchanted_Flute
+              - text: "'s."
+            - heading "History" [level=2] [ref=e1055]
+            - 'heading "Heartsping: Teenieping of Love" [level=3] [ref=e1056]':
+              - 'link "Heartsping: Teenieping of Love" [ref=e1059] [cursor=pointer]':
+                - /url: /wiki/Heartsping:_Teenieping_of_Love
+            - paragraph [ref=e1060]: TBA
+            - heading "Growing Up With Romi" [level=3] [ref=e1061]
+            - paragraph [ref=e1062]:
+              - text: In Romi's early childhood, Heartsping, as part of her role of Royal Teenieping, is tasked with taking care of her as Romi becomes one of the princesses of the
+              - link "Emotions Kingdom" [ref=e1063] [cursor=pointer]:
+                - /url: /wiki/Emotions_Kingdom
+              - text: .
+            - paragraph [ref=e1064]:
+              - text: They spend most of their time together along with the other Royal Teeniepings and grow a strong connection. Sometime after this, she develops a competitive rivalry with
+              - link "Onlyping" [ref=e1065] [cursor=pointer]:
+                - /url: /wiki/Onlyping
+              - text: ","
+              - link "Jenny" [ref=e1066] [cursor=pointer]:
+                - /url: /wiki/Jenny
+              - text: "'s personal Teenieping."
+            - figure "Heartsping getting caught just in time by Romi" [ref=e1067]:
+              - link "Heartsping getting caught just in time by Romi view image" [ref=e1068] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/d1/S1E04_-_Heartsping_getting_caught_just_in_time.png/revision/latest?cb=20250320011604
+                - img "Heartsping getting caught just in time by Romi" [ref=e1069]
+                - generic "view image" [ref=e1072]:
+                  - img [ref=e1073]
+              - paragraph [ref=e1076]: Heartsping getting caught just in time by Romi
+            - paragraph [ref=e1077]:
+              - text: When Romi notices strange signals from the
+              - link "Cube Chamber" [ref=e1078] [cursor=pointer]:
+                - /url: /wiki/Cube_Chamber
+              - text: ", she accidentally frees all the Teeniepings, sending them down to Earth into"
+              - link "Harmony Town" [ref=e1079] [cursor=pointer]:
+                - /url: /wiki/Harmony_Town
+              - text: .
+            - paragraph [ref=e1080]: At the last moment, Heartsping is saved by Romi, just in time to prevent her from going to Earth. Heartsping settles in Harmony Town with Romi, allowing the latter to repair her mistakes by catching all the Teeniepings.
+            - heading "Catch! Teenieping" [level=3] [ref=e1081]:
+              - link "Catch! Teenieping" [ref=e1084] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(season)
+            - figure "Heartsping living a new life in the Teenieping House" [ref=e1085]:
+              - link "Heartsping living a new life in the Teenieping House view image" [ref=e1086] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/9/9d/S1E03_-_Heartsping_having_tea_with_Charmping.png/revision/latest?cb=20230830134805
+                - img "Heartsping living a new life in the Teenieping House" [ref=e1087]
+                - generic "view image" [ref=e1090]:
+                  - img [ref=e1091]
+              - paragraph [ref=e1094]: Heartsping living a new life in the Teenieping House
+            - paragraph [ref=e1095]:
+              - text: Heartsping gets to live in the
+              - link "Teenieping House" [ref=e1096] [cursor=pointer]:
+                - /url: /wiki/Teenieping_House
+              - text: and stays in the
+              - link "Heartrose Bakery" [ref=e1097] [cursor=pointer]:
+                - /url: /wiki/Heartrose_Bakery
+              - text: ", ready to help Romi at any time of the day by transforming with her into"
+              - link "Princess Heart" [ref=e1098] [cursor=pointer]:
+                - /url: /wiki/Princesses
+              - text: ", joining Romi when she goes to"
+              - link "school" [ref=e1099] [cursor=pointer]:
+                - /url: /wiki/Harmony_Town_School
+              - text: .
+            - paragraph [ref=e1100]:
+              - text: Heartsping eventually reunites with her Royal Teenieping colleagues, and she lives with them in the Teenieping House. She is sometimes seen spending time with other Teeniepings like
+              - link "Charmping" [ref=e1101] [cursor=pointer]:
+                - /url: /wiki/Charmping
+              - text: and
+              - link "Kikiping" [ref=e1102] [cursor=pointer]:
+                - /url: /wiki/Kikiping
+              - text: .
+            - heading "Come Back Home, Heartsping!" [level=4] [ref=e1103]:
+              - link "Come Back Home, Heartsping!" [ref=e1105] [cursor=pointer]:
+                - /url: /wiki/Come_Back_Home,_Heartsping!
+            - figure "Heartsping encountering Luca" [ref=e1106]:
+              - link "Heartsping encountering view image" [ref=e1107] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/2/2d/S1E15_-_Heartsping_encountering_Luca.png/revision/latest?cb=20230830134807
+                - img "Heartsping encountering" [ref=e1108]
+                - generic "view image" [ref=e1111]:
+                  - img [ref=e1112]
+              - paragraph [ref=e1115]:
+                - text: Heartsping encountering
+                - link "Luca" [ref=e1116] [cursor=pointer]:
+                  - /url: /wiki/Luca
+            - paragraph [ref=e1117]: On a rainy day, when Romi accidentally eats her strawberry tart without issuing an apology, Heartsping is furious and decides to run away from Heartrose Bakery.
+            - paragraph [ref=e1118]:
+              - text: She is found by
+              - link "Luca" [ref=e1119] [cursor=pointer]:
+                - /url: /wiki/Luca
+              - text: who decides to take care of her, and so begins her new, seemingly better, life. Sometime after, she starts to regret this decision, and after learning that Romi got sick trying to find her in the rain, she decides to come back home and reconcile with her.
+            - heading "Love Me More" [level=4] [ref=e1120]:
+              - link "Love Me More" [ref=e1122] [cursor=pointer]:
+                - /url: /wiki/Love_Me_More
+            - paragraph [ref=e1123]:
+              - text: After
+              - link "Tutuping" [ref=e1124] [cursor=pointer]:
+                - /url: /wiki/Tutuping
+              - text: is caught by Romi, Heartsping is thrown into a feud with her after Romi shows her too much affection. She winds up eating a strawberry tart with lemon juice hidden in it, assuming that Tutuping pulled a prank on her; Tutuping tries to convince her that she was only trying to make her like lemon-flavored treats since she was being picky, which Romi warned her about earlier.
+            - paragraph [ref=e1125]: When Tutuping leaves the bakery, she, Romi and Dadaping all go looking for her and save her from a stray cat's attack, where Tutuping can reconcile with Heartsping, putting their feud to rest.
+            - heading "The Arrow of Luvping" [level=4] [ref=e1126]:
+              - link "The Arrow of Luvping" [ref=e1128] [cursor=pointer]:
+                - /url: /wiki/The_Arrow_of_Luvping
+            - figure "Heartsping crying over Gogoping's sacrifice" [ref=e1129]:
+              - link "Heartsping crying over Gogoping's sacrifice view image" [ref=e1130] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/e2/S1E26_-_Heartsping_mourning_Gogoping%27s_death.png/revision/latest?cb=20230830134810
+                - img "Heartsping crying over Gogoping's sacrifice" [ref=e1131]
+                - generic "view image" [ref=e1134]:
+                  - img [ref=e1135]
+              - paragraph [ref=e1138]: Heartsping crying over Gogoping's sacrifice
+            - paragraph [ref=e1139]:
+              - text: Heartsping gets angry with
+              - link "Gogoping" [ref=e1140] [cursor=pointer]:
+                - /url: /wiki/Gogoping
+              - text: after he caused her to drop her favorite tea cup, even though Gogoping got a cut on his leg due to one of the shards of the cup. But when
+              - link "Luvping" [ref=e1141] [cursor=pointer]:
+                - /url: /wiki/Luvping
+              - text: appears to cause trouble in Harmony Town, the two are forced to work together.
+            - paragraph [ref=e1142]: When Gogoping inadvertently uses his Tinkle Puff on Heartsping, the latter assumes he did it intentionally. But when he sacrifices himself to protect her from Luvping's magic arrow, Heartsping is devastated, since Luvping's arrows are fatal to Teeniepings.
+            - paragraph [ref=e1143]: Heartsping cries over the fact that Gogoping might not be brought back to life, her despair causes her tear magic to activate, curing Luvping's spell and bringing Gogoping back from unconsciousness.
+            - heading "Princess Veronica" [level=4] [ref=e1144]:
+              - link "Princess Veronica" [ref=e1146] [cursor=pointer]:
+                - /url: /wiki/Princess_Veronica
+            - paragraph [ref=e1147]:
+              - text: Heartsping joins the battle alongside her fellow Royal Teeniepings to stop Egoping's onslaught, but when everything seems lost - and she traps her into one of her magic balls - Heartsping's tear magic once again activates, resuscitating Happying
+              - link "after she had sacrificed herself" [ref=e1148] [cursor=pointer]:
+                - /url: /wiki/In_The_Name_Of_The_Royalpings
+              - text: and activating the transformation of Princess Veronica.
+            - paragraph [ref=e1149]: With their reignited powers, she and the other Royal Teeniepings work together to defeat Egoping and catch her. After this, Romi briefly returns to the Emotions Kingdom to celebrate her task being done.
+            - paragraph [ref=e1150]: However, Romi asks her parents if she can return to Harmony Town and live life as a normal girl and not as a princess for a time. Her parents allow this, and Heartsping joins her while the other Royal Teeniepings stay behind at the Emotions Kingdom.
+            - heading "Twinkle Catch! Teenieping" [level=3] [ref=e1151]:
+              - link "Twinkle Catch! Teenieping" [ref=e1154] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Catch!_Teenieping
+            - figure "Heartsping worried about her students" [ref=e1155]:
+              - link "Heartsping worried about her students view image" [ref=e1156] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/f/fb/S2E02_-_Heartsping_worried_about_her_students.png/revision/latest?cb=20230830134812
+                - img "Heartsping worried about her students" [ref=e1157]
+                - generic "view image" [ref=e1160]:
+                  - img [ref=e1161]
+              - paragraph [ref=e1164]: Heartsping worried about her students
+            - paragraph [ref=e1165]:
+              - text: As the other Royal Teeniepings return to the Emotions Kingdom to open the
+              - link "Royal Teenieping School" [ref=e1166] [cursor=pointer]:
+                - /url: /wiki/Royal_Teenieping_School
+              - text: "- a new school to train the next Royal Teeniepings - life changes dramatically."
+            - paragraph [ref=e1167]:
+              - text: An
+              - link "unidentified Teenieping in a mask" [ref=e1168] [cursor=pointer]:
+                - /url: /wiki/Maskping
+              - text: appears and releases the
+              - link "Jewel Teeniepings" [ref=e1169] [cursor=pointer]:
+                - /url: /wiki/Jewel_Teeniepings
+              - text: ", sending them to Earth. The"
+              - link "Royal Teenieping students" [ref=e1170] [cursor=pointer]:
+                - /url: /wiki/Royal_Jewel_Teeniepings
+              - text: race to Earth to tell Romi and Heartsping about their situation, and Romi equips the
+              - link "Jewel Heart Wing Phone" [ref=e1171] [cursor=pointer]:
+                - /url: /wiki/Jewel_Heart_Wing_Phone
+              - text: ", allowing her to transform and catch the Jewel Teeniepings. This allows Romi to transform for the first time into Princess Diaheart and Heartsping to get an appearance change and to wield the Pink Diamond."
+              - link "Dr. Monziu" [ref=e1172] [cursor=pointer]:
+                - /url: /wiki/Dr._Monziu
+              - text: then tasks Romi, Heartsping, and the student Teenieping with catching the released Teeniepings and restoring the deteriorating Jewel Forest.
+            - figure "Heartsping as the school's teacher" [ref=e1173]:
+              - link "Heartsping as the school's teacher view image" [ref=e1174] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/8/8d/S2E10_-_Heartsping_as_a_teacher.png/revision/latest?cb=20230830134814
+                - img "Heartsping as the school's teacher" [ref=e1175]
+                - generic "view image" [ref=e1178]:
+                  - img [ref=e1179]
+              - paragraph [ref=e1182]: Heartsping as the school's teacher
+            - paragraph [ref=e1183]:
+              - text: To help train the newbies, Heartsping is assigned as teacher of the Teenieping School, a small school located in
+              - link "Heartrose Bakery" [ref=e1184] [cursor=pointer]:
+                - /url: /wiki/Heartrose_Bakery
+              - text: ", open to all the caught Jewel Teeniepings, where she teaches about both life on Earth and some magic of the Emotions Kingdom."
+            - paragraph [ref=e1185]: As she takes charge here, this gives Romi more freedom to go to school on her own (at times). Heartsping's personality also changes as, now that she is in charge of an array of Jewel Teeniepings about the wonders of Earth and the Emotions Kingdom, she gets stricter and more serious as part of her job. Still, though, she commits to helping Romi transform into Princess Diaheart when the situation demands it.
+            - heading "Tickle Tickle, Try Not to Laugh!" [level=4] [ref=e1186]:
+              - link "Tickle Tickle, Try Not to Laugh!" [ref=e1188] [cursor=pointer]:
+                - /url: /wiki/Tickle_Tickle,_Try_Not_to_Laugh!
+            - paragraph [ref=e1189]:
+              - text: Heartsping teaches the Royal Teenieping students about Teeniepings' tickle spots, which help in catching
+              - link "Tickleping" [ref=e1190] [cursor=pointer]:
+                - /url: /wiki/Tickleping
+              - text: . She brings them in for a brief tourney, where the winner will face off against Tickleping in a tickle fight to catch her. The winner turns out to be Teeheeping after a close match with Trustping.
+            - heading "Ow Ow, No More Boo-Boos!" [level=4] [ref=e1191]:
+              - link "Ow Ow, No More Boo-Boos!" [ref=e1193] [cursor=pointer]:
+                - /url: /wiki/Ow_Ow,_No_More_Boo-Boos!
+            - paragraph [ref=e1194]: Heartsping tries to cure Trustping of a cavity he developed after eating too many chocolate balls late at night. But when Owwping shows up at the bakery, she gets hit by her Tinkle Puff, she gets bandaged up by Trustping along with Teeheeping and Joahping while Trustping catches her with Romi.
+            - heading "Shrinking Romi!" [level=4] [ref=e1195]:
+              - link "Shrinking Romi!" [ref=e1197] [cursor=pointer]:
+                - /url: /wiki/Shrinking_Romi!
+            - paragraph [ref=e1198]: Heartsping meets Maskping for the first time, whom she decides to confront, leaving the Royal Jewel Teenieping students to try and catch the next Teenieping. When she eventually returns, she congratulates the three of them on their hard work, while also telling Romi about the masked Teenieping she met.
+            - heading "Things Get Wooly!" [level=4] [ref=e1199]:
+              - link "Things Get Wooly!" [ref=e1201] [cursor=pointer]:
+                - /url: /wiki/Things_Get_Wooly!
+            - paragraph [ref=e1202]: Maya makes Heartsping a knitted doll and gets the chance to knit with her at her flower shop. Without realizing it, the Royal Jewel Teeniepings worry that Cozyping turned her into a knitted doll, leading to a mad chase to try and get her back. But when Heartsping returns from getting some knitting supplies for Maya, she's greeted by the Teeniepings, who are more than happy to see her.
+            - heading "Another Princess" [level=4] [ref=e1203]:
+              - link "Another Princess" [ref=e1205] [cursor=pointer]:
+                - /url: /wiki/Another_Princess
+            - paragraph [ref=e1206]:
+              - text: Heartsping meets Onlyping for the first time in a long time when Jenny comes to visit Romi on Earth, and they constantly fight, with Onlyping wanting to save Jenny in situations where she isn't in any danger. She also grows suspicious of the two of them, who seem to have learned how to use magic to make things move on their own, an incident that occurred in "
+              - link "The Teddy Bear is Alive?!" [ref=e1207] [cursor=pointer]:
+                - /url: /wiki/The_Teddy_Bear_is_Alive%3F!
+              - text: "\""
+            - paragraph [ref=e1208]: Things get worse when Onlyping tries to save Jenny from Lena, Hani and Cindy - who were picking on her - and Heartsping stops her from attacking them with magic. Heartsping expresses concern for Onlyping, while the latter believes she's acting sweet and innocent, masking her true intentions.
+            - paragraph [ref=e1209]: When Onlyping attacks the Royal Jewel Teeniepings, this angers Heartsping, but Jenny tells Onlyping to stop, and they decide to leave and head back to the Emotions Kingdom.
+            - heading "Heartrose Becomes a Kingdom" [level=4] [ref=e1210]:
+              - link "Heartrose Becomes a Kingdom" [ref=e1212] [cursor=pointer]:
+                - /url: /wiki/Heartrose_Becomes_a_Kingdom
+            - paragraph [ref=e1213]: When Maskping makes Ladyping in the bakery become servants of her "kingdom," she discovers Maskping's true identity and motives when she attacks Ladyping and traps Romi and the Royal Jewel Teeniepings. Maskping's magic key starts to malfunction when it's knocked out of her hand, which surprises Heartsping. However, she decides not to tell Romi anything, possibly for fear that she will be upset. As the other Royal Teeniepings become frustrated with Maskping taking advantage of them, she becomes more careful than ever about the Jewel Teeniepings' safety.
+            - heading "Who's the Real Heartsping?" [level=4] [ref=e1214]:
+              - link "Who's the Real Heartsping?" [ref=e1216] [cursor=pointer]:
+                - /url: /wiki/Who%27s_the_Real_Heartsping%3F
+            - figure "The 2 Heartspings being cute" [ref=e1217]:
+              - link "The 2 Heartspings being cute view image" [ref=e1218] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/f/f9/S2E18_-_Heartsping_and_her_clone_being_cute.png/revision/latest?cb=20250316070649
+                - img "The 2 Heartspings being cute" [ref=e1219]
+                - generic "view image" [ref=e1222]:
+                  - img [ref=e1223]
+              - paragraph [ref=e1226]: The 2 Heartspings being cute
+            - paragraph [ref=e1227]:
+              - text: Heartsping gets duplicated by
+              - link "Buddyping" [ref=e1228] [cursor=pointer]:
+                - /url: /wiki/Buddyping
+              - text: "'s Tinkle Puff and is forced to deal with a clone of herself. Trouble begins to brew when the two get into a duel, and the clone winds up kicking her out of the bakery. She's rescued by Buddyping, who tries to convince her that the other Teeniepings will know she's the real Heartsping if she sets out to confront her clone. She does, and the Teeniepings figure out they're dealing with a clone, and Buddyping gets caught by Romi to break his spell."
+            - heading "A Perilous Picnic" [level=4] [ref=e1229]:
+              - link "A Perilous Picnic" [ref=e1231] [cursor=pointer]:
+                - /url: /wiki/A_Perilous_Picnic
+            - figure "Heartsping facing Maskping" [ref=e1232]:
+              - link "Heartsping facing Maskping view image" [ref=e1233] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/2/2e/S2E21_-_Heartsping_facing_Maskping.png/revision/latest?cb=20230830134817
+                - img "Heartsping facing Maskping" [ref=e1234]
+                - generic "view image" [ref=e1237]:
+                  - img [ref=e1238]
+              - paragraph [ref=e1241]: Heartsping facing Maskping
+            - paragraph [ref=e1242]: After Heartsping has a nightmare involving Maskping, she tries to call off going to a picnic with Jenny and Onlyping since she feels that something dangerous might happen. Despite warning them several times, Romi and the other Teeniepings choose to go along with her, and Heartsping rescinds in telling Romi the truth. At various points during the picnic, Heartsping tries to save the Teeniepings from various scenarios where they might get hurt, but only seem to be minor.
+            - paragraph [ref=e1243]: A while later, during a game of hide-and-seek, Maskping uses her Enchanted Flute and makes all the Jewel Teeniepings fall into a deep sleep. Heartsping looks for them and sees them entering a cave (just like in her nightmare). She follows them and comes face to face with Maskping, and the two engage in a brief duel as she tries to free the other Teeniepings. To wake them, she activates the magic in her Royal Teenieping symbol to play a powerful version of the Lovely Tune, waking the Teeniepings from their slumber, while Maskping leaves, frustrated at her loss.
+            - heading "Teenieping School Graduation" [level=4] [ref=e1244]:
+              - link "Teenieping School Graduation" [ref=e1246] [cursor=pointer]:
+                - /url: /wiki/Teenieping_School_Graduation
+            - figure "Heartsping getting kidnapped by Maskping" [ref=e1247]:
+              - link "Heartsping getting kidnapped by Maskping view image" [ref=e1248] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/d/d7/S2E24_-_Heartsping_getting_kidnapped_by_Maskping.png/revision/latest?cb=20230830134820
+                - img "Heartsping getting kidnapped by Maskping" [ref=e1249]
+                - generic "view image" [ref=e1252]:
+                  - img [ref=e1253]
+              - paragraph [ref=e1256]: Heartsping getting kidnapped by Maskping
+            - paragraph [ref=e1257]:
+              - text: After Romi and Heartsping host the Jewel Teeniepings' graduation and say goodbye to the Jewel Teeniepings, Maskping attacks again and kidnaps Heartsping, getting carried away to a
+              - link "cavern" [ref=e1258] [cursor=pointer]:
+                - /url: /wiki/Jewel_Cavern
+              - text: in the Emotions Kingdom.
+            - heading "Heartsping in Danger" [level=4] [ref=e1259]:
+              - link "Heartsping in Danger" [ref=e1261] [cursor=pointer]:
+                - /url: /wiki/Heartsping_in_Danger
+            - paragraph [ref=e1262]: Once Heartsping arrives in the cavern, she and Maskping engage in a duel, as she tries to find out more about what Maskping is trying to do. Romi and Jenny arrive soon enough to stop Maskping and trap her, allowing Heartsping to reunite with Romi. But when they encounter the Jewel Dragon, and Jenny convinces Romi to try and stop it (believing that taming it could help restore the Jewel Forest), Jenny regains the magic spellbook that allowed her to control the Jewel Dragon and take advantage of it.
+            - paragraph [ref=e1263]: When Jenny is about to be attacked by the dragon, Maskping arrives to try and defend her, destroying her cloak and revealing herself to be Onlyping. Heartsping breaks down and reveals to Romi the secret she had held about Maskping's identity and says she was too scared to tell her.
+            - heading "The Jewel Forest is Restored" [level=4] [ref=e1264]:
+              - link "The Jewel Forest is Restored" [ref=e1266] [cursor=pointer]:
+                - /url: /wiki/The_Jewel_Forest_is_Restored
+            - paragraph [ref=e1267]:
+              - text: After Romi learns of Jenny's true motives, and Jenny ends their seemingly lifelong friendship, Jenny transforms and leaves, with Romi and Heartsping stuck with having to escape the cavern - and the rampaging Jewel Dragon. Eventually, the Royal Jewel Teeniepings make the save using the
+              - link "Imperial Stone" [ref=e1268] [cursor=pointer]:
+                - /url: /wiki/Imperial_Stone
+              - text: ", which allows them to escape and control the dragon. They restore the condition of the Jewel Forest, and Heartsping attends the Royal Jewel Teeniepings' ceremony, where they earn their official Royal Teenieping symbols."
+            - paragraph [ref=e1269]: After this, Romi and Heartsping return to Earth to live a normal life again, with Jenny's betrayal still in the back of their minds.
+            - heading "Secret Catch! Teenieping" [level=3] [ref=e1270]:
+              - link "Secret Catch! Teenieping" [ref=e1273] [cursor=pointer]:
+                - /url: /wiki/Secret_Catch!_Teenieping
+            - heading "Secret Catch! Key Teeniepings" [level=4] [ref=e1274]:
+              - link "Secret Catch! Key Teeniepings" [ref=e1276] [cursor=pointer]:
+                - /url: /wiki/Secret_Catch!_Key_Teeniepings
+            - paragraph [ref=e1277]:
+              - text: Having returned to their normal lives, a new story begins to brew as Heartsping and Romi encounter the
+              - link "Royal Key Teeniepings" [ref=e1278] [cursor=pointer]:
+                - /url: /wiki/Royal_Key_Teeniepings
+              - text: . The three Teeniepings tell them that someone has gone and released the Key Teeniepings to Earth, and hint that it could be
+              - link "someone Romi knows quite well" [ref=e1279] [cursor=pointer]:
+                - /url: /wiki/Jenny
+              - text: . They - along with a mysterious Teenieping in a box - join Romi to see what's going on.
+            - heading "Transform! Floraheart" [level=4] [ref=e1280]:
+              - link "Transform! Floraheart" [ref=e1282] [cursor=pointer]:
+                - /url: /wiki/Transform!_Floraheart
+            - figure "Heartsping transformed as Flora Heartsping" [ref=e1283]:
+              - link "Heartsping transformed as Flora Heartsping view image" [ref=e1284] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/6/64/S3E02_-_Heartsping_smiling.jpg/revision/latest?cb=20250223052053
+                - img "Heartsping transformed as Flora Heartsping" [ref=e1285]
+                - generic "view image" [ref=e1288]:
+                  - img [ref=e1289]
+              - paragraph [ref=e1292]: Heartsping transformed as Flora Heartsping
+            - paragraph [ref=e1293]:
+              - text: Heartsping transforms with Romi for the first time into Princess Floraheart while trying to stop
+              - link "Hurryping" [ref=e1294] [cursor=pointer]:
+                - /url: /wiki/Hurryping
+              - text: ", after receiving the"
+              - link "Mystic Heart Wing" [ref=e1295] [cursor=pointer]:
+                - /url: /wiki/Mystic_Heart_Wing
+              - text: . She also gets an appearance change for the second time in the series. After they catch Hurryping, she settles in with the Royal Key Teeniepings in the new
+              - link "Teenieping Secret Castle" [ref=e1296] [cursor=pointer]:
+                - /url: /wiki/Teenieping_Secret_Castle
+              - text: .
+            - heading "Romi and Heartsping's Bodies are Switched" [level=4] [ref=e1297]:
+              - link "Romi and Heartsping's Bodies are Switched" [ref=e1299] [cursor=pointer]:
+                - /url: /wiki/Romi_and_Heartsping%27s_Bodies_are_Switched
+            - figure "Heartsping as Romi being cute" [ref=e1300]:
+              - link "Heartsping as Romi being cute view image" [ref=e1301] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/6/66/S3E09_-_Romi_cute_pose.png/revision/latest?cb=20250219084059
+                - img "Heartsping as Romi being cute" [ref=e1302]
+                - generic "view image" [ref=e1305]:
+                  - img [ref=e1306]
+              - paragraph [ref=e1309]: Heartsping as Romi being cute
+            - paragraph [ref=e1310]:
+              - text: A spill of
+              - link "Wizping" [ref=e1311] [cursor=pointer]:
+                - /url: /wiki/Wizping
+              - text: "'s magic potion causes Romi and Heartsping to swap bodies. While the latter takes some solace in being a new human body, eventually they are able to stop Wizping by forcing her to use magic on them and swapping bodies again."
+            - heading "Snow White Romi" [level=4] [ref=e1312]:
+              - link "Snow White Romi" [ref=e1314] [cursor=pointer]:
+                - /url: /wiki/Snow_White_Romi
+            - paragraph [ref=e1315]:
+              - text: When Romi and the Key Teeniepings get sucked into a Snow White and the Seven Dwarves picture book, she works with the Royal Key Teeniepings to try and save them. Using various supplies at the instruction of
+              - link "Dr. Monziu" [ref=e1316] [cursor=pointer]:
+                - /url: /wiki/Dr._Monziu
+              - text: ", they're able to construct a potion that works to help maintain the contents of the book and bring them back to the real world."
+            - heading "Teenieping Amusement Park for Everyone" [level=4] [ref=e1317]:
+              - link "Teenieping Amusement Park for Everyone" [ref=e1319] [cursor=pointer]:
+                - /url: /wiki/Teenieping_Amusement_Park_for_Everyone
+            - figure "Heartsping having an idea" [ref=e1320]:
+              - link "Heartsping having an idea view image" [ref=e1321] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/7/7d/S3E21_-_Heartsping_having_an_idea.png/revision/latest?cb=20250223052059
+                - img "Heartsping having an idea" [ref=e1322]
+                - generic "view image" [ref=e1325]:
+                  - img [ref=e1326]
+              - paragraph [ref=e1329]: Heartsping having an idea
+            - paragraph [ref=e1330]:
+              - text: Heartsping unveils the
+              - link "Teenieping Amusement Park" [ref=e1331] [cursor=pointer]:
+                - /url: /wiki/Teenieping_Amusement_Park
+              - text: when a
+              - link "Hye-joo" [ref=e1332] [cursor=pointer]:
+                - /url: /wiki/Hye-joo
+              - text: concert gets rained out and everyone is forced to stay indoors. But when Onlyping sneaks in to ruin the festivities and trap everyone,
+              - link "Luckyping" [ref=e1333] [cursor=pointer]:
+                - /url: /wiki/Luckyping
+              - text: saves them with her magic.
+            - heading "Teenieping Fashion Show" [level=4] [ref=e1334]:
+              - link "Teenieping Fashion Show" [ref=e1336] [cursor=pointer]:
+                - /url: /wiki/Teenieping_Fashion_Show
+            - figure "Heartsping and the others on stage" [ref=e1337]:
+              - link "Heartsping and the others on stage view image" [ref=e1338] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/e5/S3E24_-_Royal_Teeniepings_fashion_show_outfits_4.png/revision/latest?cb=20250303105631
+                - img "Heartsping and the others on stage" [ref=e1339]
+                - generic "view image" [ref=e1342]:
+                  - img [ref=e1343]
+              - paragraph [ref=e1346]: Heartsping and the others on stage
+            - paragraph [ref=e1347]: She and the other Royal Teeniepings were chosen to be performing on stage at the fashion show. Everything was down at their first try, but as they keep practicing everything is now okay. She and the others started to perform as they were on stage. Heartsping, who used a golden dress, green gardener's dress, and a pink dress. But as they leave, Jenny comes by and traps all the Key Teeniepings - excluding Heartsping, Nanaping, Trueping, Okeydokeyping, and Luckyping - Heartsping hides under Luckyping's shield to be safe, but Jenny transforms to Princess Labyrinth and caught Luckyping. She, Romi, and the other key royals followed her at Mystic Town.
+            - heading "Mystic Town on a Thread" [level=4] [ref=e1348]:
+              - link "Mystic Town on a Thread" [ref=e1350] [cursor=pointer]:
+                - /url: /wiki/Mystic_Town_on_a_Thread
+            - paragraph [ref=e1351]: After Jenny transforms with Onlyping to become Princess Labyrinth and traps all the Key Teeniepings, Hearstping joins Romi in trying to navigate a maze, while the Royal Key Teeniepings - who previously joined her - find their way and help the two of them through the maze.
+            - heading "Goodbye, Key Teeniepings" [level=4] [ref=e1352]:
+              - link "Goodbye, Key Teeniepings" [ref=e1354] [cursor=pointer]:
+                - /url: /wiki/Goodbye,_Key_Teeniepings
+            - paragraph [ref=e1355]: Heartsping faces off against Onlyping one last time, alongside Princess Twilight and Luckyping as they battle Jenny. After Romi manages to rescue Jenny and offers her a final opportunity to reunite with her parents, the Mystic Town is ultimately saved. Heartsping forms a bond with Onlyping, putting their past conflicts behind them. Together, they journey back to Harmony Town with Romi, seeking to restore the tranquil days they once knew.
+            - heading "Dessert Catch! Teenieping" [level=3] [ref=e1356]:
+              - link "Dessert Catch! Teenieping" [ref=e1359] [cursor=pointer]:
+                - /url: /wiki/Dessert_Catch!_Teenieping
+            - heading "Sweet Dessert Teeniepings" [level=4] [ref=e1360]:
+              - link "Sweet Dessert Teeniepings" [ref=e1362] [cursor=pointer]:
+                - /url: /wiki/Sweet_Dessert_Teeniepings
+            - figure "Heartsping's cupcake" [ref=e1363]:
+              - link "Heartsping's cupcake view image" [ref=e1364] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/3/3a/S4E01_-_Heartsping%27s_cupcake.png/revision/latest?cb=20250223051758
+                - img "Heartsping's cupcake" [ref=e1365]
+                - generic "view image" [ref=e1368]:
+                  - img [ref=e1369]
+              - paragraph [ref=e1372]: Heartsping's cupcake
+            - paragraph [ref=e1373]: She and Romi were busy baking cupcakes when she proudly declared that her cupcake was made with love. Romi couldn't help but giggle at how messy it looked, and Heartsping felt a twinge of annoyance. Marylou tried to smooth things over with a little white lie, but Heartsping saw right through it. The bakery staff quickly made excuses and fled, leaving Heartsping feeling suspicious of Romi. The conversation then turned to the Dessert Town, leading them on a quest to find a mysterious Dessert Teenieping. Romi was skeptical, believing it to be a figment of Dr. Monziu's imagination, but their journey took an unexpected turn when they met Shashaping and Jellyping.
+            - heading "Transform! Princess BerryHeart" [level=4] [ref=e1374]:
+              - link "Transform! Princess BerryHeart" [ref=e1376] [cursor=pointer]:
+                - /url: /wiki/Transform!_Princess_BerryHeart
+            - figure "Heartsping's transformation" [ref=e1377]:
+              - link "Heartsping's transformation view image" [ref=e1378] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/08/S4E02_-_Heartsping_as_Berry_Heartsping.png/revision/latest?cb=20250223052335
+                - img "Heartsping's transformation" [ref=e1379]
+                - generic "view image" [ref=e1382]:
+                  - img [ref=e1383]
+              - paragraph [ref=e1386]: Heartsping's transformation
+            - paragraph [ref=e1387]:
+              - text: After a mad chase with
+              - link "Lena" [ref=e1388] [cursor=pointer]:
+                - /url: /wiki/Lena
+              - text: ", she regains the power from the"
+              - link "Sugar Berry Compact" [ref=e1389] [cursor=pointer]:
+                - /url: /wiki/Sugar_Berry_Compact
+              - text: and transforms into Berry Heartsping, which leads to Romi transforming into Princess Berryheart to save
+              - link "Fluffyping" [ref=e1390] [cursor=pointer]:
+                - /url: /wiki/Fluffyping
+              - text: and catch
+              - link "Candyping" [ref=e1391] [cursor=pointer]:
+                - /url: /wiki/Candyping
+              - text: .
+            - heading "I Want To Be a Royal Teenieping" [level=4] [ref=e1392]:
+              - link "I Want To Be a Royal Teenieping" [ref=e1394] [cursor=pointer]:
+                - /url: /wiki/I_Want_To_Be_a_Royal_Teenieping
+            - paragraph [ref=e1395]: TBA
+            - heading "Shashaping Will Cure You" [level=4] [ref=e1396]:
+              - link "Shashaping Will Cure You" [ref=e1398] [cursor=pointer]:
+                - /url: /wiki/Shashaping_Will_Cure_You
+            - figure "Heartsping being sick" [ref=e1399]:
+              - link "Heartsping being sick view image" [ref=e1400] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/0/0e/S4E16_-_Heartsping_sick_4.png/revision/latest?cb=20250223052342
+                - img "Heartsping being sick" [ref=e1401]
+                - generic "view image" [ref=e1404]:
+                  - img [ref=e1405]
+              - paragraph [ref=e1408]: Heartsping being sick
+            - paragraph [ref=e1409]:
+              - text: "Heartsping is excited to taste Shashaping's sherbets with Shashaping's special ingredient: star fragments. However, unexpectedly, although Heartsping enjoys it, she passes out due to the star fragments' poisonous effects since she's not a Dessert Teenieping, making her weaker and suffer. Later on, she is cured by Shashaping when she's been fed by the"
+              - link "Frozie Strawberry" [ref=e1410] [cursor=pointer]:
+                - /url: /wiki/Frozie_Strawberry
+              - text: .
+            - heading "Star Catch! Teenieping" [level=3] [ref=e1411]:
+              - link "Star Catch! Teenieping" [ref=e1414] [cursor=pointer]:
+                - /url: /wiki/Star_Catch!_Teenieping
+            - heading "The Girl Who Came Upon a Star" [level=4] [ref=e1415]:
+              - link "The Girl Who Came Upon a Star" [ref=e1417] [cursor=pointer]:
+                - /url: /wiki/The_Girl_Who_Came_Upon_a_Star
+            - paragraph [ref=e1418]:
+              - text: Heartsping, with Romi, along with Jenny and Dr. Monziu (and the
+              - link "Royal Emotion Teeniepings" [ref=e1419] [cursor=pointer]:
+                - /url: /wiki/Royal_Emotion_Teeniepings
+              - text: ) are at the station after a week had passed since she's stayed in the
+              - link "Emotions Kingdom" [ref=e1420] [cursor=pointer]:
+                - /url: /wiki/Emotions_Kingdom
+              - text: as a vacation. The Royal Emotion Teeniepings assure that they've been taking care of and protecting the kingdom, and suggest that Romi should go to the Space Star Village since a festival is being hosted there.
+            - paragraph [ref=e1421]:
+              - text: The
+              - link "Space Star Plane" [ref=e1422] [cursor=pointer]:
+                - /url: /wiki/Space_Star_Plane
+              - text: arrives and then Romi and Heartsping board on the plane. As the plane tells them that's safe to unbuckle their seatbelts, Romi gleefully looks out of the window, but Heartsping tells her that she can't stay in the village for too long since she has a lot of homework to do.
+            - paragraph [ref=e1423]:
+              - text: Although Romi says about her not needing to do her homework right away since Sarah is away from her trip, Heartsping reminds her of the time when her parents were worried about her after they had received her low test result. As they were looking the shooting stars and comets, the plane suddenly gets stuck by some rocks, so
+              - link "Hopping" [ref=e1424] [cursor=pointer]:
+                - /url: /wiki/Hopping
+              - text: tell them to fasten their seat belts as they are approaching the Space Star Village that's being sucked by a black hole.
+            - paragraph [ref=e1425]: When the plane crashes Romi and Heartsping step out of the vehicle only to find that there's no festival or any Star Teeniepings, but they rush over to help Hopping up after the crash. With the Shooting Star Pact, Heartsping transforms Romi into Princess Brightheart.
+            - heading "Princess Catch! Teenieping" [level=3] [ref=e1426]:
+              - link "Princess Catch! Teenieping" [ref=e1429] [cursor=pointer]:
+                - /url: /wiki/Princess_Catch!_Teenieping
+            - paragraph [ref=e1430]: TBA
+            - heading "Trivia" [level=2] [ref=e1431]
+            - list [ref=e1432]:
+              - listitem [ref=e1433]:
+                - text: Heartsping's catchphrase, "Chu"/"츄", is the shortening of "하츄"/"Hachyu"; the English translators kept the catchphrase.
+                - list [ref=e1434]:
+                  - listitem [ref=e1435]: "\"chu\" is the Japanese onomatopoeia for the kissing sound."
+              - listitem [ref=e1436]: In her Season 1 transition picture, the Royal Teenieping sign on her belly is missing.
+              - listitem [ref=e1437]:
+                - text: In "
+                - link "Spooky Picture Time" [ref=e1438] [cursor=pointer]:
+                  - /url: /wiki/Spooky_Picture_Time
+                - text: "\", Heartsping's fear of"
+                - link "Spookping" [ref=e1439] [cursor=pointer]:
+                  - /url: /wiki/Spookping
+                - text: "'s fake spider could imply that she has"
+                - link "arachnophobia" [ref=e1440] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Arachnophobia
+                - text: .
+              - listitem [ref=e1441]:
+                - text: Heartsping is one of the few Teeniepings to have
+                - link "a song about her" [ref=e1442] [cursor=pointer]:
+                  - /url: /wiki/Heartsping_Song
+                - text: .
+                - list [ref=e1443]:
+                  - listitem [ref=e1444]:
+                    - text: She, alongside
+                    - link "Balletping" [ref=e1445] [cursor=pointer]:
+                      - /url: /wiki/Balletping
+                    - text: ","
+                    - link "Splashping" [ref=e1446] [cursor=pointer]:
+                      - /url: /wiki/Splashping
+                    - text: ","
+                    - link "Fluffyping" [ref=e1447] [cursor=pointer]:
+                      - /url: /wiki/Fluffyping
+                    - text: ","
+                    - link "Shashaping" [ref=e1448] [cursor=pointer]:
+                      - /url: /wiki/Shashaping
+                    - text: ","
+                    - link "Jellyping" [ref=e1449] [cursor=pointer]:
+                      - /url: /wiki/Jellyping
+                    - text: ","
+                    - link "Cupping" [ref=e1450] [cursor=pointer]:
+                      - /url: /wiki/Cupping
+                    - text: ","
+                    - link "Muffping" [ref=e1451] [cursor=pointer]:
+                      - /url: /wiki/Muffping
+                    - text: ","
+                    - link "Sweetping" [ref=e1452] [cursor=pointer]:
+                      - /url: /wiki/Sweetping
+                    - text: ","
+                    - link "Tangyping" [ref=e1453] [cursor=pointer]:
+                      - /url: /wiki/Tangyping
+                    - text: ","
+                    - link "Doremiping" [ref=e1454] [cursor=pointer]:
+                      - /url: /wiki/Doremiping
+                    - text: ", and"
+                    - link "Swayping" [ref=e1455] [cursor=pointer]:
+                      - /url: /wiki/Swayping
+                    - text: are the only Teeniepings to have their own song.
+              - listitem [ref=e1456]:
+                - text: Heartsping is the only Teenieping to appear throughout the series from since the beginning.
+                - list [ref=e1457]:
+                  - listitem [ref=e1458]: Heartsping is also the only Teenieping to appear in every episode of the series so far.
+              - listitem [ref=e1459]:
+                - text: "Her pigtails have a few uses; some instances are as follows:"
+                - list [ref=e1460]:
+                  - listitem [ref=e1461]:
+                    - text: In "
+                    - link "A Very Charming Teenieping!" [ref=e1462] [cursor=pointer]:
+                      - /url: /wiki/A_Very_Charming_Teenieping!
+                    - text: "\", she hits"
+                    - link "Kikiping" [ref=e1463] [cursor=pointer]:
+                      - /url: /wiki/Kikiping
+                    - text: with her pigtails as to stop him from doing any more antics.
+                    - list [ref=e1464]:
+                      - listitem [ref=e1465]:
+                        - text: In the same episode, she covers her face with her pigtails in embarrassment as she watches
+                        - link "Dylan" [ref=e1466] [cursor=pointer]:
+                          - /url: /wiki/Dylan
+                        - text: acting all "cute".
+                  - listitem [ref=e1467]:
+                    - text: In "
+                    - link "Ariaping the Singer" [ref=e1468] [cursor=pointer]:
+                      - /url: /wiki/Ariaping_the_Singer
+                    - text: "\", she covers her face with her pigtails with fear as she was slipping off the crow, trying to get the last note."
+                  - listitem [ref=e1469]:
+                    - text: In
+                    - link "Star Catch! Teenieping" [ref=e1471] [cursor=pointer]:
+                      - /url: /wiki/Star_Catch!_Teenieping
+                    - text: ", it is shown that she can use her pigtails to cover up her front body to protect her from the cold."
+              - listitem [ref=e1472]:
+                - text: Although Heartsping's appearance changes in every season, she is still called by her original name.
+                - list [ref=e1473]:
+                  - listitem [ref=e1474]: This is only applied to the TV series, as she gets called by her season-based names in merchandise and other media.
+              - listitem [ref=e1475]:
+                - text: According to the
+                - link "Magic Catcher toy" [ref=e1476] [cursor=pointer]:
+                  - /url: /wiki/Magic_Catcher/Merchandise
+                - text: ", Heartsping's QR variable name is \"Fairy 01\"."
+              - listitem [ref=e1477]: In the Teenieping calendars, it reveals that Heartsping's birthday is on March 6.
+            - heading "Gallery" [level=2] [ref=e1478]
+            - figure [ref=e1479]:
+              - link "Check the gallery page" [ref=e1480] [cursor=pointer]:
+                - /url: /wiki/Heartsping/Gallery
+                - img "Check the gallery page" [ref=e1481]
+            - paragraph [ref=e1482]
+            - table [ref=e1483]:
+              - rowgroup [ref=e1484]:
+                - row "Characters ▼" [ref=e1485]:
+                  - cell "Characters ▼" [ref=e1486]:
+                    - generic [ref=e1487] [cursor=pointer]: Characters ▼
+          - generic [ref=e1488]:
+            - generic "Toggle Categories" [ref=e1489]:
+              - generic [ref=e1490] [cursor=pointer]:
+                - text: Categories
+                - img [ref=e1491]
+            - generic "Toggle Languages" [ref=e1493]:
+              - generic [ref=e1494] [cursor=pointer]:
+                - text: Languages
+                - img [ref=e1495]
+            - generic [ref=e1497]:
+              - text: Community content is available under
+              - link "CC-BY-SA" [ref=e1498] [cursor=pointer]:
+                - /url: https://www.fandom.com/licensing
+              - text: unless otherwise noted.
+            - generic [ref=e1501]:
+              - paragraph [ref=e1504]: 50 Comments
+              - generic [ref=e1505]:
+                - img [ref=e1507]
+                - heading "Join the conversation" [level=3] [ref=e1509]
+                - heading "Sign in to read what others are saying and share your thoughts." [level=4] [ref=e1510]
+                - link "SIGN IN" [ref=e1511] [cursor=pointer]:
+                  - /url: /login?metadata=anonymous-article-comments-login-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHeartsping%3Fanon-comments-auth-source%3Dlogin%23articleComments
+                - paragraph [ref=e1512]:
+                  - text: Don't have account?
+                  - link "Register now" [ref=e1513] [cursor=pointer]:
+                    - /url: /register?metadata=anonymous-article-comments-register-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FHeartsping%3Fanon-comments-auth-source%3Dregister%23articleComments
+        - complementary [ref=e1514]:
+          - generic [ref=e1515]:
+            - generic [ref=e1519]:
+              - generic [ref=e1520]:
+                - heading "Recent Images" [level=2] [ref=e1521]
+                - link [ref=e1522] [cursor=pointer]:
+                  - /url: https://www.fandom.com
+                  - img [ref=e1525]
+              - generic [ref=e1530]:
+                - list [ref=e1533]:
+                  - listitem [ref=e1534]:
+                    - generic [ref=e1536]:
+                      - link "Anna Paik (left) with Lisa Kelley.png" [ref=e1537] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                        - img "Anna Paik (left) with Lisa Kelley.png" [ref=e1539]
+                      - generic [ref=e1540]:
+                        - link "Anna Paik" [ref=e1541] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                          - heading "Anna Paik" [level=3] [ref=e1542]
+                        - time [ref=e1544]: 4 hours ago
+                  - listitem [ref=e1545]:
+                    - generic [ref=e1547]:
+                      - link "S4 Japanese Banner 4.jpg" [ref=e1548] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 4.jpg" [ref=e1550]
+                      - generic [ref=e1551]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e1552] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e1553]
+                        - time [ref=e1555]: 12 hours ago
+                  - listitem [ref=e1556]:
+                    - generic [ref=e1558]:
+                      - link "S4 Japanese Banner 3.png" [ref=e1559] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 3.png" [ref=e1561]
+                      - generic [ref=e1562]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e1563] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e1564]
+                        - time [ref=e1566]: 12 hours ago
+                - button "Go to next slide" [ref=e1567] [cursor=pointer]:
+                  - img [ref=e1568]
+            - generic [ref=e1570]:
+              - generic [ref=e1571]:
+                - link "S1 Royal Teeniepings Group Render 3" [ref=e1573] [cursor=pointer]:
+                  - /url: https://catchteenieping.fandom.com/f
+                  - img "S1 Royal Teeniepings Group Render 3" [ref=e1574]
+                - generic [ref=e1575]:
+                  - link "Join the discussion!" [ref=e1577] [cursor=pointer]:
+                    - /url: https://catchteenieping.fandom.com/f
+                  - text: Want to talk about something?
+                  - text: Check out the discussion feed!
+              - paragraph [ref=e1578]
+              - table [ref=e1579]:
+                - rowgroup [ref=e1580]:
+                  - row "Want to help this Wiki grow?" [ref=e1581]:
+                    - cell "Want to help this Wiki grow?" [ref=e1582]:
+                      - generic [ref=e1583]: Want to help this Wiki grow?
+                  - row "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e1584]:
+                    - cell "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e1585]:
+                      - generic [ref=e1586]:
+                        - figure [ref=e1587]:
+                          - link "Heartsping S2 Render 1" [ref=e1588] [cursor=pointer]:
+                            - /url: /wiki/Special:Random
+                            - img "Heartsping S2 Render 1" [ref=e1589]
+                        - paragraph [ref=e1590]:
+                          - text: We currently have 93 users editing 2,006 pages and 18,325 files.
+                          - text: The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the
+                          - link "Editing Guide" [ref=e1591] [cursor=pointer]:
+                            - /url: /wiki/Catch!_Teenieping_Wiki:Editing_Guide
+                          - text: . After reading, click the button below to get a random page to edit.
+                        - link "Contribute now!" [ref=e1593] [cursor=pointer]:
+                          - /url: /wiki/Special:Random
+                          - generic [ref=e1594]: Contribute now!
+    - contentinfo [ref=e1599]:
+      - generic [ref=e1600]:
+        - generic [ref=e1601]:
+          - heading "Fandom homepage" [level=2] [ref=e1602]:
+            - link "Fandom homepage" [ref=e1603] [cursor=pointer]:
+              - /url: https://www.fandom.com/
+              - img "Fandom logo" [ref=e1604]
+          - generic [ref=e1605]:
+            - heading "Explore properties" [level=3] [ref=e1606]
+            - list [ref=e1607]:
+              - listitem [ref=e1608]:
+                - link "Fandom" [ref=e1609] [cursor=pointer]:
+                  - /url: https://www.fandom.com/
+              - listitem [ref=e1610]:
+                - link "Fanatical" [ref=e1611] [cursor=pointer]:
+                  - /url: https://www.fanatical.com/
+              - listitem [ref=e1612]:
+                - link "GameSpot" [ref=e1613] [cursor=pointer]:
+                  - /url: https://www.gamespot.com/
+              - listitem [ref=e1614]:
+                - link "Metacritic" [ref=e1615] [cursor=pointer]:
+                  - /url: https://www.metacritic.com/
+              - listitem [ref=e1616]:
+                - link "TV Guide" [ref=e1617] [cursor=pointer]:
+                  - /url: https://www.tvguide.com/
+              - listitem [ref=e1618]:
+                - link "Honest Entertainment" [ref=e1619] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/screenjunkies
+          - generic [ref=e1620]:
+            - heading "Follow Us" [level=3] [ref=e1621]
+            - list [ref=e1622]:
+              - listitem [ref=e1623]:
+                - link "Follow Fandom on Facebook" [ref=e1624] [cursor=pointer]:
+                  - /url: https://www.facebook.com/getfandom
+                  - img [ref=e1625]
+              - listitem [ref=e1627]:
+                - link "Follow Fandom on Twitter" [ref=e1628] [cursor=pointer]:
+                  - /url: https://twitter.com/getfandom
+                  - img [ref=e1629]
+              - listitem [ref=e1631]:
+                - link "Follow Fandom on Youtube" [ref=e1632] [cursor=pointer]:
+                  - /url: https://www.youtube.com/fandomentertainment
+                  - img [ref=e1633]
+              - listitem [ref=e1635]:
+                - link "Follow Fandom on Instagram" [ref=e1636] [cursor=pointer]:
+                  - /url: https://www.instagram.com/getfandom/
+                  - img [ref=e1637]
+              - listitem [ref=e1639]:
+                - link "Follow Fandom on LinkedIn" [ref=e1640] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/157252
+                  - img [ref=e1641]
+        - generic [ref=e1644]:
+          - heading "Overview" [level=3] [ref=e1645]
+          - list [ref=e1646]:
+            - listitem [ref=e1647]:
+              - link "What is Fandom?" [ref=e1648] [cursor=pointer]:
+                - /url: https://www.fandom.com/what-is-fandom
+            - listitem [ref=e1649]:
+              - link "Essentials" [ref=e1650] [cursor=pointer]:
+                - /url: https://www.fandom.com/essentials
+            - listitem [ref=e1651]:
+              - link "About" [ref=e1652] [cursor=pointer]:
+                - /url: https://www.fandom.com/about
+            - listitem [ref=e1653]:
+              - link "Careers" [ref=e1654] [cursor=pointer]:
+                - /url: https://www.fandom.com/careers
+            - listitem [ref=e1655]:
+              - link "Press" [ref=e1656] [cursor=pointer]:
+                - /url: https://www.fandom.com/press
+            - listitem [ref=e1657]:
+              - link "Contact" [ref=e1658] [cursor=pointer]:
+                - /url: https://www.fandom.com/about#contact
+            - listitem [ref=e1659]:
+              - link "Terms of Use" [ref=e1660] [cursor=pointer]:
+                - /url: https://www.fandom.com/terms-of-use
+            - listitem [ref=e1661]:
+              - link "Privacy Policy" [ref=e1662] [cursor=pointer]:
+                - /url: https://www.fandom.com/privacy-policy
+            - listitem [ref=e1663]:
+              - link "Digital Services Act" [ref=e1664] [cursor=pointer]:
+                - /url: https://www.fandom.com/digital-services-act
+            - listitem [ref=e1665]:
+              - link "Global Sitemap" [ref=e1666] [cursor=pointer]:
+                - /url: //community.fandom.com/Sitemap
+            - listitem [ref=e1667]:
+              - link "Local Sitemap" [ref=e1668] [cursor=pointer]:
+                - /url: /wiki/Local_Sitemap
+            - listitem [ref=e1669]:
+              - button "Cookies Settings" [ref=e1670]
+        - generic [ref=e1671]:
+          - generic [ref=e1672]:
+            - heading "Community" [level=3] [ref=e1673]
+            - list [ref=e1674]:
+              - listitem [ref=e1675]:
+                - link "Community Central" [ref=e1676] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Community_Central
+              - listitem [ref=e1677]:
+                - link "Support" [ref=e1678] [cursor=pointer]:
+                  - /url: https://fandom.zendesk.com/
+              - listitem [ref=e1679]:
+                - link "Help" [ref=e1680] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Help:Contents
+          - generic [ref=e1681]:
+            - heading "Advertise" [level=3] [ref=e1682]
+            - list [ref=e1683]:
+              - listitem [ref=e1684]:
+                - link "Media Kit" [ref=e1685] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit
+              - listitem [ref=e1686]:
+                - link "Contact" [ref=e1687] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit#contact
+        - generic [ref=e1688]:
+          - generic [ref=e1689]:
+            - heading "Fandom Apps" [level=3] [ref=e1690]
+            - text: Take your favorite fandoms with you and never miss a beat.
+          - generic [ref=e1691]:
+            - img "Fandom App logo" [ref=e1692]
+            - list [ref=e1693]:
+              - listitem [ref=e1694]:
+                - link "Fandom's Apple Store" [ref=e1695] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/fandom-videos-news-reviews/id1230063803
+                  - img "Store icon" [ref=e1696]
+              - listitem [ref=e1697]:
+                - link "Fandom's Google Play" [ref=e1698] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.fandom.app&referrer=utm_source%3Dwikia%26utm_medium%3Dglobalfooter
+                  - img "Store icon" [ref=e1699]
+      - generic [ref=e1700]:
+        - generic [ref=e1701]: Catch! Teenieping Wiki is a Fandom TV Community.
+        - button "View Mobile Site" [ref=e1703]
+  - generic [ref=e1707]:
+    - banner [ref=e1708]:
+      - img "FandomLogo" [ref=e1710]
+      - generic [ref=e1711]:
+        - text: Please help us personalize
+        - text: your experience!
+    - generic [ref=e1712]:
+      - generic [ref=e1713]:
+        - img "adult" [ref=e1714]
+        - button "I'm an adult" [ref=e1715] [cursor=pointer]
+      - generic [ref=e1716]:
+        - img "kid" [ref=e1717]
+        - button "I'm a kid" [ref=e1718] [cursor=pointer]
+  - generic: Cookies Settings

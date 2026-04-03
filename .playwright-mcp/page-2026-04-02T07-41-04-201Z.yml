@@ -1,0 +1,1174 @@
+- generic [active] [ref=e1]:
+  - navigation "Fandom top navigation" [ref=e2]:
+    - link "Fandom homepage" [ref=e3] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e4]
+    - generic [ref=e7]:
+      - textbox "Search" [ref=e8]
+      - img [ref=e9]
+    - generic [ref=e11]:
+      - link "Sign In" [ref=e13] [cursor=pointer]:
+        - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping&metadata=header-signin-button
+      - link "Create a Free Account" [ref=e15] [cursor=pointer]:
+        - /url: https://auth.fandom.com/register?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping&metadata=header-registration-button
+  - generic "Community navigation" [ref=e16]:
+    - link "Fandom homepage" [ref=e18] [cursor=pointer]:
+      - /url: https://www.fandom.com/
+      - img [ref=e19]
+    - link "Catch! Teenieping Wiki" [ref=e21] [cursor=pointer]:
+      - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+      - img "Catch! Teenieping Wiki" [ref=e22]
+    - navigation [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - img [ref=e28]
+              - generic [ref=e30]: Explore
+            - img "Expand" [ref=e31]
+        - listitem [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e36] [cursor=pointer]: Media
+            - img "Expand" [ref=e37]
+        - listitem [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e42] [cursor=pointer]: Characters
+            - img "Expand" [ref=e43]
+        - listitem [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e48] [cursor=pointer]: Misc
+            - img "Expand" [ref=e49]
+        - listitem [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e54] [cursor=pointer]: Community
+            - img "Expand" [ref=e55]
+    - button "Open searchbar" [ref=e58] [cursor=pointer]:
+      - img [ref=e59]
+    - generic [ref=e61]:
+      - link "Discuss" [ref=e62] [cursor=pointer]:
+        - /url: /f
+        - img
+      - link "Switch to Dark Theme" [ref=e63] [cursor=pointer]:
+        - /url: "#"
+        - img
+    - link "Sign In" [ref=e66] [cursor=pointer]:
+      - /url: https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping&metadata=header-signin-button
+      - generic [ref=e67]:
+        - img
+        - text: Sign In
+  - generic [ref=e68]:
+    - navigation "Fandom navigation" [ref=e70]:
+      - generic [ref=e71]:
+        - link "Home" [ref=e74] [cursor=pointer]:
+          - /url: https://www.fandom.com/
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e79]: Home
+        - button "Explore" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - generic [ref=e87]: Explore
+        - link "Saved" [ref=e90] [cursor=pointer]:
+          - /url: https://www.fandom.com/saved
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - generic [ref=e95]: Saved
+        - link "Progress" [ref=e98] [cursor=pointer]:
+          - /url: https://www.fandom.com/progress
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e103]: Progress
+        - button "History" [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]:
+            - img [ref=e108]
+            - generic [ref=e110]: History
+    - navigation "Fandom navigation" [ref=e112]:
+      - button "More" [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - generic [ref=e119]: More
+  - generic [ref=e120]:
+    - generic [ref=e122]:
+      - iframe [ref=e125]:
+        - generic [active] [ref=f262e1]:
+          - link [ref=f262e3] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssE1qIyqZTpkRDPiU8St1-7LgkKn81VmUilWqo-UJ_wgkzjLK_FSX89PqKWjlhB_-lph2YKMh1M9e0L4j7WW5V3ritmTmSgKz9WCeE2blYaBcF6clIjcItV88dwmebDjzOpoanfV6n1bG_ZOkIxs3iRsqK54q2X1O69ilLzH4__qrFQtQLqiEN295VKEnAC_p-ijxOoJYfLhHC-H_ZbVCxXCha6yLOEeESUvfWFPWTsIiYczKohgOOXZ_MDid-iwYJemyfKaSiVK2sK8U_I1VcNrwYASl08joyx5WXx04G35WJdAiEDFFN7XC9W-ml7vsIFzGguNTmtty66vY_n5ANVXpSYkcPklcpiFe86OrZh34Gdq2lIpFwmagJ70E5D-5RJLxITu7o3vnt5HAdOC0N3Czhm7qQzxIyGkO03WPQ3Syw-VbgiNIStuATHDigzBEXGS5XKD_Gw3dwuPtMju1lcpy0r8gsr3FkgUn0l&sai=AMfl-YTgj_IKs2pxF8qqoGowOBGWP64MocU3huTUSvcK8lcZHSJ-y4tz6ZzC4d_GAfJy4MCu91Rgx_FGOXmZnMOhb_JpkWrfGU3SQMzF5Z-GDqWk1CVRECKNruwRsVf6zZTl20boHMm_UkCA_CyDRhepYi-bSak-oFjyymBEmLz0HlVsODdz-H2JcAcCKtIXAaQnWvzi91O1DK6F0Koh1oAh-eeodnUuYN5AS62fLXLVFCJHRw5g4T8iAkuTGvxFpeSQbNL82ZxCb_qwmQTWbFzRUWii_Jxf1cbyGRaAEeDY620GVOVDWcUPbRtKRo8OQ2BMXWF4gJRGgUn4BRPjoC9ss_yY3GirzA4LUA&sig=Cg0ArKJSzMsthqy7N7zdEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://onepiece.fandom.com/f/p/4400000000003959944?utm_source=fandom&utm_medium=display&utm_campaign=OnePieceAva-01&utm_content=970x250
+            - img [ref=f262e4]
+          - iframe
+      - generic [ref=e126]: Advertisement
+    - generic [ref=e128]:
+      - link "Skip to content" [ref=e129] [cursor=pointer]:
+        - /url: "#page-header"
+      - banner [ref=e131]:
+        - link "Catch! Teenieping Wiki" [ref=e132] [cursor=pointer]:
+          - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - img "Catch! Teenieping Wiki" [ref=e133]
+        - generic [ref=e134]:
+          - link "Catch! Teenieping Wiki" [ref=e136] [cursor=pointer]:
+            - /url: https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki
+          - generic [ref=e137]:
+            - generic [ref=e138]: 2,004
+            - generic [ref=e139]: pages
+          - generic [ref=e140]:
+            - link "Discuss" [ref=e141] [cursor=pointer]:
+              - /url: /f
+              - img
+            - link "Switch to Dark Theme" [ref=e142] [cursor=pointer]:
+              - /url: "#"
+              - img
+        - navigation [ref=e143]:
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - generic [ref=e146]:
+                - generic [ref=e147] [cursor=pointer]:
+                  - img [ref=e148]
+                  - generic [ref=e150]: Explore
+                - img "Expand" [ref=e151]
+            - listitem [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e156] [cursor=pointer]: Media
+                - img "Expand" [ref=e157]
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e162] [cursor=pointer]: Characters
+                - img "Expand" [ref=e163]
+            - listitem [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e168] [cursor=pointer]: Misc
+                - img "Expand" [ref=e169]
+            - listitem [ref=e171]:
+              - generic [ref=e172]:
+                - generic [ref=e174] [cursor=pointer]: Community
+                - img "Expand" [ref=e175]
+      - generic [ref=e177]:
+        - main [ref=e178]:
+          - generic [ref=e180]:
+            - generic "Contents" [ref=e181]:
+              - button "Contents" [ref=e182] [cursor=pointer]:
+                - img [ref=e183]
+              - text: . . . . . . . . . . . . . . . . . .
+            - link "View source" [ref=e185] [cursor=pointer]:
+              - /url: /wiki/Lalaping?action=edit
+              - img [ref=e186]
+            - link "Sign In to Save" [ref=e188] [cursor=pointer]:
+              - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping&uselang=en&metadata=collections-save-button
+              - img [ref=e189]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - text: "in:"
+              - link "Star articles" [ref=e195] [cursor=pointer]:
+                - /url: /wiki/Category:Star_articles
+              - text: ","
+              - link "Characters" [ref=e196] [cursor=pointer]:
+                - /url: /wiki/Category:Characters
+              - text: ","
+              - link "Teeniepings" [ref=e197] [cursor=pointer]:
+                - /url: /wiki/Category:Teeniepings
+              - text: ","
+              - generic [ref=e198]: and 10 more
+            - generic [ref=e199]:
+              - heading "Lalaping" [level=1] [ref=e201]
+              - generic [ref=e202]:
+                - link "Comments" [ref=e203] [cursor=pointer]:
+                  - /url: "#articleComments"
+                  - generic [ref=e204]: "11"
+                  - img
+                - link "Sign In to Save" [ref=e205] [cursor=pointer]:
+                  - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping&uselang=en&metadata=collections-save-button
+                  - img
+                  - generic [ref=e206]: Save
+                - link "View source" [ref=e207] [cursor=pointer]:
+                  - /url: /wiki/Lalaping?action=edit
+                  - img
+                  - text: View source
+                - button "Page Tools" [ref=e209]:
+                  - img
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - strong [ref=e214]: Overview
+              - text: •
+              - link "Gallery" [ref=e215] [cursor=pointer]:
+                - /url: /wiki/Lalaping/Gallery
+            - generic [ref=e216]:
+              - figure [ref=e217]:
+                - img "Cheerupping Render 1" [ref=e219]
+              - generic [ref=e220]:
+                - generic [ref=e221]: You are reading a star article, Cheerup!
+                - text: This article is a
+                - link "star article" [ref=e222] [cursor=pointer]:
+                  - /url: /wiki/Category:Star_articles
+                - text: ", meaning that most sections have been filled adequately, following the wiki's guidelines: the page can therefore serve as an example of the wiki's standards. But of course, any edit, no matter its importance, is still welcome!"
+            - region [ref=e223]:
+              - heading "Lalaping" [level=2] [ref=e224]
+              - generic [ref=e225]:
+                - tablist [ref=e227]:
+                  - listitem [ref=e228] [cursor=pointer]:
+                    - generic [ref=e229]: Normal
+                  - listitem [ref=e230] [cursor=pointer]:
+                    - generic [ref=e231]: Monster
+                - figure [ref=e233]:
+                  - link "Normal view image" [ref=e234] [cursor=pointer]:
+                    - /url: https://static.wikia.nocookie.net/catchteeniepin/images/5/58/Lalaping_Render_1.png/revision/latest?cb=20220114163745
+                    - img "Normal" [ref=e235]
+                    - generic "view image" [ref=e238]:
+                      - img [ref=e239]
+              - table [ref=e242]:
+                - rowgroup [ref=e243]:
+                  - row "International names" [ref=e244]:
+                    - columnheader "International names" [ref=e245]
+                - rowgroup [ref=e246]:
+                  - row "Korean 라라핑 Laraping Chinese 唱唱萌可 Chàng chàng méng kě Japan ララピン Rarapin Russian Лалапин Lalapin" [ref=e247]:
+                    - cell "Korean 라라핑 Laraping Chinese 唱唱萌可 Chàng chàng méng kě Japan ララピン Rarapin Russian Лалапин Lalapin" [ref=e248]:
+                      - generic [ref=e249]:
+                        - figure "Korean" [ref=e250]:
+                          - generic "Korean" [ref=e251]:
+                            - img "Korean" [ref=e252]
+                        - paragraph [ref=e253]:
+                          - text: 라라핑
+                          - generic [ref=e254]: Laraping
+                      - generic [ref=e255]:
+                        - figure "Chinese" [ref=e256]:
+                          - generic "Chinese" [ref=e257]:
+                            - img "Chinese" [ref=e258]
+                        - paragraph [ref=e259]:
+                          - text: 唱唱萌可
+                          - generic [ref=e260]: Chàng chàng méng kě
+                      - generic [ref=e261]:
+                        - figure "Japan" [ref=e262]:
+                          - generic "Japan" [ref=e263]:
+                            - img "Japan" [ref=e264]
+                        - paragraph [ref=e265]:
+                          - text: ララピン
+                          - generic [ref=e266]: Rarapin
+                      - generic [ref=e267]:
+                        - figure "Russian" [ref=e268]:
+                          - generic "Russian" [ref=e269]:
+                            - img "Russian" [ref=e270]
+                        - paragraph [ref=e271]:
+                          - text: Лалапин
+                          - generic [ref=e272]: Lalapin
+              - generic [ref=e273]:
+                - heading "Info" [level=2] [ref=e274]
+                - generic [ref=e275]:
+                  - heading "Gender" [level=3] [ref=e276]
+                  - generic [ref=e277]: Female
+                - generic [ref=e278]:
+                  - heading "Species" [level=3] [ref=e279]
+                  - link "Royal Emotion Teenieping" [ref=e281] [cursor=pointer]:
+                    - /url: /wiki/Royal_Emotion_Teeniepings
+                - generic [ref=e282]:
+                  - heading "Alignment" [level=3] [ref=e283]
+                  - generic [ref=e284]: Good
+              - generic [ref=e285]:
+                - heading "Magic" [level=2] [ref=e286]
+                - generic [ref=e287]:
+                  - heading "Concept" [level=3] [ref=e288]
+                  - generic [ref=e289]: Joy
+                - generic [ref=e290]:
+                  - heading "Prop" [level=3] [ref=e291]
+                  - generic [ref=e292]: Microphone
+                - generic [ref=e293]:
+                  - heading "Abilities" [level=3] [ref=e294]
+                  - generic [ref=e295]: Make a person or an object dance on their own
+              - generic [ref=e296]:
+                - heading "Life" [level=2] [ref=e297]
+                - generic [ref=e298]:
+                  - heading "Residency" [level=3] [ref=e299]
+                  - generic [ref=e300]:
+                    - link "Emotions Kingdom" [ref=e301] [cursor=pointer]:
+                      - /url: /wiki/Emotions_Kingdom
+                    - text: (currently)
+                    - link "Teenieping House" [ref=e302] [cursor=pointer]:
+                      - /url: /wiki/Teenieping_House
+                    - text: (formerly)
+                - generic [ref=e303]:
+                  - heading "Friends" [level=3] [ref=e304]
+                  - link "Royal Emotion Teeniepings" [ref=e306] [cursor=pointer]:
+                    - /url: /wiki/Royal_Emotion_Teeniepings
+                - generic [ref=e307]:
+                  - heading "Likes" [level=3] [ref=e308]
+                  - generic [ref=e309]:
+                    - text: Sing and dance
+                    - text: Joyful games
+                    - text: Chatting
+                - generic [ref=e310]:
+                  - heading "Dislikes" [level=3] [ref=e311]
+                  - generic [ref=e312]:
+                    - text: Seriousness
+                    - text: Boring things
+                - generic [ref=e313]:
+                  - heading "Phrase" [level=3] [ref=e314]
+                  - generic [ref=e315]:
+                    - generic [ref=e316]:
+                      - figure "English" [ref=e317]:
+                        - generic "English" [ref=e318]:
+                          - img "English" [ref=e319]
+                      - paragraph [ref=e320]: La-la!
+                    - generic [ref=e321]:
+                      - figure "Korean" [ref=e322]:
+                        - generic "Korean" [ref=e323]:
+                          - img "Korean" [ref=e324]
+                      - paragraph [ref=e325]:
+                        - text: 라랑!
+                        - generic [ref=e326]: Larang!
+                    - generic [ref=e327]:
+                      - figure "Chinese" [ref=e328]:
+                        - generic "Chinese" [ref=e329]:
+                          - img "Chinese" [ref=e330]
+                      - paragraph [ref=e331]:
+                        - text: 啦啦!
+                        - generic [ref=e332]: Lā lā!
+                    - generic [ref=e333]:
+                      - figure "Japan" [ref=e334]:
+                        - generic "Japan" [ref=e335]:
+                          - img "Japan" [ref=e336]
+                      - paragraph [ref=e337]:
+                        - text: ララ!
+                        - generic [ref=e338]: Rara!
+                    - generic [ref=e339]:
+                      - figure "Russian" [ref=e340]:
+                        - generic "Russian" [ref=e341]:
+                          - img "Russian" [ref=e342]
+                      - paragraph [ref=e343]:
+                        - text: Лала!
+                        - generic [ref=e344]: Lala!
+              - generic [ref=e345]:
+                - heading "Broadcast" [level=2] [ref=e346]
+                - generic [ref=e347]:
+                  - heading "First episode" [level=3] [ref=e348]
+                  - generic [ref=e349]:
+                    - text: "\""
+                    - link "Let's Sing With Joy" [ref=e350] [cursor=pointer]:
+                      - /url: /wiki/Let%27s_Sing_With_Joy
+                    - text: "\""
+                - generic [ref=e351]:
+                  - heading "Voice actor" [level=3] [ref=e352]
+                  - generic [ref=e353]:
+                    - generic [ref=e354]:
+                      - figure "Korean" [ref=e355]:
+                        - generic "Korean" [ref=e356]:
+                          - img "Korean" [ref=e357]
+                      - paragraph [ref=e358]:
+                        - link "Jang Ye-na" [ref=e359] [cursor=pointer]:
+                          - /url: /wiki/Jang_Ye-na
+                    - generic [ref=e360]:
+                      - figure "English" [ref=e361]:
+                        - generic "English" [ref=e362]:
+                          - img "English" [ref=e363]
+                      - paragraph [ref=e364]:
+                        - link "Alejandra Guilmant" [ref=e365] [cursor=pointer]:
+                          - /url: /wiki/Alejandra_Guilmant
+                        - text: (Season 1)
+                        - link "Erin Lee" [ref=e366] [cursor=pointer]:
+                          - /url: /wiki/Erin_Lee
+                        - text: (Season 2)
+                    - generic [ref=e367]:
+                      - figure "Chinese" [ref=e368]:
+                        - generic "Chinese" [ref=e369]:
+                          - img "Chinese" [ref=e370]
+                      - paragraph [ref=e371]:
+                        - link "Jiang Li" [ref=e372] [cursor=pointer]:
+                          - /url: /wiki/Jiang_Li
+                    - generic [ref=e373]:
+                      - figure "Japan" [ref=e374]:
+                        - generic "Japan" [ref=e375]:
+                          - img "Japan" [ref=e376]
+                      - paragraph [ref=e377]:
+                        - link "Rika Sotani" [ref=e378] [cursor=pointer]:
+                          - /url: /wiki/Rika_Sotani
+                    - generic [ref=e379]:
+                      - figure "Indonesia" [ref=e380]:
+                        - generic "Indonesia" [ref=e381]:
+                          - img "Indonesia" [ref=e382]
+                      - paragraph [ref=e383]: Unknown
+                    - generic [ref=e384]:
+                      - figure "Vietnamese" [ref=e385]:
+                        - generic "Vietnamese" [ref=e386]:
+                          - img "Vietnamese" [ref=e387]
+                      - paragraph [ref=e388]:
+                        - link "Trương Ngọc Châu" [ref=e389] [cursor=pointer]:
+                          - /url: /wiki/Tr%C6%B0%C6%A1ng_Ng%E1%BB%8Dc_Ch%C3%A2u
+            - table [ref=e390]:
+              - rowgroup [ref=e391]:
+                - row "“ I am Lalaping from Emotions Kingdom. And it's a pleasure to meet you, La-la. ”" [ref=e392]:
+                  - cell "“" [ref=e393]
+                  - cell "I am Lalaping from Emotions Kingdom. And it's a pleasure to meet you, La-la." [ref=e394]:
+                    - generic [ref=e395]:
+                      - text: I am Lalaping from
+                      - link "Emotions Kingdom" [ref=e396] [cursor=pointer]:
+                        - /url: /wiki/Emotions_Kingdom
+                      - text: . And it's a pleasure to meet you, La-la.
+                  - cell "”" [ref=e397]
+                - row "— Lalaping introducing herself to Dua in \"Let's Sing With Joy\"." [ref=e398]:
+                  - cell "— Lalaping introducing herself to Dua in \"Let's Sing With Joy\"." [ref=e399]:
+                    - paragraph [ref=e400]:
+                      - generic [ref=e401]:
+                        - text: — Lalaping introducing herself to
+                        - link "Dua" [ref=e402] [cursor=pointer]:
+                          - /url: /wiki/Dua
+                        - text: in "
+                        - link "Let's Sing With Joy" [ref=e403] [cursor=pointer]:
+                          - /url: /wiki/Let%27s_Sing_With_Joy
+                        - text: "\"."
+            - paragraph [ref=e404]:
+              - text: Lalaping is the
+              - link "Royal Emotion Teenieping" [ref=e405] [cursor=pointer]:
+                - /url: /wiki/Royal_Emotion_Teeniepings
+              - text: of joy. She appears as one of the main
+              - link "Teeniepings" [ref=e406] [cursor=pointer]:
+                - /url: /wiki/Teeniepings
+              - text: of
+              - link "Catch! Teenieping" [ref=e408] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(season)
+              - text: ", as she accompanies"
+              - link "Romi" [ref=e409] [cursor=pointer]:
+                - /url: /wiki/Romi
+              - text: throughout her mission.
+            - paragraph [ref=e410]:
+              - text: A joyful Teenieping with a love for music, she always lifts her friends' spirits with her loud singing. She debuts in "
+              - link "Let's Sing With Joy" [ref=e411] [cursor=pointer]:
+                - /url: /wiki/Let%27s_Sing_With_Joy
+              - text: "\"."
+            - navigation "Contents" [ref=e412]:
+              - button "show" [ref=e413]
+              - generic [ref=e414]:
+                - heading "Contents" [level=2] [ref=e415]:
+                  - img [ref=e416]
+                  - text: Contents
+                - generic [ref=e418]:
+                  - text: "["
+                  - generic "show" [ref=e419] [cursor=pointer]: hide
+                  - text: "]"
+              - list [ref=e420]:
+                - listitem [ref=e421]:
+                  - link "1. Appearance" [ref=e422] [cursor=pointer]:
+                    - /url: "#Appearance"
+                    - generic [ref=e423]: "1."
+                    - generic [ref=e424]: Appearance
+                  - list [ref=e425]:
+                    - listitem [ref=e426]:
+                      - link "1.1. Monster Form" [ref=e427] [cursor=pointer]:
+                        - /url: "#Monster_Form"
+                        - generic [ref=e428]: 1.1.
+                        - generic [ref=e429]: Monster Form
+                - listitem [ref=e430]:
+                  - link "2. Personality" [ref=e431] [cursor=pointer]:
+                    - /url: "#Personality"
+                    - generic [ref=e432]: "2."
+                    - generic [ref=e433]: Personality
+                - listitem [ref=e434]:
+                  - link "3. Etymology" [ref=e435] [cursor=pointer]:
+                    - /url: "#Etymology"
+                    - generic [ref=e436]: "3."
+                    - generic [ref=e437]: Etymology
+                - listitem [ref=e438]:
+                  - link "4. Magic" [ref=e439] [cursor=pointer]:
+                    - /url: "#Magic"
+                    - generic [ref=e440]: "4."
+                    - generic [ref=e441]: Magic
+                  - list [ref=e442]:
+                    - listitem [ref=e443]:
+                      - link "4.1. Transformation" [ref=e444] [cursor=pointer]:
+                        - /url: "#Transformation"
+                        - generic [ref=e445]: 4.1.
+                        - generic [ref=e446]: Transformation
+                    - listitem [ref=e447]:
+                      - link "4.2. Tinkle Puff" [ref=e448] [cursor=pointer]:
+                        - /url: "#Tinkle_Puff"
+                        - generic [ref=e449]: 4.2.
+                        - generic [ref=e450]: Tinkle Puff
+                - listitem [ref=e451]:
+                  - link "5. History" [ref=e452] [cursor=pointer]:
+                    - /url: "#History"
+                    - generic [ref=e453]: "5."
+                    - generic [ref=e454]: History
+                  - list [ref=e455]:
+                    - listitem [ref=e456]:
+                      - link "5.1. Past" [ref=e457] [cursor=pointer]:
+                        - /url: "#Past"
+                        - generic [ref=e458]: 5.1.
+                        - generic [ref=e459]: Past
+                    - listitem [ref=e460]:
+                      - link "5.2. Catch! Teenieping" [ref=e461] [cursor=pointer]:
+                        - /url: "#Catch!_Teenieping"
+                        - generic [ref=e462]: 5.2.
+                        - generic [ref=e463]: Catch! Teenieping
+                      - list [ref=e464]:
+                        - listitem [ref=e465]:
+                          - link "5.2.1. Let's Sing With Joy" [ref=e466] [cursor=pointer]:
+                            - /url: "#Let's_Sing_With_Joy"
+                            - generic [ref=e467]: 5.2.1.
+                            - generic [ref=e468]: Let's Sing With Joy
+                    - listitem [ref=e469]:
+                      - link "5.3. Twinkle Catch! Teenieping" [ref=e470] [cursor=pointer]:
+                        - /url: "#Twinkle_Catch!_Teenieping"
+                        - generic [ref=e471]: 5.3.
+                        - generic [ref=e472]: Twinkle Catch! Teenieping
+                      - list [ref=e473]:
+                        - listitem [ref=e474]:
+                          - link "5.3.1. Twinkle Twinkle, Jewel Teeniepings" [ref=e475] [cursor=pointer]:
+                            - /url: "#Twinkle_Twinkle,_Jewel_Teeniepings"
+                            - generic [ref=e476]: 5.3.1.
+                            - generic [ref=e477]: Twinkle Twinkle, Jewel Teeniepings
+                        - listitem [ref=e478]:
+                          - link "5.3.2. Welcome to Teenieping School!" [ref=e479] [cursor=pointer]:
+                            - /url: "#Welcome_to_Teenieping_School!"
+                            - generic [ref=e480]: 5.3.2.
+                            - generic [ref=e481]: Welcome to Teenieping School!
+                        - listitem [ref=e482]:
+                          - link "5.3.3. Royal Teenieping Face-Off!" [ref=e483] [cursor=pointer]:
+                            - /url: "#Royal_Teenieping_Face-Off!"
+                            - generic [ref=e484]: 5.3.3.
+                            - generic [ref=e485]: Royal Teenieping Face-Off!
+                        - listitem [ref=e486]:
+                          - link "5.3.4. Teenieping School Graduation" [ref=e487] [cursor=pointer]:
+                            - /url: "#Teenieping_School_Graduation"
+                            - generic [ref=e488]: 5.3.4.
+                            - generic [ref=e489]: Teenieping School Graduation
+                - listitem [ref=e490]:
+                  - link "6. Trivia" [ref=e491] [cursor=pointer]:
+                    - /url: "#Trivia"
+                    - generic [ref=e492]: "6."
+                    - generic [ref=e493]: Trivia
+                - listitem [ref=e494]:
+                  - link "7. Gallery" [ref=e495] [cursor=pointer]:
+                    - /url: "#Gallery"
+                    - generic [ref=e496]: "7."
+                    - generic [ref=e497]: Gallery
+            - generic [ref=e502]:
+              - generic [ref=e503]:
+                - application "Connatix video player" [ref=e505]
+                - generic [ref=e508]:
+                  - generic [ref=e513]:
+                    - button "More" [ref=e515] [cursor=pointer]:
+                      - img [ref=e517]
+                    - menu:
+                      - generic: Quality
+                    - generic:
+                      - menu:
+                        - generic: 360p
+                        - generic: 720p
+                        - generic: 1080p
+                        - generic: Auto
+                  - generic [ref=e521]:
+                    - button "Previous (Shift + P)" [ref=e524] [cursor=pointer]:
+                      - img [ref=e526]
+                    - button "Play (SPACE)" [ref=e531] [cursor=pointer]:
+                      - img [ref=e533]
+                    - button "Next (Shift + N)" [ref=e537] [cursor=pointer]:
+                      - img [ref=e539]
+                  - generic [ref=e543]:
+                    - button "Unmute (M)" [ref=e547] [cursor=pointer]:
+                      - img [ref=e549]
+                    - generic [ref=e557]: 00:00
+                    - slider "Seek" [ref=e567] [cursor=pointer]: "0"
+                    - generic [ref=e569]: 00:00
+                    - generic [ref=e570]:
+                      - button "Settings" [ref=e573] [cursor=pointer]:
+                        - img [ref=e575]
+                      - generic:
+                        - menu:
+                          - generic: 360p
+                          - generic: 720p
+                          - generic: 1080p
+                          - generic: Auto
+                    - button "Full Screen (F)" [ref=e579] [cursor=pointer]:
+                      - img [ref=e581]
+                  - generic:
+                    - generic:
+                      - menu
+                - text: "Coming up:"
+                - generic:
+                  - iframe [ref=e583]:
+                    
+                  - iframe [ref=e584]:
+                    
+                  - iframe [ref=e585]:
+                    
+                  - iframe [ref=e586]:
+                    
+              - button "Close Player" [ref=e588]:
+                - img [ref=e589]
+            - heading "Appearance Sign in to edit" [level=2] [ref=e593]:
+              - text: Appearance
+              - link "Sign in to edit" [ref=e595] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D1&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e596]
+            - figure "Lalaping's Appearance" [ref=e598]:
+              - link "Lalaping's Appearance view image" [ref=e599] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/e/e9/Lalaping_Render_2.png/revision/latest?cb=20260215105234
+                - img "Lalaping's Appearance" [ref=e600]
+                - generic "view image" [ref=e603]:
+                  - img [ref=e604]
+              - paragraph [ref=e607]: Lalaping's Appearance
+            - paragraph [ref=e608]: Lalaping is a purple music-themed Teenieping.
+            - paragraph [ref=e609]: She has a lavender body, a dark purple collar with a golden button attached, and a white underbelly with a golden Royal Symbol. She has long eyelashes with brown irises on her eyes.
+            - paragraph [ref=e610]: She has purple hair tied by a purple ribbon with a yellow musical note-like extrusion. Her tufts resemble dog or bunny ears.
+            - paragraph [ref=e611]: She also has a short, light purple tail that resembles a cotton ball.
+            - paragraph [ref=e612]: Her prop is a yellow microphone with a purple bow on it.
+            - heading "Monster Form Sign in to edit" [level=3] [ref=e613]:
+              - text: Monster Form
+              - link "Sign in to edit" [ref=e615] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D2&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e616]
+            - figure "Lalaping's Monster Appearance" [ref=e618]:
+              - link "Lalaping's Monster Appearance view image" [ref=e619] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/7/71/Lalaping_Monster_Render_2.png/revision/latest?cb=20260215034024
+                - img "Lalaping's Monster Appearance" [ref=e620]
+                - generic "view image" [ref=e623]:
+                  - img [ref=e624]
+              - paragraph [ref=e627]: Lalaping's Monster Appearance
+            - paragraph [ref=e628]: In her monster form, she has the same hairstyle, but in a bigger and rounder fluffy body with her white patch being in a fire shape.
+            - paragraph [ref=e629]: She has sharp teeth, purple eyes, a purple heart shaped nose, yellow claws with a white spot on her hands and feet, and a rabbit like tail.
+            - heading "Personality Sign in to edit" [level=2] [ref=e630]:
+              - text: Personality
+              - link "Sign in to edit" [ref=e632] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D3&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e633]
+            - paragraph [ref=e635]: True to her concept, Lalaping has a colorful personality. She is extroverted, energetic, and cheerful with a passion for music, and especially likes to sing and dance. Lalaping can be loud and obnoxious sometimes, especially when singing, which unknowingly causes disturbance or annoyance for others around her.
+            - paragraph [ref=e636]:
+              - text: Lalaping has a helpful and encouraging side. In "
+              - link "Let's Sing With Joy" [ref=e637] [cursor=pointer]:
+                - /url: /wiki/Let%27s_Sing_With_Joy
+              - text: "\", she helps"
+              - link "Dua" [ref=e638] [cursor=pointer]:
+                - /url: /wiki/Dua
+              - text: practice her singing and encourages her when she sings in front of the class.
+            - heading "Etymology Sign in to edit" [level=2] [ref=e639]:
+              - text: Etymology
+              - link "Sign in to edit" [ref=e641] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D4&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e642]
+            - list [ref=e644]:
+              - listitem [ref=e645]: The Korean name 라라핑 ("Laraping") comes from "Lalala⁓", which is an onomatopoeia used to describe singing.
+              - listitem [ref=e646]: The Chinese name 唱唱萌可 ("Chàng chàng méng kě") comes from 唱 ("Chàng"), which means "to sing". It can also be related to the word 唱歌 ("Chànggē"), which can mean "to sing a song".
+            - heading "Magic Sign in to edit" [level=2] [ref=e647]:
+              - text: Magic
+              - link "Sign in to edit" [ref=e649] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D5&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e650]
+            - heading "Transformation Sign in to edit" [level=3] [ref=e652]:
+              - text: Transformation
+              - link "Sign in to edit" [ref=e654] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D6&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e655]
+            - paragraph [ref=e657]:
+              - text: Like her
+              - link "Royal Teenieping comrades" [ref=e658] [cursor=pointer]:
+                - /url: /wiki/Royal_Teeniepings
+              - text: ", by kissing"
+              - link "Romi" [ref=e659] [cursor=pointer]:
+                - /url: /wiki/Romi
+              - text: ", Lalaping can help Romi transform into a magical princess. She can transform with Romi into"
+              - link "Princess Melody" [ref=e661] [cursor=pointer]:
+                - /url: /wiki/Princesses
+              - text: .
+            - heading "Tinkle Puff Sign in to edit" [level=3] [ref=e662]:
+              - link "Tinkle Puff" [ref=e664] [cursor=pointer]:
+                - /url: /wiki/Tinkle_Puff
+              - link "Sign in to edit" [ref=e666] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D7&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e667]
+            - paragraph [ref=e669]:
+              - text: With her microphone, Lalaping can sprinkle
+              - link "Tinkle Puff" [ref=e670] [cursor=pointer]:
+                - /url: /wiki/Tinkle_Puff
+              - text: to make people start dancing the Joyful Dance. She can also use it to translate words that others can't understand, like a baby's voice, or imitate others' voices.
+            - generic [ref=e671]:
+              - generic [ref=e672]:
+                - link "Romi transformed as Princess Melody view image" [ref=e675] [cursor=pointer]:
+                  - /url: /wiki/File:S1_-_Princess_Melody_pose.png
+                  - img "Romi transformed as Princess Melody" [ref=e676]
+                  - generic "view image" [ref=e679]:
+                    - img [ref=e680]
+                - generic [ref=e682]: Romi transformed as Princess Melody
+              - generic [ref=e683]:
+                - link "Lalaping sprinkling Tinkle Puff view image" [ref=e686] [cursor=pointer]:
+                  - /url: /wiki/File:S1E52_-_Lalaping_power.png
+                  - img "Lalaping sprinkling Tinkle Puff" [ref=e687]
+                  - generic "view image" [ref=e690]:
+                    - img [ref=e691]
+                - generic [ref=e693]: Lalaping sprinkling Tinkle Puff
+              - generic [ref=e694]:
+                - link "A raccoon starting to dance view image" [ref=e697] [cursor=pointer]:
+                  - /url: /wiki/File:S1E12_-_raccoon_dancing.png
+                  - img "A raccoon starting to dance" [ref=e698]
+                  - generic "view image" [ref=e701]:
+                    - img [ref=e702]
+                - generic [ref=e704]: A raccoon starting to dance
+              - generic [ref=e705]:
+                - link "Baby Romi's words being translated view image" [ref=e708] [cursor=pointer]:
+                  - /url: /wiki/File:S1E35_-_Lalaping_mic_translating_baby_Romi.png
+                  - img "Baby Romi's words being translated" [ref=e709]
+                  - generic "view image" [ref=e712]:
+                    - img [ref=e713]
+                - generic [ref=e715]: Baby Romi's words being translated
+              - generic [ref=e716]:
+                - link "Lalaping imitating Romi's voice view image" [ref=e719] [cursor=pointer]:
+                  - /url: /wiki/File:S1E15_-_Lalaping_imitating_Romi%27s_voice_with_mic.png
+                  - img "Lalaping imitating Romi's voice" [ref=e720]
+                  - generic "view image" [ref=e723]:
+                    - img [ref=e724]
+                - generic [ref=e726]: Lalaping imitating Romi's voice
+            - heading "History Sign in to edit" [level=2] [ref=e727]:
+              - text: History
+              - link "Sign in to edit" [ref=e729] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D8&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e730]
+            - heading "Past Sign in to edit" [level=3] [ref=e732]:
+              - text: Past
+              - link "Sign in to edit" [ref=e734] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D9&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e735]
+            - paragraph [ref=e737]:
+              - text: At some point in her life, Lalaping becomes a Royal Teenieping, alongside her Royal Emotion Teenieping comrades. She then becomes one of the Teeniepings released to Earth from the
+              - link "Cube Chamber" [ref=e738] [cursor=pointer]:
+                - /url: /wiki/Cube_Chamber
+              - text: .
+            - heading "Catch! Teenieping Sign in to edit" [level=3] [ref=e739]:
+              - link "Catch! Teenieping" [ref=e741] [cursor=pointer]:
+                - /url: /wiki/Catch!_Teenieping_(season)
+              - link "Sign in to edit" [ref=e743] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D10&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e744]
+            - heading "Let's Sing With Joy Sign in to edit" [level=4] [ref=e746]:
+              - link "Let's Sing With Joy" [ref=e748] [cursor=pointer]:
+                - /url: /wiki/Let%27s_Sing_With_Joy
+              - link "Sign in to edit" [ref=e750] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D11&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e751]
+            - figure "Lalaping with bandages" [ref=e753]:
+              - link "Lalaping with bandages view image" [ref=e754] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/8/83/S1E12_-_Lalaping_fine.png/revision/latest?cb=20210926064726
+                - img "Lalaping with bandages" [ref=e755]
+                - generic "view image" [ref=e758]:
+                  - img [ref=e759]
+              - paragraph [ref=e762]: Lalaping with bandages
+            - paragraph [ref=e763]:
+              - text: Lalaping is walking through the forest in search of Romi. She winds up annoying some animals with her singing, so much so that a raccoon scares her and chases her into
+              - link "Harmony Town" [ref=e764] [cursor=pointer]:
+                - /url: /wiki/Harmony_Town
+              - text: .
+            - paragraph [ref=e765]:
+              - text: When she's able to tame it by using her magic to make it dance, she slips and falls into a tin can, getting stuck.
+              - link "Dua" [ref=e766] [cursor=pointer]:
+                - /url: /wiki/Dua
+              - text: discovers her on her way home from school, and Lalaping introduces herself.
+            - paragraph [ref=e767]:
+              - text: Dua takes her
+              - link "home" [ref=e768] [cursor=pointer]:
+                - /url: /wiki/Harmony_Town_Villas
+              - text: to mend her injuries. In return, Lalaping uses her magic to help Dua overcome her fear of singing in front of her classmates when the latter confesses it to her. However, a transformed Romi and Heartsping capture her, assuming she doesn't want to get caught and considering Dua's problem.
+            - figure "Lalaping encouraging Dua" [ref=e769]:
+              - link "Lalaping encouraging Dua view image" [ref=e770] [cursor=pointer]:
+                - /url: https://static.wikia.nocookie.net/catchteeniepin/images/6/63/S1E12_-_Lalaping_encouraging_Dua.png/revision/latest?cb=20210926064711
+                - img "Lalaping encouraging Dua" [ref=e771]
+                - generic "view image" [ref=e774]:
+                  - img [ref=e775]
+              - paragraph [ref=e778]: Lalaping encouraging Dua
+            - paragraph [ref=e779]: After hearing Dua practice her singing, Lalaping explains herself, and Romi & Heartsping apologize to her, and let her go so that she can help Dua.
+            - heading "Twinkle Catch! Teenieping Sign in to edit" [level=3] [ref=e780]:
+              - link "Twinkle Catch! Teenieping" [ref=e783] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Catch!_Teenieping
+              - link "Sign in to edit" [ref=e785] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D12&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e786]
+            - paragraph [ref=e788]:
+              - text: After all of the
+              - link "Emotion Teeniepings" [ref=e789] [cursor=pointer]:
+                - /url: /wiki/Emotion_Teeniepings
+              - text: are caught, Lalaping returns to the Emotions Kingdom along with the other Royal Emotion Teeniepings (except for Heartsping) to resume her role as a teacher at the Royal Teenieping School.
+            - heading "Twinkle Twinkle, Jewel Teeniepings Sign in to edit" [level=4] [ref=e790]:
+              - link "Twinkle Twinkle, Jewel Teeniepings" [ref=e792] [cursor=pointer]:
+                - /url: /wiki/Twinkle_Twinkle,_Jewel_Teeniepings
+              - link "Sign in to edit" [ref=e794] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D13&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e795]
+            - paragraph [ref=e797]:
+              - text: She and
+              - link "Chachaping" [ref=e798] [cursor=pointer]:
+                - /url: /wiki/Chachaping
+              - text: alert Dr. Monziu - as he’s trying to introduce Romi’s new magical tools after overhearing the
+              - link "Jewel Forest" [ref=e799] [cursor=pointer]:
+                - /url: /wiki/Jewel_Forest
+              - text: crisis - that the
+              - link "Jewel Heart Wing Phone" [ref=e800] [cursor=pointer]:
+                - /url: /wiki/Jewel_Heart_Wing_Phone
+              - text: has gone missing. When they search the Emotions Kingdom for the culprit, they find the Royal Teenieping students have stolen the Phone and are leaving in the Teenieping Bus.
+            - heading "Welcome to Teenieping School! Sign in to edit" [level=4] [ref=e801]:
+              - link "Welcome to Teenieping School!" [ref=e803] [cursor=pointer]:
+                - /url: /wiki/Welcome_to_Teenieping_School!
+              - link "Sign in to edit" [ref=e805] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D14&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e806]
+            - paragraph [ref=e808]:
+              - text: When
+              - link "Dr. Monziu" [ref=e809] [cursor=pointer]:
+                - /url: /wiki/Dr._Monziu
+              - text: calls Romi (as she's transformed into Princess Diaheart), she takes
+              - link "Dr. Monziu" [ref=e810] [cursor=pointer]:
+                - /url: /wiki/Dr._Monziu
+              - text: "'s phone to scold the student Teeniepings for stealing the Jewel Heart Wing Phone without warning them. Heartsping tries to step in and calm her down, but she's still angry."
+            - heading "Royal Teenieping Face-Off! Sign in to edit" [level=4] [ref=e811]:
+              - link "Royal Teenieping Face-Off!" [ref=e813] [cursor=pointer]:
+                - /url: /wiki/Royal_Teenieping_Face-Off!
+              - link "Sign in to edit" [ref=e815] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D15&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e816]
+            - paragraph [ref=e818]:
+              - text: Lalaping and the other
+              - link "Royal Emotion Teeniepings" [ref=e819] [cursor=pointer]:
+                - /url: /wiki/Royal_Emotion_Teeniepings
+              - text: (except for
+              - link "Happying" [ref=e820] [cursor=pointer]:
+                - /url: /wiki/Happying
+              - text: ) arrive at
+              - link "Heartrose Bakery" [ref=e821] [cursor=pointer]:
+                - /url: /wiki/Heartrose_Bakery
+              - text: to challenge the
+              - link "student Royal Teeniepings" [ref=e822] [cursor=pointer]:
+                - /url: /wiki/Royal_Jewel_Teeniepings
+              - text: to a duel upon realizing their progress in catching the
+              - link "Jewel Teeniepings" [ref=e823] [cursor=pointer]:
+                - /url: /wiki/Jewel_Teeniepings
+              - text: has been lackluster.
+            - heading "Teenieping School Graduation Sign in to edit" [level=4] [ref=e824]:
+              - link "Teenieping School Graduation" [ref=e826] [cursor=pointer]:
+                - /url: /wiki/Teenieping_School_Graduation
+              - link "Sign in to edit" [ref=e828] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D16&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e829]
+            - paragraph [ref=e831]:
+              - text: She and the other Royal Emotion Teeniepings (except for
+              - link "Happying" [ref=e832] [cursor=pointer]:
+                - /url: /wiki/Happying
+              - text: ) arrive at the bakery to watch the graduation of the Jewel Teeniepings.
+            - heading "Trivia Sign in to edit" [level=2] [ref=e833]:
+              - text: Trivia
+              - link "Sign in to edit" [ref=e835] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D17&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e836]
+            - list [ref=e838]:
+              - listitem [ref=e839]:
+                - text: Lalaping and
+                - link "Ariaping" [ref=e840] [cursor=pointer]:
+                  - /url: /wiki/Ariaping
+                - text: "share some similarities: they're both Teeniepings that are purple and have an interest in music."
+              - listitem [ref=e841]: She is one of only two Royal Teeniepings to have been caught by Romi. Gogoping is the first.
+              - listitem [ref=e842]:
+                - text: According to the
+                - link "Magic Catcher toy" [ref=e843] [cursor=pointer]:
+                  - /url: /wiki/Magic_Catcher/Merchandise
+                - text: ", Lalaping's QR variable name is \"Fairy 04\"."
+            - heading "Gallery Sign in to edit" [level=2] [ref=e844]:
+              - text: Gallery
+              - link "Sign in to edit" [ref=e846] [cursor=pointer]:
+                - /url: https://auth.fandom.com/signin?redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fveaction%3Dedit%26section%3D18&uselang=en&metadata=article-registration-edit-article-section
+                - img [ref=e847]
+            - figure [ref=e849]:
+              - link "Check the gallery page" [ref=e850] [cursor=pointer]:
+                - /url: /wiki/Lalaping/Gallery
+                - img "Check the gallery page" [ref=e851]
+            - paragraph [ref=e852]
+            - table [ref=e853]:
+              - rowgroup [ref=e854]:
+                - row "Characters ▼" [ref=e855]:
+                  - cell "Characters ▼" [ref=e856]:
+                    - generic [ref=e857] [cursor=pointer]: Characters ▼
+          - generic [ref=e858]:
+            - generic "Toggle Categories" [ref=e859]:
+              - generic [ref=e860] [cursor=pointer]:
+                - text: Categories
+                - img [ref=e861]
+            - generic [ref=e863]:
+              - text: Community content is available under
+              - link "CC-BY-SA" [ref=e864] [cursor=pointer]:
+                - /url: https://www.fandom.com/licensing
+              - text: unless otherwise noted.
+            - generic [ref=e867]:
+              - paragraph [ref=e870]: 11 Comments
+              - generic [ref=e871]:
+                - img [ref=e873]
+                - heading "Join the conversation" [level=3] [ref=e875]
+                - heading "Sign in to read what others are saying and share your thoughts." [level=4] [ref=e876]
+                - link "SIGN IN" [ref=e877] [cursor=pointer]:
+                  - /url: /login?metadata=anonymous-article-comments-login-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fanon-comments-auth-source%3Dlogin%23articleComments
+                - paragraph [ref=e878]:
+                  - text: Don't have account?
+                  - link "Register now" [ref=e879] [cursor=pointer]:
+                    - /url: /register?metadata=anonymous-article-comments-register-source&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FLalaping%3Fanon-comments-auth-source%3Dregister%23articleComments
+        - complementary [ref=e880]:
+          - generic [ref=e881]:
+            - generic [ref=e883]:
+              - iframe [ref=e885]:
+                - generic [active] [ref=f264e1]:
+                  - link [ref=f264e3] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstTFkBpQMTQiIR6vbUj1xKTfLaZfg2-rMjZIXMgQcusXRtqTI2KHRabzoU_EQQ5Gb8K7nfsIDRbxZE3a8Hp0cJqb3xoA-L4XVpC42Wn7TGDl6oUP72CPIDZv6UpBkFO7E9rcIQC1Hus_7e-Jw7Xkm959VnO2k8raLUTrJ5jr_EqkrkwFS_aGn3YgldbdxyCkR6G5liyiiiFYHLxa3mLqOiSur7wu2Ia-RhEzqpnP3SqfcM6J9RT7-xw1u1ciHg-1L3fgWas9LM3FzFdkNYD93e7NLTRZGJhNbhWktHTF3j7yW-NVIeFJTNDOwflSw4-hdBlM8IK1n1lSUCmfnHirqlHxQW7r7yl17h5mk7ZMZteYntfz4GwKzptjFf265EX58m3Pcln-JG8un4UlddRipJDOOYXeTuTAP2Njr5dKDLxcxUouGoosUwiImE-a5uuo5U8hJ4QHCDYaLoxJ-CynuCT2t2YatePPw&sai=AMfl-YRTPs0zQ_1Da6v0eihgo9mzoznwl7M0OOgMdIhnL7qzZwI3OY3nTq8jD92nPl_DIi4BLHEoYs4LrCbV5bxds830x22JM11iosGw0ogQeEiM9gdC82hEoRQNzgnC21mK0sbY2YtXjhg9DfaPB8NFiJHVaIJWNxZL3pb5Dp_TMFVEPJpS_fRQCKx46TmrDaDlTlqCaYD6ncvX6fgp_uvDAgPwN0tGrO7CSR7mL_YLcwRPXnjrHxs1gyBd8H6bIf2lv8zPeyl8e7QPaSxNNvqI4YL_MzQn1Sa9wXUCjUwqEseig3TSj3ijgyUA6OhHYPEdd5UvsNczUaY75hPnlfhxP3bNHcHGg08JCA&sig=Cg0ArKJSzDugkzVg5r95EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://onepiece.fandom.com/f/p/4400000000003959944?utm_source=fandom&utm_medium=display&utm_campaign=OnePieceAva-01&utm_content=300x600
+                    - img [ref=f264e4]
+                  - iframe
+              - generic [ref=e886]: Advertisement
+            - generic [ref=e890]:
+              - generic [ref=e891]:
+                - heading "Recent Images" [level=2] [ref=e892]
+                - link [ref=e893] [cursor=pointer]:
+                  - /url: https://www.fandom.com
+                  - img [ref=e896]
+              - generic [ref=e901]:
+                - list [ref=e904]:
+                  - listitem [ref=e905]:
+                    - generic [ref=e907]:
+                      - link "Anna Paik (left) with Lisa Kelley.png" [ref=e908] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                        - img "Anna Paik (left) with Lisa Kelley.png" [ref=e910]
+                      - generic [ref=e911]:
+                        - link "Anna Paik" [ref=e912] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Anna_Paik
+                          - heading "Anna Paik" [level=3] [ref=e913]
+                        - time [ref=e915]: 4 hours ago
+                  - listitem [ref=e916]:
+                    - generic [ref=e918]:
+                      - link "S4 Japanese Banner 4.jpg" [ref=e919] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 4.jpg" [ref=e921]
+                      - generic [ref=e922]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e923] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e924]
+                        - time [ref=e926]: 12 hours ago
+                  - listitem [ref=e927]:
+                    - generic [ref=e929]:
+                      - link "S4 Japanese Banner 3.png" [ref=e930] [cursor=pointer]:
+                        - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                        - img "S4 Japanese Banner 3.png" [ref=e932]
+                      - generic [ref=e933]:
+                        - link "Dessert Catch! Teenieping/Gallery" [ref=e934] [cursor=pointer]:
+                          - /url: https://catchteenieping.fandom.com/wiki/Dessert_Catch!_Teenieping/Gallery
+                          - heading "Dessert Catch! Teenieping/Gallery" [level=3] [ref=e935]
+                        - time [ref=e937]: 12 hours ago
+                - button "Go to next slide" [ref=e938] [cursor=pointer]:
+                  - img [ref=e939]
+            - generic [ref=e941]:
+              - iframe [ref=e943]:
+                - iframe [ref=f266e4]:
+                  - generic [active] [ref=f275e1]:
+                    - generic [ref=f275e4]:
+                      - generic [ref=f275e7]:
+                        - link "Click Here" [ref=f275e8] [cursor=pointer]:
+                          - /url: https://exch.quantserve.com/r?&a=p-1RYxePXT9bCS2&labels=_qc.clk,_click.adserver.rtb,_click.rand.1498789278&rtbip=103.229.8.109&rtbdata2=EBc6Imh0dHBzOi8vY2F0Y2h0ZWVuaWVwaW5nLmZhbmRvbS5jb21aKFlqZFVuMlZxQk1sNVBBLVlNajRhbnpFOURwNTViQVNmWmp0US1FbG6AAZ7r1soFugEWMTc3ODY2MTQ3OTU2OTQ0ODY1MTE3M8AB2I8NyAHRzI3p1DPaARk2Mjk3MjQ2MzUwOTc3NzE4Mzk0ODYtMjQxsAIIyAIA0ALO4Yb7-J_3zKkB6AKLAvICDgidgxUQtqCr3pC1psoM8gIOCIsCEP_J5-Hm_6fs3gH4AgCKAwQxMjE1kgMKdHJpcGxlbGlmdJgDAKgDALIDBDp4HHK6AxIJ6UH-dFMnou0R45WxEzdaoo_CAxIJ2U7y_rXIKdkR9KVHKpvLSajIA8mAgIMB2AOe69bKBeIDD3AtMVJZeGVQWFQ5YkNTMuoDBgisAhD6AfIDBTEwMTMz-AMAgASYNIoEAjc3kgQJdGx4LTY2NDE1mgQSCVxLpiJtc0lHEerX69fQPqS0ogQSCelB_nRTJ6LtEeOVsRM3WqKPqgQSCelB_nRTJ6LtEeOVsRM3WqKPuATQBdAEDvIEAktSgAUBigUqMjBjZDY2YzY5OWRlYTM5OThlYzg4Yjg3YzAzNDA5MWUwOTc3OWM0OWVkkAUBmgUVIM1mxpneo5mOyIuHwDQJHgl3nEntogUkekgtWkJ2aEFqQzdlZGJnMTFTbUNMOFowZ3kzRmItaWtVdFU9sAUCuAUAwAWe69bKBcgFiLKqBNIFBggEEAEYAegFBpoGFAoSCVxLpiJtc0lHEerX69fQPqS0oAYAtQZZCow5ugZICgJLUhICNDEYACIKZ29jaG9uLWV1cCoFMTAxMzM6GXNrJTIwYnJvYWRiYW5kJTIwY28lMjBsdGRaDnNrJTIwYnJvYWRiYW5kyQYTAABR_j19EfEGCAAAUf49fRGABwCKBxIJ2U7y_rXIKdkR9KVHKpvLSaiwB9WfswS4B_mgmgXYBwQ&redirecturl3=https://servedby.flashtalking.com/click/7/296968;10340750;4705416;210;0/?ft_mliid=9228245&ft_mcid=9083144&gdpr=0&ft_impID=D7865706-CC8F-DE81-49C8-DA8DC56BFC54&ft_custom=Rahr5UGuZOFGqmvlRK1j6kCjZupFt2DmQpSX_zY=&g=666695B88CB37F&random=282979.73794774635&ft_width=300&ft_height=250&url=https://www.adobe.com/kr/creativecloud/roc/individual.html?sdid=GVTYXXRY&mv=display&mv2=display
+                          - img "Click Here" [ref=f275e9]
+                        - link "AdChoices arrow" [ref=f275e11] [cursor=pointer]:
+                          - /url: https://www.flashtalking.com/consumer-privacy
+                          - img "AdChoices arrow" [ref=f275e12]
+                        - link "Privacy Notification" [ref=f275e14] [cursor=pointer]:
+                          - /url: https://www.flashtalking.com/consumer-privacy
+                          - img [ref=f275e15]
+                        - link "Privacy Notification" [ref=f275e17] [cursor=pointer]:
+                          - /url: https://www.flashtalking.com/consumer-privacy
+                          - img [ref=f275e18]
+                      - link [ref=f275e19] [cursor=pointer]:
+                        - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=1498789278;labels=_click.creative.iab,_qc.iab.clk.p-1RYxePXT9bCS2.0.10915961;redirecturl2=http://www.quantcast.com/adchoices
+                        - img [ref=f275e21]
+                    - iframe
+                    - iframe
+              - generic [ref=e944]: Advertisement
+            - generic [ref=e945]:
+              - generic [ref=e946]:
+                - link "S1 Royal Teeniepings Group Render 3" [ref=e948] [cursor=pointer]:
+                  - /url: https://catchteenieping.fandom.com/f
+                  - img "S1 Royal Teeniepings Group Render 3" [ref=e949]
+                - generic [ref=e950]:
+                  - link "Join the discussion!" [ref=e952] [cursor=pointer]:
+                    - /url: https://catchteenieping.fandom.com/f
+                  - text: Want to talk about something?
+                  - text: Check out the discussion feed!
+              - paragraph [ref=e953]
+              - table [ref=e954]:
+                - rowgroup [ref=e955]:
+                  - row "Want to help this Wiki grow?" [ref=e956]:
+                    - cell "Want to help this Wiki grow?" [ref=e957]:
+                      - generic [ref=e958]: Want to help this Wiki grow?
+                  - row "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e959]:
+                    - cell "We currently have 93 users editing 2,006 pages and 18,325 files. The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the Editing Guide. After reading, click the button below to get a random page to edit. Contribute now!" [ref=e960]:
+                      - generic [ref=e961]:
+                        - figure [ref=e962]:
+                          - link "Heartsping S2 Render 1" [ref=e963] [cursor=pointer]:
+                            - /url: /wiki/Special:Random
+                            - img "Heartsping S2 Render 1" [ref=e964]
+                        - paragraph [ref=e965]:
+                          - text: We currently have 93 users editing 2,006 pages and 18,325 files.
+                          - text: The community is working hard everyday to make this Wiki organized and clean. Feel free to join us in editing by getting started with the
+                          - link "Editing Guide" [ref=e966] [cursor=pointer]:
+                            - /url: /wiki/Catch!_Teenieping_Wiki:Editing_Guide
+                          - text: . After reading, click the button below to get a random page to edit.
+                        - link "Contribute now!" [ref=e968] [cursor=pointer]:
+                          - /url: /wiki/Special:Random
+                          - generic [ref=e969]: Contribute now!
+            - generic [ref=e971]:
+              - iframe [ref=e973]:
+                - generic [ref=f292e3]:
+                  - link [ref=f292e4] [cursor=pointer]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWjUqjR3OaY7XA5iP29gPob-ZwAqwoOHYhAHlrZar0RXc2R4QASDD7u4NYJuj6YS4KaABnK_7qALIAQPgAgCoAwHIAwiqBJADT9AHjV9z2k1XDS_CprRP6aKtpzSU30DdXRSsT7XD_CA0gZXgBz45yNJ_L1U9C1h97McL3602HAT7w-33lIjRtdbP84UKG9n9N2u3ndSpuBQVCCRU6M1EC1oFhhvNH1_iWgmLwGWcNeZkC7iVd3DhY-Vv_rE4UKslvPOYyjm-zTvFIQemAJAPuB__jy3PAZSYrekNkmB5VAz74jg07lh7vvE0Zhs1q9qyNPFFokkT9U0uo_QHO16yG8YJy62BVV6dfhupPvODtZZvHn8pjWv2IhW90tddg1DFZiSMm9OUUIyurecxSKWIpCxAk8-Gki6sOR73FogSvz_JTcrc8DUqE7vpgKtjUv0mY7hlUgsRacZTEx4FsL4hBbuasylcyNQMDXgGiot24OnDc14ftOl-vHvGlEaWUGhvmQczEQth-9yj_6KM50W6UPXacxGf8KgGg2Ls113YQUkt2axMjShCm0l9xpC5Gmz9WmSZ0LI5KXXgUvx6DMwjp3EK3aLjwKCe1ujJBToHGD7n4C_RBnHF1sAEnui0xMEF4AQBiAWBlZ6UV6AGA4AHzNCE1wGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAiIACqANIvf3BOliciKWT1c6TA7EJEVN6zAO7QumACgOYCwHICwGiDAOQAQGqDQJLUsgNAeINEwjBuaWT1c6TAxWYxxYFHaFfBqjqDRMItoimk9XOkwMVmMcWBR2hXwao8A0CiA7___________8B2BMN0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNjE2MTQ1NzAyM1AGuhcCOAGqGBcJAAAAAICo-EASCjYxNjE0NTcwMjMYAbIYCRICsFMYAyIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIztGmk9XOkwMVmMcWBR2hXwaoEAEYASAAEgIO2PD_BwE&num=1&cid=CAQS5AEABaugfUTW39ESDjZn0CM6Q_nVchnv_xUlvtPM_b5nL6VJrnXW5AiobEgRjr3AxVsnK5tHjQWR_eK-4YYxjMNC8zQXD5qDTBzgOUoSIzPkyVt61XifTiX69_CMcirTXHKpha79UNpWxzp5vdUI3yr0-SwJdJQEXwfsxqYPCpvYfRjXD1yBV-g056DoRF6XjXOMug1hN9YhvWZwxgYO4o_nrmVdfdjl2gOr8NP4a8x1uynMtUrg1CxEpk6jKxDCL4vUCtoERjcKsdHZ_pPwJQtuo-8Q_2fhscqb2Opd5VfxxCVtG70YAQ&sig=AOD64_2K42N3jQrLA4b7NNm4zlLQDKW3eg&client=ca-pub-7983542246824243&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://www.hero-wars.com/%3Fdelayedsignup%3Dtrue%26nx_source%3Dadx_adwordsdisplay.hw_wb_uu_-.cc-ww_other.g-mix.a-mix.au-lal.opt-purchase2.cr-hw_st_lootdoll1a_gif.cn-300_600.lp-delayed.dt-display.cid-23396321921.agid-189390468126.csd-270326.-%26cp%3D.aid-802455633007%26gad_source%3D5%26gad_campaignid%3D23396321921%26gclid%3DEAIaIQobChMIztGmk9XOkwMVmMcWBR2hXwaoEAEYASAAEgIO2PD_BwE
+                  - generic [ref=f292e6]:
+                    - link [ref=f292e8] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeWmbUFxuo8x1ZkcFi5sD5592yhGB55S2vybxvvZUeNrtY1cMXiIV2ZmJfEqPSnd3rXYmKW4o_oqQURoXDEzK10nTKitQwC8_dnxmDwthpx_zFFJ-cypGxV4lCHUrFPYkmpCFM_vC9426Gz6p6-6B2tFstk0JIgz5sKrBH2U0-sZvU46_3RXZ4tOl1DPjTSovtf9zpbB4nk1OHkLyWY2Tgvaj0Y4jO6f-65tGHRj69M6tClctuH3DMpFAyPR8_WSGW66AnGiakDt6w3rtu5X1Oyr-koZvn535l2Rz_iF-5BfBwjFUlVlN4KFYL_hdT3aC_RZ1alWHOMWpkcFMCXGl7GG9DaJ3zQ7UYZCBmNztS3gDYq_jw3PEPT0gBfsYCpITPRWg2FcWwjh3YygemhbjC_95WKWznovW5ufBi0Qzr1ajKEclG96DU0gM7rcncGd30KcqEbOmviASeFNkhXmyRghdacXMxrmHnIFfPCQgvu-wwR7TRz9KaNsT92StOkEvcpYFJqurozwYM2TTAIMx1ptz7Mi9LY2hnFvwLtSMDrQg7ov8WO7udIwTUDly_bwxM71OVmlovNWoekI6I_S2St2LJmNAZyxHJT67-7CdNE84CVROlMqnaMz_J3SQ1u7godCI3JwNdmHCIoauo9si527hZURwV_3LWaGk99SwUUzaQIVbFKfA7ycV-nQnZNWuGvXO-dOatHEbSvwNARtKn8YzumXyUa-KsgZe2qS4Il6y3K6MfsS87py5whYoXfUff4DRi-j7YNL_r3CjHKCQVHYXVtBzEbfv5apPXqvv7P-wUiPam8e6m3abZGGlVXH2Rbhy1l8rqcOBQni0UDFjvt7ZQ1kZjskFx5_O8aH71eipgSRpK3H_Djevi51KWSfXmducfvxN096EnY8mqxZCU_oAYU5eUH58w7icRhM7DytHU5G-e_h4mEx2d6_UgY7myWpR_L1FfgkJjV2OzAgJrYKrNcQ6ehuBkMHZuUDYyQgnSjbmwizIs_tGs_Jz5W6Yp-wlrnMYwyTJ_7OhgLh_8lGLt5ULADTQf5uZOrZFwXdS24RrsT5ZuExGYeghYJah0yfRPz6Ky5dSgb3DDb0BR9z2qnGxvwRoy8c7xIEtDtN1t9dfxCzlN2PmbuA1QNua1npGsSlILl7v8qcoFU2Fz-qJffTKgiOk55ZRX3zTvIl0AzWcgnBfqXqrbi4gc4uQrGt6kSaZV2DnqyW6FlKx1vmpdVltSGEtiDvPE8G0_JywUPoeeJE4UcH7DKraG3ppbr2wg80DCfBc5DzVuhtIw7RbdSWp04t5x9XfV2kbF5OIqkzC3nC6fAcE5Uo23K88I4xnwTZt9tgU-qGQEozjTAMOMyrp-7-rlKItlQlCyjR4z0VBhQB8b9NNdEffhtzVFub1zVFMumYUaMIqQv3J_EtUCx303S6yBLVIb3Zpd8KTCVyJSDZD6MJ1dXEaJA6B1HgcpR2Ht0zYmgVIoX3l1keYXDotDcU6Vxu8XXWAwt3q4hEJUmUS0ZwbopbF4nyaH5HCZLKuaht-t_UqFJWVuGdLbRdTiTTu7PDMaGMAcYW5N4B-AIMgGVcuiN9VbSDu1XK1PO7HXgPErVsN4E0dti1etb-5skCFhGCEXUzH5PmCfYKXg3f71TOftDb7_iS_6AFI4Uja-_Yq37nqtf8qIVLKGbJZnoPxMS6NVIOE_MhBu6v3XUHeknV9ItJezC-sksog_p910cKCoEI2mMZBv78OjGxJVIQIKSbhz2igyWyUEvDj0EoMx4Snmq2Ob0DBXqdBedRj3pq2CHsi-SNVGEqoTKOSpGnwgVmE_M5KgALcMm3zIUd8OQCOk7DTa3Vry7qkNgfqgLP3FmaMfwHyUiaD9YccJXWBi7WAqU8V3Tdd5QE8ytHPWQO2mzOKPdyZxNlBvtKGM7PftOBnZwO51ezMAve8HogMdALo8li4FZ6y7WHvzoDbI4Gla9o5QISwvlKRojRlSU5UT-NFSF5W0hsb90LSNseApjdt2ggGyWREw--FrLJXfJ_prjoQ7WJPmk02gfH8hkN5TaGZqWyB9yOkvMJzTu4pULGAZWpXJAsoOfh3vuVRVDSpi-y717uP7KrVwEnipxX6I9mRHau0zgVegM_5focuSfb7OToA2-9Nez2WfP-CuldzOtvUQGuWN0F46ACUUkCFqV9FylXAxkufzgQCkb_tT31XfWyJ0BF0EESCA0Z1BatUGKoawXae49UFirXUvJ_EC65ZcyT40dB1qOiwnZ-Dqa8XI4VTpEiS-jzcYf9LrBVRA-RndaiS91OAG8KgjZhJtLC164PG5s3vLwnbF_S0HtshrlJO_1Tx1gLBjRhBfzHGG6FlHcRIEUasLGNA_5iLKKyeKfZWq_U490nH57fAPB8HEkIeDjRz95LlAcC2zFc4Eixow_2eXomX5CYKbLM5K4uaOgrFBvIVyNHQIEoNge0Y-M1z7QktUa8IbO-s3-l993yb-wg7FCyDDk6uWYQysYD4dGlYRdBqVQO_nBvNX6lQOvgW0Mlao4knzSYgx7SXLZlvA-9-ZfOGwWHmjFUchwHXIdSDLEpfMtsHoOn7Wbtn2pmGafcS8EkxNZIZr4cO-L4SZJeOYSIz9aj0wj3WWJbpe2SDix4wq8LqpN3zVz7RgGUpJZEVUK9QRl0jGaFAUxqjpYaWxKA6cDsjitGhtexboJTeOQ9w1A&opi=122715837
+                      - img [ref=f292e10]
+                    - link [ref=f292e12] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeWmbUFxuo8x1ZkcFi5sD5592yhGB55S2vybxvvZUeNrtY1cMXiIV2ZmJfEqPSnd3rXYmKW4o_oqQURoXDEzK10nTKitQwC8_dnxmDwthpx_zFFJ-cypGxV4lCHUrFPYkmpCFM_vC9426Gz6p6-6B2tFstk0JIgz5sKrBH2U0-sZvU46_3RXZ4tOl1DPjTSovtf9zpbB4nk1OHkLyWY2Tgvaj0Y4jO6f-65tGHRj69M6tClctuH3DMpFAyPR8_WSGW66AnGiakDt6w3rtu5X1Oyr-koZvn535l2Rz_iF-5BfBwjFUlVlN4KFYL_hdT3aC_RZ1alWHOMWpkcFMCXGl7GG9DaJ3zQ7UYZCBmNztS3gDYq_jw3PEPT0gBfsYCpITPRWg2FcWwjh3YygemhbjC_95WKWznovW5ufBi0Qzr1ajKEclG96DU0gM7rcncGd30KcqEbOmviASeFNkhXmyRghdacXMxrmHnIFfPCQgvu-wwR7TRz9KaNsT92StOkEvcpYFJqurozwYM2TTAIMx1ptz7Mi9LY2hnFvwLtSMDrQg7ov8WO7udIwTUDly_bwxM71OVmlovNWoekI6I_S2St2LJmNAZyxHJT67-7CdNE84CVROlMqnaMz_J3SQ1u7godCI3JwNdmHCIoauo9si527hZURwV_3LWaGk99SwUUzaQIVbFKfA7ycV-nQnZNWuGvXO-dOatHEbSvwNARtKn8YzumXyUa-KsgZe2qS4Il6y3K6MfsS87py5whYoXfUff4DRi-j7YNL_r3CjHKCQVHYXVtBzEbfv5apPXqvv7P-wUiPam8e6m3abZGGlVXH2Rbhy1l8rqcOBQni0UDFjvt7ZQ1kZjskFx5_O8aH71eipgSRpK3H_Djevi51KWSfXmducfvxN096EnY8mqxZCU_oAYU5eUH58w7icRhM7DytHU5G-e_h4mEx2d6_UgY7myWpR_L1FfgkJjV2OzAgJrYKrNcQ6ehuBkMHZuUDYyQgnSjbmwizIs_tGs_Jz5W6Yp-wlrnMYwyTJ_7OhgLh_8lGLt5ULADTQf5uZOrZFwXdS24RrsT5ZuExGYeghYJah0yfRPz6Ky5dSgb3DDb0BR9z2qnGxvwRoy8c7xIEtDtN1t9dfxCzlN2PmbuA1QNua1npGsSlILl7v8qcoFU2Fz-qJffTKgiOk55ZRX3zTvIl0AzWcgnBfqXqrbi4gc4uQrGt6kSaZV2DnqyW6FlKx1vmpdVltSGEtiDvPE8G0_JywUPoeeJE4UcH7DKraG3ppbr2wg80DCfBc5DzVuhtIw7RbdSWp04t5x9XfV2kbF5OIqkzC3nC6fAcE5Uo23K88I4xnwTZt9tgU-qGQEozjTAMOMyrp-7-rlKItlQlCyjR4z0VBhQB8b9NNdEffhtzVFub1zVFMumYUaMIqQv3J_EtUCx303S6yBLVIb3Zpd8KTCVyJSDZD6MJ1dXEaJA6B1HgcpR2Ht0zYmgVIoX3l1keYXDotDcU6Vxu8XXWAwt3q4hEJUmUS0ZwbopbF4nyaH5HCZLKuaht-t_UqFJWVuGdLbRdTiTTu7PDMaGMAcYW5N4B-AIMgGVcuiN9VbSDu1XK1PO7HXgPErVsN4E0dti1etb-5skCFhGCEXUzH5PmCfYKXg3f71TOftDb7_iS_6AFI4Uja-_Yq37nqtf8qIVLKGbJZnoPxMS6NVIOE_MhBu6v3XUHeknV9ItJezC-sksog_p910cKCoEI2mMZBv78OjGxJVIQIKSbhz2igyWyUEvDj0EoMx4Snmq2Ob0DBXqdBedRj3pq2CHsi-SNVGEqoTKOSpGnwgVmE_M5KgALcMm3zIUd8OQCOk7DTa3Vry7qkNgfqgLP3FmaMfwHyUiaD9YccJXWBi7WAqU8V3Tdd5QE8ytHPWQO2mzOKPdyZxNlBvtKGM7PftOBnZwO51ezMAve8HogMdALo8li4FZ6y7WHvzoDbI4Gla9o5QISwvlKRojRlSU5UT-NFSF5W0hsb90LSNseApjdt2ggGyWREw--FrLJXfJ_prjoQ7WJPmk02gfH8hkN5TaGZqWyB9yOkvMJzTu4pULGAZWpXJAsoOfh3vuVRVDSpi-y717uP7KrVwEnipxX6I9mRHau0zgVegM_5focuSfb7OToA2-9Nez2WfP-CuldzOtvUQGuWN0F46ACUUkCFqV9FylXAxkufzgQCkb_tT31XfWyJ0BF0EESCA0Z1BatUGKoawXae49UFirXUvJ_EC65ZcyT40dB1qOiwnZ-Dqa8XI4VTpEiS-jzcYf9LrBVRA-RndaiS91OAG8KgjZhJtLC164PG5s3vLwnbF_S0HtshrlJO_1Tx1gLBjRhBfzHGG6FlHcRIEUasLGNA_5iLKKyeKfZWq_U490nH57fAPB8HEkIeDjRz95LlAcC2zFc4Eixow_2eXomX5CYKbLM5K4uaOgrFBvIVyNHQIEoNge0Y-M1z7QktUa8IbO-s3-l993yb-wg7FCyDDk6uWYQysYD4dGlYRdBqVQO_nBvNX6lQOvgW0Mlao4knzSYgx7SXLZlvA-9-ZfOGwWHmjFUchwHXIdSDLEpfMtsHoOn7Wbtn2pmGafcS8EkxNZIZr4cO-L4SZJeOYSIz9aj0wj3WWJbpe2SDix4wq8LqpN3zVz7RgGUpJZEVUK9QRl0jGaFAUxqjpYaWxKA6cDsjitGhtexboJTeOQ9w1A&opi=122715837
+                      - img [ref=f292e14]
+                  - img [ref=f292e17] [cursor=pointer]
+                  - generic [ref=f292e28]:
+                    - img [ref=f292e31]
+                    - generic [ref=f292e34]:
+                      - text: Ads by
+                      - img [ref=f292e35]
+                    - generic [ref=f292e38]:
+                      - generic [ref=f292e41] [cursor=pointer]: Send feedback
+                      - link [ref=f292e43] [cursor=pointer]:
+                        - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeWmbUFxuo8x1ZkcFi5sD5592yhGB55S2vybxvvZUeNrtY1cMXiIV2ZmJfEqPSnd3rXYmKW4o_oqQURoXDEzK10nTKitQwC8_dnxmDwthpx_zFFJ-cypGxV4lCHUrFPYkmpCFM_vC9426Gz6p6-6B2tFstk0JIgz5sKrBH2U0-sZvU46_3RXZ4tOl1DPjTSovtf9zpbB4nk1OHkLyWY2Tgvaj0Y4jO6f-65tGHRj69M6tClctuH3DMpFAyPR8_WSGW66AnGiakDt6w3rtu5X1Oyr-koZvn535l2Rz_iF-5BfBwjFUlVlN4KFYL_hdT3aC_RZ1alWHOMWpkcFMCXGl7GG9DaJ3zQ7UYZCBmNztS3gDYq_jw3PEPT0gBfsYCpITPRWg2FcWwjh3YygemhbjC_95WKWznovW5ufBi0Qzr1ajKEclG96DU0gM7rcncGd30KcqEbOmviASeFNkhXmyRghdacXMxrmHnIFfPCQgvu-wwR7TRz9KaNsT92StOkEvcpYFJqurozwYM2TTAIMx1ptz7Mi9LY2hnFvwLtSMDrQg7ov8WO7udIwTUDly_bwxM71OVmlovNWoekI6I_S2St2LJmNAZyxHJT67-7CdNE84CVROlMqnaMz_J3SQ1u7godCI3JwNdmHCIoauo9si527hZURwV_3LWaGk99SwUUzaQIVbFKfA7ycV-nQnZNWuGvXO-dOatHEbSvwNARtKn8YzumXyUa-KsgZe2qS4Il6y3K6MfsS87py5whYoXfUff4DRi-j7YNL_r3CjHKCQVHYXVtBzEbfv5apPXqvv7P-wUiPam8e6m3abZGGlVXH2Rbhy1l8rqcOBQni0UDFjvt7ZQ1kZjskFx5_O8aH71eipgSRpK3H_Djevi51KWSfXmducfvxN096EnY8mqxZCU_oAYU5eUH58w7icRhM7DytHU5G-e_h4mEx2d6_UgY7myWpR_L1FfgkJjV2OzAgJrYKrNcQ6ehuBkMHZuUDYyQgnSjbmwizIs_tGs_Jz5W6Yp-wlrnMYwyTJ_7OhgLh_8lGLt5ULADTQf5uZOrZFwXdS24RrsT5ZuExGYeghYJah0yfRPz6Ky5dSgb3DDb0BR9z2qnGxvwRoy8c7xIEtDtN1t9dfxCzlN2PmbuA1QNua1npGsSlILl7v8qcoFU2Fz-qJffTKgiOk55ZRX3zTvIl0AzWcgnBfqXqrbi4gc4uQrGt6kSaZV2DnqyW6FlKx1vmpdVltSGEtiDvPE8G0_JywUPoeeJE4UcH7DKraG3ppbr2wg80DCfBc5DzVuhtIw7RbdSWp04t5x9XfV2kbF5OIqkzC3nC6fAcE5Uo23K88I4xnwTZt9tgU-qGQEozjTAMOMyrp-7-rlKItlQlCyjR4z0VBhQB8b9NNdEffhtzVFub1zVFMumYUaMIqQv3J_EtUCx303S6yBLVIb3Zpd8KTCVyJSDZD6MJ1dXEaJA6B1HgcpR2Ht0zYmgVIoX3l1keYXDotDcU6Vxu8XXWAwt3q4hEJUmUS0ZwbopbF4nyaH5HCZLKuaht-t_UqFJWVuGdLbRdTiTTu7PDMaGMAcYW5N4B-AIMgGVcuiN9VbSDu1XK1PO7HXgPErVsN4E0dti1etb-5skCFhGCEXUzH5PmCfYKXg3f71TOftDb7_iS_6AFI4Uja-_Yq37nqtf8qIVLKGbJZnoPxMS6NVIOE_MhBu6v3XUHeknV9ItJezC-sksog_p910cKCoEI2mMZBv78OjGxJVIQIKSbhz2igyWyUEvDj0EoMx4Snmq2Ob0DBXqdBedRj3pq2CHsi-SNVGEqoTKOSpGnwgVmE_M5KgALcMm3zIUd8OQCOk7DTa3Vry7qkNgfqgLP3FmaMfwHyUiaD9YccJXWBi7WAqU8V3Tdd5QE8ytHPWQO2mzOKPdyZxNlBvtKGM7PftOBnZwO51ezMAve8HogMdALo8li4FZ6y7WHvzoDbI4Gla9o5QISwvlKRojRlSU5UT-NFSF5W0hsb90LSNseApjdt2ggGyWREw--FrLJXfJ_prjoQ7WJPmk02gfH8hkN5TaGZqWyB9yOkvMJzTu4pULGAZWpXJAsoOfh3vuVRVDSpi-y717uP7KrVwEnipxX6I9mRHau0zgVegM_5focuSfb7OToA2-9Nez2WfP-CuldzOtvUQGuWN0F46ACUUkCFqV9FylXAxkufzgQCkb_tT31XfWyJ0BF0EESCA0Z1BatUGKoawXae49UFirXUvJ_EC65ZcyT40dB1qOiwnZ-Dqa8XI4VTpEiS-jzcYf9LrBVRA-RndaiS91OAG8KgjZhJtLC164PG5s3vLwnbF_S0HtshrlJO_1Tx1gLBjRhBfzHGG6FlHcRIEUasLGNA_5iLKKyeKfZWq_U490nH57fAPB8HEkIeDjRz95LlAcC2zFc4Eixow_2eXomX5CYKbLM5K4uaOgrFBvIVyNHQIEoNge0Y-M1z7QktUa8IbO-s3-l993yb-wg7FCyDDk6uWYQysYD4dGlYRdBqVQO_nBvNX6lQOvgW0Mlao4knzSYgx7SXLZlvA-9-ZfOGwWHmjFUchwHXIdSDLEpfMtsHoOn7Wbtn2pmGafcS8EkxNZIZr4cO-L4SZJeOYSIz9aj0wj3WWJbpe2SDix4wq8LqpN3zVz7RgGUpJZEVUK9QRl0jGaFAUxqjpYaWxKA6cDsjitGhtexboJTeOQ9w1A&opi=122715837
+                        - generic [ref=f292e44]:
+                          - text: Why this ad?
+                          - img [ref=f292e45]
+                  - generic [ref=f292e47]:
+                    - generic [ref=f292e50] [cursor=pointer]: Not interested in this ad
+                    - generic [ref=f292e53] [cursor=pointer]: Ad covered content
+                    - generic [ref=f292e56] [cursor=pointer]: Seen this ad multiple times
+                    - generic [ref=f292e59] [cursor=pointer]: Ad was inappropriate
+                  - generic [ref=f292e65]: Thanks. Feedback improves Google ads
+                  - generic [ref=f292e71]:
+                    - text: Ad closed by
+                    - img [ref=f292e72]
+              - generic [ref=e974]: Advertisement
+      - iframe [ref=e978]:
+        - link [ref=f267e4] [cursor=pointer]:
+          - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstIj4J3QU0R4lnltKSlMDwdvjh57u1mpl23WmoVbLSEMxOCrIuZqsSP_ldlNCijs8wmqym9jKJnzMGvk7iKFM7WIbTsSItTqm0yYTYTDHaH7skuGHOrJhvLPVFk7C0vqDal-LXmeqmXMc0ajSLqAPnGbYfnZXdu_uIfDCDX7O_gfBVBtrqA6oPTRpkJV7QRtDuLlqzLVLY3Ud3ojXzGBeoDmZ9akwRyC4OB0R20BvQNWPdNj_OgITyg5nAc0vN3SjnecMeePZGdreUKHa8pCDS6LyL-V4gOg8nUkqwpHCjXvTThPIRuDtkXnPWXNPv_Ya8XWNQY8sqKFTqv9RCilMmzBJyBdPehjUu8jQnVj4ecBPElecrRA8ZuC12OHgG6s1OAd_JR8QCV-6HxFzSWyFxGhoPyKfKA8eSjxcW8gw7F8FXz-TEORfSxqoyZzND2dAgqoOclZOHcZf-OceA1msZ7l4qzDArnvbDTRU52Zrcv02q4evfG48GXgxcjY4qTL5OrPA3E6w&sai=AMfl-YR3z2gjJ1nq6B-E6o5CXvDt1o4JMvqFVrw9HpibJPxCgy-rYIhgBmsQYIyjOQjoadtFjdKMQl8UjaV4JRXkTeWcd55gfxhgTYidXBgF3Q1to0YaKelgaK5zGSuSxOSlwV53-9vHfk3pASKYQipo833jmhFGf-IUPQz6__vpL74kJ8LM7QP9TIQbX2oeztpUZ74t8WKjQffEr623hWzwTf8AtkeALfo2qGx1AXm6xEJ7RIXP__tcj2mMszSSfYwGMy6EO5_ipuo10rMbOut8aLHeKMijcZyQsmMtUrjiNAA6oQvLZ5392TS0m2ASQSdfy0uV2K2_nYgExgX--wh_xlmhj5elNqIxDA&sig=Cg0ArKJSzO_j4T94Uv2REAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.fanatical.com/en/?utm_source=fandom&utm_medium=partner&utm_campaign=fanatical_evergreen&utm_content=evergreen_970x250
+          - img [ref=f267e5]
+    - contentinfo [ref=e979]:
+      - generic [ref=e980]:
+        - generic [ref=e981]:
+          - heading "Fandom homepage" [level=2] [ref=e982]:
+            - link "Fandom homepage" [ref=e983] [cursor=pointer]:
+              - /url: https://www.fandom.com/
+              - img "Fandom logo" [ref=e984]
+          - generic [ref=e985]:
+            - heading "Explore properties" [level=3] [ref=e986]
+            - list [ref=e987]:
+              - listitem [ref=e988]:
+                - link "Fandom" [ref=e989] [cursor=pointer]:
+                  - /url: https://www.fandom.com/
+              - listitem [ref=e990]:
+                - link "Fanatical" [ref=e991] [cursor=pointer]:
+                  - /url: https://www.fanatical.com/
+              - listitem [ref=e992]:
+                - link "GameSpot" [ref=e993] [cursor=pointer]:
+                  - /url: https://www.gamespot.com/
+              - listitem [ref=e994]:
+                - link "Metacritic" [ref=e995] [cursor=pointer]:
+                  - /url: https://www.metacritic.com/
+              - listitem [ref=e996]:
+                - link "TV Guide" [ref=e997] [cursor=pointer]:
+                  - /url: https://www.tvguide.com/
+              - listitem [ref=e998]:
+                - link "Honest Entertainment" [ref=e999] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/screenjunkies
+          - generic [ref=e1000]:
+            - heading "Follow Us" [level=3] [ref=e1001]
+            - list [ref=e1002]:
+              - listitem [ref=e1003]:
+                - link "Follow Fandom on Facebook" [ref=e1004] [cursor=pointer]:
+                  - /url: https://www.facebook.com/getfandom
+                  - img [ref=e1005]
+              - listitem [ref=e1007]:
+                - link "Follow Fandom on Twitter" [ref=e1008] [cursor=pointer]:
+                  - /url: https://twitter.com/getfandom
+                  - img [ref=e1009]
+              - listitem [ref=e1011]:
+                - link "Follow Fandom on Youtube" [ref=e1012] [cursor=pointer]:
+                  - /url: https://www.youtube.com/fandomentertainment
+                  - img [ref=e1013]
+              - listitem [ref=e1015]:
+                - link "Follow Fandom on Instagram" [ref=e1016] [cursor=pointer]:
+                  - /url: https://www.instagram.com/getfandom/
+                  - img [ref=e1017]
+              - listitem [ref=e1019]:
+                - link "Follow Fandom on LinkedIn" [ref=e1020] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/157252
+                  - img [ref=e1021]
+        - generic [ref=e1024]:
+          - heading "Overview" [level=3] [ref=e1025]
+          - list [ref=e1026]:
+            - listitem [ref=e1027]:
+              - link "What is Fandom?" [ref=e1028] [cursor=pointer]:
+                - /url: https://www.fandom.com/what-is-fandom
+            - listitem [ref=e1029]:
+              - link "Essentials" [ref=e1030] [cursor=pointer]:
+                - /url: https://www.fandom.com/essentials
+            - listitem [ref=e1031]:
+              - link "About" [ref=e1032] [cursor=pointer]:
+                - /url: https://www.fandom.com/about
+            - listitem [ref=e1033]:
+              - link "Careers" [ref=e1034] [cursor=pointer]:
+                - /url: https://www.fandom.com/careers
+            - listitem [ref=e1035]:
+              - link "Press" [ref=e1036] [cursor=pointer]:
+                - /url: https://www.fandom.com/press
+            - listitem [ref=e1037]:
+              - link "Contact" [ref=e1038] [cursor=pointer]:
+                - /url: https://www.fandom.com/about#contact
+            - listitem [ref=e1039]:
+              - link "Terms of Use" [ref=e1040] [cursor=pointer]:
+                - /url: https://www.fandom.com/terms-of-use
+            - listitem [ref=e1041]:
+              - link "Privacy Policy" [ref=e1042] [cursor=pointer]:
+                - /url: https://www.fandom.com/privacy-policy
+            - listitem [ref=e1043]:
+              - link "Digital Services Act" [ref=e1044] [cursor=pointer]:
+                - /url: https://www.fandom.com/digital-services-act
+            - listitem [ref=e1045]:
+              - link "Global Sitemap" [ref=e1046] [cursor=pointer]:
+                - /url: //community.fandom.com/Sitemap
+            - listitem [ref=e1047]:
+              - link "Local Sitemap" [ref=e1048] [cursor=pointer]:
+                - /url: /wiki/Local_Sitemap
+            - listitem [ref=e1049]:
+              - button "Cookies Settings" [ref=e1050]
+        - generic [ref=e1051]:
+          - generic [ref=e1052]:
+            - heading "Community" [level=3] [ref=e1053]
+            - list [ref=e1054]:
+              - listitem [ref=e1055]:
+                - link "Community Central" [ref=e1056] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Community_Central
+              - listitem [ref=e1057]:
+                - link "Support" [ref=e1058] [cursor=pointer]:
+                  - /url: https://fandom.zendesk.com/
+              - listitem [ref=e1059]:
+                - link "Help" [ref=e1060] [cursor=pointer]:
+                  - /url: //community.fandom.com/wiki/Help:Contents
+          - generic [ref=e1061]:
+            - heading "Advertise" [level=3] [ref=e1062]
+            - list [ref=e1063]:
+              - listitem [ref=e1064]:
+                - link "Media Kit" [ref=e1065] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit
+              - listitem [ref=e1066]:
+                - link "Contact" [ref=e1067] [cursor=pointer]:
+                  - /url: https://about.fandom.com/mediakit#contact
+        - generic [ref=e1068]:
+          - generic [ref=e1069]:
+            - heading "Fandom Apps" [level=3] [ref=e1070]
+            - text: Take your favorite fandoms with you and never miss a beat.
+          - generic [ref=e1071]:
+            - img "Fandom App logo" [ref=e1072]
+            - list [ref=e1073]:
+              - listitem [ref=e1074]:
+                - link "Fandom's Apple Store" [ref=e1075] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/fandom-videos-news-reviews/id1230063803
+                  - img "Store icon" [ref=e1076]
+              - listitem [ref=e1077]:
+                - link "Fandom's Google Play" [ref=e1078] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.fandom.app&referrer=utm_source%3Dwikia%26utm_medium%3Dglobalfooter
+                  - img "Store icon" [ref=e1079]
+      - generic [ref=e1080]:
+        - generic [ref=e1081]: Catch! Teenieping Wiki is a Fandom TV Community.
+        - button "View Mobile Site" [ref=e1083]
+  - generic: Cookies Settings

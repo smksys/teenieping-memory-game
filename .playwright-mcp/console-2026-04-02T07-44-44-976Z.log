@@ -1,0 +1,2 @@
+[     115ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/Users/leo.mk/source/claude-test/index.html:0
+[     171ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/favicon.ico:0

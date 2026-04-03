@@ -1,0 +1,34 @@
+[    1188ms] [INFO] exp_bucket cookie is not set or has an invalid value. DTNR observability will not be initialized. @ https://catchteenieping.fandom.com/__cb4203520006293961/resources-ucp/mw143/dist/scripts/dtnr-observability.js:0
+[    1325ms] [WARNING] This page is using the deprecated ResourceLoader module "skin.fandomdesktop.styles".
+[1.43] The use of the `interface-message-box` feature with SkinModule is deprecated in favor of CodexModule. Please remove this feature.More information can be found at [[mw:Manual:ResourceLoaderSkinModule]].  @ https://catchteenieping.fandom.com/wiki/Joahping:3578
+[    1416ms] [LOG] PLSUB init called 17751157111925610 @ https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js:5
+[    1442ms] [WARNING] This page is using the deprecated ResourceLoader module "mediawiki.Uri".
+[1.43] Please use browser native URL. @ https://catchteenieping.fandom.com/load.php?cb=20260306224038&lang=en&modules=startup&only=scripts&raw=1&skin=fandomdesktop:0
+[    1525ms] [WARNING] This page is using the deprecated ResourceLoader module "jquery.ui".
+Please use Codex instead. @ https://catchteenieping.fandom.com/load.php?cb=20260306224038&lang=en&modules=startup&only=scripts&raw=1&skin=fandomdesktop:0
+[    1869ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://services.fandom.com/galactus-user-profile/profiles/ZHASN9rb-V:0
+[    1874ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://catchteenieping.fandom.com/wiki/JWPlayer.js:0
+[    2018ms] [WARNING] react-i18next:: You will need to pass in an i18next instance by using initReactI18next @ https://auth.fandom.com/_next/static/chunks/pages/_app-a2f48a20c0950b68.js:0
+[    2038ms] [INFO] Validated parent origin @ https://auth.fandom.com/_next/static/chunks/pages/auth/onetap/init-9a46c7e58433bbf4.js:0
+[    2040ms] [LOG] %cSilverSurfer | 0.4231s | Manual pageview is enabled background-color: silver;;padding: 2px 4px;border-radius: 2px;color: #000 @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
+[    2042ms] [WARNING] [GSI_LOGGER]: Your client application may not display Google One Tap when FedCM becomes mandatory. Opt-in to FedCM to test that you have the proper cross-origin permission policy set up. Ignore this message if One Tap is displayed after opt-in to FedCM. Learn more: (https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#cross_origin) @ https://accounts.google.com/gsi/client:80
+[    2043ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[    2043ms] [ERROR] Not signed in with the identity provider. @ https://auth.fandom.com/auth/onetap/init?uselang=en&wikiId=2186492&metadata=one-tap&redirect=https%3A%2F%2Fcatchteenieping.fandom.com%2Fwiki%2FJoahping:0
+[    2096ms] [LOG] %cPathfinder | 2.0528s | Rendered modules color: #fff;padding: 2px 4px;border-radius: 2px;background-color: #334 [] @ https://static.wikia.nocookie.net/silversurfer/prod/latest/pathfinder.js:0
+[    2097ms] [LOG] PHQ=false @ https://static.wikia.nocookie.net/silversurfer/prod/latest/pathfinder.js:0
+[    3548ms] [INFO] Powered by AMP ⚡ HTML – Version 2603032146000 https://catchteenieping.fandom.com/wiki/Joahping @ https://cdn.ampproject.org/rtv/012603032146000/amp4ads-v0.mjs:1
+[    3575ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://hb.yahoo.net/cksync.php?cs=1&type=58280&ovsid=762b2244-2dc9-4b6c-b6fe-440174682b4a:0
+[    3899ms] [LOG] Skipped tag mbn g @ https://js.outcomes.net/fandom_9zBJcXvn6y44xLgl/gam_display.js:0
+[    3912ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3958ms] [LOG] mraid ping not available @ https://supply.inmobicdn.net/lagom-assets/banner/1.4.92/main.banner.1.4.92.bundle.js:1
+[    3965ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4014ms] Failed to read a named property 'mraid' from 'Window': Blocked a frame with origin "null" from accessing a cross-origin frame.
+[    3912ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3965ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4013ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4591ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://us.shb-sync.com/bf2ecb77-8b3f-11ed-9a3c-0cc47a787f5e.gif?puid=[UID]&redir=https%3A%2F%2Fs.ad.smaato.net%2Fc%2F%3FdspId%3D1074%26dspCookie%3D%5BUID%5D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent=:0
+[    6846ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/connatix?redir=https%3A%2F%2Fcapi.connatix.com%2Fcore%2Fus%3FDemandPartner%3D15%26UserId%3D2-547e7d43a2d747b1a5ef76ca7f8c5a75%26DemandPartnerName%3DBeeswax%26tier%3D2%26uid%3D%7Buserid%7D&gdpr=0:0
+[   10152ms] [ERROR] Unsafe attempt to initiate navigation for frame with URL 'about:blank' from frame with URL 'about:srcdoc'. The frame attempting navigation must be same-origin with the target if navigating to a javascript: url
+ @ https://choices.trustarc.com/get?name=pmw2.js:0
+[   11135ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:81
+[   15439ms] [ERROR] %cSilverSurfer | 15.3958s | Cross domain timeout background-color: silver;;padding: 2px 4px;border-radius: 2px;color: #300 @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0
