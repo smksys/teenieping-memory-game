@@ -20,8 +20,9 @@
     body {
       background: var(--bg-color);
       color: #333;
-      overflow-x: hidden;
+      overflow: hidden; /* Prevent all scrolling */
       touch-action: manipulation;
+      width: 100vw; height: 100vh; height: 100dvh;
     }
 
     /* ─── Start Screen & Modals ─── */
@@ -73,10 +74,11 @@
 
     .diff-icon { font-size: 2rem; margin-bottom: 5px; }
     .diff-label { font-size: 1rem; font-weight: 900; }
+    .diff-best { font-size: 0.75rem; font-weight: 800; color: #FF69B4; min-height: 1em; margin-top: 4px; }
     .diff-sub { font-size: 0.75rem; color: currentColor; opacity: 0.7; margin-top: 4px; }
 
     /* ─── Game Screen ─── */
-    #game-screen { display: none; flex-direction: column; align-items: center; padding: 20px 10px; min-height: 100vh; }
+    #game-screen { display: none; flex-direction: column; align-items: center; padding: 15px 10px; height: 100%; width:100%; overflow: hidden; box-sizing: border-box; }
     
     .hud {
       display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 600px;
@@ -88,16 +90,43 @@
     .hud-val { font-size: 1.25rem; font-weight: 900; color: #333; }
     
     /* 2 Player specific HUD */
-    .p1-box, .p2-box { transition: 0.3s; padding: 8px; border-radius: 12px; }
-    .active-p1 { background: #e0f7fa; border: 2px solid #00acc1; transform: scale(1.05); }
-    .active-p2 { background: #fce4ec; border: 2px solid #d81b60; transform: scale(1.05); }
+    .p1-box, .p2-box { transition: 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); padding: 8px; border-radius: 12px; }
+    .active-p1 { background: #e0f7fa; border: 2px solid #00acc1; transform: scale(1.1); box-shadow: 0 0 20px rgba(0,172,193,0.4); }
+    .active-p2 { background: #fce4ec; border: 2px solid #d81b60; transform: scale(1.1); box-shadow: 0 0 20px rgba(216,27,96,0.4); }
     
     .p1-score { color: #00acc1; }
     .p2-score { color: #d81b60; }
 
+    /* Turn Change Overlay */
+    #turn-overlay {
+      position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      z-index: 200; pointer-events: none; opacity: 0;
+      transition: none;
+    }
+    #turn-overlay.show {
+      animation: turnFlash 1.2s ease-out forwards;
+      pointer-events: all;
+    }
+    @keyframes turnFlash {
+      0%   { opacity: 0; transform: scale(0.7); }
+      20%  { opacity: 1; transform: scale(1.05); }
+      75%  { opacity: 1; transform: scale(1); }
+      100% { opacity: 0; transform: scale(1.1); }
+    }
+    .turn-overlay-text {
+      font-size: 3.5rem; font-weight: 900; letter-spacing: 0.05em;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      -webkit-text-stroke: 2px rgba(255,255,255,0.6);
+    }
+    .turn-overlay-sub {
+      font-size: 1.3rem; font-weight: 700; margin-top: 12px;
+      opacity: 0.85;
+    }
+
     .grid {
-      display: grid; gap: 8px; justify-content: center; align-content: center;
-      width: 100%; max-width: 680px; margin: auto;
+      display: grid; justify-content: center; align-content: center;
+      margin: auto; box-sizing: border-box;
     }
     
     .card {
@@ -115,7 +144,8 @@
       border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;
     }
     .card-front { background: linear-gradient(135deg, #FF9A9E 0%, #FECFEF 100%); }
-    .card-front::after { content: '💖'; font-size: 1.8vw; }
+    .card-front::after { content: '💖'; font-size: 2.5em; }
+    .card-front { font-size: clamp(10px, 3.5vmin, 30px); }
     
     @media (max-width: 480px) {
       .card-front::after { font-size: 1.8rem; }
@@ -224,31 +254,36 @@
 
       <div class="diff-cards">
         <div class="diff-card easy" onclick="startGame('easy')">
-          <div class="diff-icon">🌱</div><div class="diff-label">초보</div><div class="diff-sub">16장 (8쌍)</div>
+          <div class="diff-icon">🌱</div><div class="diff-label">초보</div><div class="diff-sub">16장 (8쌍)</div><div class="diff-best" id="best-easy"></div>
         </div>
         <div class="diff-card medium" onclick="startGame('medium')">
-          <div class="diff-icon">⭐</div><div class="diff-label">중수</div><div class="diff-sub">24장 (12쌍)</div>
+          <div class="diff-icon">⭐</div><div class="diff-label">중수</div><div class="diff-sub">24장 (12쌍)</div><div class="diff-best" id="best-medium"></div>
         </div>
         <div class="diff-card hard" onclick="startGame('hard')">
-          <div class="diff-icon">🔥</div><div class="diff-label">고수</div><div class="diff-sub">36장 (18쌍)</div>
+          <div class="diff-icon">🔥</div><div class="diff-label">고수</div><div class="diff-sub">36장 (18쌍)</div><div class="diff-best" id="best-hard"></div>
         </div>
         <div class="diff-card extreme" onclick="startGame('extreme')">
-          <div class="diff-icon">😈</div><div class="diff-label">지옥</div><div class="diff-sub">50장 (25쌍)</div>
+          <div class="diff-icon">😈</div><div class="diff-label">지옥</div><div class="diff-sub">50장 (25쌍)</div><div class="diff-best" id="best-extreme"></div>
         </div>
         <div class="diff-card ultimate" onclick="startGame('ultimate')">
-          <div class="diff-icon">💀</div><div class="diff-label">얼티밋</div><div class="diff-sub">70장 (35쌍)</div>
+          <div class="diff-icon">💀</div><div class="diff-label">얼티밋</div><div class="diff-sub">70장 (35쌍)</div><div class="diff-best" id="best-ultimate"></div>
         </div>
         <div class="diff-card god" onclick="startGame('god')">
-          <div class="diff-icon">👑</div><div class="diff-label">신(神)</div><div class="diff-sub">90장 (45쌍)</div>
+          <div class="diff-icon">👑</div><div class="diff-label">신(神)</div><div class="diff-sub">90장 (45쌍)</div><div class="diff-best" id="best-god"></div>
         </div>
       </div>
   </div>
 
   <div id="quiz-panel">
-      <div style="text-align:center; color:#555; margin-bottom: 20px; line-height: 1.6;">
+      <div id="quiz-desc" style="text-align:center; color:#555; margin-bottom: 20px; line-height: 1.6;">
         랜덤으로 등장하는 티니핑의 사진을 보고<br>누구인지 맞추는 5지선다 스피드 퀴즈입니다!
       </div>
+      <div class="mode-select">
+        <div class="mode-btn active" id="quiz-obj" onclick="setQuizMode('obj')">객관식</div>
+        <div class="mode-btn" id="quiz-subj" onclick="setQuizMode('subj')">주관식</div>
+      </div>
       <button class="btn-large" onclick="startQuiz()">▶ 퀴즈 시작하기</button>
+      <div id="quiz-best-records" style="margin-top:20px; font-weight:800; color:var(--primary); font-size:1.1rem; line-height:1.5;"></div>
   </div>
 </div>
 
@@ -256,19 +291,26 @@
 <div id="game-screen">
   <!-- HUD 1P -->
   <div id="hud-1p" class="hud" style="display:none;">
-    <div class="hud-block"><div class="hud-header">기록</div><div class="hud-val" id="hud-best">-</div></div>
+    <div class="hud-block"><div class="hud-header">최고 점수</div><div class="hud-val" id="hud-best" style="color:var(--primary)">-</div></div>
+    <div class="hud-block"><div class="hud-header">시간</div><div class="hud-val" id="hud-time">00:00</div></div>
     <div class="hud-block"><div class="hud-header">시도 횟수</div><div class="hud-val" id="hud-moves">0</div></div>
   </div>
   
   <!-- HUD 2P -->
   <div id="hud-2p" class="hud" style="display:none;">
     <div class="hud-block p1-box" id="box-p1">
-      <div class="hud-header">P1 점수</div><div class="hud-val p1-score" id="score-p1">0</div>
+      <div class="hud-header">Player 1</div><div class="hud-val p1-score" id="score-p1">0</div>
     </div>
-    <div class="hud-block"><div class="hud-header" id="turn-indicator" style="font-size:1rem;color:#777;height:100%;display:flex;align-items:center;justify-content:center;">Turn</div></div>
+    <div class="hud-block"><div id="turn-indicator" style="font-size:0.9rem;font-weight:900;color:#777;text-align:center;">↕ Turn</div></div>
     <div class="hud-block p2-box" id="box-p2">
-      <div class="hud-header">P2 점수</div><div class="hud-val p2-score" id="score-p2">0</div>
+      <div class="hud-header">Player 2</div><div class="hud-val p2-score" id="score-p2">0</div>
     </div>
+  </div>
+
+  <!-- Turn Change Overlay -->
+  <div id="turn-overlay">
+    <div class="turn-overlay-text" id="turn-overlay-text">Player 1 턴!</div>
+    <div class="turn-overlay-sub" id="turn-overlay-sub">카드를 뒤집으세요</div>
   </div>
 
   <div class="grid" id="grid"></div>
@@ -288,8 +330,11 @@
       <div id="quiz-overlay" class="quiz-overlay"></div>
     </div>
     
-    <div class="quiz-options" id="quiz-options">
-      <!-- Buttons will be injected here -->
+    <div class="quiz-options" id="quiz-options"></div>
+    <div id="quiz-input-box" style="display:none; flex-direction:column; gap:10px;">
+      <input type="text" id="quiz-input" placeholder="이름을 입력하세요 (핑 제외 가능)" style="padding:16px; border-radius:16px; border:3px solid var(--primary); font-size:1.4rem; font-weight:800; text-align:center; outline:none; transition:0.2s;">
+      <button class="quiz-btn" style="background:var(--primary); color:#fff; font-size:1.3rem; margin-top:5px;" onclick="submitSubjAnswer()">정답 확인</button>
+      <div id="quiz-correct-ans-show" style="color:#ef5350; font-weight:900; margin-top:5px; height:20px; font-size:1.1rem;"></div>
     </div>
   </div>
 </div>
@@ -300,6 +345,22 @@
   <div class="win-score" id="win-score"></div>
   <button class="btn" onclick="restart()">다시하기</button>
   <button class="btn outline" onclick="goHome()">메뉴로</button>
+</div>
+
+<!-- 2P NAME INPUT MODAL -->
+<div id="name-modal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(255,255,255,0.97); z-index:300; flex-direction:column; align-items:center; justify-content:center; gap:20px;">
+  <div style="font-size:2rem; font-weight:900; color:var(--primary-dark);">👥 플레이어 이름 설정</div>
+  <div style="width:100%; max-width:340px; display:flex; flex-direction:column; gap:14px;">
+    <div>
+      <label style="font-weight:800; color:#00acc1; margin-bottom:6px; display:block;">📘 Player 1 이름</label>
+      <input id="p1-name-input" type="text" maxlength="8" placeholder="이름을 입력하세요" style="width:100%; padding:14px 18px; border-radius:16px; border:3px solid #00acc1; font-size:1.2rem; font-weight:800; outline:none;">
+    </div>
+    <div>
+      <label style="font-weight:800; color:#d81b60; margin-bottom:6px; display:block;">📕 Player 2 이름</label>
+      <input id="p2-name-input" type="text" maxlength="8" placeholder="이름을 입력하세요" style="width:100%; padding:14px 18px; border-radius:16px; border:3px solid #d81b60; font-size:1.2rem; font-weight:800; outline:none;">
+    </div>
+    <button onclick="confirmNames()" style="margin-top:10px; padding:18px; background:linear-gradient(135deg,#FF69B4,#FF1493); color:#fff; border:none; border-radius:20px; font-size:1.3rem; font-weight:900; cursor:pointer; box-shadow:0 6px 20px rgba(255,105,180,0.4);">▶ 게임 시작</button>
+  </div>
 </div>
 
 <script>
@@ -375,7 +436,28 @@ let timerInt;
 // 2P State
 let p1Score = 0;
 let p2Score = 0;
-let currentPlayer = 1; // 1 or 2
+let currentPlayer = 1;
+let p1Name = 'Player 1';
+let p2Name = 'Player 2';
+let pendingDiff = null; // stores diff while showing name modal
+
+
+function updateBestRecords() {
+  ['easy', 'medium', 'hard', 'extreme', 'ultimate', 'god'].forEach(diff => {
+    let best = localStorage.getItem('teenieping_best_' + diff);
+    const el = document.getElementById('best-' + diff);
+    if (el) el.innerHTML = best ? '🏆 <b style="color:var(--primary)">' + best + '</b>점' : '';
+  });
+  
+  let qObj = localStorage.getItem('teenieping_quiz_obj') || 0;
+  let qSubj = localStorage.getItem('teenieping_quiz_subj') || 0;
+  const qEl = document.getElementById('quiz-best-records');
+  if (qEl) {
+    qEl.innerHTML = `🏆 최고 기록<br>객관식: <span style="color:#00acc1">${qObj}</span>점 / 주관식: <span style="color:#d81b60">${qSubj}</span>점`;
+  }
+}
+window.addEventListener('DOMContentLoaded', updateBestRecords);
+updateBestRecords();
 
 function setMode(mode) {
   selectedMode = mode;
@@ -396,6 +478,7 @@ function switchMainTab(tab) {
 }
 
 // ─── QUIZ LOGIC ───
+let quizMode = 'obj';
 let quizPool = [];
 let maxQuestions = 20;
 let currentQNumber = 0;
@@ -403,12 +486,62 @@ let quizScore = 0;
 let currentTarget = null;
 let takingAnswer = false;
 
+
+function setQuizMode(m) {
+  quizMode = m;
+  document.getElementById('quiz-obj').classList.toggle('active', m === 'obj');
+  document.getElementById('quiz-subj').classList.toggle('active', m === 'subj');
+  document.getElementById('quiz-desc').innerHTML = m === 'obj' 
+    ? '랜덤으로 등장하는 티니핑의 사진을 보고<br>누구인지 맞추는 5지선다 퀴즈입니다!'
+    : '사진을 보고 직접 키보드로<br>정확한 이름을 입력하는 <b>타자 퀴즈</b>입니다!';
+}
+
+function submitSubjAnswer() {
+  if (!takingAnswer) return;
+  const inputEl = document.getElementById('quiz-input');
+  let val = inputEl.value.trim().replace(/ /g, '');
+  if (!val) return;
+  
+  // auto append 핑 if user just typed the first part (e.g. 하츄)
+  if (!val.endsWith('핑') && val.length > 0) val += '핑';
+  
+  takingAnswer = false;
+  const isCorrect = val === currentTarget.name;
+  
+  const overlay = document.getElementById('quiz-overlay');
+  if (isCorrect) {
+    quizScore++;
+    SFX.quizCorrect();
+    inputEl.style.borderColor = '#4caf50'; inputEl.style.color = '#2e7d32';
+    inputEl.style.background = '#e8f5e9';
+    overlay.innerText = 'O';
+    overlay.className = 'quiz-overlay show-O';
+  } else {
+    SFX.quizWrong();
+    inputEl.style.borderColor = '#ef5350'; inputEl.style.color = '#c62828';
+    inputEl.style.background = '#ffebee';
+    overlay.innerText = 'X';
+    overlay.className = 'quiz-overlay show-X';
+    document.getElementById('quiz-correct-ans-show').innerText = `정답: ${currentTarget.name}`;
+  }
+  
+  document.getElementById('quiz-score').innerText = `점수: ${quizScore}`;
+  
+  setTimeout(() => {
+    currentQNumber++;
+    loadNextQuestion();
+  }, isCorrect ? 1200 : 2000); // wait longer if wrong so they can read the answer
+}
+
 function startQuiz() {
   document.getElementById('start-screen').style.display = 'none';
   document.getElementById('game-screen').style.display = 'none';
   document.getElementById('quiz-screen').style.display = 'flex';
   
   // Quiz runs on completely random 20 items.
+  document.getElementById('quiz-input').onkeypress = (e) => {
+    if (e.key === 'Enter') submitSubjAnswer();
+  };
   quizPool = shuffle([...CHARS]).slice(0, maxQuestions);
   currentQNumber = 0;
   quizScore = 0;
@@ -436,19 +569,37 @@ function loadNextQuestion() {
   document.getElementById('quiz-overlay').innerText = '';
   
   // Setup Options
-  let wrongAnswers = shuffle([...CHARS]).filter(c => c.name !== currentTarget.name).slice(0, 4);
-  let options = shuffle([currentTarget, ...wrongAnswers]);
-  
-  const optionsDiv = document.getElementById('quiz-options');
-  optionsDiv.innerHTML = '';
-  
-  options.forEach(opt => {
-    const btn = document.createElement('div');
-    btn.className = 'quiz-btn';
-    btn.innerText = opt.name;
-    btn.onclick = () => submitAnswer(btn, opt.name === currentTarget.name);
-    optionsDiv.appendChild(btn);
-  });
+  if (quizMode === 'obj') {
+    document.getElementById('quiz-options').style.display = 'flex';
+    document.getElementById('quiz-input-box').style.display = 'none';
+    
+    let wrongAnswers = shuffle([...CHARS]).filter(c => c.name !== currentTarget.name).slice(0, 4);
+    let options = shuffle([currentTarget, ...wrongAnswers]);
+    
+    const optionsDiv = document.getElementById('quiz-options');
+    optionsDiv.innerHTML = '';
+    
+    options.forEach(opt => {
+      const btn = document.createElement('div');
+      btn.className = 'quiz-btn';
+      btn.innerText = opt.name;
+      btn.onclick = () => submitAnswer(btn, opt.name === currentTarget.name);
+      optionsDiv.appendChild(btn);
+    });
+  } else {
+    document.getElementById('quiz-options').style.display = 'none';
+    document.getElementById('quiz-input-box').style.display = 'flex';
+    
+    const inputEl = document.getElementById('quiz-input');
+    inputEl.value = '';
+    inputEl.style.borderColor = 'var(--primary)';
+    inputEl.style.color = '#333';
+    inputEl.style.background = '#fff';
+    document.getElementById('quiz-correct-ans-show').innerText = '';
+    
+    // Focus automatically on desktop
+    setTimeout(() => inputEl.focus(), 50);
+  }
 }
 
 function submitAnswer(btn, isCorrect) {
@@ -459,10 +610,12 @@ function submitAnswer(btn, isCorrect) {
   
   if (isCorrect) {
     quizScore++;
+    SFX.quizCorrect();
     btn.classList.add('correct-ans');
     overlay.innerText = 'O';
     overlay.className = 'quiz-overlay show-O';
   } else {
+    SFX.quizWrong();
     btn.classList.add('wrong-ans');
     // Highlight correct one
     Array.from(document.getElementById('quiz-options').children).forEach(child => {
@@ -484,9 +637,18 @@ function showQuizWin() {
   document.getElementById('quiz-screen').style.display = 'none';
   document.getElementById('win-modal').style.display = 'flex';
   
+  const key = 'teenieping_quiz_' + quizMode;
+  let oldBest = parseInt(localStorage.getItem(key) || '0');
+  let newRecordStr = '';
+  if (quizScore > oldBest) {
+    localStorage.setItem(key, quizScore);
+    newRecordStr = `<br><br><span style="color:var(--primary); font-size:1.1rem; font-weight:900;">🏆 신기록 갱신!</span>`;
+    updateBestRecords();
+  }
+  
   document.getElementById('win-title').innerText = '퀴즈 종료! 🏆';
   document.getElementById('win-title').style.color = 'var(--primary-dark)';
-  document.getElementById('win-score').innerHTML = `${maxQuestions}문제 중<br><b>${quizScore}점</b>을 맞히셨어요!`;
+  document.getElementById('win-score').innerHTML = `${maxQuestions}문제 중<br><b style="font-size:1.8rem;color:#d81b60;">${quizScore}점</b>을 맞히셨어요!` + newRecordStr;
 }
 
 function goHome() {
@@ -513,7 +675,94 @@ function shuffle(array) {
   return array;
 }
 
+
+function resizeGrid() {
+  const grid = document.getElementById('grid');
+  if (!grid || !pairsCount) return;
+  const totalCards = pairsCount * 2;
+  
+  // Available space
+  const paddingX = 20;
+  const hud = document.getElementById(selectedMode === 1 ? 'hud-1p' : 'hud-2p');
+  const paddingY = 30 + (hud ? hud.offsetHeight : 60); 
+  
+  const availW = window.innerWidth - paddingX;
+  const availH = window.innerHeight - paddingY;
+  
+  let bestSize = 0;
+  let bestCols = 1;
+  let bestRows = 1;
+  const gap = 8;
+  
+  // Try all possible columns
+  for (let c = 1; c <= totalCards; c++) {
+    let r = Math.ceil(totalCards / c);
+    let sizeW = (availW - gap * (c - 1)) / c;
+    let sizeH = (availH - gap * (r - 1)) / r;
+    let size = Math.floor(Math.min(sizeW, sizeH));
+    
+    if (size > bestSize) {
+      bestSize = size;
+      bestCols = c;
+      bestRows = r;
+    }
+  }
+  
+  grid.style.gridTemplateColumns = `repeat(${bestCols}, ${bestSize}px)`;
+  grid.style.gridTemplateRows = `repeat(${bestRows}, ${bestSize}px)`;
+  grid.style.gap = `${gap}px`;
+  
+  // Dynamically set font sizes for cards depending on bestSize
+  const cards = grid.querySelectorAll('.card');
+  cards.forEach(card => {
+    const nameEl = card.querySelector('.card-name');
+    if (nameEl) {
+      if (bestSize < 45) {
+        nameEl.style.fontSize = '0.55rem';
+        nameEl.style.marginTop = '1px';
+      } else if (bestSize < 60) {
+        nameEl.style.fontSize = '0.65rem';
+        nameEl.style.marginTop = '2px';
+      } else {
+        nameEl.style.fontSize = '0.75rem';
+        nameEl.style.marginTop = '4px';
+      }
+    }
+  });
+}
+
+window.addEventListener('resize', () => {
+    if (document.getElementById('game-screen').style.display === 'flex') {
+        resizeGrid();
+    }
+});
+
 function startGame(diff) {
+  // For 2P mode, show name input modal first
+  if (selectedMode === 2) {
+    pendingDiff = diff;
+    const modal = document.getElementById('name-modal');
+    modal.style.display = 'flex';
+    // Pre-fill with last used names
+    document.getElementById('p1-name-input').value = p1Name === 'Player 1' ? '' : p1Name;
+    document.getElementById('p2-name-input').value = p2Name === 'Player 2' ? '' : p2Name;
+    setTimeout(() => document.getElementById('p1-name-input').focus(), 50);
+    return;
+  }
+  _doStartGame(diff);
+}
+
+function confirmNames() {
+  SFX.click();
+  const n1 = document.getElementById('p1-name-input').value.trim();
+  const n2 = document.getElementById('p2-name-input').value.trim();
+  p1Name = n1 || 'Player 1';
+  p2Name = n2 || 'Player 2';
+  document.getElementById('name-modal').style.display = 'none';
+  _doStartGame(pendingDiff);
+}
+
+function _doStartGame(diff) {
   currentDiff = diff;
   const config = DIFFS[diff];
   pairsCount = config.pairs;
@@ -525,7 +774,6 @@ function startGame(diff) {
   document.getElementById('game-screen').style.display = 'flex';
   
   const grid = document.getElementById('grid');
-  grid.style.gridTemplateColumns = `repeat(${config.cols}, 1fr)`;
   grid.innerHTML = '';
 
   // Prepare UI
@@ -534,8 +782,17 @@ function startGame(diff) {
     document.getElementById('hud-2p').style.display = 'none';
     moves = 0;
     document.getElementById('hud-moves').innerText = '0';
+    document.getElementById('hud-time').innerText = '00:00';
+    if (timerInt) clearInterval(timerInt);
+    startTime = Date.now();
+    timerInt = setInterval(() => {
+      let s = Math.floor((Date.now() - startTime) / 1000);
+      let m = Math.floor(s / 60);
+      s = s % 60;
+      document.getElementById('hud-time').innerText = String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+    }, 1000);
     const best = localStorage.getItem('teenieping_best_' + diff);
-    document.getElementById('hud-best').innerText = best ? best + '회' : '-';
+    document.getElementById('hud-best').innerText = best ? parseInt(best).toLocaleString() + '점' : '-';
   } else {
     document.getElementById('hud-1p').style.display = 'none';
     document.getElementById('hud-2p').style.display = 'flex';
@@ -564,23 +821,51 @@ function startGame(diff) {
     div.onclick = () => flipCard(div);
     grid.appendChild(div);
   });
+  resizeGrid();
 }
 
-function update2PUI() {
+function update2PUI(showOverlay = false) {
   document.getElementById('score-p1').innerText = p1Score;
   document.getElementById('score-p2').innerText = p2Score;
   document.getElementById('box-p1').className = `hud-block p1-box ${currentPlayer===1?'active-p1':''}`;
   document.getElementById('box-p2').className = `hud-block p2-box ${currentPlayer===2?'active-p2':''}`;
   
+  // Update player name labels
+  document.querySelector('#box-p1 .hud-header').innerText = p1Name;
+  document.querySelector('#box-p2 .hud-header').innerText = p2Name;
+
+  const isP1 = currentPlayer === 1;
+  const curName = isP1 ? p1Name : p2Name;
   const turnInd = document.getElementById('turn-indicator');
-  turnInd.innerText = `[ Player ${currentPlayer} 턴 ]`;
-  turnInd.style.color = currentPlayer === 1 ? '#00acc1' : '#d81b60';
+  turnInd.innerHTML = isP1
+    ? `<span style="color:#00acc1">● ${p1Name} 턴</span>`
+    : `<span style="color:#d81b60">● ${p2Name} 턴</span>`;
+
+  if (showOverlay) {
+    const overlay = document.getElementById('turn-overlay');
+    const overlayText = document.getElementById('turn-overlay-text');
+    const overlaySub = document.getElementById('turn-overlay-sub');
+
+    overlayText.innerText = `${curName} 턴!`;
+    overlaySub.innerText = isP1 ? `📘 ${p1Name}님 차례입니다` : `📕 ${p2Name}님 차례입니다`;
+    overlay.style.background = isP1
+      ? 'rgba(0, 172, 193, 0.6)'
+      : 'rgba(216, 27, 96, 0.6)';
+    overlayText.style.color = '#fff';
+    overlaySub.style.color = '#fff';
+
+    overlay.classList.remove('show');
+    void overlay.offsetWidth;
+    overlay.classList.add('show');
+    setTimeout(() => overlay.classList.remove('show'), 1300);
+  }
 }
 
 function flipCard(card) {
   if (lockBoard) return;
   if (card.classList.contains('flipped') || card.classList.contains('matched')) return;
 
+  SFX.flip();
   card.classList.add('flipped');
   flippedCards.push(card);
 
@@ -601,6 +886,7 @@ function checkMatch() {
   }
 
   if (isMatch) {
+    SFX.match();
     c1.classList.add('matched');
     c2.classList.add('matched');
     matchedCount++;
@@ -614,11 +900,13 @@ function checkMatch() {
     resetBoard(false);
   } else {
     setTimeout(() => {
+      SFX.mismatch();
       c1.classList.remove('flipped');
       c2.classList.remove('flipped');
       if (selectedMode === 2) {
         currentPlayer = currentPlayer === 1 ? 2 : 1;
-        update2PUI();
+        update2PUI(true); // show overlay on turn change
+        SFX.turnChange();
       }
       resetBoard(true);
     }, 800);
@@ -632,6 +920,9 @@ function resetBoard(unflip) {
 
 function checkWin() {
   if (matchedCount === pairsCount) {
+    if (timerInt) clearInterval(timerInt);
+    const elapsed_seconds = Math.floor((Date.now() - startTime) / 1000);
+    
     setTimeout(() => {
       document.getElementById('game-screen').style.display = 'none';
       document.getElementById('win-modal').style.display = 'flex';
@@ -640,31 +931,101 @@ function checkWin() {
       const scoreDesc = document.getElementById('win-score');
       
       if (selectedMode === 1) {
-        title.innerText = '축하합니다! 🎉';
-        scoreDesc.innerHTML = `총 <b>${moves}</b> 번의 시도만에<br>모든 티니핑을 찾았어요!`;
+        SFX.win();
+        title.innerText = '클리어! 🎉';
+        
+        // Calculate Score optimally
+        const perfect_moves = pairsCount;
+        const extra_moves = Math.max(0, moves - perfect_moves);
+        const base_score = pairsCount * 1000;
+        
+        // Heavy penalty depending on difficulty allows scalability
+        const time_penalty = elapsed_seconds * 10;
+        const moves_penalty = extra_moves * 50;
+        
+        let finalScore = Math.max(10, base_score - time_penalty - moves_penalty);
+        
+        scoreDesc.innerHTML = `<span style="font-size:1rem;color:#777">시도 <b>${moves}</b>회 / <b>${elapsed_seconds}</b>초 소요</span><br><b style="font-size:2.2rem;color:var(--primary);">${finalScore.toLocaleString()}점</b>`;
         
         let best = localStorage.getItem('teenieping_best_' + currentDiff);
-        if (!best || moves < parseInt(best)) {
-          localStorage.setItem('teenieping_best_' + currentDiff, moves);
-          scoreDesc.innerHTML += `<br><span style="color:var(--primary); font-size:1.1rem; font-weight:900;">🏆 신기록 갱신!</span>`;
+        if (!best || finalScore > parseInt(best)) {
+          localStorage.setItem('teenieping_best_' + currentDiff, finalScore);
+          scoreDesc.innerHTML += `<br><span style="color:var(--primary-dark); font-size:1.1rem; font-weight:900;">🏆 <b>신기록 달성!</b></span>`;
+          updateBestRecords();
         }
       } else {
         // 2P Results
+        SFX.win();
         if (p1Score > p2Score) {
-          title.innerText = 'Player 1 승리! 🥇';
+          title.innerText = `${p1Name} 승리! 🥇`;
           title.style.color = '#00acc1';
         } else if (p2Score > p1Score) {
-          title.innerText = 'Player 2 승리! 🏅';
+          title.innerText = `${p2Name} 승리! 🏅`;
           title.style.color = '#d81b60';
         } else {
           title.innerText = '무승부! 🤝';
           title.style.color = '#888';
         }
-        scoreDesc.innerHTML = `<span style="color:#00acc1">P1 [${p1Score}]</span> VS <span style="color:#d81b60">P2 [${p2Score}]</span>`;
+        scoreDesc.innerHTML = `<span style="color:#00acc1">${p1Name} [${p1Score}점]</span><br>VS<br><span style="color:#d81b60">${p2Name} [${p2Score}점]</span>`;
       }
     }, 600);
   }
 }
+// ─── SOUND ENGINE (Web Audio API) ───
+const AudioCtx = window.AudioContext || window.webkitAudioContext;
+let _ctx = null;
+function getCtx() {
+  if (!_ctx) _ctx = new AudioCtx();
+  return _ctx;
+}
+
+function playTone(opts) {
+  try {
+    const ctx = getCtx();
+    const { freq = 440, freq2, type = 'sine', duration = 0.18, gain = 0.4, delay = 0 } = opts;
+    const osc = ctx.createOscillator();
+    const gainNode = ctx.createGain();
+    osc.connect(gainNode);
+    gainNode.connect(ctx.destination);
+    osc.type = type;
+    osc.frequency.setValueAtTime(freq, ctx.currentTime + delay);
+    if (freq2) osc.frequency.exponentialRampToValueAtTime(freq2, ctx.currentTime + delay + duration);
+    gainNode.gain.setValueAtTime(gain, ctx.currentTime + delay);
+    gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + delay + duration);
+    osc.start(ctx.currentTime + delay);
+    osc.stop(ctx.currentTime + delay + duration + 0.01);
+  } catch(e) {}
+}
+
+const SFX = {
+  flip: () => playTone({ freq: 600, freq2: 900, type: 'sine', duration: 0.1, gain: 0.25 }),
+  match: () => {
+    playTone({ freq: 523, duration: 0.12, gain: 0.35 });
+    playTone({ freq: 659, duration: 0.12, gain: 0.35, delay: 0.12 });
+    playTone({ freq: 784, duration: 0.2,  gain: 0.4,  delay: 0.24 });
+  },
+  mismatch: () => {
+    playTone({ freq: 300, freq2: 200, type: 'sawtooth', duration: 0.2, gain: 0.3 });
+  },
+  win: () => {
+    [523, 659, 784, 1047].forEach((f, i) =>
+      playTone({ freq: f, duration: 0.18, gain: 0.4, delay: i * 0.15 })
+    );
+    playTone({ freq: 1047, freq2: 1568, duration: 0.5, gain: 0.4, delay: 0.7 });
+  },
+  turnChange: () => {
+    playTone({ freq: 400, freq2: 600, type: 'triangle', duration: 0.15, gain: 0.3 });
+    playTone({ freq: 600, freq2: 800, type: 'triangle', duration: 0.15, gain: 0.3, delay: 0.15 });
+  },
+  quizCorrect: () => {
+    playTone({ freq: 880, duration: 0.1, gain: 0.35 });
+    playTone({ freq: 1100, duration: 0.2, gain: 0.4, delay: 0.1 });
+  },
+  quizWrong: () => {
+    playTone({ freq: 250, freq2: 180, type: 'square', duration: 0.3, gain: 0.25 });
+  },
+  click: () => playTone({ freq: 800, freq2: 700, type: 'sine', duration: 0.06, gain: 0.15 }),
+};
 </script>
 </body>
 </html>
