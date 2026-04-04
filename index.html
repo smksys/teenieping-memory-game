@@ -79,15 +79,15 @@
     .diff-sub { font-size: 0.75rem; color: currentColor; opacity: 0.7; margin-top: 4px; }
 
     /* ─── Game Screen ─── */
-    #game-screen { display: none; flex-direction: column; align-items: center; padding: 68px 10px 15px; height: 100%; width:100%; overflow: hidden; box-sizing: border-box; position: relative; }
+    #game-screen { display: none; flex-direction: column; align-items: center; padding: 54px 10px 10px; height: 100%; width:100%; overflow: hidden; box-sizing: border-box; position: relative; }
     .screen-home-btn {
       position: fixed;
-      top: 14px;
-      right: 14px;
+      top: 8px;
+      right: 10px;
       z-index: 210;
       border: none;
       border-radius: 999px;
-      padding: 12px 16px;
+      padding: 10px 14px;
       background: rgba(255,255,255,0.96);
       color: var(--primary-dark);
       font-size: 0.95rem;
@@ -100,7 +100,7 @@
     .hud {
       display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 600px;
       background: #fff; padding: 14px 20px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-      margin-bottom: 20px; gap: 10px;
+      margin-bottom: 12px; gap: 10px;
     }
     .hud-block { text-align: center; flex: 1; }
     .hud-header { font-size: 0.7rem; color: #999; font-weight: 800; text-transform: uppercase; margin-bottom:4px; }
@@ -175,6 +175,39 @@
 
     .win-title { font-size: 2.8rem; font-weight: 900; margin-bottom: 20px; color: var(--primary-dark); }
     .win-score { font-size: 1.5rem; color: #555; margin-bottom: 30px; line-height:1.6; text-align:center; }
+    .win-record-form {
+      display: none;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto 10px;
+      text-align: center;
+    }
+    .win-record-form.show { display: block; }
+    .win-record-desc { color: #666; font-weight: 800; line-height: 1.5; margin-bottom: 10px; }
+    .win-record-input {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 3px solid var(--primary);
+      font-size: 1.1rem;
+      font-weight: 800;
+      text-align: center;
+      outline: none;
+    }
+    .win-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      max-width: 520px;
+    }
+    .win-actions .btn {
+      min-width: 150px;
+      margin: 0;
+      padding: 14px 24px;
+      font-size: 1rem;
+    }
 
     .btn {
       padding: 16px 36px; border: none; border-radius: 30px; font-size: 1.2rem; font-weight: 800;
@@ -187,23 +220,23 @@
   
     /* ─── Quiz Screen ─── */
     #quiz-screen {
-      display: none; flex-direction: column; align-items: center; padding: 68px 10px 20px; min-height: 100vh; position: relative;
+      display: none; flex-direction: column; align-items: center; padding: 56px 10px 14px; min-height: 100vh; position: relative;
     }
     
     .quiz-container {
       width: 100%; max-width: 400px;
-      background: #fff; border-radius: 24px; padding: 20px;
+      background: #fff; border-radius: 24px; padding: 16px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-align: center;
-      margin-top: 10px;
+      margin-top: 4px;
     }
     
     .quiz-hud {
-      display: flex; justify-content: space-between; margin-bottom: 20px; font-weight: 800; color:#666;
+      display: flex; justify-content: space-between; margin-bottom: 14px; font-weight: 800; color:#666;
     }
     
     .quiz-img-box {
       width: 100%; aspect-ratio: 1; border-radius: 20px; background: #fff0f5; 
-      display: flex; align-items: center; justify-content: center; margin-bottom: 24px;
+      display: flex; align-items: center; justify-content: center; margin-bottom: 14px;
       box-shadow: inset 0 0 0 4px var(--primary); overflow: hidden;
       position: relative;
     }
@@ -224,7 +257,7 @@
       display: flex; flex-direction: column; gap: 10px;
     }
     .quiz-btn {
-      padding: 16px; border-radius: 16px; font-size: 1.15rem; font-weight: 800; cursor: pointer;
+      padding: 14px; border-radius: 16px; font-size: 1.08rem; font-weight: 800; cursor: pointer;
       background: #f7f9fc; border: 2px solid transparent; color: #444; transition: 0.2s;
     }
     .quiz-btn:active { transform: scale(0.97); }
@@ -264,6 +297,20 @@
     .record-item { padding: 14px 16px; border-radius: 18px; background: #f7f9fc; border: 2px solid #ffe0ef; }
     .record-item strong { color: var(--primary-dark); }
     .record-empty { padding: 24px 16px; border-radius: 18px; background: #f7f9fc; color: #888; font-weight: 700; }
+    .leaderboard-group { margin-top: 14px; }
+    .leaderboard-group-title { font-size: 1rem; font-weight: 900; color: #444; margin-bottom: 8px; }
+
+    @media (orientation: landscape) and (max-height: 900px) {
+      #game-screen { padding-top: 48px; }
+      .hud { padding: 10px 16px; margin-bottom: 8px; border-radius: 16px; }
+      .hud-header { font-size: 0.62rem; margin-bottom: 2px; }
+      .hud-val { font-size: 1.05rem; }
+      #quiz-screen { padding-top: 48px; }
+      .quiz-container { max-width: 720px; padding: 12px 14px; }
+      .quiz-img-box { aspect-ratio: auto; height: min(36vh, 260px); margin-bottom: 10px; }
+      .quiz-options { gap: 8px; }
+      .quiz-btn { padding: 12px; font-size: 1rem; }
+    }
 
 </style>
 </head>
@@ -388,8 +435,16 @@
 <div id="win-modal" style="display: none;">
   <div class="win-title" id="win-title">클리어! 🎉</div>
   <div class="win-score" id="win-score"></div>
-  <button class="btn" onclick="restart()">다시하기</button>
-  <button class="btn outline" onclick="goHome()">메뉴로</button>
+  <div id="win-record-form" class="win-record-form">
+    <div id="win-record-desc" class="win-record-desc"></div>
+    <input id="win-record-name-input" class="win-record-input" type="text" maxlength="10" placeholder="이름을 입력하세요">
+    <button class="btn" onclick="savePendingWinRecord()" style="margin-top:10px;">기록 저장</button>
+  </div>
+  <div class="win-actions">
+    <button class="btn" onclick="restart()">다시하기</button>
+    <button class="btn outline" id="win-leaderboard-btn" onclick="openCurrentLeaderboard()">기록보기</button>
+    <button class="btn outline" onclick="goHome()">처음으로</button>
+  </div>
 </div>
 
 <!-- 2P NAME INPUT MODAL -->
@@ -419,19 +474,10 @@
 
 <div id="quiz-records-modal" class="modal-overlay">
   <div class="modal-card">
-    <div class="modal-title">🏆 이름맞추기 기록</div>
-    <div class="modal-sub">모드와 문제 수별 최고 기록입니다.</div>
+    <div class="modal-title" id="leaderboard-title">🏆 리더보드</div>
+    <div class="modal-sub" id="leaderboard-sub">카테고리별 상위 기록입니다.</div>
     <div id="quiz-records-list" class="record-list"></div>
     <button class="btn outline" onclick="closeQuizRecords()" style="margin-top:16px;">닫기</button>
-  </div>
-</div>
-
-<div id="quiz-record-name-modal" class="modal-overlay">
-  <div class="modal-card">
-    <div class="modal-title">✨ 신기록 갱신</div>
-    <div class="modal-sub" id="quiz-record-name-desc"></div>
-    <input id="quiz-record-name-input" type="text" maxlength="10" placeholder="이름을 입력하세요" style="width:100%; margin-top:18px; padding:16px; border-radius:16px; border:3px solid var(--primary); font-size:1.2rem; font-weight:800; text-align:center; outline:none;">
-    <button class="btn" onclick="saveQuizRecordName()" style="margin-top:14px;">기록 저장</button>
   </div>
 </div>
 
@@ -512,13 +558,15 @@ let currentPlayer = 1;
 let p1Name = 'Player 1';
 let p2Name = 'Player 2';
 let pendingDiff = null; // stores diff while showing name modal
+let pendingWinRecord = null;
+let currentLeaderboardType = null;
 
 
 function updateBestRecords() {
   ['easy', 'medium', 'hard', 'extreme', 'ultimate', 'god'].forEach(diff => {
-    let best = localStorage.getItem('teenieping_best_' + diff);
+    const bestRecord = getMemoryBestRecord(diff);
     const el = document.getElementById('best-' + diff);
-    if (el) el.innerHTML = best ? '🏆 <b style="color:var(--primary)">' + best + '</b>점' : '';
+    if (el) el.innerHTML = bestRecord ? `🏆 <b style="color:var(--primary)">${bestRecord.name || '익명'}</b> ${bestRecord.score.toLocaleString()}점` : '';
   });
 
   const qEl = document.getElementById('quiz-best-records');
@@ -559,7 +607,6 @@ let quizScore = 0;
 let currentTarget = null;
 let takingAnswer = false;
 let quizStartTime = 0;
-let pendingQuizRecord = null;
 
 function formatSeconds(seconds) {
   const mins = Math.floor(seconds / 60);
@@ -567,16 +614,43 @@ function formatSeconds(seconds) {
   return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
 }
 
+function sortLeaderboardRecords(a, b) {
+  if (b.score !== a.score) return b.score - a.score;
+  if ((a.elapsedSeconds ?? Infinity) !== (b.elapsedSeconds ?? Infinity)) return (a.elapsedSeconds ?? Infinity) - (b.elapsedSeconds ?? Infinity);
+  if ((a.moves ?? Infinity) !== (b.moves ?? Infinity)) return (a.moves ?? Infinity) - (b.moves ?? Infinity);
+  return (a.savedAt ?? 0) - (b.savedAt ?? 0);
+}
+
+function normalizeLeaderboard(records) {
+  return (records || []).sort(sortLeaderboardRecords).slice(0, 5);
+}
+
+function qualifiesForLeaderboard(record, records) {
+  const candidate = { ...record };
+  const updated = normalizeLeaderboard([...(records || []), candidate]);
+  return updated.includes(candidate);
+}
+
+function getLeaderboardPlacement(record, records) {
+  const candidate = { ...record, __candidate: true };
+  const updated = normalizeLeaderboard([...(records || []), candidate]);
+  const index = updated.findIndex(item => item.__candidate);
+  return index >= 0 ? index + 1 : null;
+}
+
 function getQuizRecordStorage() {
   try {
-    return JSON.parse(localStorage.getItem('teenieping_quiz_records_v2') || '{}');
+    const v3 = localStorage.getItem('teenieping_quiz_records_v3');
+    if (v3) return JSON.parse(v3);
+    const legacy = JSON.parse(localStorage.getItem('teenieping_quiz_records_v2') || '{}');
+    return Object.fromEntries(Object.entries(legacy).map(([key, value]) => [key, value ? [value] : []]));
   } catch (e) {
     return {};
   }
 }
 
 function saveQuizRecordStorage(records) {
-  localStorage.setItem('teenieping_quiz_records_v2', JSON.stringify(records));
+  localStorage.setItem('teenieping_quiz_records_v3', JSON.stringify(records));
 }
 
 function getQuizRecordKey(mode, questionCount) {
@@ -589,7 +663,61 @@ function getQuizModeLabel(mode) {
 
 function getCurrentQuizBestRecord() {
   const records = getQuizRecordStorage();
-  return records[getQuizRecordKey(quizMode, selectedQuizCount)] || null;
+  return (records[getQuizRecordKey(quizMode, selectedQuizCount)] || [])[0] || null;
+}
+
+function saveQuizLeaderboardRecord(record) {
+  const records = getQuizRecordStorage();
+  const key = getQuizRecordKey(record.mode, record.questionCount);
+  records[key] = normalizeLeaderboard([...(records[key] || []), { ...record, savedAt: Date.now() }]);
+  saveQuizRecordStorage(records);
+}
+
+function getMemoryRecordStorage() {
+  try {
+    return JSON.parse(localStorage.getItem('teenieping_memory_records_v2') || '{}');
+  } catch (e) {
+    return {};
+  }
+}
+
+function saveMemoryRecordStorage(records) {
+  localStorage.setItem('teenieping_memory_records_v2', JSON.stringify(records));
+}
+
+function getMemoryRecordKey(diff) {
+  return `memory_${diff}`;
+}
+
+function getMemoryLeaderboard(diff) {
+  const records = getMemoryRecordStorage();
+  const list = records[getMemoryRecordKey(diff)];
+  if (list && list.length) return list;
+  const legacyBest = parseInt(localStorage.getItem('teenieping_best_' + diff) || '0', 10);
+  return legacyBest > 0 ? [{ name: '익명', score: legacyBest, elapsedSeconds: 0, moves: 0, diff }] : [];
+}
+
+function getMemoryBestRecord(diff) {
+  return getMemoryLeaderboard(diff)[0] || null;
+}
+
+function saveMemoryLeaderboardRecord(record) {
+  const records = getMemoryRecordStorage();
+  const key = getMemoryRecordKey(record.diff);
+  records[key] = normalizeLeaderboard([...getMemoryLeaderboard(record.diff), { ...record, savedAt: Date.now() }]);
+  saveMemoryRecordStorage(records);
+  localStorage.setItem('teenieping_best_' + record.diff, String(records[key][0].score));
+}
+
+function getDiffLabel(diff) {
+  return {
+    easy: '초보',
+    medium: '중수',
+    hard: '고수',
+    extreme: '지옥',
+    ultimate: '얼티밋',
+    god: '신(神)'
+  }[diff] || diff;
 }
 
 function calculateQuizScore(correctCount, questionCount, elapsedSeconds) {
@@ -763,78 +891,132 @@ function submitAnswer(btn, isCorrect) {
 function showQuizWin() {
   document.getElementById('quiz-screen').style.display = 'none';
   document.getElementById('win-modal').style.display = 'flex';
+  currentLeaderboardType = 'quiz';
 
   const elapsedSeconds = Math.floor((Date.now() - quizStartTime) / 1000);
   const finalScore = calculateQuizScore(quizScore, maxQuestions, elapsedSeconds);
-  const bestRecord = getCurrentQuizBestRecord();
-  const isNewRecord = !bestRecord || finalScore > bestRecord.score || (finalScore === bestRecord.score && elapsedSeconds < bestRecord.elapsedSeconds);
+  const currentBoard = getQuizRecordStorage()[getQuizRecordKey(quizMode, maxQuestions)] || [];
+  const candidateRecord = {
+    type: 'quiz',
+    mode: quizMode,
+    questionCount: maxQuestions,
+    correctCount: quizScore,
+    elapsedSeconds,
+    score: finalScore
+  };
+  const isLeaderboard = qualifiesForLeaderboard(candidateRecord, currentBoard);
+  const placement = getLeaderboardPlacement(candidateRecord, currentBoard);
+  const placementText = placement === 1
+    ? '<br><span style="color:var(--primary-dark); font-size:1.05rem; font-weight:900;">🏆 1위 신기록입니다</span>'
+    : placement
+      ? `<br><span style="color:var(--primary-dark); font-size:1.05rem; font-weight:900;">🏅 리더보드 ${placement}위에 등록할 수 있어요</span>`
+      : '';
 
   document.getElementById('win-title').innerText = '퀴즈 종료! 🏆';
   document.getElementById('win-title').style.color = 'var(--primary-dark)';
-  document.getElementById('win-score').innerHTML = `${maxQuestions}문제 중 <b style="color:#d81b60;">${quizScore}개</b> 정답<br><span style="font-size:1rem;color:#777">소요 시간 ${formatSeconds(elapsedSeconds)}</span><br><b style="font-size:2.1rem;color:var(--primary);">${finalScore.toLocaleString()}점</b>${isNewRecord ? '<br><span style="color:var(--primary-dark); font-size:1.1rem; font-weight:900;">🏆 신기록 후보입니다. 이름을 저장해 주세요!</span>' : ''}`;
-
-  if (isNewRecord) {
-    pendingQuizRecord = {
-      mode: quizMode,
-      questionCount: maxQuestions,
-      correctCount: quizScore,
-      elapsedSeconds,
-      score: finalScore
-    };
-    setTimeout(showQuizRecordNameModal, 150);
-  }
-}
-
-function showQuizRecordNameModal() {
-  if (!pendingQuizRecord) return;
-  document.getElementById('quiz-record-name-desc').innerHTML = `${getQuizModeLabel(pendingQuizRecord.mode)} · ${pendingQuizRecord.questionCount}문제<br><b>${pendingQuizRecord.correctCount}개 정답 / ${formatSeconds(pendingQuizRecord.elapsedSeconds)} / ${pendingQuizRecord.score.toLocaleString()}점</b>`;
-  const input = document.getElementById('quiz-record-name-input');
-  input.value = '';
-  input.onkeypress = (e) => {
-    if (e.key === 'Enter') saveQuizRecordName();
-  };
-  document.getElementById('quiz-record-name-modal').style.display = 'flex';
-  setTimeout(() => input.focus(), 50);
-}
-
-function saveQuizRecordName() {
-  if (!pendingQuizRecord) return;
-  const name = document.getElementById('quiz-record-name-input').value.trim().slice(0, 10) || '익명';
-  const records = getQuizRecordStorage();
-  records[getQuizRecordKey(pendingQuizRecord.mode, pendingQuizRecord.questionCount)] = {
-    ...pendingQuizRecord,
-    name,
-    savedAt: Date.now()
-  };
-  saveQuizRecordStorage(records);
-  pendingQuizRecord = null;
-  document.getElementById('quiz-record-name-modal').style.display = 'none';
-  updateBestRecords();
+  setWinLeaderboardVisible(true);
+  document.getElementById('win-score').innerHTML = `${maxQuestions}문제 중 <b style="color:#d81b60;">${quizScore}개</b> 정답<br><span style="font-size:1rem;color:#777">소요 시간 ${formatSeconds(elapsedSeconds)}</span><br><b style="font-size:2.1rem;color:var(--primary);">${finalScore.toLocaleString()}점</b>${isLeaderboard ? placementText : ''}`;
+  setupWinRecordForm(isLeaderboard ? candidateRecord : null, `${getQuizModeLabel(quizMode)} · ${maxQuestions}문제`);
 }
 
 function openQuizRecords() {
-  const records = getQuizRecordStorage();
-  const entries = Object.values(records).sort((a, b) => {
-    if (b.score !== a.score) return b.score - a.score;
-    return a.elapsedSeconds - b.elapsedSeconds;
-  });
-  const list = document.getElementById('quiz-records-list');
-  if (!entries.length) {
-    list.innerHTML = '<div class="record-empty">아직 저장된 기록이 없습니다.</div>';
-  } else {
-    list.innerHTML = entries.map(record => `
-      <div class="record-item">
-        <div><strong>${record.name}</strong> · ${getQuizModeLabel(record.mode)} · ${record.questionCount}문제</div>
-        <div style="margin-top:6px; color:#666; font-weight:700;">${record.correctCount}개 정답 / ${formatSeconds(record.elapsedSeconds)}</div>
-        <div style="margin-top:4px; color:var(--primary-dark); font-weight:900;">${record.score.toLocaleString()}점</div>
-      </div>
-    `).join('');
-  }
-  document.getElementById('quiz-records-modal').style.display = 'flex';
+  openLeaderboard('quiz');
 }
 
 function closeQuizRecords() {
   document.getElementById('quiz-records-modal').style.display = 'none';
+}
+
+function setupWinRecordForm(record, label) {
+  pendingWinRecord = record;
+  const form = document.getElementById('win-record-form');
+  const desc = document.getElementById('win-record-desc');
+  const input = document.getElementById('win-record-name-input');
+  if (!record) {
+    form.classList.remove('show');
+    desc.innerHTML = '';
+    input.value = '';
+    input.onkeypress = null;
+    return;
+  }
+  const records = record.type === 'quiz'
+    ? (getQuizRecordStorage()[getQuizRecordKey(record.mode, record.questionCount)] || [])
+    : getMemoryLeaderboard(record.diff);
+  const placement = getLeaderboardPlacement(record, records);
+  const suffix = placement === 1 ? '1위 기록으로 저장' : `${placement}위 기록으로 저장`;
+  desc.innerHTML = `${label}<br><b>${record.score.toLocaleString()}점</b> ${suffix}`;
+  input.value = '';
+  input.onkeypress = (e) => {
+    if (e.key === 'Enter') savePendingWinRecord();
+  };
+  form.classList.add('show');
+  setTimeout(() => input.focus(), 50);
+}
+
+function setWinLeaderboardVisible(visible) {
+  document.getElementById('win-leaderboard-btn').style.display = visible ? 'inline-flex' : 'none';
+}
+
+function savePendingWinRecord() {
+  if (!pendingWinRecord) return;
+  const name = document.getElementById('win-record-name-input').value.trim().slice(0, 10) || '익명';
+  const record = { ...pendingWinRecord, name };
+  if (record.type === 'quiz') {
+    saveQuizLeaderboardRecord(record);
+  } else if (record.type === 'memory') {
+    saveMemoryLeaderboardRecord(record);
+  }
+  pendingWinRecord = null;
+  document.getElementById('win-record-form').classList.remove('show');
+  updateBestRecords();
+}
+
+function openCurrentLeaderboard() {
+  openLeaderboard(currentLeaderboardType || 'quiz');
+}
+
+function renderLeaderboardGroup(title, entries, renderMeta) {
+  if (!entries.length) return '';
+  return `
+    <div class="leaderboard-group">
+      <div class="leaderboard-group-title">${title}</div>
+      ${entries.map((record, index) => `
+        <div class="record-item">
+          <div><strong>${index + 1}위 ${record.name || '익명'}</strong></div>
+          <div style="margin-top:6px; color:#666; font-weight:700;">${renderMeta(record)}</div>
+          <div style="margin-top:4px; color:var(--primary-dark); font-weight:900;">${record.score.toLocaleString()}점</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function openLeaderboard(type) {
+  currentLeaderboardType = type;
+  const titleEl = document.getElementById('leaderboard-title');
+  const subEl = document.getElementById('leaderboard-sub');
+  const list = document.getElementById('quiz-records-list');
+  let html = '';
+
+  if (type === 'memory') {
+    titleEl.innerText = '🏆 메모리게임 리더보드';
+    subEl.innerText = '1인용 난이도별 상위 기록입니다.';
+    ['easy', 'medium', 'hard', 'extreme', 'ultimate', 'god'].forEach(diff => {
+      html += renderLeaderboardGroup(getDiffLabel(diff), getMemoryLeaderboard(diff), (record) => `시간 ${formatSeconds(record.elapsedSeconds || 0)} / 시도 ${record.moves || 0}회`);
+    });
+  } else {
+    titleEl.innerText = '🏆 이름맞추기 리더보드';
+    subEl.innerText = '모드와 문제 수별 상위 기록입니다.';
+    ['obj', 'subj'].forEach(mode => {
+      [10, 20, 30, 45].forEach(count => {
+        const entries = getQuizRecordStorage()[getQuizRecordKey(mode, count)] || [];
+        html += renderLeaderboardGroup(`${getQuizModeLabel(mode)} · ${count}문제`, entries, (record) => `${record.correctCount}개 정답 / ${formatSeconds(record.elapsedSeconds)}`);
+      });
+    });
+  }
+
+  list.innerHTML = html || '<div class="record-empty">아직 저장된 기록이 없습니다.</div>';
+  document.getElementById('quiz-records-modal').style.display = 'flex';
 }
 
 function goHome() {
@@ -843,11 +1025,16 @@ function goHome() {
   document.getElementById('quiz-screen').style.display = 'none';
   document.getElementById('win-modal').style.display = 'none';
   document.getElementById('quiz-records-modal').style.display = 'none';
-  document.getElementById('quiz-record-name-modal').style.display = 'none';
+  document.getElementById('win-record-form').classList.remove('show');
+  pendingWinRecord = null;
+  setWinLeaderboardVisible(true);
 }
 
 function restart() {
   document.getElementById('win-modal').style.display = 'none';
+  document.getElementById('win-record-form').classList.remove('show');
+  pendingWinRecord = null;
+  setWinLeaderboardVisible(true);
   if (document.getElementById('quiz-panel').classList.contains('active')) {
     startQuiz();
   } else {
@@ -993,8 +1180,8 @@ function _doStartGame(diff) {
       s = s % 60;
       document.getElementById('hud-time').innerText = String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
     }, 1000);
-    const best = localStorage.getItem('teenieping_best_' + diff);
-    document.getElementById('hud-best').innerText = best ? parseInt(best).toLocaleString() + '점' : '-';
+    const best = getMemoryBestRecord(diff);
+    document.getElementById('hud-best').innerText = best ? best.score.toLocaleString() + '점' : '-';
   } else {
     document.getElementById('hud-1p').style.display = 'none';
     document.getElementById('hud-2p').style.display = 'flex';
@@ -1131,10 +1318,13 @@ function checkWin() {
       
       const title = document.getElementById('win-title');
       const scoreDesc = document.getElementById('win-score');
+      title.style.color = 'var(--primary-dark)';
       
       if (selectedMode === 1) {
         SFX.win();
+        currentLeaderboardType = 'memory';
         title.innerText = '클리어! 🎉';
+        setWinLeaderboardVisible(true);
         
         // Calculate Score optimally
         const perfect_moves = pairsCount;
@@ -1146,18 +1336,28 @@ function checkWin() {
         const moves_penalty = extra_moves * 50;
         
         let finalScore = Math.max(10, base_score - time_penalty - moves_penalty);
-        
-        scoreDesc.innerHTML = `<span style="font-size:1rem;color:#777">시도 <b>${moves}</b>회 / <b>${elapsed_seconds}</b>초 소요</span><br><b style="font-size:2.2rem;color:var(--primary);">${finalScore.toLocaleString()}점</b>`;
-        
-        let best = localStorage.getItem('teenieping_best_' + currentDiff);
-        if (!best || finalScore > parseInt(best)) {
-          localStorage.setItem('teenieping_best_' + currentDiff, finalScore);
-          scoreDesc.innerHTML += `<br><span style="color:var(--primary-dark); font-size:1.1rem; font-weight:900;">🏆 <b>신기록 달성!</b></span>`;
-          updateBestRecords();
-        }
+        const candidateRecord = {
+          type: 'memory',
+          diff: currentDiff,
+          elapsedSeconds: elapsed_seconds,
+          moves,
+          score: finalScore
+        };
+        const isLeaderboard = qualifiesForLeaderboard(candidateRecord, getMemoryLeaderboard(currentDiff));
+        const placement = getLeaderboardPlacement(candidateRecord, getMemoryLeaderboard(currentDiff));
+        const placementText = placement === 1
+          ? '<br><span style="color:var(--primary-dark); font-size:1.05rem; font-weight:900;">🏆 1위 신기록입니다</span>'
+          : placement
+            ? `<br><span style="color:var(--primary-dark); font-size:1.05rem; font-weight:900;">🏅 리더보드 ${placement}위에 등록할 수 있어요</span>`
+            : '';
+
+        scoreDesc.innerHTML = `<span style="font-size:1rem;color:#777">시도 <b>${moves}</b>회 / <b>${elapsed_seconds}</b>초 소요</span><br><b style="font-size:2.2rem;color:var(--primary);">${finalScore.toLocaleString()}점</b>${isLeaderboard ? placementText : ''}`;
+        setupWinRecordForm(isLeaderboard ? candidateRecord : null, `메모리 ${getDiffLabel(currentDiff)}`);
       } else {
         // 2P Results
         SFX.win();
+        currentLeaderboardType = null;
+        setWinLeaderboardVisible(false);
         if (p1Score > p2Score) {
           title.innerText = `${p1Name} 승리! 🥇`;
           title.style.color = '#00acc1';
@@ -1169,6 +1369,7 @@ function checkWin() {
           title.style.color = '#888';
         }
         scoreDesc.innerHTML = `<span style="color:#00acc1">${p1Name} [${p1Score}점]</span><br>VS<br><span style="color:#d81b60">${p2Name} [${p2Score}점]</span>`;
+        setupWinRecordForm(null);
       }
     }, 600);
   }
